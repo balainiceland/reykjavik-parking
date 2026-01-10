@@ -1,9 +1,10 @@
-/* Reykjavik Parking Map - WordPress Plugin Styles v1.1 */
+/* Reykjavik Parking Map - StartupIceland.com Theme v1.2 */
 
 .rvk-parking-container {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     max-width: 100%;
     margin: 0 auto;
+    color: #000;
 }
 
 /* Top Bar - Language Toggle & Free Indicator */
@@ -11,33 +12,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
-    background: #f8f9fa;
-    border-radius: 8px 8px 0 0;
-    border: 1px solid #e9ecef;
+    padding: 12px 20px;
+    background: #fff;
+    border-radius: 0;
+    border: 1px solid #ddd;
     border-bottom: none;
 }
 
 .rvk-free-indicator {
-    padding: 8px 16px;
-    border-radius: 20px;
+    padding: 10px 20px;
+    border-radius: 9999px;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
 }
 
 .rvk-free-indicator.rvk-free {
-    background: #d4edda;
-    color: #155724;
-    border: 1px solid #c3e6cb;
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
 }
 
 .rvk-free-indicator.rvk-paid {
-    background: #fff3cd;
-    color: #856404;
-    border: 1px solid #ffeeba;
+    background: #fff8e1;
+    color: #f57f17;
+    border: 1px solid #ffe082;
 }
 
 .rvk-indicator-icon {
@@ -45,32 +46,32 @@
 }
 
 .rvk-lang-toggle {
-    background: #0066cc;
+    background: #32373c;
     color: #fff;
     border: none;
-    padding: 8px 16px;
-    border-radius: 20px;
+    padding: 10px 24px;
+    border-radius: 9999px;
     font-weight: 600;
     cursor: pointer;
-    font-size: 0.85rem;
-    transition: background 0.2s;
+    font-size: 0.875rem;
+    transition: background 0.2s, transform 0.1s;
 }
 
 .rvk-lang-toggle:hover {
-    background: #0052a3;
+    background: #000;
+    transform: translateY(-1px);
 }
 
 /* Main Layout */
 .rvk-parking-main {
     display: flex;
-    gap: 20px;
+    gap: 24px;
     flex-wrap: wrap;
 }
 
 #rvk-parking-map {
     flex: 2;
     min-width: 300px;
-    border-radius: 0 0 0 8px;
     border: 1px solid #ddd;
     z-index: 1;
 }
@@ -81,7 +82,7 @@
     max-width: 350px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 16px;
 }
 
 .rvk-info-panel,
@@ -89,35 +90,37 @@
 .rvk-legend,
 .rvk-tips,
 .rvk-calculator {
-    background: #f8f9fa;
-    border-radius: 8px;
-    padding: 15px;
-    border: 1px solid #e9ecef;
+    background: #fff;
+    border-radius: 0;
+    padding: 20px;
+    border: 1px solid #ddd;
 }
 
 .rvk-parking-sidebar h3 {
-    font-size: 1.1rem;
-    color: #0066cc;
-    margin: 0 0 10px 0;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #0066cc;
+    font-size: 1.125rem;
+    color: #000;
+    margin: 0 0 16px 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #32373c;
+    font-weight: 600;
 }
 
 .rvk-parking-sidebar h4 {
     font-size: 1rem;
-    color: #333;
-    margin: 0 0 10px 0;
+    color: #000;
+    margin: 0 0 12px 0;
+    font-weight: 600;
 }
 
 .rvk-hint {
-    color: #6c757d;
-    font-size: 0.9rem;
+    color: #666;
+    font-size: 0.875rem;
     font-style: italic;
     margin: 0;
 }
 
 #rvk-selected-parking {
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 #rvk-selected-parking.rvk-hidden {
@@ -125,248 +128,266 @@
 }
 
 #rvk-parking-name {
-    color: #28a745;
-    margin: 0 0 10px 0;
-    font-size: 1.1rem;
+    color: #0693e3;
+    margin: 0 0 12px 0;
+    font-size: 1.125rem;
+    font-weight: 600;
 }
 
 .rvk-detail-row {
     display: flex;
-    margin-bottom: 6px;
-    font-size: 0.9rem;
+    margin-bottom: 8px;
+    font-size: 0.875rem;
+    line-height: 1.5;
 }
 
 .rvk-detail-row .rvk-label {
-    color: #6c757d;
-    min-width: 80px;
+    color: #666;
+    min-width: 85px;
     font-weight: 500;
 }
 
 /* Directions Link */
 .rvk-directions-link {
     display: inline-block;
-    margin-top: 12px;
-    padding: 8px 16px;
-    background: #0066cc;
+    margin-top: 16px;
+    padding: 12px 24px;
+    background: #32373c;
     color: #fff !important;
     text-decoration: none !important;
-    border-radius: 5px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    transition: background 0.2s;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: background 0.2s, transform 0.1s;
 }
 
 .rvk-directions-link:hover {
-    background: #0052a3;
+    background: #000;
     color: #fff !important;
+    transform: translateY(-1px);
 }
 
 .rvk-directions-btn {
     display: inline-block;
-    margin-top: 10px;
-    padding: 6px 12px;
-    background: #0066cc;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background: #32373c;
     color: #fff !important;
     text-decoration: none !important;
-    border-radius: 4px;
-    font-size: 0.85rem;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    font-weight: 600;
     transition: background 0.2s;
 }
 
 .rvk-directions-btn:hover {
-    background: #0052a3;
+    background: #000;
 }
 
 /* Calculator */
 .rvk-calculator {
-    background: #e8f4fd;
-    border-color: #b8daff;
+    background: #f8f9fa;
+    border-color: #ddd;
 }
 
 .rvk-calc-row {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    margin-bottom: 10px;
+    gap: 6px;
+    margin-bottom: 12px;
 }
 
 .rvk-calc-row label {
-    font-size: 0.85rem;
-    color: #495057;
+    font-size: 0.875rem;
+    color: #333;
+    font-weight: 500;
 }
 
 .rvk-calc-row input {
-    padding: 8px 12px;
-    border: 1px solid #ced4da;
-    border-radius: 5px;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 0;
     font-size: 1rem;
     width: 100%;
     box-sizing: border-box;
+    font-family: inherit;
 }
 
 .rvk-calc-row input:focus {
     outline: none;
-    border-color: #0066cc;
-    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+    border-color: #32373c;
+    box-shadow: none;
 }
 
 .rvk-calc-button {
     width: 100%;
-    padding: 10px;
-    background: #0066cc;
+    padding: 12px 24px;
+    background: #32373c;
     color: #fff;
     border: none;
-    border-radius: 5px;
-    font-size: 0.95rem;
-    font-weight: 500;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 600;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.1s;
+    font-family: inherit;
 }
 
 .rvk-calc-button:hover {
-    background: #0052a3;
+    background: #000;
+    transform: translateY(-1px);
 }
 
 .rvk-calc-result {
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 12px;
+    padding: 16px;
     background: #fff;
-    border-radius: 5px;
+    border: 1px solid #ddd;
     text-align: center;
     font-weight: 600;
-    font-size: 1.1rem;
-    color: #28a745;
+    font-size: 1.125rem;
+    color: #0693e3;
 }
 
 .rvk-calc-result.rvk-calc-error {
-    color: #dc3545;
-    font-size: 0.9rem;
+    color: #d32f2f;
+    font-size: 0.875rem;
     font-weight: normal;
 }
 
 /* Stats Panel */
 .rvk-stat-card {
-    background: #fff;
-    border-radius: 6px;
-    padding: 12px;
-    margin-bottom: 8px;
+    background: #f8f9fa;
+    border-radius: 0;
+    padding: 16px;
+    margin-bottom: 10px;
     text-align: center;
-    border: 1px solid #e9ecef;
+    border: 1px solid #eee;
 }
 
 .rvk-stat-number {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #0066cc;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #32373c;
 }
 
 .rvk-stat-label {
-    font-size: 0.8rem;
-    color: #6c757d;
+    font-size: 0.75rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
 }
 
 /* Legend */
 .rvk-legend-item {
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-bottom: 6px;
-    font-size: 0.85rem;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-size: 0.875rem;
 }
 
 .rvk-legend-marker {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     flex-shrink: 0;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
 .rvk-legend-marker.rvk-garage {
-    background: #dc3545;
+    background: #32373c;
 }
 
 .rvk-legend-marker.rvk-lot {
-    background: #28a745;
+    background: #0693e3;
 }
 
 .rvk-legend-zone {
-    width: 18px;
-    height: 18px;
-    border-radius: 3px;
-    opacity: 0.8;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
     flex-shrink: 0;
+    border: 1px solid rgba(0,0,0,0.1);
 }
 
 .rvk-legend-zone.rvk-p1 {
-    background: #ff6b6b;
+    background: #ef5350;
 }
 
 .rvk-legend-zone.rvk-p2 {
-    background: #ffd93d;
+    background: #ffb74d;
 }
 
 .rvk-legend-zone.rvk-p3 {
-    background: #6bcb77;
+    background: #81c784;
 }
 
 /* Tips */
 .rvk-tips ul {
     padding-left: 20px;
     margin: 0;
-    font-size: 0.85rem;
-    color: #495057;
+    font-size: 0.875rem;
+    color: #333;
+    line-height: 1.6;
 }
 
 .rvk-tips li {
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 /* Custom Leaflet Markers */
 .rvk-garage-marker {
-    background: #dc3545;
-    border: 2px solid #fff;
+    background: #32373c;
+    border: 3px solid #fff;
     border-radius: 50%;
-    width: 28px !important;
-    height: 28px !important;
+    width: 30px !important;
+    height: 30px !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
 .rvk-lot-marker {
-    background: #28a745;
-    border: 2px solid #fff;
+    background: #0693e3;
+    border: 3px solid #fff;
     border-radius: 50%;
-    width: 22px !important;
-    height: 22px !important;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    width: 24px !important;
+    height: 24px !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
 /* Leaflet Popup Customization */
 .rvk-parking-container .leaflet-popup-content-wrapper {
-    border-radius: 8px;
-    box-shadow: 0 3px 14px rgba(0,0,0,0.2);
+    border-radius: 0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    border: 1px solid #ddd;
 }
 
 .rvk-parking-container .leaflet-popup-content {
-    margin: 12px 15px;
-    line-height: 1.5;
+    margin: 16px 20px;
+    line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .rvk-popup-title {
-    font-weight: bold;
-    color: #0066cc;
+    font-weight: 600;
+    color: #000;
     font-size: 1rem;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
 }
 
 .rvk-popup-detail {
-    font-size: 0.85rem;
-    margin-bottom: 4px;
+    font-size: 0.875rem;
+    margin-bottom: 6px;
     color: #333;
 }
 
@@ -382,12 +403,20 @@
 
     #rvk-parking-map {
         min-height: 400px;
-        border-radius: 0;
     }
 
     .rvk-top-bar {
-        border-radius: 8px;
-        margin-bottom: 10px;
-        border-bottom: 1px solid #e9ecef;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .rvk-free-indicator {
+        order: 2;
+        flex: 1;
+        justify-content: center;
+    }
+
+    .rvk-lang-toggle {
+        order: 1;
     }
 }
