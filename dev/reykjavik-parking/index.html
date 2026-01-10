@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reykjavik Parking Guide</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Reykjavik Parking</h1>
+            <p class="subtitle">Downtown Parking Guide</p>
+        </header>
+
+        <div id="main-container">
+            <div id="map"></div>
+
+            <aside id="sidebar">
+                <div id="info-panel">
+                    <h2>Parking Information</h2>
+                    <p class="hint">Click a marker on the map for details</p>
+
+                    <div id="selected-parking" class="hidden">
+                        <h3 id="parking-name"></h3>
+                        <div class="detail-row">
+                            <span class="label">Address:</span>
+                            <span id="parking-address"></span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="label">Capacity:</span>
+                            <span id="parking-capacity"></span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="label">Hours:</span>
+                            <span id="parking-hours"></span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="label">Rates:</span>
+                            <span id="parking-rates"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="stats-panel">
+                    <h2>Downtown Statistics (2026)</h2>
+                    <div class="stat-card">
+                        <div class="stat-number">3,334</div>
+                        <div class="stat-label">Parking Garage Spaces</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1,201</div>
+                        <div class="stat-label">Paid Street Parking</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">471</div>
+                        <div class="stat-label">Free Street Parking</div>
+                    </div>
+                </div>
+
+                <div id="legend">
+                    <h3>Legend</h3>
+                    <div class="legend-item">
+                        <span class="legend-marker garage"></span>
+                        <span>Parking Garage</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-marker street"></span>
+                        <span>Street Parking</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-zone p1"></span>
+                        <span>P1 Zone (270 ISK/hr)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-zone p2"></span>
+                        <span>P2 Zone (185 ISK/hr)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-zone p3"></span>
+                        <span>P3 Zone (125 ISK/hr)</span>
+                    </div>
+                </div>
+
+                <div id="tips">
+                    <h3>Parking Tips</h3>
+                    <ul>
+                        <li>Free parking after 18:00 on streets</li>
+                        <li>Free all day on Sundays (except garages)</li>
+                        <li>P1-P3 zones: Mon-Fri 09:00-18:00, Sat 10:00-16:00</li>
+                        <li>Download Parka app for mobile payments</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="src/parking-data.js"></script>
+    <script src="src/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+/* Reykjavik Parking Map - WordPress Plugin Styles */
+
+.rvk-parking-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.rvk-parking-main {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#rvk-parking-map {
+    flex: 2;
+    min-width: 300px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.rvk-parking-sidebar {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rvk-info-panel,
+.rvk-stats-panel,
+.rvk-legend,
+.rvk-tips {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #e9ecef;
+}
+
+.rvk-parking-sidebar h3 {
+    font-size: 1.1rem;
+    color: #0066cc;
+    margin: 0 0 10px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #0066cc;
+}
+
+.rvk-parking-sidebar h4 {
+    font-size: 1rem;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.rvk-hint {
+    color: #6c757d;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin: 0;
+}
+
+#rvk-selected-parking {
+    margin-top: 10px;
+}
+
+#rvk-selected-parking.rvk-hidden {
+    display: none;
+}
+
+#rvk-parking-name {
+    color: #28a745;
+    margin: 0 0 10px 0;
+    font-size: 1.1rem;
+}
+
+.rvk-detail-row {
+    display: flex;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+}
+
+.rvk-detail-row .rvk-label {
+    color: #6c757d;
+    min-width: 70px;
+    font-weight: 500;
+}
+
+/* Stats Panel */
+.rvk-stat-card {
+    background: #fff;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 8px;
+    text-align: center;
+    border: 1px solid #e9ecef;
+}
+
+.rvk-stat-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0066cc;
+}
+
+.rvk-stat-label {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+/* Legend */
+.rvk-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    font-size: 0.85rem;
+}
+
+.rvk-legend-marker {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.rvk-legend-marker.rvk-garage {
+    background: #dc3545;
+}
+
+.rvk-legend-marker.rvk-lot {
+    background: #28a745;
+}
+
+.rvk-legend-zone {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    opacity: 0.8;
+    flex-shrink: 0;
+}
+
+.rvk-legend-zone.rvk-p1 {
+    background: #ff6b6b;
+}
+
+.rvk-legend-zone.rvk-p2 {
+    background: #ffd93d;
+}
+
+.rvk-legend-zone.rvk-p3 {
+    background: #6bcb77;
+}
+
+/* Tips */
+.rvk-tips ul {
+    padding-left: 20px;
+    margin: 0;
+    font-size: 0.85rem;
+    color: #495057;
+}
+
+.rvk-tips li {
+    margin-bottom: 5px;
+}
+
+/* Custom Leaflet Markers */
+.rvk-garage-marker {
+    background: #dc3545;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 28px !important;
+    height: 28px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.rvk-lot-marker {
+    background: #28a745;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 22px !important;
+    height: 22px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Leaflet Popup Customization */
+.rvk-parking-container .leaflet-popup-content-wrapper {
+    border-radius: 8px;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.2);
+}
+
+.rvk-parking-container .leaflet-popup-content {
+    margin: 12px 15px;
+    line-height: 1.5;
+}
+
+.rvk-popup-title {
+    font-weight: bold;
+    color: #0066cc;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.rvk-popup-detail {
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .rvk-parking-main {
+        flex-direction: column;
+    }
+
+    .rvk-parking-sidebar {
+        max-width: 100%;
+    }
+
+    #rvk-parking-map {
+        min-height: 400px;
+    }
+}
