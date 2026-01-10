@@ -1,4 +1,4 @@
-/* Reykjavik Parking Map - WordPress Plugin Styles */
+/* Reykjavik Parking Map - WordPress Plugin Styles v1.1 */
 
 .rvk-parking-container {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
@@ -6,6 +6,61 @@
     margin: 0 auto;
 }
 
+/* Top Bar - Language Toggle & Free Indicator */
+.rvk-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+    border: 1px solid #e9ecef;
+    border-bottom: none;
+}
+
+.rvk-free-indicator {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.rvk-free-indicator.rvk-free {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.rvk-free-indicator.rvk-paid {
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+.rvk-indicator-icon {
+    font-size: 1rem;
+}
+
+.rvk-lang-toggle {
+    background: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background 0.2s;
+}
+
+.rvk-lang-toggle:hover {
+    background: #0052a3;
+}
+
+/* Main Layout */
 .rvk-parking-main {
     display: flex;
     gap: 20px;
@@ -15,7 +70,7 @@
 #rvk-parking-map {
     flex: 2;
     min-width: 300px;
-    border-radius: 8px;
+    border-radius: 0 0 0 8px;
     border: 1px solid #ddd;
     z-index: 1;
 }
@@ -32,7 +87,8 @@
 .rvk-info-panel,
 .rvk-stats-panel,
 .rvk-legend,
-.rvk-tips {
+.rvk-tips,
+.rvk-calculator {
     background: #f8f9fa;
     border-radius: 8px;
     padding: 15px;
@@ -82,8 +138,110 @@
 
 .rvk-detail-row .rvk-label {
     color: #6c757d;
-    min-width: 70px;
+    min-width: 80px;
     font-weight: 500;
+}
+
+/* Directions Link */
+.rvk-directions-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background: #0066cc;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.rvk-directions-link:hover {
+    background: #0052a3;
+    color: #fff !important;
+}
+
+.rvk-directions-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #0066cc;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    transition: background 0.2s;
+}
+
+.rvk-directions-btn:hover {
+    background: #0052a3;
+}
+
+/* Calculator */
+.rvk-calculator {
+    background: #e8f4fd;
+    border-color: #b8daff;
+}
+
+.rvk-calc-row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.rvk-calc-row label {
+    font-size: 0.85rem;
+    color: #495057;
+}
+
+.rvk-calc-row input {
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.rvk-calc-row input:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+}
+
+.rvk-calc-button {
+    width: 100%;
+    padding: 10px;
+    background: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.rvk-calc-button:hover {
+    background: #0052a3;
+}
+
+.rvk-calc-result {
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #28a745;
+}
+
+.rvk-calc-result.rvk-calc-error {
+    color: #dc3545;
+    font-size: 0.9rem;
+    font-weight: normal;
 }
 
 /* Stats Panel */
@@ -224,5 +382,12 @@
 
     #rvk-parking-map {
         min-height: 400px;
+        border-radius: 0;
+    }
+
+    .rvk-top-bar {
+        border-radius: 8px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #e9ecef;
     }
 }
