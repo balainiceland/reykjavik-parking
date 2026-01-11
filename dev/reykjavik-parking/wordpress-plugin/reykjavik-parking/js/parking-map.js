@@ -5,7 +5,6 @@
     var selectedParking = null;
     var map = null;
 
-    // Wait for DOM to be ready
     document.addEventListener('DOMContentLoaded', function() {
         initRvkParkingMap();
     });
@@ -14,38 +13,38 @@
         return rvkTranslations[currentLang][key] || key;
     }
 
+    function getMarkerClass(type) {
+        switch(type) {
+            case 'mall': return 'rvk-mall-marker';
+            case 'transit': return 'rvk-transit-marker';
+            case 'university': return 'rvk-university-marker';
+            default: return 'rvk-garage-marker';
+        }
+    }
+
+    function getMarkerLabel(type) {
+        switch(type) {
+            case 'mall': return 'M';
+            case 'transit': return 'B';
+            case 'university': return 'U';
+            default: return 'P';
+        }
+    }
+
     function initRvkParkingMap() {
         var mapContainer = document.getElementById('rvk-parking-map');
-        if (!mapContainer) {
-            return;
-        }
+        if (!mapContainer) return;
 
-        // Initialize the map
-        map = L.map('rvk-parking-map').setView(RVK_PARKING_CENTER, 15);
+        // Initialize map - zoom out to show all locations
+        map = L.map('rvk-parking-map').setView([64.13, -21.92], 12);
 
-        // Add OpenStreetMap tiles
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
             maxZoom: 19
         }).addTo(map);
 
-        // Custom icons
-        var garageIcon = L.divIcon({
-            className: 'rvk-garage-marker',
-            html: 'P',
-            iconSize: [28, 28],
-            iconAnchor: [14, 14]
-        });
-
-        var lotIcon = L.divIcon({
-            className: 'rvk-lot-marker',
-            iconSize: [22, 22],
-            iconAnchor: [11, 11]
-        });
-
-        // Add parking zones as polygons
+        // Add parking zones
         var zoneOrder = ['p3', 'p2', 'p1'];
-
         zoneOrder.forEach(function(zoneKey) {
             var zone = rvkParkingZones[zoneKey];
             var polygon = L.polygon(zone.bounds, {
@@ -64,17 +63,29 @@
                     '<div class="rvk-popup-title">' + name + '</div>' +
                     '<div class="rvk-popup-detail"><strong>' + t('rates') + ':</strong> ' + rate + '</div>' +
                     '<div class="rvk-popup-detail"><strong>' + t('hours') + ':</strong> ' + hours + '</div>' +
-                    '<div class="rvk-popup-detail" style="margin-top: 8px; color: #28a745;"><strong>' + t('tip1') + '</strong></div>'
+                    '<div class="rvk-popup-detail rvk-free-note">' + t('tip1') + '</div>'
                 ).openPopup();
             });
         });
 
         // Add parking markers
         rvkParkingGarages.forEach(function(parking) {
-            var icon = parking.type === 'garage' ? garageIcon : lotIcon;
+            var markerClass = getMarkerClass(parking.type);
+            var markerLabel = getMarkerLabel(parking.type);
 
-            var marker = L.marker([parking.lat, parking.lng], { icon: icon })
-                .addTo(map);
+            // Add EV indicator to class if has charging
+            if (parking.evCharging) {
+                markerClass += ' rvk-has-ev';
+            }
+
+            var icon = L.divIcon({
+                className: markerClass,
+                html: markerLabel,
+                iconSize: [30, 30],
+                iconAnchor: [15, 15]
+            });
+
+            var marker = L.marker([parking.lat, parking.lng], { icon: icon }).addTo(map);
 
             marker.on('click', function() {
                 selectedParking = parking;
@@ -83,26 +94,18 @@
             });
         });
 
-        // Fit map to show all markers
+        // Fit to show all markers
         var bounds = L.latLngBounds(rvkParkingGarages.map(function(p) {
             return [p.lat, p.lng];
         }));
-        map.fitBounds(bounds.pad(0.2));
+        map.fitBounds(bounds.pad(0.1));
 
-        // Add scale control
         L.control.scale({ metric: true, imperial: false }).addTo(map);
 
-        // Initialize language toggle
         initLanguageToggle();
-
-        // Initialize free parking indicator
         updateFreeIndicator();
-        setInterval(updateFreeIndicator, 60000); // Update every minute
-
-        // Initialize calculator
+        setInterval(updateFreeIndicator, 60000);
         initCalculator();
-
-        // Update UI text
         updateUIText();
     }
 
@@ -110,8 +113,17 @@
         var name = currentLang === 'is' ? parking.nameIs : parking.name;
         var hours = currentLang === 'is' ? parking.hoursIs : parking.hours;
         var rates = currentLang === 'is' ? parking.ratesIs : parking.rates;
-
         var directionsUrl = 'https://www.google.com/maps/dir/?api=1&destination=' + parking.lat + ',' + parking.lng;
+
+        var evHtml = '';
+        if (parking.evCharging) {
+            evHtml = '<div class="rvk-popup-ev">⚡ ' + parking.evStations + ' ' + t('evStations') + '</div>';
+        }
+
+        var freeHtml = '';
+        if (parking.isFree) {
+            freeHtml = '<div class="rvk-popup-free">✓ ' + t('freeParking') + '</div>';
+        }
 
         var popupContent =
             '<div class="rvk-popup-title">' + name + '</div>' +
@@ -119,6 +131,7 @@
             '<div class="rvk-popup-detail"><strong>' + t('capacity') + ':</strong> ' + parking.capacity + ' ' + t('spaces') + '</div>' +
             '<div class="rvk-popup-detail"><strong>' + t('hours') + ':</strong> ' + hours + '</div>' +
             '<div class="rvk-popup-detail"><strong>' + t('rates') + ':</strong> ' + rates + '</div>' +
+            evHtml + freeHtml +
             '<a href="' + directionsUrl + '" target="_blank" class="rvk-directions-btn">' + t('directions') + ' →</a>';
 
         marker.bindPopup(popupContent).openPopup();
@@ -127,7 +140,6 @@
     function updateSidebar(parking) {
         var panel = document.getElementById('rvk-selected-parking');
         var hint = document.querySelector('.rvk-hint');
-
         if (!panel) return;
 
         var name = currentLang === 'is' ? parking.nameIs : parking.name;
@@ -140,6 +152,7 @@
         var hoursEl = document.getElementById('rvk-parking-hours');
         var ratesEl = document.getElementById('rvk-parking-rates');
         var directionsEl = document.getElementById('rvk-directions-link');
+        var evEl = document.getElementById('rvk-ev-info');
 
         if (nameEl) nameEl.textContent = name;
         if (addressEl) addressEl.textContent = parking.address;
@@ -152,10 +165,18 @@
             directionsEl.textContent = t('directions') + ' →';
         }
 
+        if (evEl) {
+            if (parking.evCharging) {
+                evEl.innerHTML = '⚡ ' + parking.evStations + ' ' + t('evStations');
+                evEl.style.display = 'block';
+            } else {
+                evEl.style.display = 'none';
+            }
+        }
+
         panel.classList.remove('rvk-hidden');
         if (hint) hint.style.display = 'none';
 
-        // Update calculator result if hours are set
         var hoursInput = document.getElementById('rvk-calc-hours');
         if (hoursInput && hoursInput.value) {
             calculateAndDisplay();
@@ -170,8 +191,6 @@
             currentLang = currentLang === 'en' ? 'is' : 'en';
             toggle.textContent = currentLang === 'en' ? 'IS' : 'EN';
             updateUIText();
-
-            // Update sidebar if parking is selected
             if (selectedParking) {
                 updateSidebar(selectedParking);
             }
@@ -179,7 +198,6 @@
     }
 
     function updateUIText() {
-        // Update all translatable elements
         var elements = {
             'rvk-title': t('title'),
             'rvk-hint-text': t('hint'),
@@ -189,7 +207,8 @@
             'rvk-stat-free-label': t('freeStreet'),
             'rvk-legend-title': t('legend'),
             'rvk-legend-garage': t('garage'),
-            'rvk-legend-lot': t('lot'),
+            'rvk-legend-mall': t('mall'),
+            'rvk-legend-ev': t('evCharging'),
             'rvk-tips-title': t('tips'),
             'rvk-tip1': t('tip1'),
             'rvk-tip2': t('tip2'),
@@ -205,7 +224,6 @@
             if (el) el.textContent = elements[id];
         }
 
-        // Update labels
         var labelMappings = {
             'rvk-label-address': t('address') + ':',
             'rvk-label-capacity': t('capacity') + ':',
@@ -218,7 +236,6 @@
             if (labelEl) labelEl.textContent = labelMappings[labelId];
         }
 
-        // Update zone legend
         ['p1', 'p2', 'p3'].forEach(function(zoneKey) {
             var zone = rvkParkingZones[zoneKey];
             var el = document.getElementById('rvk-legend-' + zoneKey);
@@ -229,10 +246,8 @@
             }
         });
 
-        // Update free indicator
         updateFreeIndicator();
 
-        // Update directions link text
         var directionsEl = document.getElementById('rvk-directions-link');
         if (directionsEl && selectedParking) {
             directionsEl.textContent = t('directions') + ' →';
@@ -257,22 +272,17 @@
     function initCalculator() {
         var button = document.getElementById('rvk-calc-button');
         var input = document.getElementById('rvk-calc-hours');
-
         if (!button || !input) return;
 
         button.addEventListener('click', calculateAndDisplay);
-
         input.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                calculateAndDisplay();
-            }
+            if (e.key === 'Enter') calculateAndDisplay();
         });
     }
 
     function calculateAndDisplay() {
         var input = document.getElementById('rvk-calc-hours');
         var result = document.getElementById('rvk-calc-result');
-
         if (!input || !result) return;
 
         var hours = parseFloat(input.value);
@@ -289,7 +299,11 @@
         }
 
         var cost = calculateParkingCost(selectedParking, hours);
-        result.textContent = t('estimatedCost') + ': ' + cost.toLocaleString() + ' ISK';
+        if (cost === 0 && selectedParking.isFree) {
+            result.textContent = t('free') + '!';
+        } else {
+            result.textContent = t('estimatedCost') + ': ' + cost.toLocaleString() + ' ISK';
+        }
         result.className = 'rvk-calc-result';
     }
 

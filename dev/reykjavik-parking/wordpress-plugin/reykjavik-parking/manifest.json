@@ -1,0 +1,27 @@
+{
+    "name": "Reykjavik Parking",
+    "short_name": "RVK Parking",
+    "description": "Find parking in downtown Reykjavik - garages, zones, rates, and EV charging",
+    "start_url": "/?utm_source=pwa",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#32373c",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "icons/icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
+        }
+    ],
+    "categories": ["navigation", "travel", "utilities"],
+    "lang": "en",
+    "dir": "ltr"
+}

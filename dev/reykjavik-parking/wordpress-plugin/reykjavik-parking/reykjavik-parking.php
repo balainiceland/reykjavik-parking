@@ -3,7 +3,7 @@
  * Plugin Name: Reykjavik Parking
  * Plugin URI: https://startupiceland.com
  * Description: Interactive parking map for downtown Reykjavik showing garages, zones, and rates.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -27,6 +27,45 @@ class Reykjavik_Parking {
     private function __construct() {
         add_shortcode('reykjavik_parking', array($this, 'render_parking_map'));
         add_action('wp_enqueue_scripts', array($this, 'enqueue_scripts'));
+        add_action('wp_head', array($this, 'add_pwa_meta'));
+        add_action('wp_footer', array($this, 'register_service_worker'));
+    }
+
+    public function add_pwa_meta() {
+        global $post;
+        if (!is_a($post, 'WP_Post') || !has_shortcode($post->post_content, 'reykjavik_parking')) {
+            return;
+        }
+        ?>
+        <link rel="manifest" href="<?php echo plugin_dir_url(__FILE__); ?>manifest.json">
+        <meta name="theme-color" content="#32373c">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="apple-mobile-web-app-title" content="RVK Parking">
+        <link rel="apple-touch-icon" href="<?php echo plugin_dir_url(__FILE__); ?>icons/icon.svg">
+        <?php
+    }
+
+    public function register_service_worker() {
+        global $post;
+        if (!is_a($post, 'WP_Post') || !has_shortcode($post->post_content, 'reykjavik_parking')) {
+            return;
+        }
+        ?>
+        <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('<?php echo plugin_dir_url(__FILE__); ?>sw.js')
+                    .then(function(registration) {
+                        console.log('RVK Parking SW registered:', registration.scope);
+                    })
+                    .catch(function(error) {
+                        console.log('RVK Parking SW registration failed:', error);
+                    });
+            });
+        }
+        </script>
+        <?php
     }
 
     public function enqueue_scripts() {
@@ -47,7 +86,7 @@ class Reykjavik_Parking {
                 'reykjavik-parking-css',
                 plugin_dir_url(__FILE__) . 'css/parking-map.css',
                 array('leaflet-css'),
-                '1.1.0'
+                '1.2.0'
             );
 
             // Leaflet JS
@@ -64,7 +103,7 @@ class Reykjavik_Parking {
                 'reykjavik-parking-data',
                 plugin_dir_url(__FILE__) . 'js/parking-data.js',
                 array(),
-                '1.1.0',
+                '1.2.0',
                 true
             );
 
@@ -73,7 +112,7 @@ class Reykjavik_Parking {
                 'reykjavik-parking-js',
                 plugin_dir_url(__FILE__) . 'js/parking-map.js',
                 array('leaflet-js', 'reykjavik-parking-data'),
-                '1.1.0',
+                '1.2.0',
                 true
             );
         }
@@ -130,6 +169,7 @@ class Reykjavik_Parking {
                                 <span class="rvk-label" id="rvk-label-rates">Rates:</span>
                                 <span id="rvk-parking-rates"></span>
                             </div>
+                            <div id="rvk-ev-info" class="rvk-ev-info" style="display: none;"></div>
                             <a id="rvk-directions-link" href="#" target="_blank" class="rvk-directions-link">Get Directions →</a>
                         </div>
                     </div>
@@ -172,8 +212,12 @@ class Reykjavik_Parking {
                             <span id="rvk-legend-garage">Parking Garage</span>
                         </div>
                         <div class="rvk-legend-item">
-                            <span class="rvk-legend-marker rvk-lot"></span>
-                            <span id="rvk-legend-lot">Parking Lot</span>
+                            <span class="rvk-legend-marker rvk-mall-marker"></span>
+                            <span id="rvk-legend-mall">Shopping Mall</span>
+                        </div>
+                        <div class="rvk-legend-item">
+                            <span class="rvk-legend-marker rvk-garage rvk-has-ev"></span>
+                            <span id="rvk-legend-ev">EV Charging</span>
                         </div>
                         <div class="rvk-legend-item">
                             <span class="rvk-legend-zone rvk-p1"></span>
