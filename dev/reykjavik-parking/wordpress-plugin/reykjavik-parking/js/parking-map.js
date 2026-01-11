@@ -43,9 +43,10 @@
             maxZoom: 19
         }).addTo(map);
 
-        // Add parking zones
-        var zoneOrder = ['p3', 'p2', 'p1'];
+        // Add parking zones (render in order: outermost first)
+        var zoneOrder = ['p4', 'p3', 'p2', 'p1'];
         zoneOrder.forEach(function(zoneKey) {
+            if (!rvkParkingZones[zoneKey]) return;
             var zone = rvkParkingZones[zoneKey];
             var polygon = L.polygon(zone.bounds, {
                 color: zone.color,
@@ -236,8 +237,9 @@
             if (labelEl) labelEl.textContent = labelMappings[labelId];
         }
 
-        ['p1', 'p2', 'p3'].forEach(function(zoneKey) {
+        ['p1', 'p2', 'p3', 'p4'].forEach(function(zoneKey) {
             var zone = rvkParkingZones[zoneKey];
+            if (!zone) return;
             var el = document.getElementById('rvk-legend-' + zoneKey);
             if (el) {
                 var name = currentLang === 'is' ? zone.nameIs : zone.name;
@@ -260,10 +262,20 @@
 
         var status = isStreetParkingFree();
 
-        if (status.free) {
+        if (status.free && status.allZones) {
+            // All zones free
             indicator.className = 'rvk-free-indicator rvk-free';
             indicator.innerHTML = '<span class="rvk-indicator-icon">✓</span> ' + t('freeNow');
+        } else if (status.p3p4Free) {
+            // P3 & P4 free, P1 & P2 paid
+            indicator.className = 'rvk-free-indicator rvk-paid';
+            indicator.innerHTML = '<span class="rvk-indicator-icon">$</span> P1/P2: ' + t('paidNow') + ' ' + status.until + ' (P3/P4 free)';
+        } else if (status.p4Free) {
+            // Only P4 free
+            indicator.className = 'rvk-free-indicator rvk-paid';
+            indicator.innerHTML = '<span class="rvk-indicator-icon">$</span> ' + t('paidNow') + ' ' + status.until + ' (P4 free)';
         } else {
+            // All zones paid
             indicator.className = 'rvk-free-indicator rvk-paid';
             indicator.innerHTML = '<span class="rvk-indicator-icon">$</span> ' + t('paidNow') + ' ' + status.until;
         }

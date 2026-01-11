@@ -1,4 +1,4 @@
-/* Reykjavik Parking Map - StartupIceland.com Theme v1.2 */
+/* Reykjavik Parking Map - StartupIceland.com Theme v2.0 */
 
 .rvk-parking-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -314,15 +314,19 @@
 }
 
 .rvk-legend-zone.rvk-p1 {
-    background: #ef5350;
+    background: #d32f2f;
 }
 
 .rvk-legend-zone.rvk-p2 {
-    background: #ffb74d;
+    background: #f57c00;
 }
 
 .rvk-legend-zone.rvk-p3 {
-    background: #81c784;
+    background: #388e3c;
+}
+
+.rvk-legend-zone.rvk-p4 {
+    background: #1976d2;
 }
 
 /* Tips */

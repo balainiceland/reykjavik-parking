@@ -3,7 +3,7 @@
  * Plugin Name: Reykjavik Parking
  * Plugin URI: https://startupiceland.com
  * Description: Interactive parking map for downtown Reykjavik showing garages, zones, and rates.
- * Version: 1.2.0
+ * Version: 2.0.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -86,7 +86,7 @@ class Reykjavik_Parking {
                 'reykjavik-parking-css',
                 plugin_dir_url(__FILE__) . 'css/parking-map.css',
                 array('leaflet-css'),
-                '1.2.0'
+                '2.0.0'
             );
 
             // Leaflet JS
@@ -103,7 +103,7 @@ class Reykjavik_Parking {
                 'reykjavik-parking-data',
                 plugin_dir_url(__FILE__) . 'js/parking-data.js',
                 array(),
-                '1.2.0',
+                '2.0.0',
                 true
             );
 
@@ -112,7 +112,7 @@ class Reykjavik_Parking {
                 'reykjavik-parking-js',
                 plugin_dir_url(__FILE__) . 'js/parking-map.js',
                 array('leaflet-js', 'reykjavik-parking-data'),
-                '1.2.0',
+                '2.0.0',
                 true
             );
         }
@@ -221,15 +221,19 @@ class Reykjavik_Parking {
                         </div>
                         <div class="rvk-legend-item">
                             <span class="rvk-legend-zone rvk-p1"></span>
-                            <span id="rvk-legend-p1">P1 - Central (270 ISK/hr)</span>
+                            <span id="rvk-legend-p1">P1 - Central (630 ISK/hr)</span>
                         </div>
                         <div class="rvk-legend-item">
                             <span class="rvk-legend-zone rvk-p2"></span>
-                            <span id="rvk-legend-p2">P2 - Inner Ring (185 ISK/hr)</span>
+                            <span id="rvk-legend-p2">P2 - Inner (230 ISK/hr)</span>
                         </div>
                         <div class="rvk-legend-item">
                             <span class="rvk-legend-zone rvk-p3"></span>
-                            <span id="rvk-legend-p3">P3 - Outer Ring (125 ISK/hr)</span>
+                            <span id="rvk-legend-p3">P3 - Outer (230/70 ISK/hr)</span>
+                        </div>
+                        <div class="rvk-legend-item">
+                            <span class="rvk-legend-zone rvk-p4"></span>
+                            <span id="rvk-legend-p4">P4 - Extended (230 ISK/hr)</span>
                         </div>
                     </div>
                     <?php endif; ?>
@@ -238,10 +242,10 @@ class Reykjavik_Parking {
                     <div class="rvk-tips">
                         <h4 id="rvk-tips-title">Parking Tips</h4>
                         <ul>
-                            <li id="rvk-tip1">Free parking after 18:00 on streets</li>
-                            <li id="rvk-tip2">Free all day on Sundays (except garages)</li>
-                            <li id="rvk-tip3">P1-P3 zones: Mon-Fri 09:00-18:00, Sat 10:00-16:00</li>
-                            <li id="rvk-tip4">Download Parka app for mobile payments</li>
+                            <li id="rvk-tip1">P1 & P2: Paid until 21:00 (incl. weekends)</li>
+                            <li id="rvk-tip2">P3: Weekdays only 09:00-18:00</li>
+                            <li id="rvk-tip3">P4: Weekdays only 08:00-16:00</li>
+                            <li id="rvk-tip4">Free on public holidays. Use Parka app to pay</li>
                         </ul>
                     </div>
                     <?php endif; ?>

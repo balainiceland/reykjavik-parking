@@ -1,5 +1,6 @@
-// Reykjavik Parking Data v1.3
-// Includes downtown, malls, BSI, and University
+// Reykjavik Parking Data v2.0
+// Updated January 2026 with official rates from reykjavik.is
+// Includes downtown garages, malls, BSI, and University
 
 var RVK_PARKING_CENTER = [64.1466, -21.9426];
 
@@ -25,12 +26,13 @@ var rvkTranslations = {
         evCharging: "EV Charging",
         zone: "Zone",
         tips: "Parking Tips",
-        tip1: "Free street parking after 18:00",
-        tip2: "Free all day Sundays (except garages)",
-        tip3: "P1-P3: Mon-Fri 09:00-18:00, Sat 10:00-16:00",
-        tip4: "Download Parka app for payments",
-        freeNow: "FREE PARKING NOW",
+        tip1: "P1 & P2: Paid until 21:00 (incl. weekends)",
+        tip2: "P3: Weekdays only 09:00-18:00",
+        tip3: "P4: Weekdays only 08:00-16:00",
+        tip4: "Free on public holidays. Use Parka app to pay",
+        freeNow: "FREE NOW (P3/P4)",
         paidNow: "Paid parking until",
+        paidAllZones: "All zones paid until",
         calculator: "Price Calculator",
         duration: "Duration (hours)",
         calculate: "Calculate",
@@ -40,7 +42,8 @@ var rvkTranslations = {
         evAvailable: "EV charging available",
         evStations: "charging stations",
         free: "Free",
-        freeParking: "Free Parking"
+        freeParking: "Free Parking",
+        maxTime: "Max 3 hours"
     },
     is: {
         title: "Bílastæðaupplýsingar",
@@ -62,12 +65,13 @@ var rvkTranslations = {
         evCharging: "Rafbílahleðsla",
         zone: "Svæði",
         tips: "Góð ráð",
-        tip1: "Ókeypis á götum eftir kl. 18:00",
-        tip2: "Ókeypis á sunnudögum (nema geymslur)",
-        tip3: "P1-P3: Mán-Fös 09-18, Lau 10-16",
-        tip4: "Sæktu Parka appið",
-        freeNow: "ÓKEYPIS NÚNA",
+        tip1: "P1 og P2: Gjaldskylda til 21:00 (líka um helgar)",
+        tip2: "P3: Aðeins virka daga 09:00-18:00",
+        tip3: "P4: Aðeins virka daga 08:00-16:00",
+        tip4: "Ókeypis á helgidögum. Notaðu Parka app",
+        freeNow: "ÓKEYPIS NÚNA (P3/P4)",
         paidNow: "Gjaldskylda til kl.",
+        paidAllZones: "Öll svæði gjaldskylda til",
         calculator: "Verðreiknivél",
         duration: "Tímalengd (klst)",
         calculate: "Reikna",
@@ -77,12 +81,13 @@ var rvkTranslations = {
         evAvailable: "Rafbílahleðsla í boði",
         evStations: "hleðslustöðvar",
         free: "Ókeypis",
-        freeParking: "Ókeypis bílastæði"
+        freeParking: "Ókeypis bílastæði",
+        maxTime: "Hámark 3 klst"
     }
 };
 
 var rvkParkingGarages = [
-    // === DOWNTOWN GARAGES ===
+    // === CITY-OPERATED GARAGES (reykjavik.is) ===
     {
         id: 1,
         name: "Kolaport Garage",
@@ -93,14 +98,15 @@ var rvkParkingGarages = [
         capacity: 550,
         hours: "07:00 - 00:00",
         hoursIs: "07:00 - 00:00",
-        rates: "270 ISK 1st hr, 140 ISK/hr after",
-        ratesIs: "270 kr. 1. klst, 140 kr./klst eftir",
-        firstHourRate: 270,
-        hourlyRate: 140,
+        rates: "280 ISK 1st hr, 150 ISK/hr after",
+        ratesIs: "280 kr. 1. klst, 150 kr./klst eftir",
+        firstHourRate: 280,
+        hourlyRate: 150,
         type: "garage",
         area: "downtown",
         evCharging: true,
-        evStations: 6
+        evStations: 6,
+        cityOperated: true
     },
     {
         id: 2,
@@ -112,15 +118,15 @@ var rvkParkingGarages = [
         capacity: 1000,
         hours: "24/7",
         hoursIs: "Alltaf opið",
-        rates: "370 ISK/hr (08-18), 140 ISK/hr (18-08)",
-        ratesIs: "370 kr./klst (08-18), 140 kr./klst (18-08)",
-        firstHourRate: 370,
-        hourlyRate: 370,
-        eveningRate: 140,
+        rates: "Variable rates (private)",
+        ratesIs: "Breytileg gjaldskrá (einkarekin)",
+        firstHourRate: 350,
+        hourlyRate: 350,
         type: "garage",
         area: "downtown",
         evCharging: true,
-        evStations: 13
+        evStations: 13,
+        cityOperated: false
     },
     {
         id: 3,
@@ -130,16 +136,17 @@ var rvkParkingGarages = [
         lat: 64.1463,
         lng: -21.9420,
         capacity: 200,
-        hours: "07:00 - 23:00",
-        hoursIs: "07:00 - 23:00",
-        rates: "270 ISK 1st hr, 140 ISK/hr after",
-        ratesIs: "270 kr. 1. klst, 140 kr./klst eftir",
-        firstHourRate: 270,
-        hourlyRate: 140,
+        hours: "07:00 - 00:00",
+        hoursIs: "07:00 - 00:00",
+        rates: "280 ISK 1st hr, 150 ISK/hr after",
+        ratesIs: "280 kr. 1. klst, 150 kr./klst eftir",
+        firstHourRate: 280,
+        hourlyRate: 150,
         type: "garage",
         area: "downtown",
         evCharging: true,
-        evStations: 12
+        evStations: 12,
+        cityOperated: true
     },
     {
         id: 4,
@@ -149,16 +156,17 @@ var rvkParkingGarages = [
         lat: 64.1475,
         lng: -21.9310,
         capacity: 300,
-        hours: "07:00 - 23:00",
-        hoursIs: "07:00 - 23:00",
-        rates: "200 ISK/hr",
-        ratesIs: "200 kr./klst",
-        firstHourRate: 200,
-        hourlyRate: 200,
+        hours: "07:00 - 00:00",
+        hoursIs: "07:00 - 00:00",
+        rates: "280 ISK 1st hr, 150 ISK/hr after",
+        ratesIs: "280 kr. 1. klst, 150 kr./klst eftir",
+        firstHourRate: 280,
+        hourlyRate: 150,
         type: "garage",
         area: "downtown",
         evCharging: false,
-        evStations: 0
+        evStations: 0,
+        cityOperated: true
     },
     {
         id: 5,
@@ -168,35 +176,37 @@ var rvkParkingGarages = [
         lat: 64.1438,
         lng: -21.9120,
         capacity: 250,
-        hours: "08:00 - 22:00",
-        hoursIs: "08:00 - 22:00",
-        rates: "185 ISK/hr",
-        ratesIs: "185 kr./klst",
-        firstHourRate: 185,
-        hourlyRate: 185,
+        hours: "07:00 - 00:00",
+        hoursIs: "07:00 - 00:00",
+        rates: "190 ISK 1st hr, 140 ISK/hr after",
+        ratesIs: "190 kr. 1. klst, 140 kr./klst eftir",
+        firstHourRate: 190,
+        hourlyRate: 140,
         type: "garage",
         area: "downtown",
         evCharging: false,
-        evStations: 0
+        evStations: 0,
+        cityOperated: true
     },
     {
         id: 6,
         name: "Vitatorg Garage",
         nameIs: "Vitatorgsbílageymsla",
-        address: "Skúlagata / Vitastígur, 101 Reykjavík",
+        address: "Lindargata, 101 Reykjavík",
         lat: 64.1490,
         lng: -21.9250,
         capacity: 400,
-        hours: "24/7",
-        hoursIs: "Alltaf opið",
-        rates: "250 ISK/hr",
-        ratesIs: "250 kr./klst",
-        firstHourRate: 250,
-        hourlyRate: 250,
+        hours: "07:00 - 00:00",
+        hoursIs: "07:00 - 00:00",
+        rates: "190 ISK 1st hr, 140 ISK/hr after",
+        ratesIs: "190 kr. 1. klst, 140 kr./klst eftir",
+        firstHourRate: 190,
+        hourlyRate: 140,
         type: "garage",
         area: "downtown",
         evCharging: false,
-        evStations: 0
+        evStations: 0,
+        cityOperated: true
     },
     {
         id: 7,
@@ -206,21 +216,42 @@ var rvkParkingGarages = [
         lat: 64.1492,
         lng: -21.9460,
         capacity: 150,
-        hours: "24/7",
-        hoursIs: "Alltaf opið",
-        rates: "Zone P1 rates",
-        ratesIs: "P1 gjaldskrá",
-        firstHourRate: 270,
-        hourlyRate: 270,
+        hours: "07:00 - 00:00",
+        hoursIs: "07:00 - 00:00",
+        rates: "280 ISK 1st hr, 150 ISK/hr after",
+        ratesIs: "280 kr. 1. klst, 150 kr./klst eftir",
+        firstHourRate: 280,
+        hourlyRate: 150,
         type: "garage",
         area: "downtown",
         evCharging: true,
-        evStations: 4
+        evStations: 4,
+        cityOperated: true
+    },
+    {
+        id: 8,
+        name: "Bergstaðir Garage",
+        nameIs: "Bergstaðabílageymsla",
+        address: "Bergstaðastræti, 101 Reykjavík",
+        lat: 64.1448,
+        lng: -21.9380,
+        capacity: 200,
+        hours: "07:00 - 00:00",
+        hoursIs: "07:00 - 00:00",
+        rates: "280 ISK 1st hr, 150 ISK/hr after",
+        ratesIs: "280 kr. 1. klst, 150 kr./klst eftir",
+        firstHourRate: 280,
+        hourlyRate: 150,
+        type: "garage",
+        area: "downtown",
+        evCharging: false,
+        evStations: 0,
+        cityOperated: true
     },
 
     // === SHOPPING MALLS ===
     {
-        id: 8,
+        id: 9,
         name: "Kringlan Mall",
         nameIs: "Kringlan",
         address: "Kringlan 4-12, 103 Reykjavík",
@@ -240,7 +271,7 @@ var rvkParkingGarages = [
         isFree: true
     },
     {
-        id: 9,
+        id: 10,
         name: "Smáralind Mall",
         nameIs: "Smáralind",
         address: "Hagasmári 1, 201 Kópavogur",
@@ -262,7 +293,7 @@ var rvkParkingGarages = [
 
     // === TRANSPORT HUBS ===
     {
-        id: 10,
+        id: 11,
         name: "BSÍ Bus Terminal",
         nameIs: "BSÍ Umferðarmiðstöð",
         address: "Vatnsmýrarvegur 10, 101 Reykjavík",
@@ -284,7 +315,7 @@ var rvkParkingGarages = [
 
     // === UNIVERSITY ===
     {
-        id: 11,
+        id: 12,
         name: "University of Iceland",
         nameIs: "Háskóli Íslands",
         address: "Sæmundargata 2, 102 Reykjavík",
@@ -305,17 +336,19 @@ var rvkParkingGarages = [
     }
 ];
 
-// Parking zones (downtown only)
+// Parking zones (downtown street parking)
+// Updated October 2023 per reykjavik.is
 var rvkParkingZones = {
     p1: {
         name: "P1 - Central",
         nameIs: "P1 - Miðbær",
-        color: "#ef5350",
-        rate: 270,
-        rateText: "270 ISK/hr",
-        rateTextIs: "270 kr./klst",
-        hours: "Mon-Fri 09:00-18:00, Sat 10:00-16:00",
-        hoursIs: "Mán-Fös 09:00-18:00, Lau 10:00-16:00",
+        color: "#d32f2f",
+        rate: 630,
+        rateText: "630 ISK/hr (max 3 hrs)",
+        rateTextIs: "630 kr./klst (hámark 3 klst)",
+        hours: "Mon-Sat 09:00-21:00, Sun 10:00-21:00",
+        hoursIs: "Mán-Lau 09:00-21:00, Sun 10:00-21:00",
+        maxHours: 3,
         bounds: [
             [64.1495, -21.9500],
             [64.1495, -21.9350],
@@ -326,12 +359,12 @@ var rvkParkingZones = {
     p2: {
         name: "P2 - Inner",
         nameIs: "P2 - Innri",
-        color: "#ffb74d",
-        rate: 185,
-        rateText: "185 ISK/hr",
-        rateTextIs: "185 kr./klst",
-        hours: "Mon-Fri 09:00-18:00, Sat 10:00-16:00",
-        hoursIs: "Mán-Fös 09:00-18:00, Lau 10:00-16:00",
+        color: "#f57c00",
+        rate: 230,
+        rateText: "230 ISK/hr",
+        rateTextIs: "230 kr./klst",
+        hours: "Mon-Sat 09:00-21:00, Sun 10:00-21:00",
+        hoursIs: "Mán-Lau 09:00-21:00, Sun 10:00-21:00",
         bounds: [
             [64.1520, -21.9550],
             [64.1520, -21.9280],
@@ -342,49 +375,105 @@ var rvkParkingZones = {
     p3: {
         name: "P3 - Outer",
         nameIs: "P3 - Ytri",
-        color: "#81c784",
-        rate: 125,
-        rateText: "125 ISK/hr",
-        rateTextIs: "125 kr./klst",
-        hours: "Mon-Fri 09:00-18:00, Sat 10:00-16:00",
-        hoursIs: "Mán-Fös 09:00-18:00, Lau 10:00-16:00",
+        color: "#388e3c",
+        rate: 230,
+        rateAfter2Hours: 70,
+        rateText: "230 ISK/hr (first 2 hrs), then 70 ISK/hr",
+        rateTextIs: "230 kr./klst (fyrstu 2 klst), síðan 70 kr./klst",
+        hours: "Mon-Fri 09:00-18:00",
+        hoursIs: "Mán-Fös 09:00-18:00",
         bounds: [
             [64.1550, -21.9600],
             [64.1550, -21.9100],
             [64.1400, -21.9100],
             [64.1400, -21.9600]
         ]
+    },
+    p4: {
+        name: "P4 - Extended",
+        nameIs: "P4 - Útvíkkað",
+        color: "#1976d2",
+        rate: 230,
+        rateText: "230 ISK/hr",
+        rateTextIs: "230 kr./klst",
+        hours: "Mon-Fri 08:00-16:00",
+        hoursIs: "Mán-Fös 08:00-16:00",
+        bounds: [
+            [64.1580, -21.9650],
+            [64.1580, -21.9050],
+            [64.1380, -21.9050],
+            [64.1380, -21.9650]
+        ]
     }
 };
 
 // Check if street parking is currently free
+// Note: This is simplified - actual rules vary by zone
 function isStreetParkingFree() {
     var now = new Date();
-    var day = now.getDay();
+    var day = now.getDay(); // 0 = Sunday, 6 = Saturday
     var hour = now.getHours();
     var minute = now.getMinutes();
     var time = hour + minute / 60;
 
-    if (day === 0) {
-        return { free: true, until: null, reason: 'sunday' };
+    // Check for public holidays (simplified - just checks major ones)
+    var month = now.getMonth();
+    var date = now.getDate();
+    var isHoliday = (month === 0 && date === 1) ||  // New Year
+                    (month === 4 && date === 1) ||  // May Day
+                    (month === 5 && date === 17) || // National Day
+                    (month === 11 && (date >= 24 && date <= 26)); // Christmas
+
+    if (isHoliday) {
+        return { free: true, until: null, reason: 'holiday', allZones: true };
     }
 
-    if (day === 6) {
+    // P3 and P4 are free on weekends
+    var isWeekend = (day === 0 || day === 6);
+
+    // Sunday: P1 & P2 paid 10:00-21:00
+    if (day === 0) {
         if (time < 10) {
-            return { free: true, until: '10:00', reason: 'before_hours' };
-        } else if (time >= 16) {
-            return { free: true, until: null, reason: 'after_hours' };
+            return { free: true, until: '10:00', reason: 'before_hours', allZones: true };
+        } else if (time >= 21) {
+            return { free: true, until: null, reason: 'after_hours', allZones: true };
         } else {
-            return { free: false, until: '16:00', reason: 'paid_hours' };
+            return { free: false, until: '21:00', reason: 'paid_hours', p3p4Free: true };
         }
     }
 
-    if (time < 9) {
-        return { free: true, until: '09:00', reason: 'before_hours' };
+    // Saturday: P1 & P2 paid 09:00-21:00, P3 & P4 free all day
+    if (day === 6) {
+        if (time < 9) {
+            return { free: true, until: '09:00', reason: 'before_hours', allZones: true };
+        } else if (time >= 21) {
+            return { free: true, until: null, reason: 'after_hours', allZones: true };
+        } else {
+            return { free: false, until: '21:00', reason: 'paid_hours', p3p4Free: true };
+        }
+    }
+
+    // Weekdays
+    // P4: 08:00-16:00
+    // P3: 09:00-18:00
+    // P1 & P2: 09:00-21:00
+
+    if (time < 8) {
+        return { free: true, until: '08:00', reason: 'before_hours', allZones: true };
+    } else if (time >= 21) {
+        return { free: true, until: null, reason: 'after_hours', allZones: true };
     } else if (time >= 18) {
-        return { free: true, until: null, reason: 'after_hours' };
+        // After 18:00: P3 & P4 free, P1 & P2 still paid
+        return { free: false, until: '21:00', reason: 'evening', p3p4Free: true };
+    } else if (time >= 16) {
+        // After 16:00: P4 free, others still paid
+        return { free: false, until: '21:00', reason: 'afternoon', p4Free: true };
+    } else if (time >= 9) {
+        // 09:00-16:00: All zones paid
+        return { free: false, until: '21:00', reason: 'paid_hours', allZones: false };
     } else {
-        return { free: false, until: '18:00', reason: 'paid_hours' };
+        // 08:00-09:00: Only P4 is paid
+        return { free: true, until: '09:00', reason: 'early_morning', p4Paid: true };
     }
 }
 
@@ -403,14 +492,27 @@ function calculateParkingCost(parking, hours) {
 
     if (effectiveHours <= 0) return 0;
 
-    if (parking.firstHourRate && effectiveHours >= 1) {
+    // Handle P3 zone special pricing (230 first 2 hrs, then 70)
+    if (parking.rateAfter2Hours !== undefined) {
+        if (effectiveHours <= 2) {
+            cost = Math.ceil(effectiveHours) * parking.rate;
+        } else {
+            cost = 2 * parking.rate; // First 2 hours
+            var remainingHours = effectiveHours - 2;
+            cost += Math.ceil(remainingHours) * parking.rateAfter2Hours;
+        }
+        return cost;
+    }
+
+    // Standard garage pricing
+    if (parking.firstHourRate && parking.firstHourRate !== parking.hourlyRate) {
         cost = parking.firstHourRate;
         var remainingHours = effectiveHours - 1;
         if (remainingHours > 0) {
             cost += Math.ceil(remainingHours) * parking.hourlyRate;
         }
     } else {
-        cost = Math.ceil(effectiveHours) * parking.hourlyRate;
+        cost = Math.ceil(effectiveHours) * (parking.hourlyRate || parking.rate);
     }
 
     return cost;
