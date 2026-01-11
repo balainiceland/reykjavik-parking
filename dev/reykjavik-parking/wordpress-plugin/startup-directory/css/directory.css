@@ -1,0 +1,368 @@
+/* Startup Iceland Directory - StartupIceland.com Theme v1.0 */
+
+.sid-directory-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header / Controls */
+.sid-controls {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.sid-search-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.sid-search-wrapper {
+    flex: 2;
+    min-width: 250px;
+    position: relative;
+}
+
+.sid-search-wrapper::before {
+    content: "search";
+    font-family: "Material Icons", sans-serif;
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 20px;
+}
+
+#sid-search {
+    width: 100%;
+    padding: 12px 16px 12px 44px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+#sid-search:focus {
+    outline: none;
+    border-color: #32373c;
+}
+
+#sid-search::placeholder {
+    color: #999;
+}
+
+.sid-filter-wrapper {
+    min-width: 180px;
+}
+
+.sid-filter-wrapper select {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    font-family: inherit;
+    background: #fff;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    padding-right: 36px;
+}
+
+.sid-filter-wrapper select:focus {
+    outline: none;
+    border-color: #32373c;
+}
+
+/* Status Buttons */
+.sid-filter-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.sid-status-filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.sid-status-btn {
+    padding: 8px 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+}
+
+.sid-status-btn:hover {
+    border-color: #32373c;
+}
+
+.sid-status-btn.sid-active {
+    background: #32373c;
+    color: #fff;
+    border-color: #32373c;
+}
+
+.sid-sort-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sid-sort-wrapper label {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.sid-sort-wrapper select {
+    padding: 8px 32px 8px 12px;
+    border: 1px solid #ddd;
+    font-size: 0.875rem;
+    font-family: inherit;
+    background: #fff;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+}
+
+/* Stats Bar */
+.sid-stats-bar {
+    display: flex;
+    gap: 24px;
+    padding: 16px 20px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.sid-stat-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sid-stat-number {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #32373c;
+}
+
+.sid-stat-label {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.sid-showing-text {
+    margin-left: auto;
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.sid-showing-text strong {
+    color: #32373c;
+}
+
+/* Startup Grid */
+.sid-startup-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* Startup Card */
+.sid-startup-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.sid-startup-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.sid-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.sid-startup-name {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    line-height: 1.3;
+}
+
+/* Status Badges */
+.sid-status-badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.sid-status-active {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.sid-status-acquired {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.sid-status-exited {
+    background: #fafafa;
+    color: #666;
+}
+
+/* Sector Tag */
+.sid-sector-tag {
+    font-size: 0.75rem;
+    color: #0693e3;
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Description */
+.sid-description {
+    font-size: 0.875rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0 0 12px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Acquired By */
+.sid-acquired-by {
+    font-size: 0.8rem;
+    color: #1565c0;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+/* Card Footer */
+.sid-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px solid #eee;
+    margin-top: auto;
+}
+
+.sid-founded {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.sid-website-link {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #32373c;
+    text-decoration: none;
+    padding: 6px 14px;
+    border: 1px solid #32373c;
+    border-radius: 9999px;
+    transition: all 0.2s;
+}
+
+.sid-website-link:hover {
+    background: #32373c;
+    color: #fff;
+}
+
+/* No Results */
+.sid-no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 60px 20px;
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sid-directory-container {
+        padding: 12px;
+    }
+
+    .sid-search-row {
+        flex-direction: column;
+    }
+
+    .sid-search-wrapper,
+    .sid-filter-wrapper {
+        min-width: 100%;
+    }
+
+    .sid-filter-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .sid-status-filters {
+        justify-content: center;
+    }
+
+    .sid-sort-wrapper {
+        justify-content: center;
+    }
+
+    .sid-stats-bar {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .sid-showing-text {
+        margin-left: 0;
+    }
+
+    .sid-startup-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .sid-status-btn {
+        padding: 8px 14px;
+        font-size: 0.8rem;
+    }
+
+    .sid-controls {
+        padding: 16px;
+    }
+}
