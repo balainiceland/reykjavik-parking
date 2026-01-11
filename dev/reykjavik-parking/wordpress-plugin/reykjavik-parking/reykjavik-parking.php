@@ -249,6 +249,11 @@ class Reykjavik_Parking {
                         </ul>
                     </div>
                     <?php endif; ?>
+
+                    <div class="rvk-data-source">
+                        <span id="rvk-data-source-label">Data source:</span>
+                        <a href="https://reykjavik.is/en/parking" target="_blank" rel="noopener">reykjavik.is/en/parking</a>
+                    </div>
                 </div>
             </div>
         </div>

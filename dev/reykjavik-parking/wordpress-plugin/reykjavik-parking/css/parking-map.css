@@ -449,6 +449,25 @@
     color: #333;
 }
 
+/* Data Source Attribution */
+.rvk-data-source {
+    font-size: 0.75rem;
+    color: #666;
+    text-align: center;
+    padding: 12px;
+    border-top: 1px solid #eee;
+    margin-top: 8px;
+}
+
+.rvk-data-source a {
+    color: #0693e3;
+    text-decoration: none;
+}
+
+.rvk-data-source a:hover {
+    text-decoration: underline;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .rvk-parking-main {

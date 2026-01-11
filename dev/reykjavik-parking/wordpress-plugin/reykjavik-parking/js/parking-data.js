@@ -43,7 +43,8 @@ var rvkTranslations = {
         evStations: "charging stations",
         free: "Free",
         freeParking: "Free Parking",
-        maxTime: "Max 3 hours"
+        maxTime: "Max 3 hours",
+        dataSource: "Data source:"
     },
     is: {
         title: "Bílastæðaupplýsingar",
@@ -82,7 +83,8 @@ var rvkTranslations = {
         evStations: "hleðslustöðvar",
         free: "Ókeypis",
         freeParking: "Ókeypis bílastæði",
-        maxTime: "Hámark 3 klst"
+        maxTime: "Hámark 3 klst",
+        dataSource: "Gögn frá:"
     }
 };
 

@@ -217,7 +217,8 @@
             'rvk-tip4': t('tip4'),
             'rvk-calc-title': t('calculator'),
             'rvk-calc-duration-label': t('duration'),
-            'rvk-calc-button': t('calculate')
+            'rvk-calc-button': t('calculate'),
+            'rvk-data-source-label': t('dataSource')
         };
 
         for (var id in elements) {
