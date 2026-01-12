@@ -1,6 +1,7 @@
-// Iceland Startup Directory Data v1.3.0
+// Iceland Startup Directory Data v1.4.0
 // Curated list of Icelandic startups and tech companies
 // Includes: Iceland Venture Studio, Founders Ventures, Frumtak Ventures portfolios
+// Accelerators: Klak Startup Supernova, Startup Reykjavik, Startup Energy Reykjavik
 // Sectors: Biotech, Travel Tech, Marine/Blue Economy, Climate Tech/Sustainability
 
 var STARTUP_SECTORS = [
@@ -1255,6 +1256,364 @@ var icelandStartups = [
         status: "active",
         acquiredBy: null,
         foundedYear: 2007
+    },
+
+    // === KLAK STARTUP SUPERNOVA 2024 COHORT ===
+    {
+        id: 120,
+        name: "FairGame",
+        description: "AI software creating fair matchups for youth sports tournaments",
+        website: "https://www.fairgame.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
+    },
+    {
+        id: 121,
+        name: "GrowthApp",
+        description: "Growth platform helping first-time founders organize ideas into actionable plans",
+        website: "https://www.growthapp.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
+    },
+    {
+        id: 122,
+        name: "JarðarGreining",
+        description: "Ground Penetrating Radar devices accessing subsurface information non-invasively",
+        website: "https://www.jardargreining.is",
+        sector: "other",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 123,
+        name: "Massif Network",
+        description: "Destination platform helping film/photo producers discover remote shooting locations",
+        website: "https://www.massifnetwork.com",
+        sector: "media",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 124,
+        name: "Medvit Health",
+        description: "AI medical systems supporting healthcare workers in diagnostics and treatment",
+        website: "https://www.medvit.is",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 125,
+        name: "Neurotic",
+        description: "AI-powered data management platform reducing organizational data anxiety",
+        website: "https://www.neurotic.is",
+        sector: "data",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
+    },
+    {
+        id: 126,
+        name: "TAPP",
+        description: "Complete gig economy platform for project management, contracts, and invoicing",
+        website: "https://www.tapp.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 127,
+        name: "Thorexa",
+        description: "AI email response software that learns individual writing styles",
+        website: "https://www.thorexa.com",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
+    },
+    {
+        id: 128,
+        name: "Gyna-app",
+        description: "Women's health app helping users manage health factors and take control",
+        website: "https://www.gynaapp.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
+    },
+    {
+        id: 129,
+        name: "VibEvent",
+        description: "Community platform connecting musicians, audiences, and organizers",
+        website: "https://www.vibevent.is",
+        sector: "media",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
+    },
+
+    // === KLAK STARTUP SUPERNOVA 2023 COHORT ===
+    {
+        id: 130,
+        name: "Astrid EdTech",
+        description: "Climate change education through immersive storytelling for young people",
+        website: "https://www.astridedtech.com",
+        sector: "edtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 131,
+        name: "GET Consulting",
+        description: "Multi-party customer self-service portals for efficient collaboration",
+        website: "https://www.getconsulting.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 132,
+        name: "Gæðameistari",
+        description: "Quality management system for construction companies to improve quality and reduce costs",
+        website: "https://www.gaedameistari.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 133,
+        name: "KuraTech",
+        description: "Automation platform maximizing bankruptcy estate value for liquidators",
+        website: "https://www.kuratech.is",
+        sector: "fintech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 134,
+        name: "Knittable",
+        description: "Interactive knitting patterns that adapt to any yarn type and size",
+        website: "https://www.knittable.com",
+        sector: "other",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 135,
+        name: "Lóalóa",
+        description: "Easy-to-use online video platform for business content management",
+        website: "https://www.loaloa.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 136,
+        name: "Modul Work",
+        description: "Cloud solution using dynamic job descriptions to boost job satisfaction",
+        website: "https://www.modulwork.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 137,
+        name: "Soultech",
+        description: "Platform connecting the public with psychologists to democratize mental health",
+        website: "https://www.soultech.is",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+
+    // === KLAK STARTUP SUPERNOVA 2022 COHORT ===
+    {
+        id: 138,
+        name: "Bulby",
+        description: "Software boosting creativity through researched methods for innovative problem-solving",
+        website: "https://www.bulby.io",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
+    {
+        id: 139,
+        name: "Deed Delivery",
+        description: "Consumer platform tracking shipments from multiple delivery companies in one place",
+        website: "https://www.deeddelivery.com",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
+    {
+        id: 140,
+        name: "Euneo",
+        description: "Individualized rehabilitation programs for musculoskeletal issues via smart app",
+        website: "https://www.euneo.co",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
+    {
+        id: 141,
+        name: "FitTales",
+        description: "Exercise planning app for individuals and groups with complete workout history",
+        website: "https://www.fittales.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
+    {
+        id: 142,
+        name: "Keeps",
+        description: "Software helping travel agents centralize and share photos across platforms",
+        website: "https://www.keeps.io",
+        sector: "travel",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
+    {
+        id: 143,
+        name: "Mindnes",
+        description: "AI-powered time tracking that automatically classifies locations and activities",
+        website: "https://www.mindnes.com",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
+    {
+        id: 144,
+        name: "NúnaTrix",
+        description: "Educational computer games in healthcare using evidence-based game design",
+        website: "https://www.nunatrix.is",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
+
+    // === OTHER ACCELERATOR ALUMNI ===
+    {
+        id: 145,
+        name: "PayAnalytics",
+        description: "HR software for salary reviews and analyzing demographic pay discrepancies",
+        website: "https://www.payanalytics.com",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2017
+    },
+    {
+        id: 146,
+        name: "Kara Connect",
+        description: "Telehealth platform linking therapists, healthcare specialists with patients",
+        website: "https://www.karaconnect.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2014
+    },
+    {
+        id: 147,
+        name: "Hopp",
+        description: "Micro-mobility SaaS providing e-scooter sharing franchise solutions",
+        website: "https://www.hopp.bike",
+        sector: "travel",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2019
+    },
+    {
+        id: 148,
+        name: "Mussila",
+        description: "Award-winning music learning apps for children",
+        website: "https://www.mussila.com",
+        sector: "edtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2015
+    },
+    {
+        id: 149,
+        name: "GreenBytes",
+        description: "AI-driven platform helping restaurants reduce food waste",
+        website: "https://www.greenbytes.is",
+        sector: "food",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2020
+    },
+    {
+        id: 150,
+        name: "IceWind",
+        description: "Micro vertical axis wind turbines for extreme arctic weather conditions",
+        website: "https://www.icewind.is",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2012
+    },
+    {
+        id: 151,
+        name: "Atmonia",
+        description: "Zero-carbon process for nitrogen fertilizer production",
+        website: "https://www.atmonia.com",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2016
+    },
+    {
+        id: 152,
+        name: "Quest Portal",
+        description: "Virtual tabletop platform for playing TTRPGs on desktop and mobile",
+        website: "https://www.questportal.com",
+        sector: "gaming",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2021
+    },
+    {
+        id: 153,
+        name: "SNERPA Power",
+        description: "Real-time data platform for electricity consumption decisions",
+        website: "https://www.snerpa.is",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
+    {
+        id: 154,
+        name: "Glaze",
+        description: "Contactless ordering and payment experience for restaurants",
+        website: "https://www.glaze.is",
+        sector: "fintech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2021
     }
 ];
 
