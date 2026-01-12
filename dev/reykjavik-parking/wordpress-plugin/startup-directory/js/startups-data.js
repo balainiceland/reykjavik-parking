@@ -1,6 +1,7 @@
-// Iceland Startup Directory Data v1.1.0
+// Iceland Startup Directory Data v1.2.0
 // Curated list of Icelandic startups and tech companies
-// Includes: Iceland Venture Studio, Founders Ventures, and Frumtak Ventures portfolios
+// Includes: Iceland Venture Studio, Founders Ventures, Frumtak Ventures portfolios
+// Plus: Biotech and Travel Tech sectors expanded
 
 var STARTUP_SECTORS = [
     { id: 'all', name: 'All Sectors' },
@@ -966,6 +967,160 @@ var icelandStartups = [
         status: "active",
         acquiredBy: null,
         foundedYear: 2003
+    },
+
+    // === BIOTECH ADDITIONS ===
+    {
+        id: 92,
+        name: "Alvotech",
+        description: "Development and manufacturing of biosimilar medicines for global markets",
+        website: "https://www.alvotech.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2013
+    },
+    {
+        id: 93,
+        name: "BioEffect",
+        description: "Biotech skincare using plant-based EGF (Epidermal Growth Factor) from barley",
+        website: "https://www.bioeffect.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2010
+    },
+    {
+        id: 94,
+        name: "Arctic Therapeutics",
+        description: "Drug discovery and development company spun off from Center for Applied Genomics",
+        website: "https://www.arctictherapeutics.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2015
+    },
+    {
+        id: 95,
+        name: "Genis",
+        description: "Pioneering development of therapeutic chitin derivatives for medical applications",
+        website: "https://www.genis.is",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2006
+    },
+    {
+        id: 96,
+        name: "EpiEndo Pharmaceuticals",
+        description: "Developing treatments for respiratory diseases and airway conditions",
+        website: "https://www.epiendopharma.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2015
+    },
+    {
+        id: 97,
+        name: "Matís",
+        description: "Food and biotech research institute advancing food safety and innovation",
+        website: "https://www.matis.is",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2007
+    },
+    {
+        id: 98,
+        name: "Vaxa Technologies",
+        description: "Sustainable algae cultivation for nutrition and food ingredients",
+        website: "https://www.vaxa.life",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2017
+    },
+    {
+        id: 99,
+        name: "Primex",
+        description: "Marine biotechnology producing chitin and chitosan products from shellfish",
+        website: "https://www.primex.is",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 1999
+    },
+
+    // === TRAVEL TECH ADDITIONS ===
+    {
+        id: 100,
+        name: "Bokun",
+        description: "Booking solutions and channel management platform for travel suppliers",
+        website: "https://www.bokun.io",
+        sector: "travel",
+        status: "acquired",
+        acquiredBy: "TripAdvisor",
+        foundedYear: 2012
+    },
+    {
+        id: 101,
+        name: "SafeTravel",
+        description: "Weather and safety alerts app helping travelers stay safe in Iceland",
+        website: "https://www.safetravel.is",
+        sector: "travel",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2010
+    },
+    {
+        id: 102,
+        name: "Live Aurora Network",
+        description: "Northern lights prediction app using HD cameras for real-time aurora detection",
+        website: "https://www.liveaurora.com",
+        sector: "travel",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2018
+    },
+    {
+        id: 103,
+        name: "PaxFlow",
+        description: "Automation platform helping tour companies handle bookings and customer communication",
+        website: "https://www.paxflow.io",
+        sector: "travel",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2020
+    },
+    {
+        id: 104,
+        name: "Guyde",
+        description: "AI voice-activated navigation app providing personalized guidance for travelers",
+        website: "https://www.guyde.app",
+        sector: "travel",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2019
+    },
+    {
+        id: 105,
+        name: "HotSheep",
+        description: "Last-minute tour booking platform offering discounts close to departure",
+        website: "https://www.hotsheep.is",
+        sector: "travel",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2018
+    },
+    {
+        id: 106,
+        name: "Snotra",
+        description: "AI-powered SaaS solution for tourism sustainability and EU compliance",
+        website: "https://www.snotra.io",
+        sector: "travel",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
     }
 ];
 
