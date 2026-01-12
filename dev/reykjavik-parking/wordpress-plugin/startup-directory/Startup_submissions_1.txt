@@ -1,0 +1,29 @@
+Startup Name: Co-Living Iceland 
+Website: https://colivingiceland.app/
+Description: Co-Living Iceland is an AI driven matchmaking platform connecting individuals with their ideal house and housemates in Iceland.
+Founded Year: 2023
+Sector: Community Systems 
+
+Startup Name: Cliezen
+Website: www.cliezen.com
+Description: B2B Client Experience and Engagement Platform
+Year Founded: 2022
+Sector: B2B SaaS
+
+Startup Name: Opus Futura
+Website: www.opusfutura.com
+Description: A fully automated and evidence based, talent sourcing platform, because every team and position deserve the best match.
+Founded Year: Originally we started to discuss ideas in mid 2022 and that’s when the company was registered. The “real start” was in November 2023 after a bumpy ride and the building phase started in Jan 2024. The MVP launch was late October  2024.
+Sector: HR Tech
+
+Startup Name: Anime GenSys ehf.
+Website: https://www.icai.is/anime
+Description: Advanced AI-powered tools for the Anime production industry
+Founded Year: 2026
+Sector: Media/Entertainment
+
+Startup Name: Polar Region Games 
+Website: polarregiongames.com 
+Description:
+Founded Year: 2024
+Sector: Games

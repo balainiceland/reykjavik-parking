@@ -1,6 +1,13 @@
 (function() {
     'use strict';
 
+    // Data source - jsDelivr CDN mirrors GitHub with caching
+    var DATA_URL = 'https://cdn.jsdelivr.net/gh/balainiceland/reykjavik-parking@master/dev/reykjavik-parking/wordpress-plugin/investor-directory/js/investors-data.json';
+
+    // Cache settings
+    var CACHE_KEY = 'iid_investors_cache';
+    var CACHE_EXPIRY = 1000 * 60 * 60; // 1 hour
+
     var filteredInvestors = [];
     var currentFilters = {
         search: '',
@@ -9,14 +16,127 @@
         sector: 'all'
     };
 
+    // Data arrays (loaded dynamically)
+    var icelandInvestors = [];
+    var INVESTOR_TYPES = [];
+    var INVESTMENT_STAGES = [];
+    var SECTOR_FOCUS = [];
+
     document.addEventListener('DOMContentLoaded', function() {
-        initInvestorDirectory();
+        loadData();
     });
 
-    function initInvestorDirectory() {
+    function loadData() {
         var container = document.getElementById('iid-directory-container');
         if (!container) return;
 
+        // Show loading state
+        var grid = document.getElementById('iid-investor-grid');
+        if (grid) {
+            grid.innerHTML = '<div class="iid-loading">Loading investors...</div>';
+        }
+
+        // Try to load from cache first
+        var cached = getFromCache();
+        if (cached) {
+            console.log('Loaded investor data from cache');
+            applyData(cached);
+            initInvestorDirectory();
+            fetchFreshData(true);
+            return;
+        }
+
+        // Check if data is already loaded via script tag (fallback)
+        if (typeof window.icelandInvestors !== 'undefined' && window.icelandInvestors.length > 0) {
+            console.log('Using bundled investor data (fallback)');
+            icelandInvestors = window.icelandInvestors;
+            INVESTOR_TYPES = window.INVESTOR_TYPES || [];
+            INVESTMENT_STAGES = window.INVESTMENT_STAGES || [];
+            SECTOR_FOCUS = window.SECTOR_FOCUS || [];
+            initInvestorDirectory();
+            return;
+        }
+
+        // Fetch from CDN
+        fetchFreshData(false);
+    }
+
+    function fetchFreshData(isBackgroundRefresh) {
+        fetch(DATA_URL)
+            .then(function(response) {
+                if (!response.ok) throw new Error('Network response was not ok');
+                return response.json();
+            })
+            .then(function(data) {
+                console.log('Fetched fresh investor data from CDN');
+                saveToCache(data);
+                if (!isBackgroundRefresh) {
+                    applyData(data);
+                    initInvestorDirectory();
+                } else {
+                    if (data.investors && data.investors.length !== icelandInvestors.length) {
+                        console.log('New investors available, refreshing...');
+                        applyData(data);
+                        updateStats();
+                        filterAndRender();
+                    }
+                }
+            })
+            .catch(function(error) {
+                console.warn('Failed to fetch from CDN:', error);
+                if (typeof window.icelandInvestors !== 'undefined') {
+                    console.log('Falling back to bundled data');
+                    icelandInvestors = window.icelandInvestors;
+                    INVESTOR_TYPES = window.INVESTOR_TYPES || [];
+                    INVESTMENT_STAGES = window.INVESTMENT_STAGES || [];
+                    SECTOR_FOCUS = window.SECTOR_FOCUS || [];
+                    if (!isBackgroundRefresh) {
+                        initInvestorDirectory();
+                    }
+                } else {
+                    var grid = document.getElementById('iid-investor-grid');
+                    if (grid) {
+                        grid.innerHTML = '<div class="iid-error">Unable to load investor data. Please refresh the page.</div>';
+                    }
+                }
+            });
+    }
+
+    function applyData(data) {
+        icelandInvestors = data.investors || data.icelandInvestors || [];
+        INVESTOR_TYPES = data.types || data.INVESTOR_TYPES || [];
+        INVESTMENT_STAGES = data.stages || data.INVESTMENT_STAGES || [];
+        SECTOR_FOCUS = data.sectors || data.SECTOR_FOCUS || [];
+    }
+
+    function getFromCache() {
+        try {
+            var cached = localStorage.getItem(CACHE_KEY);
+            if (!cached) return null;
+
+            var parsed = JSON.parse(cached);
+            if (Date.now() - parsed.timestamp > CACHE_EXPIRY) {
+                localStorage.removeItem(CACHE_KEY);
+                return null;
+            }
+            return parsed.data;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    function saveToCache(data) {
+        try {
+            localStorage.setItem(CACHE_KEY, JSON.stringify({
+                timestamp: Date.now(),
+                data: data
+            }));
+        } catch (e) {
+            // localStorage not available or full
+        }
+    }
+
+    function initInvestorDirectory() {
         populateFilters();
         initEventListeners();
         updateStats();
@@ -27,6 +147,7 @@
         // Populate type filter
         var typeSelect = document.getElementById('iid-type-filter');
         if (typeSelect) {
+            typeSelect.innerHTML = '';
             INVESTOR_TYPES.forEach(function(type) {
                 var option = document.createElement('option');
                 option.value = type.id;
@@ -38,6 +159,7 @@
         // Populate stage filter
         var stageSelect = document.getElementById('iid-stage-filter');
         if (stageSelect) {
+            stageSelect.innerHTML = '';
             INVESTMENT_STAGES.forEach(function(stage) {
                 var option = document.createElement('option');
                 option.value = stage.id;
@@ -49,6 +171,7 @@
         // Populate sector filter
         var sectorSelect = document.getElementById('iid-sector-filter');
         if (sectorSelect) {
+            sectorSelect.innerHTML = '';
             SECTOR_FOCUS.forEach(function(sector) {
                 var option = document.createElement('option');
                 option.value = sector.id;
@@ -209,18 +332,32 @@
         '</div>';
     }
 
+    function getTypeName(typeId) {
+        var type = INVESTOR_TYPES.find(function(t) { return t.id === typeId; });
+        return type ? type.name : typeId;
+    }
+
+    function getStageName(stageId) {
+        var stage = INVESTMENT_STAGES.find(function(s) { return s.id === stageId; });
+        return stage ? stage.name : stageId;
+    }
+
     function updateStats() {
-        var stats = getInvestorStats();
+        var total = icelandInvestors.length;
+        var vc = icelandInvestors.filter(function(i) { return i.type === 'vc'; }).length;
+        var angel = icelandInvestors.filter(function(i) { return i.type === 'angel'; }).length;
+        var government = icelandInvestors.filter(function(i) { return i.type === 'government'; }).length;
+        var accelerator = icelandInvestors.filter(function(i) { return i.type === 'accelerator'; }).length;
 
         var totalEl = document.getElementById('iid-stat-total');
         var vcEl = document.getElementById('iid-stat-vc');
         var angelEl = document.getElementById('iid-stat-angel');
         var govEl = document.getElementById('iid-stat-government');
 
-        if (totalEl) totalEl.textContent = stats.total;
-        if (vcEl) vcEl.textContent = stats.vc;
-        if (angelEl) angelEl.textContent = stats.angel;
-        if (govEl) govEl.textContent = stats.government + stats.accelerator;
+        if (totalEl) totalEl.textContent = total;
+        if (vcEl) vcEl.textContent = vc;
+        if (angelEl) angelEl.textContent = angel;
+        if (govEl) govEl.textContent = government + accelerator;
     }
 
     function updateShowingCount() {
