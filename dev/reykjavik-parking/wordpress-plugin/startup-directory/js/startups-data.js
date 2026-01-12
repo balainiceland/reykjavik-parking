@@ -1,5 +1,6 @@
-// Iceland Startup Directory Data v1.0
+// Iceland Startup Directory Data v1.1.0
 // Curated list of Icelandic startups and tech companies
+// Includes: Iceland Venture Studio, Founders Ventures, and Frumtak Ventures portfolios
 
 var STARTUP_SECTORS = [
     { id: 'all', name: 'All Sectors' },
@@ -15,6 +16,7 @@ var STARTUP_SECTORS = [
     { id: 'retail', name: 'Retail / Commerce' },
     { id: 'security', name: 'Security / Identity' },
     { id: 'data', name: 'Data / Analytics' },
+    { id: 'edtech', name: 'EdTech / Education' },
     { id: 'other', name: 'Other' }
 ];
 
@@ -209,8 +211,8 @@ var icelandStartups = [
         description: "Travel management software for tour operators",
         website: "https://www.kaptio.com",
         sector: "travel",
-        status: "active",
-        acquiredBy: null,
+        status: "acquired",
+        acquiredBy: "VEX Private Equity Fund",
         foundedYear: 2013
     },
     {
@@ -680,6 +682,290 @@ var icelandStartups = [
         status: "active",
         acquiredBy: null,
         foundedYear: 2013
+    },
+
+    // === ICELAND VENTURE STUDIO / FOUNDERS VENTURES PORTFOLIO ===
+    {
+        id: 64,
+        name: "Bara Tala",
+        description: "AI-powered Icelandic language learning app with speech recognition and personalized lessons",
+        website: "https://www.baratala.is",
+        sector: "edtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
+    {
+        id: 65,
+        name: "LearnCove",
+        description: "Training platform for regulated industries, specializing in seafood and food safety compliance",
+        website: "https://www.learncove.com",
+        sector: "edtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2018
+    },
+    {
+        id: 66,
+        name: "Spesia",
+        description: "Fintech app enabling easy foreign investments, founded by ex-Meniga CEO Georg Lúðvíksson",
+        website: "https://www.spesia.is",
+        sector: "fintech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
+    {
+        id: 67,
+        name: "Sundra",
+        description: "AI-powered captioning, subtitling and translation tool for video content",
+        website: "https://www.sundra.io",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2021
+    },
+    {
+        id: 68,
+        name: "Marea",
+        description: "Sustainable packaging made from seaweed - biodegradable alternative to plastic",
+        website: "https://www.marea.is",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2021
+    },
+    {
+        id: 69,
+        name: "Flow Meditation",
+        description: "VR meditation app featuring immersive Icelandic nature environments",
+        website: "https://www.flowvr.io",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2020
+    },
+    {
+        id: 70,
+        name: "Smart Data",
+        description: "AI and data solutions company founded by Stefan Baxter",
+        website: null,
+        sector: "data",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2019
+    },
+    {
+        id: 71,
+        name: "Atlas Primer",
+        description: "Audio-first learning platform designed for neurodivergent learners",
+        website: "https://www.atlasprimer.com",
+        sector: "edtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
+    {
+        id: 72,
+        name: "Aldin Biodome",
+        description: "Sustainable geodesic biodome infrastructure using Iceland's geothermal resources",
+        website: "https://www.aldinbiodome.com",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2020
+    },
+
+    // === FRUMTAK VENTURES PORTFOLIO ===
+    {
+        id: 73,
+        name: "50skills",
+        description: "HR platform revolutionizing employee engagement, onboarding, and development",
+        website: "https://www.50skills.com",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2017
+    },
+    {
+        id: 74,
+        name: "Abler",
+        description: "Sports club management app for admins, coaches, parents, and players",
+        website: "https://www.abler.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2019
+    },
+    {
+        id: 75,
+        name: "Alda",
+        description: "Next-generation diversity, equity, and inclusion (DEI) solution",
+        website: "https://www.aldahq.com",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2020
+    },
+    {
+        id: 76,
+        name: "Ankeri",
+        description: "Complete fleet overview and management platform",
+        website: "https://www.ankeri.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2018
+    },
+    {
+        id: 77,
+        name: "Arctic Trucks",
+        description: "Engineering extreme terrain vehicles for exploration and adventure",
+        website: "https://www.arctictrucks.com",
+        sector: "other",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 1990
+    },
+    {
+        id: 78,
+        name: "AviLabs",
+        description: "Leading passenger disruption management solutions for aviation",
+        website: "https://www.avilabs.com",
+        sector: "travel",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2017
+    },
+    {
+        id: 79,
+        name: "Data Dwell",
+        description: "Smarter sales and marketing software for businesses",
+        website: "https://www.datadwell.com",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2016
+    },
+    {
+        id: 80,
+        name: "Euler",
+        description: "AI-powered intelligent monitoring for metal additive manufacturing",
+        website: "https://www.euler.ai",
+        sector: "data",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2019
+    },
+    {
+        id: 81,
+        name: "Heima",
+        description: "Digital chore chart and routine tracker for family collaboration",
+        website: "https://www.heima.app",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2021
+    },
+    {
+        id: 82,
+        name: "Moombix",
+        description: "Platform connecting people with live online music lessons",
+        website: "https://www.moombix.com",
+        sector: "edtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2020
+    },
+    {
+        id: 83,
+        name: "MyDello",
+        description: "Automated digital freight forwarding and logistics platform",
+        website: "https://www.mydello.com",
+        sector: "other",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2018
+    },
+    {
+        id: 84,
+        name: "Optise",
+        description: "AI-powered website insights platform for B2B companies",
+        website: "https://www.optise.io",
+        sector: "data",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2020
+    },
+    {
+        id: 85,
+        name: "Plaio",
+        description: "The future of digital pharmaceutical planning",
+        website: "https://www.plaio.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2019
+    },
+    {
+        id: 86,
+        name: "Smitten",
+        description: "Next-generation dating app blending dating, social, and gaming",
+        website: "https://www.smitten.app",
+        sector: "media",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2021
+    },
+    {
+        id: 87,
+        name: "Sweeply",
+        description: "Simple housekeeping and task management for hospitality",
+        website: "https://www.sweeply.com",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2017
+    },
+    {
+        id: 88,
+        name: "Tulipop",
+        description: "Fun and creative adventure world for kids - entertainment and merchandise",
+        website: "https://www.tulipop.com",
+        sector: "media",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2010
+    },
+    {
+        id: 89,
+        name: "AGR Dynamics",
+        description: "Inventory management and supply chain optimization software",
+        website: null,
+        sector: "saas",
+        status: "acquired",
+        acquiredBy: "VEX Private Equity Fund",
+        foundedYear: 2003
+    },
+    {
+        id: 90,
+        name: "MainManager",
+        description: "Facility management software for property maintenance",
+        website: null,
+        sector: "saas",
+        status: "acquired",
+        acquiredBy: "View Software",
+        foundedYear: 2006
+    },
+    {
+        id: 91,
+        name: "Valka",
+        description: "Advanced fish processing technology and automation",
+        website: "https://www.valka.is",
+        sector: "maritime",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2003
     }
 ];
 
