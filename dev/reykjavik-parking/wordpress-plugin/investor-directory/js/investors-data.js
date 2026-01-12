@@ -140,10 +140,23 @@ var icelandInvestors = [
         foundedYear: 2002,
         location: "Reykjavik"
     },
+    {
+        id: 9,
+        name: "Iceland Venture Studio",
+        type: "vc",
+        description: "Venture studio and early-stage VC building and funding startups from idea to scale. Combines hands-on company building with seed investment.",
+        website: "https://ivs.is",
+        focus: ["tech", "saas"],
+        stages: ["pre-seed", "seed"],
+        ticketSize: "€50K - €200K",
+        portfolio: ["Bara Tala", "LearnCove", "Spesia"],
+        foundedYear: 2020,
+        location: "Reykjavik"
+    },
 
     // === GOVERNMENT FUNDS ===
     {
-        id: 9,
+        id: 10,
         name: "NSA Ventures",
         type: "government",
         description: "New Business Venture Fund (Nýsköpunarsjóður atvinnulífsins) - Iceland's state-owned venture capital fund supporting innovative Icelandic companies.",
@@ -156,7 +169,7 @@ var icelandInvestors = [
         location: "Reykjavik"
     },
     {
-        id: 10,
+        id: 11,
         name: "Technology Development Fund",
         type: "government",
         description: "Rannís Technology Development Fund provides grants and funding for R&D projects and technology development in Iceland.",
@@ -169,7 +182,7 @@ var icelandInvestors = [
         location: "Reykjavik"
     },
     {
-        id: 11,
+        id: 12,
         name: "Kría Seed Fund",
         type: "government",
         description: "Early-stage fund supporting innovative startups in Iceland, often co-investing with private investors.",
@@ -182,7 +195,7 @@ var icelandInvestors = [
         location: "Reykjavik"
     },
     {
-        id: 12,
+        id: 13,
         name: "Fruman Biotechnology Fund",
         type: "government",
         description: "Investment fund focused on biotechnology companies and projects, supporting Iceland's growing biotech sector.",
@@ -197,7 +210,7 @@ var icelandInvestors = [
 
     // === ACCELERATORS ===
     {
-        id: 13,
+        id: 14,
         name: "Startup Reykjavik",
         type: "accelerator",
         description: "Iceland's premier seed-stage accelerator, 10-week summer program providing funding, mentorship, and investor access. Owned by Arion Bank.",
@@ -210,7 +223,7 @@ var icelandInvestors = [
         location: "Reykjavik"
     },
     {
-        id: 14,
+        id: 15,
         name: "Startup Energy Reykjavik",
         type: "accelerator",
         description: "Energy-focused accelerator program backed by Landsvirkjun, supporting startups in energy, cleantech, and sustainability.",
@@ -223,7 +236,7 @@ var icelandInvestors = [
         location: "Reykjavik"
     },
     {
-        id: 15,
+        id: 16,
         name: "KLAK - Icelandic Startups",
         type: "accelerator",
         description: "Non-profit organization running multiple accelerator programs including Startup Supernova, Gulleggið, and Startup Tourism.",
@@ -235,20 +248,6 @@ var icelandInvestors = [
         foundedYear: 2007,
         location: "Reykjavik"
     },
-    {
-        id: 16,
-        name: "Iceland Venture Studio",
-        type: "accelerator",
-        description: "Venture studio and early-stage investor building and funding startups from idea to scale.",
-        website: "https://www.icelandventurestudio.com",
-        focus: ["tech", "saas"],
-        stages: ["pre-seed", "seed"],
-        ticketSize: "€50K - €200K",
-        portfolio: ["Bara Tala", "LearnCove", "Spesia"],
-        foundedYear: 2020,
-        location: "Reykjavik"
-    },
-
     // === CORPORATE INVESTORS ===
     {
         id: 17,
