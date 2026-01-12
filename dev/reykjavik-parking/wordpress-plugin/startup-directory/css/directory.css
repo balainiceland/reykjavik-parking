@@ -314,6 +314,58 @@
     font-size: 1rem;
 }
 
+/* Call to Action Box */
+.sid-cta-box {
+    margin-top: 40px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #ddd;
+    padding: 40px;
+    text-align: center;
+}
+
+.sid-cta-content h3 {
+    font-size: 1.5rem;
+    color: #32373c;
+    margin: 0 0 16px 0;
+    font-weight: 600;
+}
+
+.sid-cta-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0 0 24px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sid-cta-button {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #32373c;
+    color: #fff !important;
+    text-decoration: none !important;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 9999px;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.sid-cta-button:hover {
+    background: #000;
+    transform: translateY(-2px);
+    color: #fff !important;
+}
+
+.sid-cta-note {
+    font-size: 0.8rem !important;
+    color: #888 !important;
+    font-style: italic;
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .sid-directory-container {
@@ -353,6 +405,19 @@
 
     .sid-startup-grid {
         grid-template-columns: 1fr;
+    }
+
+    .sid-cta-box {
+        padding: 30px 20px;
+        margin-top: 30px;
+    }
+
+    .sid-cta-content h3 {
+        font-size: 1.25rem;
+    }
+
+    .sid-cta-content p {
+        font-size: 0.9rem;
     }
 }
 

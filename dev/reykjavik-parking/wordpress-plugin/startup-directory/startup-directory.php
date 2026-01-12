@@ -128,6 +128,16 @@ class Startup_Iceland_Directory {
             <div class="sid-startup-grid" id="sid-startup-grid">
                 <!-- Populated by JS -->
             </div>
+
+            <!-- Call to Action -->
+            <div class="sid-cta-box">
+                <div class="sid-cta-content">
+                    <h3>Know a startup that's missing?</h3>
+                    <p>If you're a founder or investor and know of an Icelandic startup that should be on this list, we'd love to hear from you. Send us a note and we'll add them to the directory.</p>
+                    <a href="mailto:bala@startupiceland.com?subject=Startup%20Directory%20Submission&body=Hi%20Bala%2C%0A%0AI'd%20like%20to%20suggest%20a%20startup%20for%20the%20directory%3A%0A%0AStartup%20Name%3A%20%0AWebsite%3A%20%0ADescription%3A%20%0AFounded%20Year%3A%20%0ASector%3A%20%0A%0AThanks!" class="sid-cta-button">Submit a Startup</a>
+                    <p class="sid-cta-note">By submitting, you'll also be added to the Startup Iceland mailing list for ecosystem updates.</p>
+                </div>
+            </div>
         </div>
         <?php
         return ob_get_clean();
