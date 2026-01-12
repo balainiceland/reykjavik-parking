@@ -1,7 +1,7 @@
-// Iceland Startup Directory Data v1.2.0
+// Iceland Startup Directory Data v1.3.0
 // Curated list of Icelandic startups and tech companies
 // Includes: Iceland Venture Studio, Founders Ventures, Frumtak Ventures portfolios
-// Plus: Biotech and Travel Tech sectors expanded
+// Sectors: Biotech, Travel Tech, Marine/Blue Economy, Climate Tech/Sustainability
 
 var STARTUP_SECTORS = [
     { id: 'all', name: 'All Sectors' },
@@ -1121,6 +1121,140 @@ var icelandStartups = [
         status: "active",
         acquiredBy: null,
         foundedYear: 2022
+    },
+
+    // === MARINE TECHNOLOGY / BLUE ECONOMY ===
+    {
+        id: 107,
+        name: "Hefring Marine",
+        description: "AI-powered vessel navigation and fleet management reducing fuel consumption by up to 20%",
+        website: "https://www.hefringmarine.com",
+        sector: "maritime",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2018
+    },
+    {
+        id: 108,
+        name: "Feel Iceland",
+        description: "Marine collagen supplements from wild-caught fish skin by-products",
+        website: "https://www.feeliceland.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2014
+    },
+    {
+        id: 109,
+        name: "Codlagen",
+        description: "Premium marine collagen products sourced from Icelandic cod",
+        website: "https://www.codlagen.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2018
+    },
+    {
+        id: 110,
+        name: "Oceans of Data",
+        description: "Data analytics platform providing actionable insights for the seafood industry",
+        website: "https://www.oceansofdata.co",
+        sector: "data",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2020
+    },
+    {
+        id: 111,
+        name: "Loki Foods",
+        description: "Sustainable seafood products maximizing fish utilization and reducing waste",
+        website: "https://www.lokifoods.is",
+        sector: "food",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2019
+    },
+    {
+        id: 112,
+        name: "Aurora Abalone",
+        description: "Sustainable abalone aquaculture using Iceland's pure geothermal water",
+        website: "https://www.auroraabalone.is",
+        sector: "maritime",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2017
+    },
+
+    // === CLIMATE TECH / SUSTAINABILITY ===
+    {
+        id: 113,
+        name: "Carbon Recycling International",
+        description: "Pioneering CO2-to-methanol technology, producing renewable Vulcanol fuel",
+        website: "https://www.carbonrecycling.com",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2006
+    },
+    {
+        id: 114,
+        name: "DTE",
+        description: "AI sensors for aluminum recycling, helping reduce emissions by up to 95%",
+        website: "https://www.dte.ai",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2013
+    },
+    {
+        id: 115,
+        name: "Coolity",
+        description: "Eco-friendly compostable cooling boxes for sustainable seafood export",
+        website: "https://www.coolity.is",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2017
+    },
+    {
+        id: 116,
+        name: "GeoSilica",
+        description: "Natural silica health supplements extracted from geothermal water",
+        website: "https://www.geosilica.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2012
+    },
+    {
+        id: 117,
+        name: "GEG",
+        description: "Modular small-scale geothermal wellhead power plants for global deployment",
+        website: "https://www.geg.is",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2019
+    },
+    {
+        id: 118,
+        name: "Reykjavik Geothermal",
+        description: "Global leader in geothermal energy development and power generation",
+        website: "https://www.rg.is",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2008
+    },
+    {
+        id: 119,
+        name: "Arctic Green Energy",
+        description: "Geothermal district heating solutions for sustainable urban development",
+        website: "https://www.arcticgreenenergy.com",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2007
     }
 ];
 
