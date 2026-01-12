@@ -1,4 +1,4 @@
-// Iceland Startup Directory Data v1.4.0
+// Iceland Startup Directory Data v1.5.0
 // Curated list of Icelandic startups and tech companies
 // Includes: Iceland Venture Studio, Founders Ventures, Frumtak Ventures portfolios
 // Accelerators: Klak Startup Supernova, Startup Reykjavik, Startup Energy Reykjavik
@@ -513,8 +513,8 @@ var icelandStartups = [
         description: "Digital identity verification and KYC automation",
         website: "https://www.authenteq.com",
         sector: "security",
-        status: "active",
-        acquiredBy: null,
+        status: "acquired",
+        acquiredBy: "FNZ Group",
         foundedYear: 2016
     },
     {
@@ -1614,6 +1614,28 @@ var icelandStartups = [
         status: "active",
         acquiredBy: null,
         foundedYear: 2021
+    },
+
+    // === USER SUBMISSIONS ===
+    {
+        id: 155,
+        name: "Co-Living Iceland",
+        description: "AI-driven matchmaking platform connecting individuals with ideal housing and housemates in Iceland",
+        website: "https://colivingiceland.app",
+        sector: "other",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 156,
+        name: "Cliezen",
+        description: "B2B client experience and engagement platform",
+        website: "https://www.cliezen.com",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
     }
 ];
 
