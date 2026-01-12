@@ -220,7 +220,9 @@
     }
 
     function filterAndRender() {
-        filteredInvestors = icelandInvestors.filter(function(investor) {
+        filteredInvestors = icelandInvestors.slice().sort(function(a, b) {
+            return a.name.localeCompare(b.name);
+        }).filter(function(investor) {
             // Search filter
             if (currentFilters.search) {
                 var searchMatch =
