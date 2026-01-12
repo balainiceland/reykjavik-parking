@@ -1,8 +1,8 @@
-// Iceland Startup Directory Data v1.5.0
+// Iceland Startup Directory Data v1.6.0
 // Curated list of Icelandic startups and tech companies
 // Includes: Iceland Venture Studio, Founders Ventures, Frumtak Ventures portfolios
 // Accelerators: Klak Startup Supernova, Startup Reykjavik, Startup Energy Reykjavik
-// Sectors: Biotech, Travel Tech, Marine/Blue Economy, Climate Tech/Sustainability
+// Sectors: Biotech, Travel Tech, Marine/Blue Economy, Climate Tech/Sustainability, HR Tech
 
 var STARTUP_SECTORS = [
     { id: 'all', name: 'All Sectors' },
@@ -19,6 +19,7 @@ var STARTUP_SECTORS = [
     { id: 'security', name: 'Security / Identity' },
     { id: 'data', name: 'Data / Analytics' },
     { id: 'edtech', name: 'EdTech / Education' },
+    { id: 'hrtech', name: 'HR Tech' },
     { id: 'other', name: 'Other' }
 ];
 
@@ -1636,6 +1637,36 @@ var icelandStartups = [
         status: "active",
         acquiredBy: null,
         foundedYear: 2022
+    },
+    {
+        id: 157,
+        name: "Opus Futura",
+        description: "Fully automated and evidence-based talent sourcing platform for optimal team and position matching",
+        website: "https://www.opusfutura.com",
+        sector: "hrtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
+    },
+    {
+        id: 158,
+        name: "Anime GenSys",
+        description: "Advanced AI-powered tools for the anime production industry",
+        website: "https://www.icai.is/anime",
+        sector: "media",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2026
+    },
+    {
+        id: 159,
+        name: "Polar Region Games",
+        description: "Video game development studio based in Iceland",
+        website: "https://polarregiongames.com",
+        sector: "gaming",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
     }
 ];
 
