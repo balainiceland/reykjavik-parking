@@ -120,7 +120,7 @@ var icelandInvestors = [
         name: "Blue Nova Ventures",
         type: "vc",
         description: "Blue economy venture fund launched by Iceland Ocean Cluster, investing in sustainable ocean and marine technology startups.",
-        website: "https://www.sjavarklasinn.is",
+        website: "https://bluenova.vc",
         focus: ["maritime", "cleantech", "food"],
         stages: ["pre-seed", "seed"],
         ticketSize: "€50K - €500K",

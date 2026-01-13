@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-01-12T19:53:45.220Z",
+  "lastUpdated": "2026-01-13T07:09:06.256Z",
   "types": [
     {
       "id": "all",
@@ -254,7 +254,7 @@
       "name": "Blue Nova Ventures",
       "type": "vc",
       "description": "Blue economy venture fund launched by Iceland Ocean Cluster, investing in sustainable ocean and marine technology startups.",
-      "website": "https://www.sjavarklasinn.is",
+      "website": "https://bluenova.vc",
       "focus": [
         "maritime",
         "cleantech",
