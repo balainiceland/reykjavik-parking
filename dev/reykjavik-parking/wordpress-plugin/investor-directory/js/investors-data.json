@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-01-13T07:12:38.661Z",
+  "lastUpdated": "2026-01-13T07:24:28.570Z",
   "types": [
     {
       "id": "all",
@@ -847,6 +847,28 @@
       "ticketSize": "€25K - €250K",
       "portfolio": [],
       "foundedYear": 2024,
+      "location": "Reykjavik"
+    },
+    {
+      "id": 36,
+      "name": "FnFI ehf.",
+      "type": "family-office",
+      "description": "Investment company owned by Guðmundur Fertram Sigurjónsson, founder and CEO of Kerecis, and Fanney Kr. Hermannsdóttir, Managing Director.",
+      "website": null,
+      "focus": [
+        "healthtech",
+        "sector-agnostic"
+      ],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "ticketSize": "€100K - €2M",
+      "portfolio": [
+        "Kerecis"
+      ],
+      "foundedYear": 2015,
       "location": "Reykjavik"
     }
   ]
