@@ -1,6 +1,6 @@
 {
   "version": "1.6.0",
-  "lastUpdated": "2026-01-13T07:09:06.186Z",
+  "lastUpdated": "2026-01-13T07:12:38.595Z",
   "sectors": [
     {
       "id": "all",
@@ -1675,6 +1675,16 @@
       "status": "active",
       "acquiredBy": null,
       "foundedYear": 2024
+    },
+    {
+      "id": 160,
+      "name": "uiData",
+      "description": "DataCentral platform for simplifying data sharing across teams and external parties. Strong customer base in Retail, Aviation, Leisure, and Airport operations.",
+      "website": "https://www.datacentral.ai",
+      "sector": "data",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2023
     }
   ]
 }

@@ -1667,6 +1667,16 @@ var icelandStartups = [
         status: "active",
         acquiredBy: null,
         foundedYear: 2024
+    },
+    {
+        id: 160,
+        name: "uiData",
+        description: "DataCentral platform for simplifying data sharing across teams and external parties. Strong customer base in Retail, Aviation, Leisure, and Airport operations.",
+        website: "https://www.datacentral.ai",
+        sector: "data",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
     }
 ];
 
