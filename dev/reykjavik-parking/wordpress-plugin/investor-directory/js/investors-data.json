@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-01-13T07:24:28.570Z",
+  "lastUpdated": "2026-01-14T18:56:38.299Z",
   "types": [
     {
       "id": "all",
@@ -201,7 +201,6 @@
       ],
       "ticketSize": "€1M - €10M",
       "portfolio": [
-        "Kerecis",
         "Marel"
       ],
       "foundedYear": 2005,
@@ -265,10 +264,7 @@
         "seed"
       ],
       "ticketSize": "€50K - €500K",
-      "portfolio": [
-        "Marea",
-        "Hefring Marine"
-      ],
+      "portfolio": [],
       "foundedYear": 2023,
       "location": "Reykjavik"
     },
@@ -311,7 +307,8 @@
       "portfolio": [
         "Bara Tala",
         "LearnCove",
-        "Spesia"
+        "Spesia",
+        "Indo"
       ],
       "foundedYear": 2020,
       "location": "Reykjavik"
@@ -552,48 +549,6 @@
       "ticketSize": "€10K - €50K",
       "portfolio": [],
       "foundedYear": 2012,
-      "location": "Reykjavik"
-    },
-    {
-      "id": 22,
-      "name": "Haukur Skúlason",
-      "type": "angel",
-      "description": "Serial entrepreneur and angel investor, co-founder of DataMarket (acquired by Qlik). Active investor in Icelandic startups.",
-      "website": null,
-      "focus": [
-        "tech",
-        "saas"
-      ],
-      "stages": [
-        "pre-seed",
-        "seed"
-      ],
-      "ticketSize": "€25K - €100K",
-      "portfolio": [
-        "DataMarket",
-        "Various"
-      ],
-      "foundedYear": 2010,
-      "location": "Reykjavik"
-    },
-    {
-      "id": 23,
-      "name": "Kristján Freyr Kristjánsson",
-      "type": "angel",
-      "description": "Entrepreneur and investor, co-founder of Controlant. Angel investor in Icelandic tech startups.",
-      "website": null,
-      "focus": [
-        "tech",
-        "saas"
-      ],
-      "stages": [
-        "seed"
-      ],
-      "ticketSize": "€25K - €100K",
-      "portfolio": [
-        "Controlant"
-      ],
-      "foundedYear": 2015,
       "location": "Reykjavik"
     },
     {

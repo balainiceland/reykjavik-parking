@@ -85,7 +85,7 @@ var icelandInvestors = [
         focus: ["tech", "sector-agnostic"],
         stages: ["seed", "series-a", "series-b", "growth"],
         ticketSize: "€1M - €10M",
-        portfolio: ["Kerecis", "Marel"],
+        portfolio: ["Marel"],
         foundedYear: 2005,
         location: "Reykjavik"
     },
@@ -124,7 +124,7 @@ var icelandInvestors = [
         focus: ["maritime", "cleantech", "food"],
         stages: ["pre-seed", "seed"],
         ticketSize: "€50K - €500K",
-        portfolio: ["Marea", "Hefring Marine"],
+        portfolio: [],
         foundedYear: 2023,
         location: "Reykjavik"
     },
@@ -150,7 +150,7 @@ var icelandInvestors = [
         focus: ["tech", "saas"],
         stages: ["pre-seed", "seed"],
         ticketSize: "€50K - €200K",
-        portfolio: ["Bara Tala", "LearnCove", "Spesia"],
+        portfolio: ["Bara Tala", "LearnCove", "Spesia", "Indo"],
         foundedYear: 2020,
         location: "Reykjavik"
     },
@@ -315,32 +315,6 @@ var icelandInvestors = [
         ticketSize: "€10K - €50K",
         portfolio: [],
         foundedYear: 2012,
-        location: "Reykjavik"
-    },
-    {
-        id: 22,
-        name: "Haukur Skúlason",
-        type: "angel",
-        description: "Serial entrepreneur and angel investor, co-founder of DataMarket (acquired by Qlik). Active investor in Icelandic startups.",
-        website: null,
-        focus: ["tech", "saas"],
-        stages: ["pre-seed", "seed"],
-        ticketSize: "€25K - €100K",
-        portfolio: ["DataMarket", "Various"],
-        foundedYear: 2010,
-        location: "Reykjavik"
-    },
-    {
-        id: 23,
-        name: "Kristján Freyr Kristjánsson",
-        type: "angel",
-        description: "Entrepreneur and investor, co-founder of Controlant. Angel investor in Icelandic tech startups.",
-        website: null,
-        focus: ["tech", "saas"],
-        stages: ["seed"],
-        ticketSize: "€25K - €100K",
-        portfolio: ["Controlant"],
-        foundedYear: 2015,
         location: "Reykjavik"
     },
     {
