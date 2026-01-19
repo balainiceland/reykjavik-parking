@@ -1,0 +1,289 @@
+/**
+ * Startup Iceland Jobs Board - Jobs Data
+ * Version: 1.0.0
+ * Last Updated: 2026-01-19
+ */
+
+var StartupIcelandJobsData = {
+
+    metadata: {
+        lastUpdated: "2026-01-19",
+        version: "1.0.0",
+        totalJobs: 15
+    },
+
+    categories: {
+        engineering: "Engineering",
+        design: "Design",
+        marketing: "Marketing",
+        sales: "Sales",
+        operations: "Operations",
+        product: "Product",
+        finance: "Finance",
+        other: "Other"
+    },
+
+    types: {
+        "full-time": "Full-time",
+        "part-time": "Part-time",
+        "contract": "Contract",
+        "internship": "Internship"
+    },
+
+    levels: {
+        entry: "Entry Level",
+        mid: "Mid Level",
+        senior: "Senior",
+        lead: "Lead",
+        executive: "Executive"
+    },
+
+    remoteOptions: {
+        onsite: "Onsite",
+        hybrid: "Hybrid",
+        remote: "Remote"
+    },
+
+    jobs: [
+        {
+            id: 1,
+            company: "Treble Technologies",
+            companyLogo: null,
+            title: "US General Manager",
+            description: "Lead growth and strategic positioning in the US market, working with major customers and partners in tech and audio industries. Focus on commercial strategy, go-to-market positioning, and market-driven product input.",
+            category: "sales",
+            type: "full-time",
+            experienceLevel: "executive",
+            location: "United States",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://treble.bamboohr.com/careers/34",
+            featured: true
+        },
+        {
+            id: 2,
+            company: "Treble Technologies",
+            companyLogo: null,
+            title: "VP of Sales",
+            description: "Direct global sales strategy and revenue growth. Build and lead a sales organization while handling complex enterprise deals. Position Treble's platform as the leading audio AI data generation solution.",
+            category: "sales",
+            type: "full-time",
+            experienceLevel: "executive",
+            location: "Reykjavik",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://treble.bamboohr.com/careers/35",
+            featured: true
+        },
+        {
+            id: 3,
+            company: "Treble Technologies",
+            companyLogo: null,
+            title: "Senior Audio AI Scientist",
+            description: "Work at the intersection of audio ML, signal processing, and acoustic simulation. Collaborate with ML and research teams on training and evaluating audio AI systems using synthetic acoustics data.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://treble.bamboohr.com/careers/31",
+            featured: false
+        },
+        {
+            id: 4,
+            company: "Treble Technologies",
+            companyLogo: null,
+            title: "Technical Solutions Engineer",
+            description: "Support sales and customer adoption through technical evaluation and proof-of-concept work. Demonstrate how Treble's capabilities improve audio AI systems while providing feedback to product and R&D teams.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://treble.bamboohr.com/careers/33",
+            featured: false
+        },
+        {
+            id: 5,
+            company: "Treble Technologies",
+            companyLogo: null,
+            title: "Application Engineer",
+            description: "Span method development, benchmarking, quality assurance, technical content creation, and customer training on acoustic simulation and spatial audio applications.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://treble.bamboohr.com/careers/30",
+            featured: false
+        },
+        {
+            id: 6,
+            company: "Treble Technologies",
+            companyLogo: null,
+            title: "Scientific Software Engineer",
+            description: "Develop and maintain the acoustics simulation engine, post-processing pipelines, and SDK integrations. Build production-grade software combining physics and numerical methods.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://treble.bamboohr.com/careers/36",
+            featured: false
+        },
+        {
+            id: 7,
+            company: "CCP Games",
+            companyLogo: null,
+            title: "Game Design Director",
+            description: "Work with the Creative Director and EVE development teams to strengthen the design discipline, vision and process. Lead, mentor and build a diverse group of designers across multiple teams towards a shared game vision for EVE Online.",
+            category: "design",
+            type: "full-time",
+            experienceLevel: "lead",
+            location: "Reykjavik",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://careers.ccpgames.com/en/postings/38bbae43-3698-49e1-9777-4de698f04965",
+            featured: true
+        },
+        {
+            id: 8,
+            company: "CCP Games",
+            companyLogo: null,
+            title: "Narrative Designer",
+            description: "Join the EVE Frontier team to shape the world of New Eden and its continuing narrative. Work with writers, artists, and other designers to develop narratively driven content for this hardcore Survival MMO set within the EVE Universe.",
+            category: "design",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://careers.ccpgames.com/postings/3918fe38-f52f-4e65-9890-f30f2bd2a4d3",
+            featured: false
+        },
+        {
+            id: 9,
+            company: "Monerium",
+            companyLogo: null,
+            title: "Growth & Community Manager",
+            description: "Expand reach and strengthen Web3 presence. Manage social platforms (Twitter, LinkedIn, Discord), develop marketing initiatives for user acquisition, build community relationships, and represent the company at industry conferences.",
+            category: "marketing",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Remote (EU/EEA/UK)",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://monerium.com/jobs/",
+            featured: false
+        },
+        {
+            id: 10,
+            company: "Dohop",
+            companyLogo: null,
+            title: "Head of Partnerships – Middle East & India",
+            description: "Grow and manage Dohop's airline partnerships across the Middle East and India. Identify growth opportunities, execute high-value deals, and collaborate with internal teams to drive expansion in the region.",
+            category: "sales",
+            type: "full-time",
+            experienceLevel: "lead",
+            location: "Remote",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://dohop.bamboohr.com/careers",
+            featured: false
+        },
+        {
+            id: 11,
+            company: "Dohop",
+            companyLogo: null,
+            title: "Partnerships Lead – APAC",
+            description: "Drive Dohop's airline partnerships growth in the Asia-Pacific region. Develop strategic partnerships, execute high-value deals, and collaborate with product teams to expand Dohop's virtual interlining technology.",
+            category: "sales",
+            type: "full-time",
+            experienceLevel: "lead",
+            location: "Singapore",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://dohop.bamboohr.com/careers",
+            featured: false
+        },
+        {
+            id: 12,
+            company: "DTE",
+            companyLogo: null,
+            title: "Sales Manager – Europe",
+            description: "Drive sales growth for DTE's industrial analytics solutions across European markets. Build relationships with metal industry clients and expand DTE's presence in the region.",
+            category: "sales",
+            type: "full-time",
+            experienceLevel: "lead",
+            location: "Remote (Italy, Spain or Germany)",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://dteehf.bamboohr.com/careers",
+            featured: false
+        },
+        {
+            id: 13,
+            company: "Climeworks",
+            companyLogo: null,
+            title: "Operations Engineer – Process",
+            description: "Maintain safe and compliant plant operations at the Orca and Mammoth direct air capture plants. Work on daily operations and optimization projects for climate-positive technology.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Hellisheiði, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://climeworks.com/careers-search",
+            featured: false
+        },
+        {
+            id: 14,
+            company: "Climeworks",
+            companyLogo: null,
+            title: "Senior Maintenance Manager",
+            description: "Lead maintenance operations at Climeworks' direct air capture plants in Iceland. Plan and execute maintenance activities for the Orca and Mammoth facilities.",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Hellisheiði, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://climeworks.com/careers-search",
+            featured: false
+        },
+        {
+            id: 15,
+            company: "Climeworks",
+            companyLogo: null,
+            title: "Production Surveillance Manager",
+            description: "Oversee production monitoring and surveillance for Climeworks' direct air capture operations. Split role between Zurich headquarters and Iceland plant facilities.",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Zurich / Hellisheiði, Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-19",
+            applicationUrl: "https://climeworks.com/careers-search",
+            featured: false
+        }
+    ]
+};

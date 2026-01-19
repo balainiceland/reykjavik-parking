@@ -1,0 +1,426 @@
+/* Startup Iceland Jobs Board - StartupIceland.com Theme v1.0 */
+
+.sjb-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+/* Controls */
+.sjb-controls {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.sjb-search-row {
+    margin-bottom: 16px;
+}
+
+.sjb-search-wrapper {
+    position: relative;
+}
+
+.sjb-search-wrapper::before {
+    content: "\1F50D";
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 16px;
+}
+
+#sjb-search {
+    width: 100%;
+    padding: 14px 16px 14px 44px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+#sjb-search:focus {
+    outline: none;
+    border-color: #32373c;
+}
+
+#sjb-search::placeholder {
+    color: #999;
+}
+
+/* Filter Row */
+.sjb-filter-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.sjb-filter-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 150px;
+    flex: 1;
+}
+
+.sjb-filter-wrapper label {
+    font-size: 0.75rem;
+    color: #666;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.sjb-filter-wrapper select {
+    width: 100%;
+    padding: 10px 32px 10px 12px;
+    border: 1px solid #ddd;
+    font-size: 0.9rem;
+    font-family: inherit;
+    background: #fff;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+.sjb-filter-wrapper select:focus {
+    outline: none;
+    border-color: #32373c;
+}
+
+/* Count Bar */
+.sjb-count-bar {
+    padding: 12px 20px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.sjb-count-bar strong {
+    color: #32373c;
+}
+
+/* Jobs List */
+.sjb-jobs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Job Card */
+.sjb-job-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 24px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.sjb-job-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
+}
+
+.sjb-job-card.sjb-featured {
+    border-left: 4px solid #f5a623;
+    background: linear-gradient(to right, #fffbf0, #fff);
+}
+
+/* Featured Badge */
+.sjb-featured-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #f5a623;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.sjb-featured-badge::before {
+    content: "\2605";
+    font-size: 12px;
+}
+
+/* Job Header */
+.sjb-job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.sjb-job-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Job Meta */
+.sjb-job-meta {
+    font-size: 1.05rem;
+    color: #555;
+    margin-bottom: 14px;
+    line-height: 1.5;
+}
+
+.sjb-job-meta span {
+    display: inline;
+}
+
+.sjb-job-meta .sjb-separator {
+    margin: 0 8px;
+    color: #ccc;
+}
+
+/* Job Tags */
+.sjb-job-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.sjb-tag {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Category Tags */
+.sjb-tag-engineering {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.sjb-tag-design {
+    background: #f3e5f5;
+    color: #7b1fa2;
+}
+
+.sjb-tag-marketing {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.sjb-tag-sales {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.sjb-tag-operations {
+    background: #eceff1;
+    color: #546e7a;
+}
+
+.sjb-tag-product {
+    background: #e0f7fa;
+    color: #00838f;
+}
+
+.sjb-tag-finance {
+    background: #e8eaf6;
+    color: #3949ab;
+}
+
+.sjb-tag-other {
+    background: #f5f5f5;
+    color: #757575;
+}
+
+/* Type Tags */
+.sjb-tag-type {
+    background: #f8f9fa;
+    color: #495057;
+    border: 1px solid #dee2e6;
+}
+
+/* Level Tags */
+.sjb-tag-level {
+    background: #fff;
+    color: #32373c;
+    border: 1px solid #32373c;
+}
+
+/* Job Footer */
+.sjb-job-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+}
+
+.sjb-posted-date {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.sjb-apply-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: #32373c;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 9999px;
+    transition: all 0.2s;
+}
+
+.sjb-apply-btn:hover {
+    background: #000;
+    transform: translateX(2px);
+    color: #fff;
+    text-decoration: none;
+}
+
+.sjb-apply-btn::after {
+    content: " \2192";
+}
+
+/* No Jobs Message */
+.sjb-no-jobs {
+    text-align: center;
+    padding: 60px 20px;
+    color: #666;
+    font-size: 1rem;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+}
+
+/* Call to Action Box */
+.sjb-cta-box {
+    margin-top: 40px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #ddd;
+    padding: 40px;
+    text-align: center;
+}
+
+.sjb-cta-content h3 {
+    font-size: 1.5rem;
+    color: #32373c;
+    margin: 0 0 16px 0;
+    font-weight: 600;
+}
+
+.sjb-cta-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0 0 24px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sjb-cta-button {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #32373c;
+    color: #fff !important;
+    text-decoration: none !important;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 9999px;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.sjb-cta-button:hover {
+    background: #000;
+    transform: translateY(-2px);
+    color: #fff !important;
+}
+
+.sjb-cta-note {
+    font-size: 0.8rem !important;
+    color: #888 !important;
+    font-style: italic;
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sjb-container {
+        padding: 12px;
+    }
+
+    .sjb-filter-row {
+        flex-direction: column;
+    }
+
+    .sjb-filter-wrapper {
+        min-width: 100%;
+    }
+
+    .sjb-job-header {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .sjb-job-title {
+        font-size: 1.25rem;
+    }
+
+    .sjb-job-footer {
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch;
+    }
+
+    .sjb-apply-btn {
+        justify-content: center;
+    }
+
+    .sjb-cta-box {
+        padding: 30px 20px;
+        margin-top: 30px;
+    }
+
+    .sjb-cta-content h3 {
+        font-size: 1.25rem;
+    }
+
+    .sjb-cta-content p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sjb-controls {
+        padding: 16px;
+    }
+
+    .sjb-job-card {
+        padding: 16px;
+    }
+
+    .sjb-job-tags {
+        gap: 6px;
+    }
+
+    .sjb-tag {
+        font-size: 0.7rem;
+        padding: 4px 10px;
+    }
+}
