@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 35
+        totalJobs: 36
     },
 
     categories: {
@@ -603,6 +603,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-20",
             applicationUrl: "https://careers.lsretail.com/jobs",
+            featured: false
+        },
+        {
+            id: 36,
+            company: "Marel",
+            companyLogo: null,
+            title: "Senior Manager Product Management",
+            description: "Lead product portfolio strategy and innovation for the Secondary Fresh business unit. Manage Product Management team, own product roadmap, and drive organizational collaboration across regions.",
+            category: "product",
+            type: "full-time",
+            experienceLevel: "lead",
+            location: "Gardabaer, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-14",
+            applicationUrl: "https://jbtm.wd108.myworkdayjobs.com/en-US/JBT_Marel_Career_Site/details/Senior-Manager-Product-Management_19979",
             featured: false
         }
     ]
