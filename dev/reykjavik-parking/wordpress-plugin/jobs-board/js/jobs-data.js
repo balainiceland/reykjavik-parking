@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 31
+        totalJobs: 35
     },
 
     categories: {
@@ -539,6 +539,70 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-03",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            featured: false
+        },
+        {
+            id: 32,
+            company: "LS Retail",
+            companyLogo: null,
+            title: "Technical Consultant",
+            description: "Provide technical consulting services for LS Retail's unified commerce solutions for retail and hospitality businesses.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Iceland / Porto, Portugal",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-20",
+            applicationUrl: "https://careers.lsretail.com/jobs",
+            featured: false
+        },
+        {
+            id: 33,
+            company: "LS Retail",
+            companyLogo: null,
+            title: "Consultant (German Speaking)",
+            description: "Provide consulting services for LS Retail's unified commerce solutions. German language skills required.",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Europe (Remote)",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-20",
+            applicationUrl: "https://careers.lsretail.com/jobs",
+            featured: false
+        },
+        {
+            id: 34,
+            company: "LS Retail",
+            companyLogo: null,
+            title: "Consultant (French Speaking)",
+            description: "Provide consulting services for LS Retail's unified commerce solutions. French language skills required.",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Europe (Remote)",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-20",
+            applicationUrl: "https://careers.lsretail.com/jobs",
+            featured: false
+        },
+        {
+            id: 35,
+            company: "LS Retail",
+            companyLogo: null,
+            title: "Technical Consultant MEA",
+            description: "Provide technical consulting services for LS Retail's unified commerce solutions in the Middle East and Africa region.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Dubai, UAE",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-20",
+            applicationUrl: "https://careers.lsretail.com/jobs",
             featured: false
         }
     ]
