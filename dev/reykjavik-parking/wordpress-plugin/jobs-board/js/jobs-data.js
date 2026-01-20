@@ -7,9 +7,9 @@
 var StartupIcelandJobsData = {
 
     metadata: {
-        lastUpdated: "2026-01-19",
+        lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 15
+        totalJobs: 16
     },
 
     categories: {
@@ -283,6 +283,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
+            featured: false
+        },
+        {
+            id: 16,
+            company: "Hopp",
+            companyLogo: null,
+            title: "Senior Full Stack Developer",
+            description: "Create mobile apps, admin tools, and backend solutions for Iceland's leading micromobility company. Work with JavaScript, Node.js, React, GraphQL, and React Native.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-20",
+            applicationUrl: "https://www.tvinna.is/jobs/senior-full-stack-developer-3/",
             featured: false
         }
     ]
