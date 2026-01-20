@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 42
+        totalJobs: 47
     },
 
     categories: {
@@ -714,6 +714,86 @@ var StartupIcelandJobsData = {
             remote: "onsite",
             salary: null,
             postedDate: "2026-01-09",
+            applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            featured: false
+        },
+        {
+            id: 43,
+            company: "Össur",
+            companyLogo: null,
+            title: "Summer Job 2026 (Sumarstörf)",
+            description: "Summer employment opportunity at Össur for 2026. Gain hands-on experience at a global leader in prosthetics and orthopedic solutions.",
+            category: "other",
+            type: "internship",
+            experienceLevel: "entry",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-06",
+            applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            featured: false
+        },
+        {
+            id: 44,
+            company: "Össur",
+            companyLogo: null,
+            title: "Design Transfer Engineer",
+            description: "Manage the transfer of product designs from R&D to manufacturing. Ensure smooth transition and scalability of new prosthetic and orthopedic products.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-06",
+            applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            featured: false
+        },
+        {
+            id: 45,
+            company: "Össur",
+            companyLogo: null,
+            title: "Direct Tax Specialist",
+            description: "Handle direct tax compliance and planning for Össur's global operations. Work on corporate tax matters across multiple jurisdictions.",
+            category: "finance",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik / Eindhoven",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2025-12-20",
+            applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            featured: false
+        },
+        {
+            id: 46,
+            company: "Össur",
+            companyLogo: null,
+            title: "General Application - Production",
+            description: "Open application for production roles at Össur. Join the manufacturing team producing world-leading prosthetic and orthopedic products.",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "entry",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2025-12-20",
+            applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            featured: false
+        },
+        {
+            id: 47,
+            company: "Össur",
+            companyLogo: null,
+            title: "General Application - Specialists",
+            description: "Open application for specialist roles at Össur. Various opportunities across engineering, finance, marketing, and other professional functions.",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2025-12-20",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false
         }
