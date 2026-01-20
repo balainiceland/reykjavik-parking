@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 39
+        totalJobs: 42
     },
 
     categories: {
@@ -666,6 +666,54 @@ var StartupIcelandJobsData = {
             remote: "onsite",
             salary: null,
             postedDate: "2026-01-16",
+            applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            featured: false
+        },
+        {
+            id: 40,
+            company: "Össur",
+            companyLogo: null,
+            title: "Software Developer - Bionics",
+            description: "Develop software for Össur's bionic prosthetic products. Work on cutting-edge technology that helps people regain mobility.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-09",
+            applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            featured: false
+        },
+        {
+            id: 41,
+            company: "Embla Medical",
+            companyLogo: null,
+            title: "Business Central Technical Architect",
+            description: "Lead technical architecture for Microsoft Business Central implementations at Embla Medical, the parent company of Össur.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik / Remote (UK, Poland, Netherlands)",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-09",
+            applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            featured: false
+        },
+        {
+            id: 42,
+            company: "Embla Medical",
+            companyLogo: null,
+            title: "Global Category Manager Direct Materials",
+            description: "Manage global procurement strategy for direct materials at Embla Medical. Oversee supplier relationships and optimize sourcing across the organization.",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik / Eindhoven",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-09",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false
         }
