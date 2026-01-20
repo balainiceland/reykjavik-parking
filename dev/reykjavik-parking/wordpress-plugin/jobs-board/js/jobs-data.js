@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 36
+        totalJobs: 39
     },
 
     categories: {
@@ -619,6 +619,54 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-14",
             applicationUrl: "https://jbtm.wd108.myworkdayjobs.com/en-US/JBT_Marel_Career_Site/details/Senior-Manager-Product-Management_19979",
+            featured: false
+        },
+        {
+            id: 37,
+            company: "Meniga",
+            companyLogo: null,
+            title: "FullStack Developer (.NET)",
+            description: "Design, develop, and maintain web applications using .NET in a dynamic fintech environment. Work with .NET Core, Azure, Kubernetes, SQL, TypeScript, and RESTful APIs.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Kópavogur, Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-20",
+            applicationUrl: "https://meniga.bamboohr.com/careers/98",
+            featured: false
+        },
+        {
+            id: 38,
+            company: "Össur",
+            companyLogo: null,
+            title: "Enterprise Data Architect",
+            description: "Lead enterprise data architecture for Össur, a global leader in prosthetics and orthopedic solutions. Design and implement data strategies across the organization.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-20",
+            applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            featured: false
+        },
+        {
+            id: 39,
+            company: "Össur",
+            companyLogo: null,
+            title: "Manufacturing Engineer",
+            description: "Support manufacturing processes for Össur's prosthetic and orthopedic products. Optimize production systems and improve manufacturing efficiency.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-16",
+            applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false
         }
     ]
