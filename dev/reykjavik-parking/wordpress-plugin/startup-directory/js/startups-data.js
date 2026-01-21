@@ -311,6 +311,16 @@ var icelandStartups = [
         foundedYear: 2015
     },
     {
+        id: 163,
+        name: "Atlas",
+        description: "Icelandic cloud infrastructure provider offering secure, locally-hosted VMs, Kubernetes, and S3-compatible storage with full data sovereignty",
+        website: "https://runatlas.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2025
+    },
+    {
         id: 28,
         name: "Sling",
         description: "Employee scheduling and workforce management platform",
