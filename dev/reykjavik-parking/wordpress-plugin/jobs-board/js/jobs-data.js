@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 60
+        totalJobs: 61
     },
 
     categories: {
@@ -1003,6 +1003,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://jobs.50skills.com/smittendating/en/40119",
+            featured: false
+        },
+        {
+            id: 61,
+            company: "Aftra",
+            companyLogo: null,
+            title: "Product Software Developer",
+            description: "Shape the user experience of Aftra's cybersecurity SaaS solutions. Build complex frontend applications with modern JavaScript frameworks, translate security data into clean intuitive interfaces, and drive technical decisions. Spinoff from Syndis.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-21",
+            applicationUrl: "https://alfred.is/starf/product-software-developer-4",
             featured: false
         }
     ]
