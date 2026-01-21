@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 59
+        totalJobs: 60
     },
 
     categories: {
@@ -987,6 +987,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            featured: false
+        },
+        {
+            id: 60,
+            company: "Smitten",
+            companyLogo: null,
+            title: "Social Content Lead Sweden",
+            description: "Own Smitten's social media voice across TikTok, Instagram, and emerging platforms. Create content that captures attention, be the face of Smitten on socials, and build a community that's playful, bold, and never boring. Part-time freelance role for 3-6 months.",
+            category: "marketing",
+            type: "part-time",
+            experienceLevel: "mid",
+            location: "Stockholm, Sweden",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-21",
+            applicationUrl: "https://jobs.50skills.com/smittendating/en/40119",
             featured: false
         }
     ]

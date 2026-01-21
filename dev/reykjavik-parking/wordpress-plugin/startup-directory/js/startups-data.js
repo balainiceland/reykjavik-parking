@@ -914,7 +914,7 @@ var icelandStartups = [
         id: 86,
         name: "Smitten",
         description: "Next-generation dating app blending dating, social, and gaming",
-        website: "https://www.smitten.app",
+        website: "https://www.smitten.fun/",
         sector: "media",
         status: "active",
         acquiredBy: null,
