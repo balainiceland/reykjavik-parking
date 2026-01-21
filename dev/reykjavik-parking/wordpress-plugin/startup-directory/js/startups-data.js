@@ -509,6 +509,16 @@ var icelandStartups = [
         foundedYear: 2013
     },
     {
+        id: 162,
+        name: "Aftra",
+        description: "Cybersecurity SaaS that simulates hacker methods, making security simple and actionable for the C-suite. Spinoff from Syndis",
+        website: "https://aftra.io",
+        sector: "security",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
+    },
+    {
         id: 47,
         name: "Authenteq",
         description: "Digital identity verification and KYC automation",
