@@ -1018,7 +1018,7 @@ var StartupIcelandJobsData = {
             remote: "hybrid",
             salary: null,
             postedDate: "2026-01-21",
-            applicationUrl: "https://alfred.is/starf/product-software-developer-4",
+            applicationUrl: "https://alfred.is/starf/product-software-developer",
             featured: false
         }
     ]
