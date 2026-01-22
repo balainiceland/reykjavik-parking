@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 62
+        totalJobs: 63
     },
 
     categories: {
@@ -1035,6 +1035,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://alfred.is/en/starf/rafvirki-med-nyskoepunarhugarfar-oskast",
+            featured: false
+        },
+        {
+            id: 63,
+            company: "Coripharma",
+            companyLogo: null,
+            title: "Packaging Mechanic",
+            description: "Technical role in pharmaceutical manufacturing operating Uhlmann packaging lines and blister machines. Responsible for machine setup, format changeovers, troubleshooting, and ensuring GMP compliance. 5+ years machinery experience required.",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Hafnarfjörður, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "https://www.coripharma.is",
             featured: false
         }
     ]
