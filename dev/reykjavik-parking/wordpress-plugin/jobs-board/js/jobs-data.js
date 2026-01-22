@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 73
+        totalJobs: 74
     },
 
     categories: {
@@ -1211,6 +1211,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.jonsbok.is",
+            featured: false
+        },
+        {
+            id: 74,
+            company: "Hefring Marine",
+            companyLogo: null,
+            title: "Marketing Specialist",
+            description: "Execute marketing activities across digital channels, events and partner initiatives for maritime technology. Create content, manage social media, support product launches, and coordinate industry events. 3-5+ years B2B marketing experience preferred.",
+            category: "marketing",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "https://www.hefringmarine.com",
             featured: false
         }
     ]
