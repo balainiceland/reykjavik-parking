@@ -1050,7 +1050,7 @@ var StartupIcelandJobsData = {
             remote: "onsite",
             salary: null,
             postedDate: "2026-01-22",
-            applicationUrl: "https://www.coripharma.is",
+            applicationUrl: "https://alfred.is/en/starf/velamadur-i-poekkunardeild-packaging-mechanic",
             featured: false
         }
     ]
