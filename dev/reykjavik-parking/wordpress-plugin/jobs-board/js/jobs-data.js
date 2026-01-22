@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 61
+        totalJobs: 62
     },
 
     categories: {
@@ -1019,6 +1019,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://alfred.is/starf/product-software-developer",
+            featured: false
+        },
+        {
+            id: 62,
+            company: "Alor",
+            companyLogo: null,
+            title: "Project Manager - Solar & BESS Solutions (Rafvirki)",
+            description: "Lead installation and project management of large-scale solar energy systems and battery energy storage solutions (BESS) in Iceland. Work on innovative projects including repurposing EV batteries for energy storage.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "mailto:linda.fanney@alor.is",
             featured: false
         }
     ]
