@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 65
+        totalJobs: 66
     },
 
     categories: {
@@ -1083,6 +1083,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://alfred.is/en/fyrirtaeki/lagaviti",
+            featured: false
+        },
+        {
+            id: 66,
+            company: "Kríta",
+            companyLogo: null,
+            title: "Business Manager",
+            description: "Build and develop business relationships for Iceland's leading fintech company offering fast and flexible financing solutions. Sell financing products to businesses, manage client relationships, and help shape the sales team.",
+            category: "sales",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "mailto:hr@krita.is",
             featured: false
         }
     ]
