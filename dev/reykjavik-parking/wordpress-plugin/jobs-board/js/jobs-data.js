@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 63
+        totalJobs: 64
     },
 
     categories: {
@@ -1051,6 +1051,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://alfred.is/en/starf/velamadur-i-poekkunardeild-packaging-mechanic",
+            featured: false
+        },
+        {
+            id: 64,
+            company: "Lagaviti",
+            companyLogo: null,
+            title: "Full Stack / AI Developer",
+            description: "Build cutting-edge AI-powered legal technology solutions. Work with LLM APIs (OpenAI, Google, Anthropic), RAG systems, and data-driven workflows. Strong JavaScript/TypeScript or Python skills required, plus interest in AI development.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "https://www.lagaviti.is",
             featured: false
         }
     ]
