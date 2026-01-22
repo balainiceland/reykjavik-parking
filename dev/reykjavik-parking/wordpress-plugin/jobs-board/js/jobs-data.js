@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 67
+        totalJobs: 68
     },
 
     categories: {
@@ -1115,6 +1115,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.rapyd.net/company/careers/",
+            featured: false
+        },
+        {
+            id: 68,
+            company: "Alvotech",
+            companyLogo: null,
+            title: "Senior Aseptic Processing Technologist",
+            description: "Join the Drug Product Manufacturing team working in cleanroom environments (Grade A, B, C). Work with cGMP standards, serve as Subject Matter Expert for audits, and identify process improvements. 3+ years pharmaceutical experience required. Shift work.",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "https://www.alvotech.com/careers",
             featured: false
         }
     ]
