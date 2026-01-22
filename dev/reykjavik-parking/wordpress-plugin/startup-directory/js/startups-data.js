@@ -596,16 +596,6 @@ var icelandStartups = [
         acquiredBy: "Teledyne Technologies",
         foundedYear: 1997
     },
-    {
-        id: 174,
-        name: "Hefring Marine",
-        description: "Intelligent vessel systems for maritime operations including defence, rescue, law enforcement, and autonomous systems",
-        website: "https://www.hefringmarine.com",
-        sector: "maritime",
-        status: "active",
-        acquiredBy: null,
-        foundedYear: 2017
-    },
 
     // === SECURITY / IDENTITY ===
     {
