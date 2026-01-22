@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 69
+        totalJobs: 70
     },
 
     categories: {
@@ -1147,6 +1147,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.alvotech.com/careers",
+            featured: false
+        },
+        {
+            id: 70,
+            company: "Pikkoló",
+            companyLogo: null,
+            title: "Delivery Courier",
+            description: "Pick up grocery orders from stores and deliver to Pikkoló's refrigerated self-service stations. Join an innovative company building sustainable smart distribution for online grocery stores. Driving license required, 20+ years old. Sundays and Mondays required.",
+            category: "operations",
+            type: "part-time",
+            experienceLevel: "entry",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "https://www.pikkolo.is",
             featured: false
         }
     ]
