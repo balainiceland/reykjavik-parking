@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 64
+        totalJobs: 65
     },
 
     categories: {
@@ -1059,6 +1059,22 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Full Stack / AI Developer",
             description: "Build cutting-edge AI-powered legal technology solutions. Work with LLM APIs (OpenAI, Google, Anthropic), RAG systems, and data-driven workflows. Strong JavaScript/TypeScript or Python skills required, plus interest in AI development.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "https://www.lagaviti.is",
+            featured: false
+        },
+        {
+            id: 65,
+            company: "Lagaviti",
+            companyLogo: null,
+            title: "System Administrator / DevOps",
+            description: "Build and maintain infrastructure for AI-powered legal tech platform. Work with Linux, cloud environments (GCP/Azure), Docker, Kubernetes, and CI/CD pipelines. Experience with Infrastructure as Code and monitoring tools preferred.",
             category: "engineering",
             type: "full-time",
             experienceLevel: "mid",
