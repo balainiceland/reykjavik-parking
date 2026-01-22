@@ -650,6 +650,16 @@ var icelandStartups = [
         acquiredBy: null,
         foundedYear: 2012
     },
+    {
+        id: 171,
+        name: "Pikkoló",
+        description: "Sustainable smart distribution system for online grocery stores using refrigerated self-service stations",
+        website: "https://www.pikkolo.is",
+        sector: "food",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2022
+    },
 
     // === RETAIL / COMMERCE ===
     {
