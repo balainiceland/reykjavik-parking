@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 71
+        totalJobs: 72
     },
 
     categories: {
@@ -1179,6 +1179,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "mailto:hlynur@hagvangur.is",
+            featured: false
+        },
+        {
+            id: 72,
+            company: "Jónsbók",
+            companyLogo: null,
+            title: "Software Engineer (AI & Data)",
+            description: "Build legal AI software using LLMs and agentic technology. Work with language models that understand complex legal texts, develop LLM agents, design data pipelines, and create AI-powered user interfaces. Python and/or TypeScript experience required.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "https://www.jonsbok.is",
             featured: false
         }
     ]
