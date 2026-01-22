@@ -381,6 +381,16 @@ var icelandStartups = [
         foundedYear: 2023
     },
     {
+        id: 173,
+        name: "Jónsbók",
+        description: "Legal AI software using LLMs and agentic technology to assist lawyers and paralegals in Iceland, Hungary, and Europe",
+        website: "https://www.jonsbok.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
         id: 28,
         name: "Sling",
         description: "Employee scheduling and workforce management platform",
