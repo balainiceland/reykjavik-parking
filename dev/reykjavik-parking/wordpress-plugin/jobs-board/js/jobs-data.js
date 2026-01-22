@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 68
+        totalJobs: 69
     },
 
     categories: {
@@ -1126,6 +1126,22 @@ var StartupIcelandJobsData = {
             category: "operations",
             type: "full-time",
             experienceLevel: "senior",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "https://www.alvotech.com/careers",
+            featured: false
+        },
+        {
+            id: 69,
+            company: "Alvotech",
+            companyLogo: null,
+            title: "Warehouse Operator",
+            description: "Receive, store, and handle materials for biosimilar medicine manufacturing according to cGMP standards. Support inventory management, cycle counts, and regulatory audits. Warehouse and forklift experience preferred. Shift work.",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "entry",
             location: "Reykjavik, Iceland",
             remote: "onsite",
             salary: null,

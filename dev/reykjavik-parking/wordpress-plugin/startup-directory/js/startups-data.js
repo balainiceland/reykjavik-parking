@@ -197,6 +197,16 @@ var icelandStartups = [
         foundedYear: 2018
     },
     {
+        id: 170,
+        name: "Alvotech",
+        description: "Global biopharmaceutical company focused on developing and manufacturing biosimilar medicines to increase access to affordable biologics",
+        website: "https://www.alvotech.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2013
+    },
+    {
         id: 14,
         name: "Retina Risk",
         description: "AI-powered diabetic retinopathy screening and risk assessment",
