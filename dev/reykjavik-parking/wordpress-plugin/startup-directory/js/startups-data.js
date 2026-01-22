@@ -124,6 +124,16 @@ var icelandStartups = [
         acquiredBy: null,
         foundedYear: 2016
     },
+    {
+        id: 168,
+        name: "Kríta",
+        description: "Fast and flexible financing solutions for businesses with focus on speed, automation, and transparency",
+        website: "https://www.krita.is",
+        sector: "fintech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2020
+    },
 
     // === HEALTHTECH / BIOTECH ===
     {
