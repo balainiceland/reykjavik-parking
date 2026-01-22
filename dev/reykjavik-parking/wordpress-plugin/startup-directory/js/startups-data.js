@@ -576,6 +576,16 @@ var icelandStartups = [
         acquiredBy: null,
         foundedYear: 2010
     },
+    {
+        id: 172,
+        name: "Teledyne Gavia",
+        description: "Designs and manufactures autonomous underwater vehicles (AUVs) including the Gavia, Osprey, and SeaRaptor submarines",
+        website: "https://www.teledynemarine.com/gavia",
+        sector: "maritime",
+        status: "acquired",
+        acquiredBy: "Teledyne Technologies",
+        foundedYear: 1997
+    },
 
     // === SECURITY / IDENTITY ===
     {
