@@ -1066,7 +1066,7 @@ var StartupIcelandJobsData = {
             remote: "hybrid",
             salary: null,
             postedDate: "2026-01-22",
-            applicationUrl: "https://www.lagaviti.is",
+            applicationUrl: "https://alfred.is/en/fyrirtaeki/lagaviti",
             featured: false
         },
         {
@@ -1082,7 +1082,7 @@ var StartupIcelandJobsData = {
             remote: "hybrid",
             salary: null,
             postedDate: "2026-01-22",
-            applicationUrl: "https://www.lagaviti.is",
+            applicationUrl: "https://alfred.is/en/fyrirtaeki/lagaviti",
             featured: false
         }
     ]
