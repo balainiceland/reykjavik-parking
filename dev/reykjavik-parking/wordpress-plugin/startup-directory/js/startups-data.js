@@ -341,6 +341,16 @@ var icelandStartups = [
         foundedYear: 2018
     },
     {
+        id: 167,
+        name: "Lagaviti",
+        description: "AI-powered legal technology platform using cutting-edge LLMs and RAG systems for legal research and analysis",
+        website: "https://www.lagaviti.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
         id: 28,
         name: "Sling",
         description: "Employee scheduling and workforce management platform",
