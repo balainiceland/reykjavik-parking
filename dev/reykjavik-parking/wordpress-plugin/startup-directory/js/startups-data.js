@@ -167,6 +167,16 @@ var icelandStartups = [
         foundedYear: 2012
     },
     {
+        id: 166,
+        name: "Coripharma",
+        description: "Development, manufacturing, and export of generic pharmaceuticals with 26 products in production and 21 in development",
+        website: "https://www.coripharma.is",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2018
+    },
+    {
         id: 14,
         name: "Retina Risk",
         description: "AI-powered diabetic retinopathy screening and risk assessment",
