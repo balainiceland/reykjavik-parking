@@ -321,6 +321,16 @@ var icelandStartups = [
         foundedYear: 2025
     },
     {
+        id: 164,
+        name: "GRID",
+        description: "Spreadsheet technology company building AI-powered spreadsheet engines and tools for modern applications",
+        website: "https://grid.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2018
+    },
+    {
         id: 28,
         name: "Sling",
         description: "Employee scheduling and workforce management platform",
