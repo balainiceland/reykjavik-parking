@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 70
+        totalJobs: 71
     },
 
     categories: {
@@ -1163,6 +1163,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.pikkolo.is",
+            featured: false
+        },
+        {
+            id: 71,
+            company: "Teledyne Gavia",
+            companyLogo: null,
+            title: "Software Quality Assurance Engineer",
+            description: "Conduct software testing for autonomous underwater vehicles (AUVs) including submarine control systems and monitoring interfaces. Develop test processes, implement automated tests, and collaborate with development teams to ensure software quality.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "mailto:hlynur@hagvangur.is",
             featured: false
         }
     ]
