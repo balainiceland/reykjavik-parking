@@ -1034,7 +1034,7 @@ var StartupIcelandJobsData = {
             remote: "onsite",
             salary: null,
             postedDate: "2026-01-22",
-            applicationUrl: "mailto:linda.fanney@alor.is",
+            applicationUrl: "https://alfred.is/en/starf/rafvirki-med-nyskoepunarhugarfar-oskast",
             featured: false
         }
     ]
