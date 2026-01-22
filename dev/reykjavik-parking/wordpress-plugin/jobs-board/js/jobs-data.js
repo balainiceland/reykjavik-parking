@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 66
+        totalJobs: 67
     },
 
     categories: {
@@ -1099,6 +1099,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "mailto:hr@krita.is",
+            featured: false
+        },
+        {
+            id: 67,
+            company: "Rapyd Europe",
+            companyLogo: null,
+            title: "Business Manager",
+            description: "Sell payment solutions to Icelandic companies and provide consulting and service to customers. Analyze customer needs, develop sales opportunities, and work with internal service and development teams.",
+            category: "sales",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-22",
+            applicationUrl: "https://www.rapyd.net/company/careers/",
             featured: false
         }
     ]
