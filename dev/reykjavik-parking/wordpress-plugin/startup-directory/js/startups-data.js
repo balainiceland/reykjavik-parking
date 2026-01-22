@@ -134,6 +134,16 @@ var icelandStartups = [
         acquiredBy: null,
         foundedYear: 2020
     },
+    {
+        id: 169,
+        name: "Rapyd Europe",
+        description: "Global fintech platform providing payment solutions and financial services to businesses in Iceland and Europe",
+        website: "https://www.rapyd.net",
+        sector: "fintech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2016
+    },
 
     // === HEALTHTECH / BIOTECH ===
     {
