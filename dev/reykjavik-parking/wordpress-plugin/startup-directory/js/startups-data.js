@@ -422,6 +422,16 @@ var icelandStartups = [
         acquiredBy: null,
         foundedYear: 2012
     },
+    {
+        id: 165,
+        name: "Alor",
+        description: "Solar energy systems and battery energy storage solutions (BESS), including repurposing EV batteries for distributed energy production",
+        website: "https://alor.is",
+        sector: "cleantech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
 
     // === MEDIA / ENTERTAINMENT ===
     {
