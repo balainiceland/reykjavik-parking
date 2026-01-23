@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 75
+        totalJobs: 76
     },
 
     categories: {
@@ -1244,6 +1244,22 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-23",
             applicationUrl: "https://www.tern.systems",
             featured: false
+        },
+        {
+            id: 76,
+            company: "Ripple",
+            companyLogo: null,
+            title: "Software Engineer",
+            description: "Build payment technologies and scalable solutions powering the future of finance. Work on event-driven micro-service systems integrating with crypto exchanges, custody providers, and banking partners. Java and fintech experience preferred.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-23",
+            applicationUrl: "https://ripple.com/careers",
+            featured: true
         }
     ]
 };
