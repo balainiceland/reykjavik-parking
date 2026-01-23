@@ -391,6 +391,16 @@ var icelandStartups = [
         foundedYear: 2023
     },
     {
+        id: 175,
+        name: "Tern Systems",
+        description: "Air Traffic Management solutions provider delivering safety-critical systems to customers in Europe and Asia",
+        website: "https://www.tern.systems",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 1999
+    },
+    {
         id: 28,
         name: "Sling",
         description: "Employee scheduling and workforce management platform",
