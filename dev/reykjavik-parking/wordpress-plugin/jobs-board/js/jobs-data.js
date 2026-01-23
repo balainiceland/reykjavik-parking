@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-20",
         version: "1.0.0",
-        totalJobs: 74
+        totalJobs: 75
     },
 
     categories: {
@@ -1227,6 +1227,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.hefringmarine.com",
+            featured: false
+        },
+        {
+            id: 75,
+            company: "Tern Systems",
+            companyLogo: null,
+            title: "Frontend Software Engineer",
+            description: "Develop mission-critical Air Traffic Control systems. Work with modern C++ and Qt/QML in a safety-critical environment. Design, develop, and maintain software solutions meeting the highest standards of safety, usability, and reliability.",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Kópavogur, Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-23",
+            applicationUrl: "https://www.tern.systems",
             featured: false
         }
     ]
