@@ -629,6 +629,16 @@ var icelandStartups = [
         foundedYear: 2024
     },
     {
+        id: 176,
+        name: "Varist",
+        description: "Real-time sandboxing and malware detection cybersecurity solutions",
+        website: "https://www.varist.com",
+        sector: "security",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2020
+    },
+    {
         id: 47,
         name: "Authenteq",
         description: "Digital identity verification and KYC automation",
