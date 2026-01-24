@@ -7,9 +7,9 @@
 var StartupIcelandJobsData = {
 
     metadata: {
-        lastUpdated: "2026-01-20",
+        lastUpdated: "2026-01-24",
         version: "1.0.0",
-        totalJobs: 76
+        totalJobs: 77
     },
 
     categories: {
@@ -1260,6 +1260,22 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-23",
             applicationUrl: "https://ripple.com/careers",
             featured: true
+        },
+        {
+            id: 77,
+            company: "Kerecis",
+            companyLogo: null,
+            title: "QA Specialist",
+            description: "Ensure quality and compliance of medical devices with ISO 13485, FDA regulations (21 CFR Part 820), EU-MDR, and MDSAP. Conduct audits, manage documentation, drive continuous improvements, and resolve quality issues for fish-skin wound healing products.",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-23",
+            applicationUrl: "mailto:ibo@kerecis.com",
+            featured: false
         }
     ]
 };
