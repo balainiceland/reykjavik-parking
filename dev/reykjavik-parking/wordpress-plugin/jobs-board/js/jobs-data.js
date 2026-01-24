@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-24",
         version: "1.0.0",
-        totalJobs: 78
+        totalJobs: 79
     },
 
     categories: {
@@ -1291,6 +1291,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-24",
             applicationUrl: "https://jobs.50skills.com/smittendating/en",
+            featured: false
+        },
+        {
+            id: 79,
+            company: "Kerecis",
+            companyLogo: null,
+            title: "Logistics and Supply Chain Associate",
+            description: "Monitor inventory levels, manage inventory counts of supplies and manufactured products, receive and inspect incoming supplies. Maintain records in ERP systems, transport inventory between Kerecis locations, book and record invoices for sales orders, and plan shipments. Requires good English skills, computer proficiency, and attention to detail.",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "entry",
+            location: "Ísafjörður, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-24",
+            applicationUrl: "mailto:ibo@kerecis.com",
             featured: false
         }
     ]
