@@ -236,10 +236,11 @@ def merge_jobs_into_datafile(new_jobs: List[Dict], js_file_path: str) -> int:
 
     if match:
         # Insert new jobs after the last job
+        # Jobs need to be separated by commas
         new_content = (
             content[:match.start(1)] +
-            match.group(1) + ',' +
-            '\n'.join(new_jobs_js) +
+            match.group(1) + ',\n' +
+            ',\n'.join(new_jobs_js) +
             '\n' + match.group(2)[1:]  # Skip the leading newline
         )
 
@@ -895,14 +896,14 @@ class AlfredPlaywrightScraper:
             page = context.new_page()
 
             try:
-                # Go to jobs listing
-                print("  Loading alfred.is/storf...")
-                page.goto(f"{self.BASE_URL}/storf", wait_until="networkidle", timeout=30000)
-                time.sleep(2)  # Wait for JS to render
+                # Go to main page (jobs are listed on the homepage)
+                print("  Loading alfred.is...")
+                page.goto(self.BASE_URL, wait_until="networkidle", timeout=30000)
+                time.sleep(3)  # Wait for JS to render
 
-                for page_num in range(max_pages):
-                    print(f"  Scraping page {page_num + 1}...")
-
+                # Scroll to load more jobs (infinite scroll)
+                last_count = 0
+                for scroll_num in range(max_pages):
                     # Get all job links on current page
                     job_links = page.query_selector_all('a[href*="/starf/"]')
 
@@ -912,25 +913,25 @@ class AlfredPlaywrightScraper:
                             continue
 
                         # Skip non-job links
-                        if '/storf/' not in href or href.endswith('/storf/'):
+                        if '/starf/' not in href:
                             continue
 
                         full_url = href if href.startswith('http') else f"{self.BASE_URL}{href}"
                         seen_urls.add(full_url)
 
-                    # Try to go to next page
-                    next_button = page.query_selector('button:has-text("Næsta"), a:has-text("Næsta"), [aria-label="Next"]')
-                    if next_button:
-                        try:
-                            next_button.click()
-                            time.sleep(self.delay)
-                            page.wait_for_load_state("networkidle", timeout=10000)
-                        except:
-                            break
-                    else:
-                        break
+                    current_count = len(seen_urls)
+                    print(f"  Scroll {scroll_num + 1}: Found {current_count} job URLs")
 
-                print(f"  Found {len(seen_urls)} total job URLs")
+                    # Stop if no new jobs found after scrolling
+                    if current_count == last_count:
+                        break
+                    last_count = current_count
+
+                    # Scroll down to load more
+                    page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                    time.sleep(self.delay)
+
+                print(f"  Total: {len(seen_urls)} job URLs found")
 
                 # Now fetch details for each job
                 for url in seen_urls:
