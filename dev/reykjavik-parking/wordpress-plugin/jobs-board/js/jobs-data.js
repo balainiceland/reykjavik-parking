@@ -9,7 +9,7 @@ var StartupIcelandJobsData = {
     metadata: {
         lastUpdated: "2026-01-24",
         version: "1.0.0",
-        totalJobs: 77
+        totalJobs: 78
     },
 
     categories: {
@@ -1275,6 +1275,22 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-23",
             applicationUrl: "mailto:ibo@kerecis.com",
+            featured: false
+        },
+        {
+            id: 78,
+            company: "Smitten",
+            companyLogo: null,
+            title: "Social Media Manager",
+            description: "Lead Smitten's social media strategy across TikTok, Instagram, and emerging platforms. Create engaging short-form content that captures attention and delivers an authentic 'Smitten' feeling. Build and nurture communities, work with influencers and creators, manage content calendars, and be the voice of the brand. Must have experience growing social accounts with proven results.",
+            category: "marketing",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-24",
+            applicationUrl: "https://jobs.50skills.com/smittendating/en",
             featured: false
         }
     ]
