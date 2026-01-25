@@ -957,51 +957,72 @@ class AlfredPlaywrightScraper:
             page.goto(url, wait_until="networkidle", timeout=20000)
             time.sleep(0.5)
 
-            # Extract title
+            # Extract title - usually in h1
             title_el = page.query_selector('h1')
             title = title_el.inner_text().strip() if title_el else ""
 
-            # Extract company - look for links to external sites
+            # Extract company name from page content
+            # On alfred.is, company name appears at top of content before description
             company = ""
-            company_links = page.query_selector_all('a[href^="http"]')
-            for link in company_links:
-                href = link.get_attribute('href') or ''
-                text = link.inner_text().strip()
+            full_text = page.inner_text('body')
 
-                # Skip social media and internal links
-                if any(x in href.lower() for x in ['alfred.is', 'linkedin', 'facebook', 'twitter', 'instagram']):
-                    continue
+            # Try to find company from the vinnustadir (workplace) link text
+            workplace_link = page.query_selector('a[href*="/vinnustadir/"]')
+            if workplace_link:
+                company = workplace_link.inner_text().strip()
 
-                if len(text) > 2 and len(text) < 50:
-                    company = text
+            # If not found, try to extract from page content
+            # Company name typically appears right after navigation, before the long description
+            if not company:
+                # Look for text patterns - company name is usually short and appears early
+                lines = full_text.split('\n')
+                # Skip navigation items
+                nav_items = ['laus störf', 'hæfnileit', 'vinnustaðir', 'námskeið', 'auglýsa',
+                            'upplýsingar', 'nýskráning', 'innskráning']
+                for line in lines:
+                    line = line.strip()
+                    if not line or len(line) < 2 or len(line) > 60:
+                        continue
+                    if line.lower() in nav_items:
+                        continue
+                    # Skip if it looks like the title
+                    if line.lower() == title.lower():
+                        continue
+                    # Found potential company name
+                    company = line
                     break
 
-            if not company:
+            if not company or len(company) > 60:
                 return None
 
             # Extract description
             description = ""
-            content_el = page.query_selector('article, main, .content')
-            if content_el:
-                description = content_el.inner_text()[:400].strip()
-                if len(description) == 400:
+            # Get text after title
+            if title in full_text:
+                idx = full_text.find(title)
+                description = full_text[idx + len(title):idx + len(title) + 400].strip()
+                if len(description) >= 395:
                     description = description.rsplit(' ', 1)[0] + "..."
 
-            full_text = page.inner_text('body').lower()
+            full_text_lower = full_text.lower()
 
             # Determine job type
             job_type = "full-time"
-            if 'hlutastarf' in full_text or 'part-time' in full_text:
+            if 'hlutastarf' in full_text_lower or 'part-time' in full_text_lower:
                 job_type = "part-time"
-            elif 'verktaki' in full_text or 'contract' in full_text:
+            elif 'verktaki' in full_text_lower or 'contract' in full_text_lower:
                 job_type = "contract"
+            elif 'sumarstarf' in full_text_lower or 'sumarstörf' in full_text_lower:
+                job_type = "internship"
 
             # Determine location
             location = "Iceland"
-            if 'reykjavík' in full_text or 'reykjavik' in full_text:
+            if 'reykjavík' in full_text_lower or 'reykjavik' in full_text_lower:
                 location = "Reykjavik, Iceland"
-            elif 'akureyri' in full_text:
+            elif 'akureyri' in full_text_lower:
                 location = "Akureyri, Iceland"
+            elif 'ísafj' in full_text_lower:
+                location = "Ísafjörður, Iceland"
 
             return Job(
                 company=company,
@@ -1011,7 +1032,7 @@ class AlfredPlaywrightScraper:
                 job_type=job_type,
                 experience_level=guess_experience(f"{title} {description}"),
                 location=location,
-                remote=guess_remote(full_text),
+                remote=guess_remote(full_text_lower),
                 url=url,
                 source="alfred"
             )
