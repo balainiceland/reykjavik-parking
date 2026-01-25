@@ -40,6 +40,7 @@
             remoteFilter: document.getElementById('sjb-remote-filter'),
             jobsList: document.getElementById('sjb-jobs-list'),
             showingCount: document.getElementById('sjb-showing-count'),
+            companyCount: document.getElementById('sjb-company-count'),
             noJobs: document.getElementById('sjb-no-jobs')
         };
 
@@ -180,9 +181,20 @@
     function renderJobs() {
         if (!elements.jobsList) return;
 
-        // Update count
+        // Update job count
         if (elements.showingCount) {
             elements.showingCount.textContent = state.filteredJobs.length;
+        }
+
+        // Count unique companies
+        if (elements.companyCount) {
+            var uniqueCompanies = {};
+            state.filteredJobs.forEach(function(job) {
+                if (job.company) {
+                    uniqueCompanies[job.company.toLowerCase()] = true;
+                }
+            });
+            elements.companyCount.textContent = Object.keys(uniqueCompanies).length;
         }
 
         // Show/hide no jobs message

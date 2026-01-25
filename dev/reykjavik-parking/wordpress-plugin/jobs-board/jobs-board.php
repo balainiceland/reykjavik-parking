@@ -125,7 +125,7 @@ class Startup_Iceland_Jobs_Board {
             <?php if ($show_count): ?>
             <!-- Count Bar -->
             <div class="sjb-count-bar">
-                <span>Showing <strong id="sjb-showing-count">0</strong> jobs</span>
+                <span>Showing <strong id="sjb-showing-count">0</strong> jobs from <strong id="sjb-company-count">0</strong> companies</span>
             </div>
             <?php endif; ?>
 
