@@ -7,9 +7,9 @@
 var StartupIcelandJobsData = {
 
     metadata: {
-        lastUpdated: "2026-01-25",
+        lastUpdated: "2026-01-29",
         version: "1.0.0",
-        totalJobs: 158
+        totalJobs: 166
     },
 
     categories: {
@@ -2572,6 +2572,134 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-25",
             applicationUrl: "https://alfred.is/starf/logistics-and-supply-chain-associate",
             featured: false
+        },
+        {
+            id: 159,
+            company: "Greenbytes",
+            companyLogo: null,
+            title: "Fullstack Developer (Python, React, Firebase)",
+            description: "Fullstack Developer (Python, React, Firebase) Greenbytes 19. Mar 2023 Fullt starf Our green-tech startup is looking for a passionate and experienced developer to join our team. We are developing software to help restaurants organize better and reduce food waste. As a Senior Backend or Fullstack Developer, you will be responsible for building and maintaining our progressive web application using...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-26",
+            applicationUrl: "https://www.tvinna.is/jobs/fullstack-developer-python-react-firebase/",
+            featured: false
+        },
+        {
+            id: 160,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "Hefur þú áhuga á að starfa við umsjón rannsóknarstofa? / We are seeking a Lab Manager",
+            description: "Við leitum að öflugum aðila til að hafa umsjón með rannsóknarstofum okkar (e. Lab Manager) innan R&D. Um er að ræða tímabundna stöðu til eins árs. Við hvetjum áhugasama til að kynna sér starfið betur hér fyrir neðan.\n\nÍ starfinu verður þú hluti af teymi sem styður R&D starfsemina með framúrskarandi umsjón rannsóknastofa. Í þessu hlutverki munt þú sjá um að tryggja að rekstur rannsóknarstofa sé...",
+            category: "other",
+            type: "internship",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-27",
+            applicationUrl: "https://alfred.is/starf/hefur-thu-ahuga-a-ad-leida-rekstur-rannsoknarstofa-we-are-seeking-a-lab-manager",
+            featured: false
+        },
+        {
+            id: 161,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "Senior Sterility Assurance Specialist / Reyndur sérfræðingur í dauðhreinsun og örveruöryggi",
+            description: "Við leitum að reynslumiklum sérfræðingi í dauðhreinsun og örveruöryggi til að ganga til liðs við teymið okkar á spennandi vaxtarskeiði. Í þessu hlutverki munt þú gegna lykilhlutverki í að móta og styrkja aðferðir okkar í smitgát, dauðhreinsun og örverustýringu í bæði virkniefna‑ (DS) og lyfjaformunarframleiðslu (DP).\n\nÞú munt starfa í kraftmiklu og samvinnumiðuðu umhverfi, þar sem þú kemur...",
+            category: "other",
+            type: "internship",
+            experienceLevel: "senior",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-27",
+            applicationUrl: "https://alfred.is/starf/sterility-assurance-senior-specialist-reyndur-serfraedingur-i-daudhreinsun-og-oerveruoeryggi",
+            featured: false
+        },
+        {
+            id: 162,
+            company: "Embla Medical | Össur",
+            companyLogo: null,
+            title: "Solution Architect – Mobile Applications | Embla Medical",
+            description: "Join us in our mission to improve people´s mobility.\n\nEmbla Medical (Össur) is looking for a Solution Architect for Mobile Applications to join our team.\n\nThe Solution Architect for Mobile Applications is responsible for designing and guiding the technical implementation of mobile apps across iOS and Android. The role ensures that mobile solutions are reliable, secure, compliant with...",
+            category: "operations",
+            type: "internship",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-28",
+            applicationUrl: "https://alfred.is/starf/solution-architect-mobile-applications-embla-medical",
+            featured: false
+        },
+        {
+            id: 163,
+            company: "Garðheimar",
+            companyLogo: null,
+            title: "Bókari",
+            description: "Garðheimar óska eftir jákvæðum og skipulögðum bókara til að slást í hópinn. Starfið felur í sér fjölbreytt verkefni á fjármálasviði.\n\nUm er að ræða 100% starf. Æskilegt er að viðkomandi geti hafið störf fljótlega.\n\nHelstu verkefni og ábyrgð\n\nFærsla og afstemning bókhalds.\n\nMóttaka og skráning reikninga. \n\nReikningagerð, innheimta og eftirfylgni. \n\nGreiðsla innlendra reikninga. \n\nÝmis...",
+            category: "other",
+            type: "internship",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-28",
+            applicationUrl: "https://alfred.is/starf/bokari-299",
+            featured: false
+        },
+        {
+            id: 164,
+            company: "Lucinity",
+            companyLogo: null,
+            title: "Project Manager",
+            description: "At Lucinity, we build intelligent tools to fight financial crime — blending human intuition with AI to help compliance teams stay ahead of evolving risks. Our platform is trusted by banks, fintechs, and payment platforms globally, and we are proud to call Reykjavík our headquarters.\n\nWe're now seeking a Project Manager for Customer Onboarding & Partner Integrations to lead implementation...",
+            category: "engineering",
+            type: "internship",
+            experienceLevel: "lead",
+            location: "Reykjavik, Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-01-28",
+            applicationUrl: "https://alfred.is/starf/project-manager-28",
+            featured: false
+        },
+        {
+            id: 165,
+            company: "Embla Medical | Össur",
+            companyLogo: null,
+            title: "Corporate Finance Coordinator | Embla Medical",
+            description: "Taktu þátt í spennandi verkefnum með það að markmiði að bæta hreyfanleika fólks.\n\nEmbla Medical (Össur) leitar að Corporate Finance Coordinator til að ganga til liðs við teymið. Um ræðir stuðning við fjármálastjóra (CFO) auk þess sem starfið felur í sér almenn skrifstofustörf og skjalaumsjón hjá lögfræðisviði samstæðunnar auk ýmissa tilfallandi verkefna innan fjármálasviðs.\n\nHelstu verkefni og...",
+            category: "finance",
+            type: "contract",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-28",
+            applicationUrl: "https://alfred.is/starf/corporate-finance-coordinator-embla-medical",
+            featured: false
+        },
+        {
+            id: 166,
+            company: "BIOEFFECT hf.",
+            companyLogo: null,
+            title: "Verslunarstjóri BIOEFFECT verslana",
+            description: "Verslunarstjóri í verslun BIOEFFECT\n\nBIOEFFECT á Íslandi óskar eftir jákvæðum og söludrifnum verslunarstjóra. Starfið felur í sér sölu á hinum margverðlaunuðu húðvörum BIOEFFECT í verslunum okkar í miðbæ Reykjavíkur; í Hafnarstræti og á Laugaveginum. Verslanirnar eru flaggskip vörumerkisins þar sem lögð er áhersla á góða sérþjónustu og persónulega ráðgjöf í afslöppuðu umhverfi.\n\nLeitað er að...",
+            category: "sales",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-01-29",
+            applicationUrl: "https://alfred.is/starf/verslunarstjori-bioeffect-verslana",
+            featured: false
         }
-   ]
+    ]
 };

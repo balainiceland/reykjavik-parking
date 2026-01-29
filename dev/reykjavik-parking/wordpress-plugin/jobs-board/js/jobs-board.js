@@ -16,7 +16,8 @@
             type: 'all',
             level: 'all',
             remote: 'all'
-        }
+        },
+        sort: 'newest'
     };
 
     // DOM Elements
@@ -38,6 +39,7 @@
             typeFilter: document.getElementById('sjb-type-filter'),
             levelFilter: document.getElementById('sjb-level-filter'),
             remoteFilter: document.getElementById('sjb-remote-filter'),
+            sortSelect: document.getElementById('sjb-sort'),
             jobsList: document.getElementById('sjb-jobs-list'),
             showingCount: document.getElementById('sjb-showing-count'),
             companyCount: document.getElementById('sjb-company-count'),
@@ -119,6 +121,14 @@
                 applyFilters();
             });
         }
+
+        // Sort select
+        if (elements.sortSelect) {
+            elements.sortSelect.addEventListener('change', function(e) {
+                state.sort = e.target.value;
+                applyFilters();
+            });
+        }
     }
 
     /**
@@ -161,14 +171,24 @@
             return true;
         });
 
-        // Sort: featured first, then by date (newest first)
+        // Sort: featured first, then by selected sort option
         filtered.sort(function(a, b) {
-            // Featured jobs first
+            // Featured jobs always first
             if (a.featured && !b.featured) return -1;
             if (!a.featured && b.featured) return 1;
 
-            // Then by date (newest first)
-            return new Date(b.postedDate) - new Date(a.postedDate);
+            // Then by selected sort option
+            switch (state.sort) {
+                case 'oldest':
+                    return new Date(a.postedDate) - new Date(b.postedDate);
+                case 'company-az':
+                    return a.company.localeCompare(b.company);
+                case 'company-za':
+                    return b.company.localeCompare(a.company);
+                case 'newest':
+                default:
+                    return new Date(b.postedDate) - new Date(a.postedDate);
+            }
         });
 
         state.filteredJobs = filtered;

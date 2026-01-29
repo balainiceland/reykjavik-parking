@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Jobs Board
  * Plugin URI: https://startupiceland.com
  * Description: Searchable jobs board for Icelandic startups with filtering by category, type, level, and remote options.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -39,7 +39,7 @@ class Startup_Iceland_Jobs_Board {
                 'startup-jobs-css',
                 plugin_dir_url(__FILE__) . 'css/jobs-board.css',
                 array(),
-                '1.0.0'
+                '1.1.0'
             );
 
             // Jobs data
@@ -47,7 +47,7 @@ class Startup_Iceland_Jobs_Board {
                 'startup-jobs-data',
                 plugin_dir_url(__FILE__) . 'js/jobs-data.js',
                 array(),
-                '1.0.0',
+                '1.1.0',
                 true
             );
 
@@ -56,7 +56,7 @@ class Startup_Iceland_Jobs_Board {
                 'startup-jobs-js',
                 plugin_dir_url(__FILE__) . 'js/jobs-board.js',
                 array('startup-jobs-data'),
-                '1.0.0',
+                '1.1.0',
                 true
             );
         }
@@ -117,6 +117,15 @@ class Startup_Iceland_Jobs_Board {
                             <option value="onsite">Onsite</option>
                             <option value="hybrid">Hybrid</option>
                             <option value="remote">Remote</option>
+                        </select>
+                    </div>
+                    <div class="sjb-filter-wrapper sjb-sort-wrapper">
+                        <label for="sjb-sort">Sort by:</label>
+                        <select id="sjb-sort">
+                            <option value="newest">Newest First</option>
+                            <option value="oldest">Oldest First</option>
+                            <option value="company-az">Company A-Z</option>
+                            <option value="company-za">Company Z-A</option>
                         </select>
                     </div>
                 </div>

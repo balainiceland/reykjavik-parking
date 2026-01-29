@@ -493,6 +493,19 @@ var icelandInvestors = [
         portfolio: ["Kerecis"],
         foundedYear: 2015,
         location: "Reykjavik"
+    },
+    {
+        id: 37,
+        name: "Nordic Ignite",
+        type: "angel",
+        description: "Angel investment firm bridging the early-stage funding gap in the Nordics & Baltics. Provides capital, knowledge, and network to founders at the earliest stages. Vertical agnostic but prefers sectors where Nordics have competitive advantage. Strong focus on sustainability and UN SDGs.",
+        website: "https://www.nordicignite.com",
+        focus: ["sector-agnostic", "cleantech"],
+        stages: ["pre-seed", "seed"],
+        ticketSize: "€25K - €200K",
+        portfolio: ["Vilje Bionics"],
+        foundedYear: 2020,
+        location: "Kópavogur"
     }
 ];
 

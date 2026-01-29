@@ -174,22 +174,22 @@ class Krage {
 
         // Image paths
         $logo = $img_base . 'logo.png';
-        $hero_img = $img_base . 'hero.png';
-        $product_hand = $img_base . 'product-hand.png';
-        $packaging = $img_base . 'packaging.png';
-        $packaging_elegant = $img_base . 'packaging-elegant.png';
-        $packaging_minimalist = $img_base . 'packaging-minimalist.png';
-        $lifestyle = $img_base . 'lifestyle.png';
-        $lifestyle_morning = $img_base . 'lifestyle-morning.png';
-        $lifestyle_office = $img_base . 'lifestyle-office.png';
-        $sustainability = $img_base . 'sustainability.png';
-        $eco_decomposing = $img_base . 'eco-decomposing.png';
-        $eco_bamboo = $img_base . 'eco-bamboo-leaves.png';
-        $materials_bamboo = $img_base . 'materials-bamboo-hemp.png';
-        $product_exploded = $img_base . 'product-exploded.png';
-        $product_layers = $img_base . 'product-layers.png';
-        $product_biodegradable = $img_base . 'product-biodegradable.png';
-        $product_collar_fold = $img_base . 'product-collar-fold.png';
+        $hero_img = $img_base . 'hero.jpg';
+        $product_hand = $img_base . 'product-hand.jpg';
+        $packaging = $img_base . 'packaging.jpg';
+        $packaging_elegant = $img_base . 'packaging-elegant.jpg';
+        $packaging_minimalist = $img_base . 'packaging-minimalist.jpg';
+        $lifestyle = $img_base . 'lifestyle.jpg';
+        $lifestyle_morning = $img_base . 'lifestyle-morning.jpg';
+        $lifestyle_office = $img_base . 'lifestyle-office.jpg';
+        $sustainability = $img_base . 'sustainability.jpg';
+        $eco_decomposing = $img_base . 'eco-decomposing.jpg';
+        $eco_bamboo = $img_base . 'eco-bamboo-leaves.jpg';
+        $materials_bamboo = $img_base . 'materials-bamboo-hemp.jpg';
+        $product_exploded = $img_base . 'product-exploded.jpg';
+        $product_layers = $img_base . 'product-layers.jpg';
+        $product_biodegradable = $img_base . 'product-biodegradable.jpg';
+        $product_collar_fold = $img_base . 'product-collar-fold.jpg';
 
         ob_start();
         ?>
@@ -457,14 +457,14 @@ class Krage {
         $img_base = plugin_dir_url(__FILE__) . 'images/';
 
         // Product gallery images
-        $product_img_1 = $img_base . 'product-1.png';
-        $product_img_2 = $img_base . 'product-2.png';
-        $product_hand = $img_base . 'product-hand.png';
-        $product_hands = $img_base . 'product-hands.png';
-        $product_layers = $img_base . 'product-layers.png';
-        $product_exploded = $img_base . 'product-exploded.png';
-        $product_collar_fold = $img_base . 'product-collar-fold.png';
-        $packaging = $img_base . 'packaging-elegant.png';
+        $product_img_1 = $img_base . 'product-1.jpg';
+        $product_img_2 = $img_base . 'product-2.jpg';
+        $product_hand = $img_base . 'product-hand.jpg';
+        $product_hands = $img_base . 'product-hands.jpg';
+        $product_layers = $img_base . 'product-layers.jpg';
+        $product_exploded = $img_base . 'product-exploded.jpg';
+        $product_collar_fold = $img_base . 'product-collar-fold.jpg';
+        $packaging = $img_base . 'packaging-elegant.jpg';
 
         ob_start();
         ?>
@@ -546,9 +546,9 @@ class Krage {
     public function shortcode_about($atts) {
         $img_base = plugin_dir_url(__FILE__) . 'images/';
         $logo = $img_base . 'logo.png';
-        $sustainability = $img_base . 'sustainability.png';
-        $lifestyle = $img_base . 'lifestyle.png';
-        $packaging = $img_base . 'packaging.png';
+        $sustainability = $img_base . 'sustainability.jpg';
+        $lifestyle = $img_base . 'lifestyle.jpg';
+        $packaging = $img_base . 'packaging.jpg';
 
         ob_start();
         ?>
@@ -739,7 +739,7 @@ class Krage {
         $product_name = get_option('krage_product_name', 'Krage Collar Protector');
         $product_price = get_option('krage_product_price', '29');
         $product_desc = get_option('krage_product_description', 'Premium collar protectors');
-        $product_img = plugin_dir_url(__FILE__) . 'images/product-1.png';
+        $product_img = plugin_dir_url(__FILE__) . 'images/product-1.jpg';
 
         if (empty($api_key)) {
             return '<p class="krage-notice">Please configure your Snipcart API key in Settings > Krage</p>';

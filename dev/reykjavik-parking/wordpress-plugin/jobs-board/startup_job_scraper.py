@@ -231,7 +231,8 @@ def merge_jobs_into_datafile(new_jobs: List[Dict], js_file_path: str) -> int:
 
     # Find the position to insert (before the closing ] of jobs array)
     # Look for the last job entry and add after it
-    insert_pattern = re.compile(r'(\n\s*\}\s*)\n(\s*\]\s*\n\};)', re.DOTALL)
+    # Pattern matches: last job's closing } ... ] ... };
+    insert_pattern = re.compile(r'(\n\s*\}\s*)\n(\s*\]\n\};)', re.DOTALL)
     match = insert_pattern.search(content)
 
     if match:
@@ -241,32 +242,57 @@ def merge_jobs_into_datafile(new_jobs: List[Dict], js_file_path: str) -> int:
             content[:match.start(1)] +
             match.group(1) + ',\n' +
             ',\n'.join(new_jobs_js) +
-            '\n' + match.group(2)[1:]  # Skip the leading newline
+            '\n    ]\n};'  # Always use proper closing
         )
-
-        # Update metadata
-        new_total = len(existing_jobs) + len(unique_new_jobs)
-        new_content = re.sub(
-            r'totalJobs:\s*\d+',
-            f'totalJobs: {new_total}',
-            new_content
-        )
-        new_content = re.sub(
-            r'lastUpdated:\s*"[^"]+"',
-            f'lastUpdated: "{datetime.now().strftime("%Y-%m-%d")}"',
-            new_content
-        )
-
-        # Write back
-        with open(js_file_path, 'w', encoding='utf-8') as f:
-            f.write(new_content)
-
-        print(f"Added {len(unique_new_jobs)} new jobs. Total: {new_total}")
-        return len(unique_new_jobs)
-
     else:
-        print("Error: Could not find insertion point in jobs-data.js")
+        # Fallback: Try to find pattern where ] is missing (corrupted file)
+        # Pattern matches: last job's closing } followed directly by };
+        fallback_pattern = re.compile(r'(\n\s*\}\s*)\n+(\};)', re.DOTALL)
+        match = fallback_pattern.search(content)
+
+        if match:
+            print("  Warning: Found corrupted file (missing ]). Fixing...")
+            new_content = (
+                content[:match.start(1)] +
+                match.group(1) + ',\n' +
+                ',\n'.join(new_jobs_js) +
+                '\n    ]\n};'  # Add proper closing with ]
+            )
+        else:
+            print("Error: Could not find insertion point in jobs-data.js")
+            return 0
+
+    # Update metadata
+    new_total = len(existing_jobs) + len(unique_new_jobs)
+    new_content = re.sub(
+        r'totalJobs:\s*\d+',
+        f'totalJobs: {new_total}',
+        new_content
+    )
+    new_content = re.sub(
+        r'lastUpdated:\s*"[^"]+"',
+        f'lastUpdated: "{datetime.now().strftime("%Y-%m-%d")}"',
+        new_content
+    )
+
+    # Validate the new content has proper structure before writing
+    if ']\n};' not in new_content:
+        print("Error: Generated content is missing proper closing brackets. Aborting.")
         return 0
+
+    # Write back
+    with open(js_file_path, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+
+    # Verify the file was written correctly
+    with open(js_file_path, 'r', encoding='utf-8') as f:
+        verify_content = f.read()
+    if ']\n};' not in verify_content:
+        print("Error: File verification failed - missing closing brackets!")
+        return 0
+
+    print(f"Added {len(unique_new_jobs)} new jobs. Total: {new_total}")
+    return len(unique_new_jobs)
 
 
 def generate_job_js(job: Dict, job_id: int) -> str:
