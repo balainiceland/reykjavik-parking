@@ -42,20 +42,11 @@ class Startup_Iceland_Jobs_Board {
                 '1.1.0'
             );
 
-            // Jobs data
-            wp_enqueue_script(
-                'startup-jobs-data',
-                plugin_dir_url(__FILE__) . 'js/jobs-data.js',
-                array(),
-                '1.1.0',
-                true
-            );
-
-            // Plugin JS
+            // Plugin JS — fetches jobs data from jsDelivr CDN at runtime
             wp_enqueue_script(
                 'startup-jobs-js',
                 plugin_dir_url(__FILE__) . 'js/jobs-board.js',
-                array('startup-jobs-data'),
+                array(),
                 '1.1.0',
                 true
             );

@@ -186,6 +186,14 @@
     color: #ccc;
 }
 
+/* Job Excerpt */
+.sjb-job-excerpt {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0 0 14px 0;
+}
+
 /* Job Tags */
 .sjb-job-tags {
     display: flex;
@@ -295,6 +303,49 @@
 
 .sjb-apply-btn::after {
     content: " \2192";
+}
+
+/* Filled/Closed Jobs */
+.sjb-job-card.sjb-filled {
+    opacity: 0.55;
+    border-left: 4px solid #adb5bd;
+    background: #f8f9fa;
+}
+
+.sjb-job-card.sjb-filled:hover {
+    opacity: 0.75;
+}
+
+.sjb-filled-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #dc3545;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.sjb-filled-badge::before {
+    content: "\2716";
+    font-size: 11px;
+}
+
+.sjb-apply-btn-disabled {
+    background: #adb5bd !important;
+    cursor: default;
+    pointer-events: none;
+}
+
+.sjb-apply-btn-disabled:hover {
+    background: #adb5bd !important;
+    transform: none !important;
+}
+
+.sjb-apply-btn-disabled::after {
+    content: "" !important;
 }
 
 /* No Jobs Message */

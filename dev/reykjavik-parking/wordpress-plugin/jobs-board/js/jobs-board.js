@@ -1,10 +1,17 @@
 /**
  * Startup Iceland Jobs Board - Main JavaScript
- * Version: 1.0.0
+ * Version: 1.1.0
  */
 
 (function() {
     'use strict';
+
+    // Data source - jsDelivr CDN mirrors GitHub with caching
+    var DATA_URL = 'https://cdn.jsdelivr.net/gh/balainiceland/reykjavik-parking@master/dev/reykjavik-parking/wordpress-plugin/jobs-board/js/jobs-data.json';
+
+    // Cache settings
+    var CACHE_KEY = 'sjb_jobs_cache';
+    var CACHE_EXPIRY = 1000 * 60 * 60; // 1 hour
 
     // State
     var state = {
@@ -22,6 +29,9 @@
 
     // DOM Elements
     var elements = {};
+
+    // Cached reference to bundled data (categories, types, levels, remoteOptions)
+    var dataLabels = {};
 
     /**
      * Initialize the jobs board
@@ -46,19 +56,146 @@
             noJobs: document.getElementById('sjb-no-jobs')
         };
 
-        // Load jobs data
-        if (typeof StartupIcelandJobsData !== 'undefined') {
-            state.jobs = StartupIcelandJobsData.jobs || [];
-            state.filteredJobs = state.jobs.slice();
+        // Load data via CDN with cache and fallback
+        loadData();
+    }
+
+    /**
+     * Load jobs data: cache → CDN → bundled fallback
+     */
+    function loadData() {
+        // Show loading state
+        if (elements.jobsList) {
+            elements.jobsList.innerHTML = '<div class="sjb-loading">Loading jobs...</div>';
         }
 
-        // Populate category filter
+        // Try localStorage cache first
+        var cached = getFromCache();
+        if (cached) {
+            console.log('Loaded jobs data from cache');
+            applyData(cached);
+            initBoard();
+            // Background refresh even when cache is valid
+            fetchFreshData(true);
+            return;
+        }
+
+        // Try bundled data as immediate fallback while fetching
+        if (typeof StartupIcelandJobsData !== 'undefined' && StartupIcelandJobsData.jobs && StartupIcelandJobsData.jobs.length > 0) {
+            console.log('Using bundled jobs data while fetching from CDN');
+            applyBundledData();
+            initBoard();
+            // Fetch fresh data in background
+            fetchFreshData(true);
+            return;
+        }
+
+        // No cache, no bundled data - fetch from CDN
+        fetchFreshData(false);
+    }
+
+    /**
+     * Fetch fresh data from CDN
+     */
+    function fetchFreshData(isBackgroundRefresh) {
+        fetch(DATA_URL)
+            .then(function(response) {
+                if (!response.ok) throw new Error('Network response was not ok');
+                return response.json();
+            })
+            .then(function(data) {
+                console.log('Fetched fresh jobs data from CDN');
+                saveToCache(data);
+                if (!isBackgroundRefresh) {
+                    applyData(data);
+                    initBoard();
+                } else {
+                    // Check if data changed
+                    if (data.jobs && data.jobs.length !== state.jobs.length) {
+                        console.log('New jobs available (' + data.jobs.length + '), refreshing...');
+                        applyData(data);
+                        applyFilters();
+                    }
+                }
+            })
+            .catch(function(error) {
+                console.warn('Failed to fetch from CDN:', error);
+                if (!isBackgroundRefresh) {
+                    // Fall back to bundled data
+                    if (typeof StartupIcelandJobsData !== 'undefined' && StartupIcelandJobsData.jobs) {
+                        console.log('Falling back to bundled jobs data');
+                        applyBundledData();
+                        initBoard();
+                    } else if (elements.jobsList) {
+                        elements.jobsList.innerHTML = '<div class="sjb-error">Unable to load jobs data. Please refresh the page.</div>';
+                    }
+                }
+            });
+    }
+
+    /**
+     * Apply data from CDN/cache (JSON format)
+     */
+    function applyData(data) {
+        state.jobs = data.jobs || [];
+        state.filteredJobs = state.jobs.slice();
+        dataLabels.categories = data.categories || {};
+        dataLabels.types = data.types || {};
+        dataLabels.levels = data.levels || {};
+        dataLabels.remoteOptions = data.remoteOptions || {};
+    }
+
+    /**
+     * Apply bundled StartupIcelandJobsData
+     */
+    function applyBundledData() {
+        state.jobs = StartupIcelandJobsData.jobs || [];
+        state.filteredJobs = state.jobs.slice();
+        dataLabels.categories = StartupIcelandJobsData.categories || {};
+        dataLabels.types = StartupIcelandJobsData.types || {};
+        dataLabels.levels = StartupIcelandJobsData.levels || {};
+        dataLabels.remoteOptions = StartupIcelandJobsData.remoteOptions || {};
+    }
+
+    /**
+     * Get data from localStorage cache
+     */
+    function getFromCache() {
+        try {
+            var cached = localStorage.getItem(CACHE_KEY);
+            if (!cached) return null;
+
+            var parsed = JSON.parse(cached);
+            if (Date.now() - parsed.timestamp > CACHE_EXPIRY) {
+                localStorage.removeItem(CACHE_KEY);
+                return null;
+            }
+            return parsed.data;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    /**
+     * Save data to localStorage cache
+     */
+    function saveToCache(data) {
+        try {
+            localStorage.setItem(CACHE_KEY, JSON.stringify({
+                timestamp: Date.now(),
+                data: data
+            }));
+        } catch (e) {
+            // localStorage not available or full
+        }
+    }
+
+    /**
+     * Initialize board UI after data is loaded
+     */
+    function initBoard() {
         populateCategoryFilter();
-
-        // Bind events
         bindEvents();
-
-        // Initial render
         applyFilters();
     }
 
@@ -66,9 +203,9 @@
      * Populate the category filter dropdown
      */
     function populateCategoryFilter() {
-        if (!elements.categoryFilter || typeof StartupIcelandJobsData === 'undefined') return;
+        if (!elements.categoryFilter || !dataLabels.categories) return;
 
-        var categories = StartupIcelandJobsData.categories || {};
+        var categories = dataLabels.categories;
 
         Object.keys(categories).forEach(function(key) {
             var option = document.createElement('option');
@@ -171,9 +308,14 @@
             return true;
         });
 
-        // Sort: featured first, then by selected sort option
+        // Sort: active before filled, featured first, then by selected sort option
         filtered.sort(function(a, b) {
-            // Featured jobs always first
+            // Filled jobs always last
+            var aFilled = a.status === 'filled' ? 1 : 0;
+            var bFilled = b.status === 'filled' ? 1 : 0;
+            if (aFilled !== bFilled) return aFilled - bFilled;
+
+            // Featured jobs first (among active)
             if (a.featured && !b.featured) return -1;
             if (!a.featured && b.featured) return 1;
 
@@ -235,13 +377,21 @@
      * Create a job card element
      */
     function createJobCard(job) {
+        var isFilled = job.status === 'filled';
         var card = document.createElement('div');
-        card.className = 'sjb-job-card' + (job.featured ? ' sjb-featured' : '');
+        card.className = 'sjb-job-card'
+            + (job.featured && !isFilled ? ' sjb-featured' : '')
+            + (isFilled ? ' sjb-filled' : '');
 
         var html = '';
 
+        // Filled badge
+        if (isFilled) {
+            html += '<div class="sjb-filled-badge">No Longer Available</div>';
+        }
+
         // Featured badge
-        if (job.featured) {
+        if (job.featured && !isFilled) {
             html += '<div class="sjb-featured-badge">Featured</div>';
         }
 
@@ -257,6 +407,14 @@
         html += '<span class="sjb-remote">' + getRemoteLabel(job.remote) + '</span>';
         html += '</div>';
 
+        // Description excerpt
+        if (job.description) {
+            var excerpt = job.description.length > 150
+                ? job.description.substring(0, 150).replace(/\s+\S*$/, '') + '...'
+                : job.description;
+            html += '<p class="sjb-job-excerpt">' + escapeHtml(excerpt) + '</p>';
+        }
+
         // Tags
         html += '<div class="sjb-job-tags">';
         html += '<span class="sjb-tag sjb-tag-' + job.category + '">' + getCategoryLabel(job.category) + '</span>';
@@ -267,7 +425,11 @@
         // Footer with date and apply button
         html += '<div class="sjb-job-footer">';
         html += '<span class="sjb-posted-date">Posted: ' + formatDate(job.postedDate) + '</span>';
-        html += '<a href="' + escapeHtml(job.applicationUrl) + '" target="_blank" rel="noopener noreferrer" class="sjb-apply-btn">Apply</a>';
+        if (isFilled) {
+            html += '<span class="sjb-apply-btn sjb-apply-btn-disabled">Closed</span>';
+        } else {
+            html += '<a href="' + escapeHtml(job.applicationUrl) + '" target="_blank" rel="noopener noreferrer" class="sjb-apply-btn">Apply</a>';
+        }
         html += '</div>';
 
         card.innerHTML = html;
@@ -278,40 +440,28 @@
      * Get category label
      */
     function getCategoryLabel(category) {
-        if (typeof StartupIcelandJobsData !== 'undefined' && StartupIcelandJobsData.categories) {
-            return StartupIcelandJobsData.categories[category] || category;
-        }
-        return category;
+        return (dataLabels.categories && dataLabels.categories[category]) || category;
     }
 
     /**
      * Get type label
      */
     function getTypeLabel(type) {
-        if (typeof StartupIcelandJobsData !== 'undefined' && StartupIcelandJobsData.types) {
-            return StartupIcelandJobsData.types[type] || type;
-        }
-        return type;
+        return (dataLabels.types && dataLabels.types[type]) || type;
     }
 
     /**
      * Get level label
      */
     function getLevelLabel(level) {
-        if (typeof StartupIcelandJobsData !== 'undefined' && StartupIcelandJobsData.levels) {
-            return StartupIcelandJobsData.levels[level] || level;
-        }
-        return level;
+        return (dataLabels.levels && dataLabels.levels[level]) || level;
     }
 
     /**
      * Get remote label
      */
     function getRemoteLabel(remote) {
-        if (typeof StartupIcelandJobsData !== 'undefined' && StartupIcelandJobsData.remoteOptions) {
-            return StartupIcelandJobsData.remoteOptions[remote] || remote;
-        }
-        return remote;
+        return (dataLabels.remoteOptions && dataLabels.remoteOptions[remote]) || remote;
     }
 
     /**

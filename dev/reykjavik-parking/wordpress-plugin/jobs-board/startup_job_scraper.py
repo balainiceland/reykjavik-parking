@@ -141,6 +141,13 @@ def load_existing_jobs(js_file_path: str) -> Tuple[List[Dict], int]:
         if featured_match:
             job['featured'] = featured_match.group(1) == 'true'
 
+        # Extract status and lastVerified (may not exist on older entries)
+        status_match = re.search(r'status:\s*"([^"]*)"', job_str)
+        job['status'] = status_match.group(1) if status_match else 'active'
+
+        verified_match = re.search(r'lastVerified:\s*"([^"]*)"', job_str)
+        job['lastVerified'] = verified_match.group(1) if verified_match else None
+
         jobs.append(job)
 
     return jobs, max_id
@@ -316,6 +323,8 @@ def generate_job_js(job: Dict, job_id: int) -> str:
     app_url = escape_js_string(job.get('applicationUrl', job.get('url', '')))
     featured = 'false'
 
+    today = datetime.now().strftime('%Y-%m-%d')
+
     return f"""        {{
             id: {job_id},
             company: {company},
@@ -330,7 +339,9 @@ def generate_job_js(job: Dict, job_id: int) -> str:
             salary: {salary},
             postedDate: {posted_date},
             applicationUrl: {app_url},
-            featured: {featured}
+            featured: {featured},
+            status: "active",
+            lastVerified: "{today}"
         }}"""
 
 
@@ -1068,6 +1079,160 @@ class AlfredPlaywrightScraper:
             return None
 
 
+# ---------------- Job Verification ----------------
+
+# Keywords that indicate a job has been filled/removed on the page (Icelandic + English)
+FILLED_KEYWORDS = [
+    'starf ekki lengur laust',
+    'starfið hefur verið ráðið',
+    'ekki lengur í boði',
+    'this position has been filled',
+    'no longer available',
+    'position has been closed',
+    'this job is no longer',
+    'expired',
+    'ráðið',
+    'auglýsing útrunnin',
+]
+
+
+def verify_job_url(url: str, session: requests.Session, delay: float = 0.5) -> str:
+    """
+    Check if a job URL is still active.
+    Returns: 'active', 'filled', or 'error'
+    """
+    try:
+        time.sleep(delay)
+        r = session.get(url, timeout=15, allow_redirects=True)
+
+        # Hard removal: 404, 410 Gone
+        if r.status_code in (404, 410):
+            return 'filled'
+
+        # Server error — don't mark as filled, could be temporary
+        if r.status_code >= 500:
+            return 'error'
+
+        # Other non-200 responses
+        if r.status_code >= 400:
+            return 'filled'
+
+        # 200 OK — check page content for soft removal indicators
+        page_text = r.text.lower()
+        for keyword in FILLED_KEYWORDS:
+            if keyword in page_text:
+                return 'filled'
+
+        # Check for redirect to homepage or generic jobs page (soft removal)
+        final_url = r.url.rstrip('/')
+        if final_url in ('https://www.tvinna.is', 'https://www.tvinna.is/jobs',
+                         'https://alfred.is', 'https://alfred.is/storf'):
+            return 'filled'
+
+        return 'active'
+
+    except requests.exceptions.Timeout:
+        return 'error'
+    except requests.RequestException:
+        return 'error'
+
+
+def verify_all_jobs(js_file_path: str, delay: float = 0.5) -> Dict[str, int]:
+    """
+    Verify all jobs in jobs-data.js and update their status.
+    Returns a summary dict with counts.
+    """
+    existing_jobs, max_id = load_existing_jobs(js_file_path)
+    print(f"Verifying {len(existing_jobs)} jobs...")
+
+    session = requests.Session()
+    session.headers.update(HEADERS)
+
+    today = datetime.now().strftime('%Y-%m-%d')
+    summary = {'active': 0, 'filled': 0, 'error': 0, 'already_filled': 0}
+
+    for job in existing_jobs:
+        url = job.get('applicationUrl', '')
+        current_status = job.get('status', 'active')
+        job_id = job.get('id', '?')
+
+        # Skip jobs already marked as filled
+        if current_status == 'filled':
+            summary['already_filled'] += 1
+            continue
+
+        if not url:
+            summary['error'] += 1
+            continue
+
+        status = verify_job_url(url, session, delay)
+        summary[status] += 1
+
+        if status == 'filled':
+            print(f"  FILLED: [{job_id}] {job.get('company', '')} - {job.get('title', '')}")
+
+        job['status'] = status if status != 'error' else current_status
+        job['lastVerified'] = today
+
+    # Write updated statuses back to the file
+    updated = update_job_statuses(js_file_path, existing_jobs)
+    if updated:
+        print(f"\nVerification complete:")
+        print(f"  Active: {summary['active']}")
+        print(f"  Newly filled: {summary['filled']}")
+        print(f"  Previously filled: {summary['already_filled']}")
+        print(f"  Errors (skipped): {summary['error']}")
+    else:
+        print("Error: Failed to write updated statuses to file.")
+
+    return summary
+
+
+def update_job_statuses(js_file_path: str, jobs: List[Dict]) -> bool:
+    """
+    Update status and lastVerified fields for jobs in jobs-data.js.
+    """
+    with open(js_file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    today = datetime.now().strftime('%Y-%m-%d')
+
+    for job in jobs:
+        job_id = job.get('id')
+        status = job.get('status', 'active')
+        last_verified = job.get('lastVerified', today)
+
+        if job_id is None:
+            continue
+
+        # Find this job's block in the file
+        # Match: id: <N>, ... featured: true/false\n        }
+        job_pattern = re.compile(
+            rf'(\{{[^{{}}]*?id:\s*{job_id},.*?featured:\s*(?:true|false))'
+            rf'((?:,\s*status:\s*"[^"]*")?)'
+            rf'((?:,\s*lastVerified:\s*"[^"]*")?)'
+            rf'(\s*\}})',
+            re.DOTALL
+        )
+
+        match = job_pattern.search(content)
+        if match:
+            # Build replacement: core fields + status + lastVerified + closing brace
+            replacement = (
+                match.group(1) +
+                f',\n            status: "{status}"' +
+                f',\n            lastVerified: "{last_verified}"' +
+                match.group(4)
+            )
+            content = content[:match.start()] + replacement + content[match.end():]
+
+    # Write back
+    with open(js_file_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+    return True
+
+
 # ---------------- Main ----------------
 
 def main():
@@ -1094,6 +1259,10 @@ def main():
     parser.add_argument(
         '--delay', type=float, default=1.0,
         help="Delay between requests in seconds (default: 1.0)"
+    )
+    parser.add_argument(
+        '--verify', action='store_true',
+        help="Verify existing jobs are still active (checks applicationUrl)"
     )
     args = parser.parse_args()
 
@@ -1168,6 +1337,15 @@ def main():
         companies[job.company] = companies.get(job.company, 0) + 1
     for company, count in sorted(companies.items(), key=lambda x: -x[1]):
         print(f"  {company}: {count}")
+
+    # Verify existing jobs if requested
+    if args.verify:
+        print()
+        if not jobs_data_path.exists():
+            print(f"Error: jobs-data.js not found at {jobs_data_path}")
+        else:
+            print("Verifying existing job listings...")
+            verify_all_jobs(str(jobs_data_path), delay=args.delay)
 
 
 if __name__ == "__main__":
