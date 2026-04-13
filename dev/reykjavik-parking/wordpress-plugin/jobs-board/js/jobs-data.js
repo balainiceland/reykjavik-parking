@@ -7,9 +7,9 @@
 var StartupIcelandJobsData = {
 
     metadata: {
-        lastUpdated: "2026-04-08",
+        lastUpdated: "2026-04-13",
         version: "1.0.0",
-        totalJobs: 313
+        totalJobs: 322
     },
 
     categories: {
@@ -61,7 +61,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/34",
             featured: true,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 2,
@@ -79,7 +79,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/35",
             featured: true,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 3,
@@ -97,7 +97,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/31",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 4,
@@ -115,7 +115,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/33",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 5,
@@ -133,7 +133,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/30",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 6,
@@ -151,7 +151,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/36",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 7,
@@ -169,7 +169,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.ccpgames.com/en/postings/38bbae43-3698-49e1-9777-4de698f04965",
             featured: true,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 8,
@@ -187,7 +187,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.ccpgames.com/postings/3918fe38-f52f-4e65-9890-f30f2bd2a4d3",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 9,
@@ -205,7 +205,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://monerium.com/jobs/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 10,
@@ -223,7 +223,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://dohop.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 11,
@@ -241,7 +241,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://dohop.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 12,
@@ -259,7 +259,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://dteehf.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 13,
@@ -277,7 +277,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 14,
@@ -295,7 +295,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 15,
@@ -313,7 +313,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 16,
@@ -331,7 +331,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-full-stack-developer-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 17,
@@ -349,7 +349,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 18,
@@ -367,7 +367,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 19,
@@ -385,7 +385,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 20,
@@ -403,7 +403,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 21,
@@ -421,7 +421,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 22,
@@ -439,7 +439,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 23,
@@ -457,7 +457,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 24,
@@ -475,7 +475,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 25,
@@ -493,7 +493,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 26,
@@ -511,7 +511,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 27,
@@ -529,7 +529,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 28,
@@ -547,7 +547,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 29,
@@ -565,7 +565,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 30,
@@ -583,7 +583,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 31,
@@ -601,7 +601,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 32,
@@ -619,7 +619,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.lsretail.com/jobs",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 33,
@@ -637,7 +637,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.lsretail.com/jobs",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 34,
@@ -655,7 +655,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.lsretail.com/jobs",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 35,
@@ -673,7 +673,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.lsretail.com/jobs",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 36,
@@ -691,7 +691,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://jbtm.wd108.myworkdayjobs.com/en-US/JBT_Marel_Career_Site/details/Senior-Manager-Product-Management_19979",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 37,
@@ -709,7 +709,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://meniga.bamboohr.com/careers/98",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 38,
@@ -727,7 +727,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 39,
@@ -745,7 +745,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 40,
@@ -763,7 +763,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 41,
@@ -781,7 +781,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 42,
@@ -799,7 +799,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 43,
@@ -817,7 +817,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 44,
@@ -835,7 +835,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 45,
@@ -853,7 +853,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 46,
@@ -871,7 +871,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 47,
@@ -889,7 +889,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 48,
@@ -907,7 +907,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 49,
@@ -925,7 +925,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 50,
@@ -943,7 +943,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 51,
@@ -961,7 +961,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 52,
@@ -979,7 +979,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 53,
@@ -997,7 +997,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 54,
@@ -1015,7 +1015,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 55,
@@ -1033,7 +1033,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: true,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 56,
@@ -1051,7 +1051,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 57,
@@ -1069,7 +1069,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 58,
@@ -1087,7 +1087,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 59,
@@ -1105,7 +1105,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 60,
@@ -1123,7 +1123,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://jobs.50skills.com/smittendating/en/40119",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 61,
@@ -1231,7 +1231,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "mailto:hr@krita.is",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 67,
@@ -1249,7 +1249,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.rapyd.net/company/careers/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 68,
@@ -1267,7 +1267,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.alvotech.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 69,
@@ -1285,7 +1285,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.alvotech.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 70,
@@ -1321,7 +1321,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "mailto:hlynur@hagvangur.is",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 72,
@@ -1339,7 +1339,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.jonsbok.is",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 73,
@@ -1357,7 +1357,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.jonsbok.is",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 74,
@@ -1375,7 +1375,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.hefringmarine.com",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 75,
@@ -1393,7 +1393,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tern.systems",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 76,
@@ -1411,7 +1411,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ripple.com/careers",
             featured: true,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 77,
@@ -1429,7 +1429,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "mailto:ibo@kerecis.com",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 78,
@@ -1447,7 +1447,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://jobs.50skills.com/smittendating/en",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 79,
@@ -1465,7 +1465,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "mailto:ibo@kerecis.com",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 80,
@@ -1483,7 +1483,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-software-engineer-17/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 81,
@@ -1501,7 +1501,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/frontend-software-engineer-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 82,
@@ -1519,7 +1519,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/product-software-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 83,
@@ -1537,7 +1537,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/data-scientist-6/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 84,
@@ -1573,7 +1573,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/frontend-engineer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 86,
@@ -1591,7 +1591,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/product-manager-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 87,
@@ -1609,7 +1609,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/engineering-delivery-lead-international-customers-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 88,
@@ -1627,7 +1627,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-frontend-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 89,
@@ -1645,7 +1645,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/machine-learning-engineer-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 90,
@@ -1663,7 +1663,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-quality-system-specialist-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 91,
@@ -1681,7 +1681,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/data-engineer-11/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 92,
@@ -1699,7 +1699,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/dba-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 93,
@@ -1717,7 +1717,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/frontend-developer-15/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 94,
@@ -1735,7 +1735,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/chief-technology-officer-cto/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 95,
@@ -1753,7 +1753,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/join-our-startup-as-lead-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 96,
@@ -1771,7 +1771,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/network-engineer-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 97,
@@ -1789,7 +1789,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/information-security-lead/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 98,
@@ -1807,7 +1807,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/summer-employee-associate-software-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 99,
@@ -1843,7 +1843,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/react-native-full-stack-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 101,
@@ -1861,7 +1861,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/bakendaforritari-21/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 102,
@@ -1879,7 +1879,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/framendaforritari-27/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 103,
@@ -1897,7 +1897,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/backend-software-developer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 104,
@@ -1915,7 +1915,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-in-product-development/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 105,
@@ -1933,7 +1933,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-tm/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 106,
@@ -1951,7 +1951,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/netserfraedingur-4/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 107,
@@ -1969,7 +1969,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/security-engineer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 108,
@@ -1987,7 +1987,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/system-administrator-14/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 109,
@@ -2005,7 +2005,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/database-administrator/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 110,
@@ -2023,7 +2023,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/delivery-lead-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 111,
@@ -2041,7 +2041,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-in-customer-success-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 112,
@@ -2059,7 +2059,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/devops-engineer-25/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 113,
@@ -2077,7 +2077,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-quality-assurance-engineer-in-customer-success/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 114,
@@ -2095,7 +2095,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-in-customer-success/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 115,
@@ -2113,7 +2113,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineers-python-vue/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 116,
@@ -2131,7 +2131,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/junior-senior-it-consultants/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 117,
@@ -2149,7 +2149,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/engineering-manager-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 118,
@@ -2167,7 +2167,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-68/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 119,
@@ -2185,7 +2185,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-16/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 120,
@@ -2203,7 +2203,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-software-engineer-14/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 121,
@@ -2221,7 +2221,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-unreal-engine/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 122,
@@ -2239,7 +2239,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/system-administrator-10/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 123,
@@ -2257,7 +2257,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/data-integration-specialist/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 124,
@@ -2275,7 +2275,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/summer-internship/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 125,
@@ -2293,7 +2293,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/framendaforritari-react-native-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 126,
@@ -2311,7 +2311,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-in-product-development/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 127,
@@ -2329,7 +2329,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/research-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 128,
@@ -2347,7 +2347,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/leidtogi-i-hagnytingu-gervigreindar/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 129,
@@ -2365,7 +2365,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-system-specialist-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 130,
@@ -2383,7 +2383,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/viltu-taka-thatt-i-ad-mota-framtidina-og-koma-hugbunadarverkefnum-i-innleidingu-og-throun/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 131,
@@ -2401,7 +2401,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/technical-consultant-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 132,
@@ -2419,7 +2419,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/serfraedingur-i-notendathjonustu-5/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 133,
@@ -2437,7 +2437,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/junior-information-security-consultant/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 134,
@@ -2455,7 +2455,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-information-security-consultant/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 135,
@@ -2473,7 +2473,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/core-developer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 136,
@@ -2491,7 +2491,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/it-support-specialist/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 137,
@@ -2509,7 +2509,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-front-end-developer-12/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 138,
@@ -2527,7 +2527,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-python-developer-4/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 139,
@@ -2545,7 +2545,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/technical-support-specialist-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 140,
@@ -2563,7 +2563,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-developer-37/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 141,
@@ -2581,7 +2581,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/kubernetes-developer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 142,
@@ -2599,7 +2599,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-devops-cloud-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 143,
@@ -2617,7 +2617,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/network-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 144,
@@ -2635,7 +2635,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/system-architect-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 145,
@@ -2653,7 +2653,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/project-manager-7/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 146,
@@ -2671,7 +2671,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/research-engineer-air-traffic-control-systems/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 147,
@@ -2689,7 +2689,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/upplysingaoryggisstjori-med-reynslu/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 148,
@@ -2707,7 +2707,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/director-cybersecurity/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 149,
@@ -2725,7 +2725,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/stjornunarleg-oryggisradgjof-syndis-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 150,
@@ -2743,7 +2743,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-solution-architect/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 151,
@@ -2905,7 +2905,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/fullstack-developer-python-react-firebase/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 160,
@@ -3049,7 +3049,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-47/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 168,
@@ -3517,7 +3517,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "mailto:gislinils@stigalolduna.is",
             featured: true,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 194,
@@ -5173,7 +5173,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 286,
@@ -5335,7 +5335,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/infra-wizard/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 295,
@@ -5407,7 +5407,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-lead-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 299,
@@ -5551,7 +5551,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-voerustjora-prentlausna-og-vaxtar",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 307,
@@ -5569,7 +5569,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-starfsmanni-a-noc-vaktbord",
             featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
         },
         {
             id: 308,
@@ -5640,8 +5640,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/arctic-trucks-dekkjaverkstaedi",
             featured: false,
-            status: "active",
-            lastVerified: "2026-04-08"
+            status: "filled",
+            lastVerified: "2026-04-13"
         },
         {
             id: 312,
@@ -5676,8 +5676,170 @@ var StartupIcelandJobsData = {
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/talent-acquisition-support-specialist-6month-contract",
             featured: false,
+            status: "filled",
+            lastVerified: "2026-04-13"
+        },
+        {
+            id: 314,
+            company: "Kaptio",
+            companyLogo: null,
+            title: "Senior DevOps Engineer",
+            description: "Senior DevOps Engineer Kaptio 8. Apr 2026 Fullt starf Job Overview We are looking for a Senior Engineer with extensive experience on Google Cloud Platform (GCP) and/or other cloud platforms. The successful candidate will be responsible for designing, building, and maintaining scalable cloud infrastructure that supports our clients’ software applications. The ideal candidate will have expertise in...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Iceland",
+            remote: "hybrid",
+            salary: null,
+            postedDate: "2026-04-13",
+            applicationUrl: "https://www.tvinna.is/jobs/senior-devops-engineer-4/",
+            featured: false,
             status: "active",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-04-13"
+        },
+        {
+            id: 315,
+            company: "Lucinity",
+            companyLogo: null,
+            title: "AML Analyst",
+            description: "Most AML analysts review alerts. You'll review alerts — and help build the AI that changes how that work gets done.\n\nThis is a 6-month contract on Lucinity's operations team. The role is hands-on: real alerts, real investigations, real escalations. But it comes with an unusual twist. As you work through cases, you'll collaborate directly with the team developing Luci, our AI agent — helping...",
+            category: "engineering",
+            type: "contract",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-04-13",
+            applicationUrl: "https://alfred.is/starf/aml-analyst",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-04-13"
+        },
+        {
+            id: 316,
+            company: "Tulipop",
+            companyLogo: null,
+            title: "Skrifstofu- og rekstrarumsjón",
+            description: "Viltu starfa í fjölbreyttu hlutverki þar sem skipulag, samskipti og yfirsýn skipta máli? Við leitum að drífandi og skipulögðum einstaklingi til að taka að sér mikilvægt hlutverk í daglegum rekstri fyrirtækisins.\n\nStarfið snýr að því að halda utan um allt sem þarf að ganga upp - frá daglegu skrifstofuhaldi yfir í samskipti, skipulag og eftirfylgni verkefna. Við leitum að einstaklingi sem hefur...",
+            category: "other",
+            type: "part-time",
+            experienceLevel: "lead",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-04-13",
+            applicationUrl: "https://alfred.is/starf/skrifstofu-og-rekstrarumsjon",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-04-13"
+        },
+        {
+            id: 317,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "Specialist Tech OPS Control Operations",
+            description: "Alvotech leitar að metnaðarfullum sérfræðingi til að ganga til liðs við teymið okkar. Í þessu hlutverki munt þú styðja við starfsemi í framleiðslu líftæknilyfja, tryggja að farið sé eftir cGMP‑stöðlum og leggja þitt af mörkum til stöðugra umbóta í framleiðsluumhverfinu. Við leitum að lausnamiðuðum einstaklingi sem nýtur þess að starfa í fjölbreyttu og krefjandi vinnuumhverfi og hefur áhuga á...",
+            category: "operations",
+            type: "contract",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-04-13",
+            applicationUrl: "https://alfred.is/starf/specialist-tech-ops-control-operations",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-04-13"
+        },
+        {
+            id: 318,
+            company: "BIOEFFECT hf.",
+            companyLogo: null,
+            title: "Sölustjóri BIOEFFECT á Íslandi",
+            description: "BIOEFFECT óskar eftir metnaðarfullum og reynslumiklum einstaklingi í starf sölustjóra á Íslandi. Starfið felur í sér skemmtileg, krefjandi og fjölbreytt verkefni sem snúa að sölustarfi BIOEFFECT.\n\nStarf sölustjóra felur í sér að efla og styrkja sölu og þjónustu á BIOEFFECT húðvörum á Íslandi. Sölustjóri leiðir uppbyggingu og eftirfylgni á sölustarfi vörumerkisins á Íslandi með áherslu á...",
+            category: "sales",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-04-13",
+            applicationUrl: "https://alfred.is/starf/soelustjori-bioeffect-a-islandi-1",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-04-13"
+        },
+        {
+            id: 319,
+            company: "Kaptio",
+            companyLogo: null,
+            title: "Solution Engineer",
+            description: "Do you want to work in a supportive environment where people believe in innovating through experimentation and research? Do you love to travel and want to have an impact on the future of the travel sector by working closely with industry leaders? Then you might be in the right place.\n\nWith the multi-day sector catching up with increasing demand, as an established travel technology company that...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-04-13",
+            applicationUrl: "https://alfred.is/starf/sales-solution-engineer",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-04-13"
+        },
+        {
+            id: 320,
+            company: "Embla Medical | Össur",
+            companyLogo: null,
+            title: "Framleiðslustarf í Silicone deild - framtíðarstarf",
+            description: "Langar þig að vera hluti af sterkri liðsheild innan stærstu framleiðslueiningar Össurar?\n\nVið leitum að liðsauka við framleiðslu á hágæða sílíkonhulsum fyrir viðskiptavini okkar um allan heim. Framleiðslan okkar er spennandi umhverfi þar sem framþróun er í hávegum höfð. Lögð er áhersla á öruggt vinnuumhverfi, stöðugar umbætur og starfsfólki gefið tækifæri til að hafa áhrif á...",
+            category: "other",
+            type: "internship",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-04-13",
+            applicationUrl: "https://alfred.is/starf/framleidslustarf-i-silicone-deild-framtidarstarf",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-04-13"
+        },
+        {
+            id: 321,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "Spennandi tækifæri hjá Alvotech / Pilot Scientist",
+            description: "Þessi staða hentar vel fyrir BSc/MSc útskriftarnema sem vilja starfa í öflugu teymi sem styður við þróun líftæknilyfja. Engin fyrri reynsla úr lyfjaiðnaði er nauðsynleg - full þjálfun og leiðsögn er veitt. Við leitum að einstaklingum sem hafa áhuga á vísindum, lærdómsvilja og drifkraft til að hafa jákvæð áhrif á líf sjúklinga.\n\n(English)\n\nThis position is well suited for BSc/MSc graduates who...",
+            category: "engineering",
+            type: "part-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-04-13",
+            applicationUrl: "https://alfred.is/starf/spennandi-taekifaeri-hja-alvotech-pilot-scientist",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-04-13"
+        },
+        {
+            id: 322,
+            company: "Primex ehf",
+            companyLogo: null,
+            title: "Viðhaldsmaður í verksmiðju Siglufjörður",
+            description: "Við hjá Primex ehf á Siglufirði leitum að öflugum viðhaldsmanni í teymið okkar. Um er að ræða spennandi og krefjandi starf hjá vaxandi fyrirtæki í sjávarlíftækni og nýsköpun.\n\nViðhaldsmaður sér um að byggja upp og viðhalda árangursríku viðhaldi alls búnaðar í framleiðsludeild og verksmiðju félagsins.\n\nHelstu verkefni og ábyrgð\nViðhaldsmaður vinnur að daglegum rekstri viðhalds ásamt því að sjá...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Akureyri, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-04-13",
+            applicationUrl: "https://alfred.is/starf/vidhaldsmadur-i-verksmidju-siglufjoerdur-3",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-04-13"
         }
     ]
 };
