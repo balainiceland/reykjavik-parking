@@ -10,7 +10,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/software-quality-assurance-engineer-5/",
     "featured": false,
     "source": "tvinna"
@@ -26,7 +26,7 @@
     "location": "Iceland",
     "remote": "hybrid",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/senior-devops-engineer-4/",
     "featured": false,
     "source": "tvinna"
@@ -42,7 +42,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/quality-assurance-lead-2/",
     "featured": false,
     "source": "tvinna"
@@ -58,7 +58,7 @@
     "location": "Iceland",
     "remote": "remote",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/infra-wizard/",
     "featured": false,
     "source": "tvinna"
@@ -74,7 +74,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-iceland/",
     "featured": false,
     "source": "tvinna"
@@ -90,7 +90,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/project-manager-8/",
     "featured": false,
     "source": "tvinna"
@@ -106,7 +106,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-47/",
     "featured": false,
     "source": "tvinna"
@@ -122,7 +122,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/senior-software-engineer-17/",
     "featured": false,
     "source": "tvinna"
@@ -138,7 +138,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/frontend-software-engineer-iceland/",
     "featured": false,
     "source": "tvinna"
@@ -154,7 +154,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/product-software-developer/",
     "featured": false,
     "source": "tvinna"
@@ -170,7 +170,7 @@
     "location": "Iceland",
     "remote": "remote",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/data-scientist-6/",
     "featured": false,
     "source": "tvinna"
@@ -186,7 +186,7 @@
     "location": "Iceland",
     "remote": "remote",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/frontend-engineer-2/",
     "featured": false,
     "source": "tvinna"
@@ -202,7 +202,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/product-manager-iceland/",
     "featured": false,
     "source": "tvinna"
@@ -218,7 +218,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/engineering-delivery-lead-international-customers-iceland/",
     "featured": false,
     "source": "tvinna"
@@ -234,7 +234,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/senior-frontend-engineer/",
     "featured": false,
     "source": "tvinna"
@@ -250,7 +250,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/machine-learning-engineer-3/",
     "featured": false,
     "source": "tvinna"
@@ -266,8 +266,24 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/senior-quality-system-specialist-iceland/",
+    "featured": false,
+    "source": "tvinna"
+  },
+  {
+    "company": "Abler",
+    "companyLogo": null,
+    "title": "Data engineer",
+    "description": "Data engineer Abler 24. Oct 2025 Fullt starf About Abler Sport matters! Abler is building the next-generation sports management platform , a unified system that helps clubs, coaches, and players manage training, communication, and performance data in one place. We empower sports organizations to focus on what truly matters: developing people and communities through sport. We’re a fast-growing...",
+    "category": "engineering",
+    "type": "full-time",
+    "experienceLevel": "mid",
+    "location": "Iceland",
+    "remote": "onsite",
+    "salary": null,
+    "postedDate": "2026-04-27",
+    "applicationUrl": "https://www.tvinna.is/jobs/data-engineer-11/",
     "featured": false,
     "source": "tvinna"
   },
@@ -282,7 +298,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/dba-3/",
     "featured": false,
     "source": "tvinna"
@@ -298,7 +314,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/frontend-developer-15/",
     "featured": false,
     "source": "tvinna"
@@ -314,7 +330,7 @@
     "location": "Iceland",
     "remote": "remote",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/chief-technology-officer-cto/",
     "featured": false,
     "source": "tvinna"
@@ -330,7 +346,7 @@
     "location": "Iceland",
     "remote": "remote",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/join-our-startup-as-lead-developer/",
     "featured": false,
     "source": "tvinna"
@@ -346,7 +362,7 @@
     "location": "Iceland",
     "remote": "hybrid",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/network-engineer-3/",
     "featured": false,
     "source": "tvinna"
@@ -362,7 +378,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/information-security-lead/",
     "featured": false,
     "source": "tvinna"
@@ -378,7 +394,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/summer-employee-associate-software-engineer/",
     "featured": false,
     "source": "tvinna"
@@ -394,7 +410,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/full-stack-forritari-fyrir-spennandi-gervigreindarverkefni/",
     "featured": false,
     "source": "tvinna"
@@ -410,7 +426,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/react-native-full-stack-developer/",
     "featured": false,
     "source": "tvinna"
@@ -426,7 +442,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/bakendaforritari-21/",
     "featured": false,
     "source": "tvinna"
@@ -442,7 +458,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/framendaforritari-27/",
     "featured": false,
     "source": "tvinna"
@@ -458,7 +474,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/backend-software-developer-2/",
     "featured": false,
     "source": "tvinna"
@@ -474,7 +490,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/quality-assurance-engineer-in-product-development/",
     "featured": false,
     "source": "tvinna"
@@ -490,7 +506,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/hugbunadarserfraedingur-tm/",
     "featured": false,
     "source": "tvinna"
@@ -506,7 +522,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/netserfraedingur-4/",
     "featured": false,
     "source": "tvinna"
@@ -522,7 +538,7 @@
     "location": "Iceland",
     "remote": "hybrid",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/security-engineer-2/",
     "featured": false,
     "source": "tvinna"
@@ -538,7 +554,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/system-administrator-14/",
     "featured": false,
     "source": "tvinna"
@@ -554,7 +570,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/database-administrator/",
     "featured": false,
     "source": "tvinna"
@@ -570,7 +586,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/delivery-lead-2/",
     "featured": false,
     "source": "tvinna"
@@ -586,7 +602,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-in-customer-success-3/",
     "featured": false,
     "source": "tvinna"
@@ -602,7 +618,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/system-administrator-13/",
     "featured": false,
     "source": "tvinna"
@@ -618,7 +634,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/devops-engineer-25/",
     "featured": false,
     "source": "tvinna"
@@ -634,7 +650,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/senior-quality-assurance-engineer-in-customer-success/",
     "featured": false,
     "source": "tvinna"
@@ -650,7 +666,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/quality-assurance-engineer-in-customer-success/",
     "featured": false,
     "source": "tvinna"
@@ -666,7 +682,7 @@
     "location": "Iceland",
     "remote": "hybrid",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/software-engineers-python-vue/",
     "featured": false,
     "source": "tvinna"
@@ -682,7 +698,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/junior-senior-it-consultants/",
     "featured": false,
     "source": "tvinna"
@@ -698,7 +714,7 @@
     "location": "Iceland",
     "remote": "remote",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/engineering-manager-iceland/",
     "featured": false,
     "source": "tvinna"
@@ -714,7 +730,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/hugbunadarserfraedingur-68/",
     "featured": false,
     "source": "tvinna"
@@ -730,7 +746,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/system-administrator-12/",
     "featured": false,
     "source": "tvinna"
@@ -746,7 +762,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/quality-assurance-engineer-16/",
     "featured": false,
     "source": "tvinna"
@@ -762,7 +778,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/senior-software-engineer-14/",
     "featured": false,
     "source": "tvinna"
@@ -778,7 +794,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/system-administrator-11/",
     "featured": false,
     "source": "tvinna"
@@ -794,7 +810,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-unreal-engine/",
     "featured": false,
     "source": "tvinna"
@@ -810,7 +826,7 @@
     "location": "Iceland",
     "remote": "hybrid",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/network-engineer-2/",
     "featured": false,
     "source": "tvinna"
@@ -826,7 +842,7 @@
     "location": "Iceland",
     "remote": "hybrid",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/system-administrator-10/",
     "featured": false,
     "source": "tvinna"
@@ -842,7 +858,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/data-integration-specialist/",
     "featured": false,
     "source": "tvinna"
@@ -858,7 +874,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/summer-internship/",
     "featured": false,
     "source": "tvinna"
@@ -874,7 +890,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/framendaforritari-react-native-developer/",
     "featured": false,
     "source": "tvinna"
@@ -890,7 +906,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-in-product-development/",
     "featured": false,
     "source": "tvinna"
@@ -906,7 +922,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/research-engineer/",
     "featured": false,
     "source": "tvinna"
@@ -922,7 +938,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/leidtogi-i-hagnytingu-gervigreindar/",
     "featured": false,
     "source": "tvinna"
@@ -938,7 +954,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/quality-system-specialist-2/",
     "featured": false,
     "source": "tvinna"
@@ -954,7 +970,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/viltu-taka-thatt-i-ad-mota-framtidina-og-koma-hugbunadarverkefnum-i-innleidingu-og-throun/",
     "featured": false,
     "source": "tvinna"
@@ -970,7 +986,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/technical-consultant-2/",
     "featured": false,
     "source": "tvinna"
@@ -986,7 +1002,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/serfraedingur-i-notendathjonustu-5/",
     "featured": false,
     "source": "tvinna"
@@ -1002,7 +1018,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/junior-information-security-consultant/",
     "featured": false,
     "source": "tvinna"
@@ -1018,7 +1034,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/senior-information-security-consultant/",
     "featured": false,
     "source": "tvinna"
@@ -1034,7 +1050,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-in-customer-success-2/",
     "featured": false,
     "source": "tvinna"
@@ -1050,7 +1066,7 @@
     "location": "Iceland",
     "remote": "remote",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/core-developer-2/",
     "featured": false,
     "source": "tvinna"
@@ -1066,7 +1082,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/it-support-specialist/",
     "featured": false,
     "source": "tvinna"
@@ -1082,7 +1098,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/senior-front-end-developer-12/",
     "featured": false,
     "source": "tvinna"
@@ -1098,7 +1114,7 @@
     "location": "Iceland",
     "remote": "hybrid",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/senior-python-developer-4/",
     "featured": false,
     "source": "tvinna"
@@ -1114,7 +1130,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/technical-support-specialist-2/",
     "featured": false,
     "source": "tvinna"
@@ -1130,7 +1146,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/software-developer-37/",
     "featured": false,
     "source": "tvinna"
@@ -1146,7 +1162,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/kubernetes-developer-2/",
     "featured": false,
     "source": "tvinna"
@@ -1162,7 +1178,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-in-customer-success/",
     "featured": false,
     "source": "tvinna"
@@ -1178,7 +1194,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/devops-engineer-23/",
     "featured": false,
     "source": "tvinna"
@@ -1194,7 +1210,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/senior-devops-cloud-engineer/",
     "featured": false,
     "source": "tvinna"
@@ -1210,7 +1226,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/network-engineer/",
     "featured": false,
     "source": "tvinna"
@@ -1226,7 +1242,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/system-architect-2/",
     "featured": false,
     "source": "tvinna"
@@ -1242,7 +1258,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/project-manager-7/",
     "featured": false,
     "source": "tvinna"
@@ -1258,7 +1274,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/quality-assurance-engineer-15/",
     "featured": false,
     "source": "tvinna"
@@ -1274,7 +1290,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/research-engineer-air-traffic-control-systems/",
     "featured": false,
     "source": "tvinna"
@@ -1290,7 +1306,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/fullstack-developer-python-react-firebase/",
     "featured": false,
     "source": "tvinna"
@@ -1306,7 +1322,7 @@
     "location": "Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://www.tvinna.is/jobs/upplysingaoryggisstjori-med-reynslu/",
     "featured": false,
     "source": "tvinna"
@@ -1319,27 +1335,27 @@
     "category": "design",
     "type": "full-time",
     "experienceLevel": "mid",
-    "location": "Iceland",
+    "location": "Akureyri, Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://alfred.is/starf/grafiskur-hoennudur-67",
     "featured": false,
     "source": "alfred"
   },
   {
-    "company": "OK",
+    "company": "Best heima",
     "companyLogo": null,
-    "title": "OK leitar að kerfisstjóra með Microsoft þekkingu",
-    "description": "OK leitar að áhugasömum einstakling með kerfisstjórareynslu til að bætast við frábært teymi okkar í kerfisstjórn.\nOK er með starfsstöðvar á höfuðborgarsvæðinu, Selfossi og Sauðárkróki og er möguleiki á að sinna starfinu á öllum þeim starfsstöðum. Um er að ræða fullt starf á dagtíma.\n\nHjá OK starfar fjölbreyttur hópur fólks og hvetjum við öll sem uppfylla hæfnikröfur og hafa áhuga á starfinu...",
+    "title": "Starfskraftur í heimaþjónustu",
+    "description": "Við leitum að öflugum og lausnamiðuðum einstaklingum til starfa í heimaþjónustu um kvöld og helgar á Seltjarnarnesi.\n\nVinnutími er 16:00-20:00 á virkum dögum og 13:00-17:00 um helgar\n\nStarfið hentar mjög vel með námi og sem sumarstarf\n\nStaða er laus strax\n\nHelstu verkefni og ábyrgð\n\nFélagslegur stuðningur\n\nAðstoða skjólstæðinga við dagleg verkefni \n\nLétt heimilisstörf\n\nSamskipti og...",
     "category": "other",
-    "type": "internship",
+    "type": "part-time",
     "experienceLevel": "mid",
     "location": "Reykjavik, Iceland",
-    "remote": "hybrid",
+    "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
-    "applicationUrl": "https://alfred.is/starf/ok-leitar-ad-kerfisstjora-med-microsoft-thekkingu",
+    "postedDate": "2026-04-27",
+    "applicationUrl": "https://alfred.is/starf/starfskraftur-i-heimathjonustu-1",
     "featured": false,
     "source": "alfred"
   },
@@ -1354,24 +1370,8 @@
     "location": "Reykjavik, Iceland",
     "remote": "onsite",
     "salary": null,
-    "postedDate": "2026-04-26",
+    "postedDate": "2026-04-27",
     "applicationUrl": "https://alfred.is/starf/thjonustufulltrui-i-mottoeku-service-representative",
-    "featured": false,
-    "source": "alfred"
-  },
-  {
-    "company": "Alvotech hf",
-    "companyLogo": null,
-    "title": "Analytical R&D Scientist / Sérfræðingur í þróun mæliaðferða",
-    "description": "Um starfið:\n\nVið leitum að skipulögðum, jákvæðum og áhugasömum einstaklingi í þróunardeild mæliaðferða, með gott auga fyrir smáatriðum. Starfið snýst einkum um fjölbreyttar sýnamælingar á tilraunastofu í tengslum við lyfjaþróun, auk þróunar og gildingar á mæliaðferðum fyrir gæðastjórnun.\n\nViðkomandi mun starfa innan teymis sem sér m.a. um kornamælingar (< 100 µm), greiningar á...",
-    "category": "engineering",
-    "type": "internship",
-    "experienceLevel": "mid",
-    "location": "Reykjavik, Iceland",
-    "remote": "onsite",
-    "salary": null,
-    "postedDate": "2026-04-26",
-    "applicationUrl": "https://alfred.is/starf/analytical-r-d-scientist-serfraedingur-i-throun-maeliadferda-1",
     "featured": false,
     "source": "alfred"
   }
