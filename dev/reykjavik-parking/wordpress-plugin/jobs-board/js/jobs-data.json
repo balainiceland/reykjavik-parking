@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-14T07:06:48.469Z",
+  "lastUpdated": "2026-06-15T07:27:08.513Z",
   "metadata": {
-    "lastUpdated": "2026-06-09",
+    "lastUpdated": "2026-06-15",
     "version": "1.0.0",
-    "totalJobs": 404
+    "totalJobs": 418
   },
   "categories": {
     "engineering": "Engineering",
@@ -51,7 +51,7 @@
       "applicationUrl": "https://treble.bamboohr.com/careers/34",
       "featured": true,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 2,
@@ -69,7 +69,7 @@
       "applicationUrl": "https://treble.bamboohr.com/careers/35",
       "featured": true,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 3,
@@ -87,7 +87,7 @@
       "applicationUrl": "https://treble.bamboohr.com/careers/31",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 4,
@@ -105,7 +105,7 @@
       "applicationUrl": "https://treble.bamboohr.com/careers/33",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 5,
@@ -123,7 +123,7 @@
       "applicationUrl": "https://treble.bamboohr.com/careers/30",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 6,
@@ -141,7 +141,7 @@
       "applicationUrl": "https://treble.bamboohr.com/careers/36",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 7,
@@ -159,7 +159,7 @@
       "applicationUrl": "https://careers.ccpgames.com/en/postings/38bbae43-3698-49e1-9777-4de698f04965",
       "featured": true,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 8,
@@ -177,7 +177,7 @@
       "applicationUrl": "https://careers.ccpgames.com/postings/3918fe38-f52f-4e65-9890-f30f2bd2a4d3",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 9,
@@ -195,7 +195,7 @@
       "applicationUrl": "https://monerium.com/jobs/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 10,
@@ -213,7 +213,7 @@
       "applicationUrl": "https://dohop.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 11,
@@ -231,7 +231,7 @@
       "applicationUrl": "https://dohop.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 12,
@@ -249,7 +249,7 @@
       "applicationUrl": "https://dteehf.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 13,
@@ -321,7 +321,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/senior-full-stack-developer-3/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 17,
@@ -339,7 +339,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 18,
@@ -357,7 +357,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 19,
@@ -375,7 +375,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 20,
@@ -393,7 +393,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 21,
@@ -411,7 +411,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 22,
@@ -429,7 +429,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 23,
@@ -447,7 +447,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 24,
@@ -465,7 +465,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 25,
@@ -483,7 +483,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 26,
@@ -501,7 +501,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 27,
@@ -519,7 +519,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 28,
@@ -537,7 +537,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 29,
@@ -555,7 +555,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 30,
@@ -573,7 +573,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 31,
@@ -591,7 +591,7 @@
       "applicationUrl": "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 32,
@@ -609,7 +609,7 @@
       "applicationUrl": "https://careers.lsretail.com/jobs",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 33,
@@ -627,7 +627,7 @@
       "applicationUrl": "https://careers.lsretail.com/jobs",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 34,
@@ -645,7 +645,7 @@
       "applicationUrl": "https://careers.lsretail.com/jobs",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 35,
@@ -663,7 +663,7 @@
       "applicationUrl": "https://careers.lsretail.com/jobs",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 36,
@@ -681,7 +681,7 @@
       "applicationUrl": "https://jbtm.wd108.myworkdayjobs.com/en-US/JBT_Marel_Career_Site/details/Senior-Manager-Product-Management_19979",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 37,
@@ -699,7 +699,7 @@
       "applicationUrl": "https://meniga.bamboohr.com/careers/98",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 38,
@@ -717,7 +717,7 @@
       "applicationUrl": "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 39,
@@ -735,7 +735,7 @@
       "applicationUrl": "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 40,
@@ -753,7 +753,7 @@
       "applicationUrl": "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 41,
@@ -771,7 +771,7 @@
       "applicationUrl": "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 42,
@@ -789,7 +789,7 @@
       "applicationUrl": "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 43,
@@ -807,7 +807,7 @@
       "applicationUrl": "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 44,
@@ -825,7 +825,7 @@
       "applicationUrl": "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 45,
@@ -843,7 +843,7 @@
       "applicationUrl": "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 46,
@@ -861,7 +861,7 @@
       "applicationUrl": "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 47,
@@ -879,7 +879,7 @@
       "applicationUrl": "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 48,
@@ -897,7 +897,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 49,
@@ -915,7 +915,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 50,
@@ -933,7 +933,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 51,
@@ -951,7 +951,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 52,
@@ -969,7 +969,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 53,
@@ -987,7 +987,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 54,
@@ -1005,7 +1005,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 55,
@@ -1023,7 +1023,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": true,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 56,
@@ -1041,7 +1041,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 57,
@@ -1059,7 +1059,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 58,
@@ -1077,7 +1077,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 59,
@@ -1095,7 +1095,7 @@
       "applicationUrl": "https://beqom.bamboohr.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 60,
@@ -1113,7 +1113,7 @@
       "applicationUrl": "https://jobs.50skills.com/smittendating/en/40119",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 61,
@@ -1221,7 +1221,7 @@
       "applicationUrl": "mailto:hr@krita.is",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 67,
@@ -1239,7 +1239,7 @@
       "applicationUrl": "https://www.rapyd.net/company/careers/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 68,
@@ -1257,7 +1257,7 @@
       "applicationUrl": "https://www.alvotech.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 69,
@@ -1275,7 +1275,7 @@
       "applicationUrl": "https://www.alvotech.com/careers",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 70,
@@ -1311,7 +1311,7 @@
       "applicationUrl": "mailto:hlynur@hagvangur.is",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 72,
@@ -1329,7 +1329,7 @@
       "applicationUrl": "https://www.jonsbok.is",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 73,
@@ -1347,7 +1347,7 @@
       "applicationUrl": "https://www.jonsbok.is",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 74,
@@ -1365,7 +1365,7 @@
       "applicationUrl": "https://www.hefringmarine.com",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 75,
@@ -1383,7 +1383,7 @@
       "applicationUrl": "https://www.tern.systems",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 76,
@@ -1401,7 +1401,7 @@
       "applicationUrl": "https://ripple.com/careers",
       "featured": true,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 77,
@@ -1419,7 +1419,7 @@
       "applicationUrl": "mailto:ibo@kerecis.com",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 78,
@@ -1437,7 +1437,7 @@
       "applicationUrl": "https://jobs.50skills.com/smittendating/en",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 79,
@@ -1455,7 +1455,7 @@
       "applicationUrl": "mailto:ibo@kerecis.com",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 80,
@@ -1473,7 +1473,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/senior-software-engineer-17/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 81,
@@ -1491,7 +1491,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/frontend-software-engineer-iceland/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 82,
@@ -1509,7 +1509,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/product-software-developer/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 83,
@@ -1527,7 +1527,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/data-scientist-6/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 84,
@@ -1563,7 +1563,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/frontend-engineer-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 86,
@@ -1581,7 +1581,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/product-manager-iceland/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 87,
@@ -1599,7 +1599,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/engineering-delivery-lead-international-customers-iceland/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 88,
@@ -1617,7 +1617,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/senior-frontend-engineer/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 89,
@@ -1635,7 +1635,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/machine-learning-engineer-3/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 90,
@@ -1653,7 +1653,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/senior-quality-system-specialist-iceland/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 91,
@@ -1671,7 +1671,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/data-engineer-11/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 92,
@@ -1689,7 +1689,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/dba-3/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 93,
@@ -1707,7 +1707,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/frontend-developer-15/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 94,
@@ -1725,7 +1725,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/chief-technology-officer-cto/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 95,
@@ -1743,7 +1743,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/join-our-startup-as-lead-developer/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 96,
@@ -1761,7 +1761,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/network-engineer-3/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 97,
@@ -1779,7 +1779,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/information-security-lead/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 98,
@@ -1797,7 +1797,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/summer-employee-associate-software-engineer/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 99,
@@ -1833,7 +1833,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/react-native-full-stack-developer/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 101,
@@ -1851,7 +1851,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/bakendaforritari-21/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 102,
@@ -1869,7 +1869,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/framendaforritari-27/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 103,
@@ -1887,7 +1887,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/backend-software-developer-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 104,
@@ -1905,7 +1905,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/quality-assurance-engineer-in-product-development/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 105,
@@ -1923,7 +1923,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/hugbunadarserfraedingur-tm/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 106,
@@ -1941,7 +1941,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/netserfraedingur-4/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 107,
@@ -1959,7 +1959,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/security-engineer-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 108,
@@ -1977,7 +1977,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/system-administrator-14/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 109,
@@ -1995,7 +1995,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/database-administrator/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 110,
@@ -2013,7 +2013,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/delivery-lead-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 111,
@@ -2031,7 +2031,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-in-customer-success-3/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 112,
@@ -2049,7 +2049,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/devops-engineer-25/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 113,
@@ -2067,7 +2067,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/senior-quality-assurance-engineer-in-customer-success/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 114,
@@ -2085,7 +2085,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/quality-assurance-engineer-in-customer-success/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 115,
@@ -2103,7 +2103,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/software-engineers-python-vue/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 116,
@@ -2121,7 +2121,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/junior-senior-it-consultants/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 117,
@@ -2139,7 +2139,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/engineering-manager-iceland/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 118,
@@ -2157,7 +2157,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/hugbunadarserfraedingur-68/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 119,
@@ -2175,7 +2175,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/quality-assurance-engineer-16/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 120,
@@ -2193,7 +2193,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/senior-software-engineer-14/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 121,
@@ -2211,7 +2211,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-unreal-engine/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 122,
@@ -2229,7 +2229,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/system-administrator-10/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 123,
@@ -2247,7 +2247,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/data-integration-specialist/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 124,
@@ -2265,7 +2265,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/summer-internship/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 125,
@@ -2283,7 +2283,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/framendaforritari-react-native-developer/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 126,
@@ -2301,7 +2301,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-in-product-development/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 127,
@@ -2319,7 +2319,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/research-engineer/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 128,
@@ -2337,7 +2337,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/leidtogi-i-hagnytingu-gervigreindar/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 129,
@@ -2355,7 +2355,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/quality-system-specialist-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 130,
@@ -2373,7 +2373,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/viltu-taka-thatt-i-ad-mota-framtidina-og-koma-hugbunadarverkefnum-i-innleidingu-og-throun/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 131,
@@ -2391,7 +2391,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/technical-consultant-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 132,
@@ -2409,7 +2409,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/serfraedingur-i-notendathjonustu-5/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 133,
@@ -2427,7 +2427,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/junior-information-security-consultant/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 134,
@@ -2445,7 +2445,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/senior-information-security-consultant/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 135,
@@ -2463,7 +2463,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/core-developer-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 136,
@@ -2481,7 +2481,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/it-support-specialist/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 137,
@@ -2499,7 +2499,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/senior-front-end-developer-12/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 138,
@@ -2517,7 +2517,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/senior-python-developer-4/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 139,
@@ -2535,7 +2535,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/technical-support-specialist-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 140,
@@ -2553,7 +2553,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/software-developer-37/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 141,
@@ -2571,7 +2571,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/kubernetes-developer-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 142,
@@ -2589,7 +2589,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/senior-devops-cloud-engineer/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 143,
@@ -2607,7 +2607,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/network-engineer/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 144,
@@ -2625,7 +2625,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/system-architect-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 145,
@@ -2643,7 +2643,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/project-manager-7/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 146,
@@ -2661,7 +2661,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/research-engineer-air-traffic-control-systems/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 147,
@@ -2679,7 +2679,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/upplysingaoryggisstjori-med-reynslu/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 148,
@@ -2697,7 +2697,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/director-cybersecurity/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 149,
@@ -2715,7 +2715,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/stjornunarleg-oryggisradgjof-syndis-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 150,
@@ -2733,7 +2733,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/hugbunadarserfraedingur-solution-architect/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 151,
@@ -2895,7 +2895,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/fullstack-developer-python-react-firebase/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 160,
@@ -3039,7 +3039,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-47/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 168,
@@ -3507,7 +3507,7 @@
       "applicationUrl": "mailto:gislinils@stigalolduna.is",
       "featured": true,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 194,
@@ -5163,7 +5163,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-iceland/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 286,
@@ -5325,7 +5325,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/infra-wizard/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 295,
@@ -5397,7 +5397,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/quality-assurance-lead-2/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 299,
@@ -5685,7 +5685,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/senior-devops-engineer-4/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 315,
@@ -6171,7 +6171,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/software-quality-assurance-engineer-5/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 342,
@@ -6531,7 +6531,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/sumarstarf-marketplace-samthaettingar/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 362,
@@ -6693,7 +6693,7 @@
       "applicationUrl": "https://www.tvinna.is/jobs/it-engineer/",
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-06-09"
+      "lastVerified": "2026-06-15"
     },
     {
       "id": 371,
@@ -7306,6 +7306,258 @@
       "featured": false,
       "status": "filled",
       "lastVerified": "2026-06-09"
+    },
+    {
+      "id": 405,
+      "company": "KS",
+      "companyLogo": null,
+      "title": "Lagerstarfsmaður",
+      "description": "Mjólkursamlag Kaupfélags Skagfirðinga óskar eftir að ráða lagerstarfsmann á starfsstöð þess í Reykjavík. Um framtíðarstarf er að ræða.\n\nHelstu verkefni og ábyrgð\n\nVörumóttaka, tiltekt pantana og vöruafgreiðsla\n\nMenntunar- og hæfniskröfur\n\nJákvæðni og góð hæfni í mannlegum samskiptum\n\nBílpróf\n\nGóðir skipulagshæfileikar\n\nGóð almenn tölvukunnátta\n\nVinnuvélaréttindi eru kostur\n\nHvetjum öll...",
+      "category": "other",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "location": "Reykjavik, Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/lagerstarfsmadur-204",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 406,
+      "company": "Alvotech hf",
+      "companyLogo": null,
+      "title": "Senior Specialist, Manufacturing Operations",
+      "description": "Overview of role:\n\nAre you passionate about downstream processing and ready to make a real impact in biopharmaceutical manufacturing? Alvotech is seeking a DSP MSAT Senior Specialist to support the successful transfer, optimization, and performance of biologics manufacturing processes at our state-of-the-art facility in Iceland.\n\n\nKey Responsibilities:\n\nLead downstream process technology...",
+      "category": "operations",
+      "type": "full-time",
+      "experienceLevel": "lead",
+      "location": "Reykjavik, Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/senior-specialist-manufacturing-operations",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 407,
+      "company": "Alvotech hf",
+      "companyLogo": null,
+      "title": "Principal Specialist, DSP MSAT",
+      "description": "Overview of role:\n\nAre you passionate about driving process excellence in biopharmaceutical manufacturing? Alvotech is seeking an MSAT Specialist to lead technology transfer, scale-up, and process optimization activities, ensuring seamless transition from development to GMP manufacturing. This role plays a critical part in supporting manufacturing performance, resolving technical challenges,...",
+      "category": "other",
+      "type": "contract",
+      "experienceLevel": "lead",
+      "location": "Reykjavik, Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/principal-specialist-dsp-msat",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 408,
+      "company": "North Iceland",
+      "companyLogo": null,
+      "title": "Chef / Kitchen position",
+      "description": "We are looking for Experienced Chef for small Hotel at the North of Iceland. Accomodation. Starting - soon.\n\nHelstu verkefni og ábyrgð\n\nCooking food for Hotel guests\n\nMenntunar- og hæfniskröfur\n\nKitchen skills \n\nAuglýsing birt\n13. júní 2026\nUmsóknarfrestur\nEnginn\nSækja um\nVista\nDeila\nTungumálahæfni\nEnska\nNauðsyn\nMjög góð\nStarfstegund\nFullt...",
+      "category": "other",
+      "type": "part-time",
+      "experienceLevel": "mid",
+      "location": "Reykjavik, Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/chef-kitchen-position",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 409,
+      "company": "AviLabs ehf.",
+      "companyLogo": null,
+      "title": "Chief Operating Officer",
+      "description": "AviLabs is hiring a Chief Operating Officer to run the operating side of the company as we move into our next stage of growth. This role will serve as the CEO's close strategic partner, helping shape company priorities, lead our next funding round, and build the operational, financial and organizational foundations required to scale a category-defining aviation software company.\n\nAbout...",
+      "category": "engineering",
+      "type": "contract",
+      "experienceLevel": "executive",
+      "location": "Reykjavik, Iceland",
+      "remote": "hybrid",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/chief-operating-officer-2",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 410,
+      "company": "Leikskólinn Hulduheimar",
+      "companyLogo": null,
+      "title": "Leikskólasérkennari, þroskaþjálfi",
+      "description": "Leikskólinn Hulduheimar auglýsir eftir leikskólasérkennara eða þroskaþjálfa frá og með 6. ágúst 2026, eða eftir samkomulagi.\n\nLeitað er að leikskólasérkennara eða þroskaþjálfa sem hafa áhuga á að starfa í leikskóla þar sem fram fer faglegt leikskólastarf með áherslu á leik, samvinnu, traust og gleði.\n\nLeikskólasérkennari/þroskaþjálfi starfar samkvæmt stefnumörkun leikskólans sem tekur meðal...",
+      "category": "other",
+      "type": "part-time",
+      "experienceLevel": "mid",
+      "location": "Akureyri, Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/leikskolaserkennari-throskathjalfi-68",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 411,
+      "company": "Alvotech hf",
+      "companyLogo": null,
+      "title": "Senior Specialist, USP MSAT",
+      "description": "Overview of role:\n\nAre you a subject matter expert in upstream processing with a passion for innovation and technical excellence in biologics manufacturing? Alvotech is seeking a USP MSAT Specialist – Late Stage to lead upstream process support, scale-up, and lifecycle management for commercial biosimilar products.\n\nKey Responsibilities:\n\nAct as the Subject Matter Expert (SME) for upstream...",
+      "category": "other",
+      "type": "full-time",
+      "experienceLevel": "lead",
+      "location": "Reykjavik, Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/senior-specialist-usp-msat",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 412,
+      "company": "Alvotech hf",
+      "companyLogo": null,
+      "title": "Exciting Science Graduate Opportunity – Biotech Manufacturing",
+      "description": "Íslenska:\n\nVilt þú verða hluti af Drug Substance Operations teyminu hjá Alvotech í Reykjavík og starfa í öflugu og faglegu umhverfi þar sem nákvæmni, gæði og samvinna skipta máli?\n\nVið leitum að jákvæðum og lausnamiðuðum einstaklingum sem eru tilbúnir að takast á spennandi áskoranir. Við bjóðum upp á vandaða þjálfun, góða handleiðslu og tækifæri til að vaxa í starfi.\n\n\nEnglish\n\nOverview of...",
+      "category": "operations",
+      "type": "full-time",
+      "experienceLevel": "entry",
+      "location": "Reykjavik, Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/exciting-science-graduate-opportunity-biotech-manufacturing",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 413,
+      "company": "Heimamenn ehf.",
+      "companyLogo": null,
+      "title": "Pípari",
+      "description": "Óska eftir að ráða starfsmann til að starfa í pípulagnadeild fyrirtækisins. Sveinspróf eða góð reynsla í greininni nauðsynleg. Frábært tækifæri til þess að koma og upplifa notarlegheitin fyrir norðan í sterku og stækkandi sveitarfélagi. Aðstoð með húsnæði samningsatriði.\n\nMenntunar- og hæfniskröfur\n\nSveinspróf eða mikil reynsla í greininni\n\nAuglýsing birt\n9. júní...",
+      "category": "other",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "location": "Akureyri, Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/pipari-43",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 414,
+      "company": "Heimaleiga",
+      "companyLogo": null,
+      "title": "Selfoss - Building Leader & Housekeeping",
+      "description": "Heimaleiga is expanding to Selfoss and is looking for new team members to join our housekeeping operation.\n\nWe are currently preparing a brand new property with 12 apartments for opening and are looking for both a full-time Building Leader and part-time Housekeepers to join the team.\n\nThe Building Leader will be the main housekeeper at the property and will work on-site on a full-time basis....",
+      "category": "other",
+      "type": "part-time",
+      "experienceLevel": "mid",
+      "location": "Reykjavik, Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/building-leader-housekeeping-selfoss",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 415,
+      "company": "AviLabs ehf.",
+      "companyLogo": null,
+      "title": "UI/UX Designer",
+      "description": "AviLabs is hiring an experienced product designer to join the team building out our flagship product, Plan3, the platform airlines use to get passengers back on track when flights are cancelled, delayed, or rerouted. Founded in 2019, we’re a growing team in Reykjavík with deep aviation experience. We’re building this company for the long run, as we would a home to live in, and that shapes how...",
+      "category": "design",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "location": "Reykjavik, Iceland",
+      "remote": "hybrid",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/ui-ux-designer-6",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 416,
+      "company": "Verne",
+      "companyLogo": null,
+      "title": "Umhverfis-, heilbrigðis- og öryggisstjóri (EHS Manager)",
+      "description": "Staðsetning: Keflavík\n\nVerne óskar eftir að ráða umhverfis-, heilbrigðis- og öryggisstjóra til að ganga til liðs við öflugt teymi á starfsstöð fyrirtækisins í Keflavík. Viðkomandi ber ábyrgð á að þróa, innleiða og viðhalda áætlunum á sviði umhverfis, heilbrigðis og öryggis til að tryggja öruggt og atvikalaust rekstrarumhverfi gagnavera. Starfið felur í sér náið samstarf við ýmsa hagaðila við...",
+      "category": "other",
+      "type": "contract",
+      "experienceLevel": "mid",
+      "location": "Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/umhverfis-heilbrigdis-og-oeryggisstjori-ehs-manager",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 417,
+      "company": "AviLabs ehf.",
+      "companyLogo": null,
+      "title": "Product Developer",
+      "description": "AviLabs is hiring an experienced developer to join the team building out our flagship product, Plan3, the platform airlines use to get passengers back on track when flights are cancelled, delayed, or rerouted. Founded in 2019, we’re a growing team based in Reykjavík with deep aviation experience. We’re building this company for the long run, as we would a home to live in, and that shapes how...",
+      "category": "engineering",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "location": "Reykjavik, Iceland",
+      "remote": "hybrid",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/product-developer",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
+    },
+    {
+      "id": 418,
+      "company": "Alvotech hf",
+      "companyLogo": null,
+      "title": "Scientist, Drug Product Development",
+      "description": "Overview of Role\n\nWe are looking for capable and motivated formulation scientist to join the Drug Product Development team at Alvotech, Reykjavik. In this position, you will be a part of a team working on the development of liquid/lyophilized biologics (biosimilar) drug products. This role is an excellent opportunity for both recent graduates and experienced scientists who are eager to build...",
+      "category": "engineering",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "location": "Reykjavik, Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-06-15",
+      "applicationUrl": "https://alfred.is/starf/scientist-drug-product-development",
+      "featured": false,
+      "status": "filled",
+      "lastVerified": "2026-06-15"
     }
   ]
 }
