@@ -7,9 +7,9 @@
 var StartupIcelandJobsData = {
 
     metadata: {
-        lastUpdated: "2026-09-19",
+        lastUpdated: "2026-09-21",
         version: "1.0.0",
-        totalJobs: 545
+        totalJobs: 546
     },
 
     categories: {
@@ -9851,6 +9851,24 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-19",
             applicationUrl: "https://alfred.is/starf/qa-specialist-product-testing-review",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-09-21"
+        },
+        {
+            id: 546,
+            company: "Embla Medical | Össur",
+            companyLogo: null,
+            title: "Global Product Owner, Manufacturing Systems | Embla Medical",
+            description: "Are you an experienced manufacturing and transformation leader who thrives at the intersection of operations, technology, and business change? Do you enjoy shaping future-state manufacturing capabilities while driving alignment across global sites and functions? Then this could be your next challenge.\n\nYour Role\n\nAs a Global Product Owner, Manufacturing Systems, you will lead the definition,...",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "lead",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-21",
+            applicationUrl: "https://alfred.is/starf/global-product-owner-manufacturing-systems-embla-medical",
             featured: false,
             status: "active",
             lastVerified: "2026-09-21"
