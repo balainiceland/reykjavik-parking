@@ -60,8 +60,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/34",
             featured: true,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 2,
@@ -78,8 +78,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/35",
             featured: true,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 3,
@@ -96,8 +96,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/31",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 4,
@@ -114,8 +114,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/33",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 5,
@@ -132,8 +132,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/30",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 6,
@@ -150,8 +150,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/36",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 7,
@@ -222,8 +222,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://dohop.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 11,
@@ -240,8 +240,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://dohop.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 12,
@@ -258,8 +258,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://dteehf.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 13,
@@ -276,8 +276,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-04-23"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 14,
@@ -294,8 +294,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-04-23"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 15,
@@ -312,8 +312,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-04-23"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 16,
@@ -708,8 +708,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-20",
             applicationUrl: "https://meniga.bamboohr.com/careers/98",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 38,
@@ -906,8 +906,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 49,
@@ -924,8 +924,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 50,
@@ -942,8 +942,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 51,
@@ -960,8 +960,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 52,
@@ -978,8 +978,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 53,
@@ -996,8 +996,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 54,
@@ -1014,8 +1014,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 55,
@@ -1032,8 +1032,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: true,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 56,
@@ -1050,8 +1050,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 57,
@@ -1068,8 +1068,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 58,
@@ -1086,8 +1086,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 59,
@@ -1104,8 +1104,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-01"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 60,
@@ -1141,7 +1141,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/product-software-developer",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 62,
@@ -1159,7 +1159,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/en/starf/rafvirki-med-nyskoepunarhugarfar-oskast",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 63,
@@ -1177,7 +1177,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/en/starf/velamadur-i-poekkunardeild-packaging-mechanic",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-23"
+            lastVerified: "2026-09-21"
         },
         {
             id: 64,
@@ -1195,7 +1195,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/en/fyrirtaeki/lagaviti",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 65,
@@ -1213,7 +1213,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/en/fyrirtaeki/lagaviti",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 66,
@@ -1302,8 +1302,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-22",
             applicationUrl: "https://www.pikkolo.is",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-02-09"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 71,
@@ -1555,7 +1555,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-software-engineer-16/",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 85,
@@ -1824,8 +1824,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/full-stack-forritari-fyrir-spennandi-gervigreindarverkefni/",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-02-09"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 100,
@@ -2761,7 +2761,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/social-media-manager-samfelagsmidlastjori",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 152,
@@ -2779,7 +2779,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-kerfisstjora",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 153,
@@ -2797,7 +2797,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-gaedatryggingardeild-qa-specialist-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 154,
@@ -2815,7 +2815,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sumarstarf-hja-carbfix",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 155,
@@ -2833,7 +2833,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sumarstoerf-hja-alvotech-summer-position-at-alvotech",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 156,
@@ -2851,7 +2851,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/gesta-thjonusta-guest-service-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 157,
@@ -2869,7 +2869,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/vidskiptastjori-hja-fjartaeknifyrirtaeki-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 158,
@@ -2887,7 +2887,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/logistics-and-supply-chain-associate",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 159,
@@ -2923,7 +2923,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/hefur-thu-ahuga-a-ad-leida-rekstur-rannsoknarstofa-we-are-seeking-a-lab-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 161,
@@ -2941,7 +2941,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sterility-assurance-senior-specialist-reyndur-serfraedingur-i-daudhreinsun-og-oerveruoeryggi",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 162,
@@ -2959,7 +2959,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/solution-architect-mobile-applications-embla-medical",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 163,
@@ -2977,7 +2977,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/bokari-299",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 164,
@@ -2995,7 +2995,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/project-manager-28",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 165,
@@ -3013,7 +3013,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/corporate-finance-coordinator-embla-medical",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 166,
@@ -3031,7 +3031,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/verslunarstjori-bioeffect-verslana",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 167,
@@ -3067,7 +3067,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/framleidslutaeknir-aseptic-processing-technologist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 169,
@@ -3085,7 +3085,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/bara-tala-leitar-ad-islenskukennara",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 170,
@@ -3103,7 +3103,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/framleidslutaeknir-dpvi-technologist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 171,
@@ -3121,7 +3121,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-poekkunardeild-coripharma-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 172,
@@ -3139,7 +3139,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/velamadur-i-poekkunardeild-packaging-mechanic",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 173,
@@ -3157,7 +3157,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/voeruhusastjori-7",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-27"
+            lastVerified: "2026-09-21"
         },
         {
             id: 174,
@@ -3175,7 +3175,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/vaktstjori-i-poekkunardeild-shift-manager-in-packaging-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 175,
@@ -3193,7 +3193,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/country-security-operations-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 176,
@@ -3211,7 +3211,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/reyndur-serfraedingur-i-gaedamalum-samsettra-lyfja-og-taekjaafurda-combination-products-device",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 177,
@@ -3229,7 +3229,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/prentumsjon-artwork-coordinator-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 178,
@@ -3247,7 +3247,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/backend-developer-go-expert",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 179,
@@ -3265,7 +3265,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/devops-engineer-34",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 180,
@@ -3283,7 +3283,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/frontend-developer-ui-ux",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 181,
@@ -3301,7 +3301,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starf-i-afyllingu-hja-bioeffect",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 182,
@@ -3319,7 +3319,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/afleysingarmanneskja-i-moetuneyti",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 183,
@@ -3337,7 +3337,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/customer-success-manager-15",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 184,
@@ -3355,7 +3355,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/hse-engineer",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 185,
@@ -3373,7 +3373,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/rafvirki-rafmagnsserfraedingur",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 186,
@@ -3391,7 +3391,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/viltu-starfa-i-upplysingataekni-4",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 187,
@@ -3409,7 +3409,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/deildarstjori-blaskoga",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 188,
@@ -3427,7 +3427,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/framleidslutaeknir-manufacturing-technologist-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 189,
@@ -3445,7 +3445,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/atmonia-leitar-ad-verkefnisstjora",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 190,
@@ -3463,7 +3463,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-leidtoga-yfir-noc-vaktbordi",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 191,
@@ -3481,7 +3481,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/purchasing-processor-serfraedingur-i-innkaupum",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 192,
@@ -3499,7 +3499,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-throun-lyfjaforma-7",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 193,
@@ -3535,7 +3535,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/almennur-starfsmadur-i-urbeiningardeild",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 195,
@@ -3553,7 +3553,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ahaettustyring-indo-serfraedingur-i-utlanum",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 196,
@@ -3571,7 +3571,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/financial-controller-10",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-11"
+            lastVerified: "2026-09-21"
         },
         {
             id: 197,
@@ -3589,7 +3589,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/bokari-301",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-11"
+            lastVerified: "2026-09-21"
         },
         {
             id: 198,
@@ -3607,7 +3607,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/indo-leitar-ad-thjonustufulltrua-i-framtidarstarf",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-11"
+            lastVerified: "2026-09-21"
         },
         {
             id: 199,
@@ -3625,7 +3625,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/fjarmalastjori-indo",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-04"
+            lastVerified: "2026-09-21"
         },
         {
             id: 200,
@@ -3643,7 +3643,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/markadsfulltrui-94",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 201,
@@ -3661,7 +3661,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/analytical-r-d-scientist-serfraedingur-i-greiningarthroun",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 202,
@@ -3679,7 +3679,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sumarstarf-i-erfdafraedihopi-matis",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 203,
@@ -3697,7 +3697,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/framleidslustarf-bionic-technician-4",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 204,
@@ -3715,7 +3715,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/countertops-installation-4",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 205,
@@ -3733,7 +3733,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/verkfraedingur-i-gaedasetri",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 206,
@@ -3751,7 +3751,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/framkvaemdastjori-rannsokna-og-throunar",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 207,
@@ -3769,7 +3769,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/business-central-specialist-embla-medical",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-18"
+            lastVerified: "2026-09-21"
         },
         {
             id: 208,
@@ -3787,7 +3787,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/thjonustuserfraedingur-i-fiski-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-18"
+            lastVerified: "2026-09-21"
         },
         {
             id: 209,
@@ -3805,7 +3805,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/director-of-corporate-development-m-a-embla-medical",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 210,
@@ -3823,7 +3823,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-skipulags-og-umhverfismalum",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 211,
@@ -3841,7 +3841,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/hse-serfraedingur",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 212,
@@ -3859,7 +3859,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/verkefnastjorar-project-managers",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 213,
@@ -3877,7 +3877,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/jardfraedingur-eda-jardefnafraedingur-geologist-or-geochemist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 214,
@@ -3895,7 +3895,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/jardedlisfraedingur-geophysicist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 215,
@@ -3913,7 +3913,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingar-i-throunarteymi",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 216,
@@ -3931,7 +3931,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-orkusoelusamningum-og-vidskiptathroun-business-development-specialist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 217,
@@ -3949,7 +3949,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/markads-og-samskiptastjori-4",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 218,
@@ -3967,7 +3967,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/compliance-and-risk-management-principal-specialist-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-20"
+            lastVerified: "2026-09-21"
         },
         {
             id: 219,
@@ -3985,7 +3985,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/graphic-design-intern",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-20"
+            lastVerified: "2026-09-21"
         },
         {
             id: 220,
@@ -4003,7 +4003,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/it-support-administrator-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-20"
+            lastVerified: "2026-09-21"
         },
         {
             id: 221,
@@ -4021,7 +4021,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-matvaelaoerverufraedi-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 222,
@@ -4039,7 +4039,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/pos-customer-support-summer-position",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 223,
@@ -4057,7 +4057,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/netserfraedingur-21",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 224,
@@ -4075,7 +4075,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/financial-controller-11",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 225,
@@ -4093,7 +4093,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/noc-specialist-summer-position",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 226,
@@ -4111,7 +4111,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/lead-game-designer",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 227,
@@ -4129,7 +4129,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-customer-solution-architect",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-24"
+            lastVerified: "2026-09-21"
         },
         {
             id: 228,
@@ -4147,7 +4147,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-ahaettumati-personutrygginga-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-24"
+            lastVerified: "2026-09-21"
         },
         {
             id: 229,
@@ -4165,7 +4165,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-product-complaint-specialist-serfraedingur-i-medhoendlun-voerukvartana",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 230,
@@ -4183,7 +4183,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/software-developer-embla-medical",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 231,
@@ -4201,7 +4201,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-scientist-analytical-r-d",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 232,
@@ -4219,7 +4219,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/rafvirki-facility-maintenance-electrician-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 233,
@@ -4237,7 +4237,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-scientist-drug-product-development-formulation-development",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 234,
@@ -4255,7 +4255,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-scientist-drug-product-development-material-science",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 235,
@@ -4273,7 +4273,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/publishing-intern",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 236,
@@ -4291,7 +4291,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-scientist-drug-product-development-process-development",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 237,
@@ -4309,7 +4309,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/user-acquisition-specialist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 238,
@@ -4327,7 +4327,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/qc-labratory-scientist-serfraedingur-a-rannsoknarstofu",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-27"
+            lastVerified: "2026-09-21"
         },
         {
             id: 239,
@@ -4345,7 +4345,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/qa-senior-specialist-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 240,
@@ -4363,7 +4363,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/operations-agent",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 241,
@@ -4381,7 +4381,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/accountant-19",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 242,
@@ -4399,7 +4399,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/leikskolakennarar-52",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 243,
@@ -4417,7 +4417,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/director-hr-software-digital",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 244,
@@ -4435,7 +4435,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/devops-systems-engineer",
             featured: false,
             status: "filled",
-            lastVerified: "2026-02-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 245,
@@ -4453,7 +4453,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-ui-ux-designer-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-03"
+            lastVerified: "2026-09-21"
         },
         {
             id: 246,
@@ -4471,7 +4471,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/qa-on-the-floor-gaedaeftirlit-a-framleidslugolfi",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-03"
+            lastVerified: "2026-09-21"
         },
         {
             id: 247,
@@ -4489,7 +4489,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sumar-og-solarstarf-a-kaffihusi-og-i-verslun-a-solheimum-i-grimsnesi",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-03"
+            lastVerified: "2026-09-21"
         },
         {
             id: 248,
@@ -4507,7 +4507,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/tools-programmer-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-03"
+            lastVerified: "2026-09-21"
         },
         {
             id: 249,
@@ -4525,7 +4525,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/director-of-business-development-iceland",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-04"
+            lastVerified: "2026-09-21"
         },
         {
             id: 250,
@@ -4543,7 +4543,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/business-central-technical-architect-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-05"
+            lastVerified: "2026-09-21"
         },
         {
             id: 251,
@@ -4561,7 +4561,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/design-manager-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-06"
+            lastVerified: "2026-09-21"
         },
         {
             id: 252,
@@ -4579,7 +4579,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starf-i-framleidslu-hja-bioeffect",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 253,
@@ -4597,7 +4597,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sumarstoerf-hja-me-travel-prime-tours",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 254,
@@ -4615,7 +4615,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsmadur-a-lager-warehouse-employee-4",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 255,
@@ -4633,7 +4633,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/data-engineer-bi-platform-owner",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 256,
@@ -4651,7 +4651,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-expert-scientists",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 257,
@@ -4669,7 +4669,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/cyber-security-it-compliance-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 258,
@@ -4687,7 +4687,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/skjalastjori-32",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 259,
@@ -4705,7 +4705,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-scientist-analytical-r-d",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-11"
+            lastVerified: "2026-09-21"
         },
         {
             id: 260,
@@ -4723,7 +4723,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/scientist-physicochemical-assays",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-11"
+            lastVerified: "2026-09-21"
         },
         {
             id: 261,
@@ -4741,7 +4741,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/scientist-analytical-r-d",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-11"
+            lastVerified: "2026-09-21"
         },
         {
             id: 262,
@@ -4759,7 +4759,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ai-driven-growth-marketing-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 263,
@@ -4777,7 +4777,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-software-engineer-full-stack-typescript",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 264,
@@ -4795,7 +4795,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-hraefnamaelingum-a-gaedrannsoknadeild-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 265,
@@ -4813,7 +4813,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/deildarstjori-soltun-heima",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 266,
@@ -4831,7 +4831,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-hagdeild-fp-a",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 267,
@@ -4849,7 +4849,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sales-travel-agent-downtown-reykjavik-office-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 268,
@@ -4867,7 +4867,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/viltu-styra-oert-staekkandi-gagnaveri-hja-spennandi-althjodlegu-fyrirtaeki",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 269,
@@ -4885,7 +4885,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/studningsfulltruar-oskast-i-sumarafleysingar",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-16"
+            lastVerified: "2026-09-21"
         },
         {
             id: 270,
@@ -4903,7 +4903,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/oeflugur-bokari-oskast-til-starfa-a-solheimum",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-16"
+            lastVerified: "2026-09-21"
         },
         {
             id: 271,
@@ -4921,7 +4921,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ehs-specialist-oessur",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 272,
@@ -4939,7 +4939,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/alvotech-oskar-eftir-skipuloegdum-og-lausnamidudum-maintenance-planner",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 273,
@@ -4957,7 +4957,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/scientist-in-potency-and-binding",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-18"
+            lastVerified: "2026-09-21"
         },
         {
             id: 274,
@@ -4975,7 +4975,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-scientist-ard-potency-and-binding",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-18"
+            lastVerified: "2026-09-21"
         },
         {
             id: 275,
@@ -4993,7 +4993,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-back-end-developer-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-18"
+            lastVerified: "2026-09-21"
         },
         {
             id: 276,
@@ -5011,7 +5011,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/financial-accountant-part-time",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-18"
+            lastVerified: "2026-09-21"
         },
         {
             id: 277,
@@ -5029,7 +5029,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/spennandi-taekifaeri-hja-alvotech-maintenance-technician-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 278,
@@ -5047,7 +5047,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/it-manager-clinical-safety-systems-icmr",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 279,
@@ -5065,7 +5065,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/soelu-og-markadsstjori-head-of-growth",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 280,
@@ -5083,7 +5083,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/industrial-product-designer-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 281,
@@ -5101,7 +5101,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-throunardeild-liftaeknilyfja-frumuraektun-scientist-usp-development",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 282,
@@ -5119,7 +5119,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/byrjadu-starfsferil-hja-alvotech-start-your-career-at-alvotech",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 283,
@@ -5137,7 +5137,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sumarafleysing-starfsmadur-i-heimathjonustu-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 284,
@@ -5155,7 +5155,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/technician",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 285,
@@ -5191,7 +5191,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/adstodarmanneskja-i-thvottahus-rannsoknar-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 287,
@@ -5209,7 +5209,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/hreinsitaeknir-manufacturing-cleaning-specialist-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 288,
@@ -5227,7 +5227,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/tjonafulltrui-personutjona-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 289,
@@ -5245,7 +5245,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/software-engineer-52",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 290,
@@ -5263,7 +5263,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/soelustjori-oskast-6",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 291,
@@ -5281,7 +5281,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/taeknimadur-i-umsjon-og-vidhaldi-velbunadar-vid-taeknideild",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-25"
+            lastVerified: "2026-09-21"
         },
         {
             id: 292,
@@ -5299,7 +5299,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/umsjonarmadur-fasteigna-og-vidhalds-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-25"
+            lastVerified: "2026-09-21"
         },
         {
             id: 293,
@@ -5317,7 +5317,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/utkeyrsla-og-lagerstarf-delivery-driver-warehouse-worker",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-25"
+            lastVerified: "2026-09-21"
         },
         {
             id: 294,
@@ -5353,7 +5353,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/tjonafulltru-eignatjona",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 296,
@@ -5371,7 +5371,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/cnc-starfsmadur-i-frumgerdarsmidi-cnc-machinist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-27"
+            lastVerified: "2026-09-21"
         },
         {
             id: 297,
@@ -5389,7 +5389,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/taeknimadur-med-reynslu-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-27"
+            lastVerified: "2026-09-21"
         },
         {
             id: 298,
@@ -5425,7 +5425,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/studningsfulltruar-oskast-i-felagsthjonustu-solheima",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 300,
@@ -5443,7 +5443,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/strategic-purchaser-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 301,
@@ -5461,7 +5461,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsmadur-i-gaedasetri-oessur",
             featured: false,
             status: "filled",
-            lastVerified: "2026-03-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 302,
@@ -5479,7 +5479,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/commissioning-and-qualification-specialist-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 303,
@@ -5497,7 +5497,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/verkefnastjori-upplysingataeknimala-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 304,
@@ -5515,7 +5515,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-data-engineer-7",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 305,
@@ -5533,7 +5533,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/erp-application-support-lead",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 306,
@@ -5551,7 +5551,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-voerustjora-prentlausna-og-vaxtar",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-07"
+            lastVerified: "2026-09-21"
         },
         {
             id: 307,
@@ -5569,7 +5569,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-starfsmanni-a-noc-vaktbord",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 308,
@@ -5587,7 +5587,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/soelumadur-vogabaejar-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 309,
@@ -5605,7 +5605,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/graphics-programmer-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 310,
@@ -5623,7 +5623,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/verslunarstarf-i-byggingavoeruverslun",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 311,
@@ -5641,7 +5641,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/arctic-trucks-dekkjaverkstaedi",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 312,
@@ -5659,7 +5659,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/bilstjori-vogabaejar",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 313,
@@ -5677,7 +5677,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/talent-acquisition-support-specialist-6month-contract",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 314,
@@ -5713,7 +5713,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/aml-analyst",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 316,
@@ -5731,7 +5731,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/skrifstofu-og-rekstrarumsjon",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 317,
@@ -5749,7 +5749,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/specialist-tech-ops-control-operations",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 318,
@@ -5767,7 +5767,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/soelustjori-bioeffect-a-islandi-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 319,
@@ -5785,7 +5785,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sales-solution-engineer",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 320,
@@ -5803,7 +5803,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/framleidslustarf-i-silicone-deild-framtidarstarf",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 321,
@@ -5821,7 +5821,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/spennandi-taekifaeri-hja-alvotech-pilot-scientist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 322,
@@ -5839,7 +5839,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/vidhaldsmadur-i-verksmidju-siglufjoerdur-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 323,
@@ -5857,7 +5857,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-business-controller",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 324,
@@ -5875,7 +5875,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ithrottafraedingur-ithrottakennari-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 325,
@@ -5893,7 +5893,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/deildarstjorar-12",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 326,
@@ -5911,7 +5911,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/qc-scientists-analytical-shift-daytime-roles",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 327,
@@ -5929,7 +5929,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/leikskolaserkennari-throskathjalfi-66",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 328,
@@ -5947,7 +5947,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-sjonraenni-gaedaskodun-dpvi-technologist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 329,
@@ -5965,7 +5965,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsmadur-thvottahuss-og-bilstjori",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-16"
+            lastVerified: "2026-09-21"
         },
         {
             id: 330,
@@ -5983,7 +5983,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/associate-scientist-qc-product-testing-fixedterm-1-year",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-16"
+            lastVerified: "2026-09-21"
         },
         {
             id: 331,
@@ -6001,7 +6001,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/verkefnastjori-vidhalds-og-framkvaemda",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 332,
@@ -6019,7 +6019,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/soelumadur-i-jeppabud-7",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 333,
@@ -6037,7 +6037,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/hr-coordinator-temporary-position",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-18"
+            lastVerified: "2026-09-21"
         },
         {
             id: 334,
@@ -6055,7 +6055,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/gaedaskodun-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-18"
+            lastVerified: "2026-09-21"
         },
         {
             id: 335,
@@ -6073,7 +6073,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-kerfisstjora-med-microsoft-thekkingu",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 336,
@@ -6091,7 +6091,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/leikskolakennarar-54",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 337,
@@ -6109,7 +6109,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/leikskolakennari-hja-leikskolanum-alfheimum",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 338,
@@ -6127,7 +6127,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/grafiskur-hoennudur-67",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 339,
@@ -6145,7 +6145,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serkennslustjori-hja-leikskolanum-alfheimum",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 340,
@@ -6163,7 +6163,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/deildarstjori-hja-leikskolanum-alfheimum-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 341,
@@ -6199,7 +6199,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/leikskolakennari-338",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-23"
+            lastVerified: "2026-09-21"
         },
         {
             id: 343,
@@ -6217,7 +6217,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/thjonustufulltrui-i-mottoeku-service-representative",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-25"
+            lastVerified: "2026-09-21"
         },
         {
             id: 344,
@@ -6235,7 +6235,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfskraftur-i-heimathjonustu-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-27"
+            lastVerified: "2026-09-21"
         },
         {
             id: 345,
@@ -6253,7 +6253,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serhaeft-starf-vid-proteinvinnslu",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 346,
@@ -6271,7 +6271,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/software-engineer-53",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 347,
@@ -6289,7 +6289,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/growth-marketing-specialist-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-29"
+            lastVerified: "2026-09-21"
         },
         {
             id: 348,
@@ -6307,7 +6307,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/it-support-technician-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-29"
+            lastVerified: "2026-09-21"
         },
         {
             id: 349,
@@ -6325,7 +6325,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/taeknimadur-vidgerdarmadur-oskast-til-inter-ehf",
             featured: false,
             status: "filled",
-            lastVerified: "2026-04-30"
+            lastVerified: "2026-09-21"
         },
         {
             id: 350,
@@ -6343,7 +6343,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/lagerstjori-kvik-innrettinga",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 351,
@@ -6361,7 +6361,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/back-end-fullstack-engineer",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 352,
@@ -6379,7 +6379,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/oeflugur-fulltrui-i-innkaupadeild",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 353,
@@ -6397,7 +6397,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-accounting-manager-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-05"
+            lastVerified: "2026-09-21"
         },
         {
             id: 354,
@@ -6415,7 +6415,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/bilanagreiningar-og-forritun-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-06"
+            lastVerified: "2026-09-21"
         },
         {
             id: 355,
@@ -6433,7 +6433,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsfolk-i-framleidsludeild-manufacturing-operators",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-06"
+            lastVerified: "2026-09-21"
         },
         {
             id: 356,
@@ -6451,7 +6451,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/teymisstjori-100-starf",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-06"
+            lastVerified: "2026-09-21"
         },
         {
             id: 357,
@@ -6469,7 +6469,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/viltu-verda-stor-partur-af-hratt-vaxandi-fyrirtaeki",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-07"
+            lastVerified: "2026-09-21"
         },
         {
             id: 358,
@@ -6487,7 +6487,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/spennandi-taekifaeri-hja-alvotech-control-operations-specialist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-07"
+            lastVerified: "2026-09-21"
         },
         {
             id: 359,
@@ -6505,7 +6505,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsmadur-i-heimathjonustu-a-stoedvarfirdi-og-breiddalsvik",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 360,
@@ -6523,7 +6523,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsfolk-i-voeruhus-warehouse-operator-9",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 361,
@@ -6559,7 +6559,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/car-cleaning-13",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 363,
@@ -6577,7 +6577,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/leitum-ad-smidum-i-fjoelbreytt-verkefni-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 364,
@@ -6595,7 +6595,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serkennslustjori-til-eins-ars",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 365,
@@ -6613,7 +6613,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ai-solutions-engineer",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 366,
@@ -6631,7 +6631,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-manager-of-cyber-infrastructure-and-it-support",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 367,
@@ -6649,7 +6649,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/deildarstjori-244",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 368,
@@ -6667,7 +6667,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/kennari-15",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 369,
@@ -6685,7 +6685,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ai-solutions-analyst",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-12"
+            lastVerified: "2026-09-21"
         },
         {
             id: 370,
@@ -6721,7 +6721,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-umsjon-loftgaedamaelitaekja",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 372,
@@ -6739,7 +6739,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/mannaudsstjori-84",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-16"
+            lastVerified: "2026-09-21"
         },
         {
             id: 373,
@@ -6757,7 +6757,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsmadur-i-voeruhus-og-utkeyrslu-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 374,
@@ -6775,7 +6775,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/framleidsluserfraedingur-manufacturing-engineer",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-20"
+            lastVerified: "2026-09-21"
         },
         {
             id: 375,
@@ -6793,7 +6793,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/hr-business-partner-temporary-position",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 376,
@@ -6811,7 +6811,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/head-of-quality-compliance",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 377,
@@ -6829,7 +6829,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/finance-business-partner-group-finance",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-24"
+            lastVerified: "2026-09-21"
         },
         {
             id: 378,
@@ -6847,7 +6847,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsmadur-i-heimathjonustu-helgarvinna-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-24"
+            lastVerified: "2026-09-21"
         },
         {
             id: 379,
@@ -6865,7 +6865,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-a-vidhaldssvidi-maintenance-specialist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-27"
+            lastVerified: "2026-09-21"
         },
         {
             id: 380,
@@ -6883,7 +6883,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-scientist-analytical-r-d-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-27"
+            lastVerified: "2026-09-21"
         },
         {
             id: 381,
@@ -6901,7 +6901,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/helgarvaktir-sumarvinna-a-kaffihusinu-graenu-koennunni-og-i-verslun-a-solheimum-i-grimsnesi",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-29"
+            lastVerified: "2026-09-21"
         },
         {
             id: 382,
@@ -6919,7 +6919,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serkennslustjori-i-leikskolann-hulduheima-selfossi-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-29"
+            lastVerified: "2026-09-21"
         },
         {
             id: 383,
@@ -6937,7 +6937,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/summer-assistant-documentation-ways-of-working-part-time",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-29"
+            lastVerified: "2026-09-21"
         },
         {
             id: 384,
@@ -6955,7 +6955,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-lanavinnslu",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-29"
+            lastVerified: "2026-09-21"
         },
         {
             id: 385,
@@ -6973,7 +6973,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-development-engineer-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-29"
+            lastVerified: "2026-09-21"
         },
         {
             id: 386,
@@ -6991,7 +6991,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/vidskiptastjori-132",
             featured: false,
             status: "filled",
-            lastVerified: "2026-05-30"
+            lastVerified: "2026-09-21"
         },
         {
             id: 387,
@@ -7009,7 +7009,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sales-engineer-6",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 388,
@@ -7027,7 +7027,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/legal-intern-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 389,
@@ -7045,7 +7045,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/velvirki-i-taeknideild-ora",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 390,
@@ -7063,7 +7063,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/qc-bioassay-associate-scientist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-03"
+            lastVerified: "2026-09-21"
         },
         {
             id: 391,
@@ -7081,7 +7081,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/bokari-accountant",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-03"
+            lastVerified: "2026-09-21"
         },
         {
             id: 392,
@@ -7099,7 +7099,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/director-of-group-consolidation-financial-reporting",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-04"
+            lastVerified: "2026-09-21"
         },
         {
             id: 393,
@@ -7117,7 +7117,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/framkvaemdastjori-voerustjornunarsvids-supply-chain-operations",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-04"
+            lastVerified: "2026-09-21"
         },
         {
             id: 394,
@@ -7135,7 +7135,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sumarstarf-a-lager-15",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-04"
+            lastVerified: "2026-09-21"
         },
         {
             id: 395,
@@ -7153,7 +7153,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/finance-business-partner-embla-medical",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-04"
+            lastVerified: "2026-09-21"
         },
         {
             id: 396,
@@ -7171,7 +7171,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/data-centre-ehs-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-04"
+            lastVerified: "2026-09-21"
         },
         {
             id: 397,
@@ -7189,7 +7189,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/haspenntur-rafvirki-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-05"
+            lastVerified: "2026-09-21"
         },
         {
             id: 398,
@@ -7207,7 +7207,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/store-manager-information-center-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-05"
+            lastVerified: "2026-09-21"
         },
         {
             id: 399,
@@ -7225,7 +7225,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/store-and-information-center-employee",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-05"
+            lastVerified: "2026-09-21"
         },
         {
             id: 400,
@@ -7243,7 +7243,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/taeknimadur-i-framlinuthjonustu-6",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-05"
+            lastVerified: "2026-09-21"
         },
         {
             id: 401,
@@ -7261,7 +7261,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/raestitaeknir-15",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-05"
+            lastVerified: "2026-09-21"
         },
         {
             id: 402,
@@ -7279,7 +7279,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/business-development-manager-iceland",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-06"
+            lastVerified: "2026-09-21"
         },
         {
             id: 403,
@@ -7297,7 +7297,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/deildarstjori-248",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 404,
@@ -7315,7 +7315,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/weighing-r-d-engineer",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 405,
@@ -7333,7 +7333,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/lagerstarfsmadur-204",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 406,
@@ -7351,7 +7351,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-specialist-manufacturing-operations",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 407,
@@ -7369,7 +7369,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/principal-specialist-dsp-msat",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 408,
@@ -7387,7 +7387,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/chef-kitchen-position",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 409,
@@ -7405,7 +7405,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/chief-operating-officer-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 410,
@@ -7423,7 +7423,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/leikskolaserkennari-throskathjalfi-68",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 411,
@@ -7441,7 +7441,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-specialist-usp-msat",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 412,
@@ -7459,7 +7459,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/exciting-science-graduate-opportunity-biotech-manufacturing",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 413,
@@ -7477,7 +7477,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/pipari-43",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 414,
@@ -7495,7 +7495,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/building-leader-housekeeping-selfoss",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 415,
@@ -7513,7 +7513,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ui-ux-designer-6",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 416,
@@ -7531,7 +7531,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/umhverfis-heilbrigdis-og-oeryggisstjori-ehs-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 417,
@@ -7549,7 +7549,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/product-developer",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 418,
@@ -7567,7 +7567,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/scientist-drug-product-development",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 419,
@@ -7585,7 +7585,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/maintenance-technician-oessur",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-16"
+            lastVerified: "2026-09-21"
         },
         {
             id: 420,
@@ -7603,7 +7603,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ef-stor-dekk-eru-ekki-vandamal-heldur-skemmtileg-askorun-tha-viljum-vid-heyra-i-ther",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-16"
+            lastVerified: "2026-09-21"
         },
         {
             id: 421,
@@ -7621,7 +7621,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/rafvirki-i-nyskoepunarverkefni",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-16"
+            lastVerified: "2026-09-21"
         },
         {
             id: 422,
@@ -7639,7 +7639,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/hreinistaeknir-manufacturing-cleaning-specialist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 423,
@@ -7657,7 +7657,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/adstodarleikskolastjori-49",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 424,
@@ -7675,7 +7675,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/project-manager-30",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 425,
@@ -7693,7 +7693,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/leikskolastjori-42",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 426,
@@ -7711,7 +7711,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-project-manager-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 427,
@@ -7729,7 +7729,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/software-developer-python-vue",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-21"
+            lastVerified: "2026-09-21"
         },
         {
             id: 428,
@@ -7747,7 +7747,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/digital-product-owner-ai-automation-embla-medical",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-23"
+            lastVerified: "2026-09-21"
         },
         {
             id: 429,
@@ -7765,7 +7765,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/soelustjori-bara-tala",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-24"
+            lastVerified: "2026-09-21"
         },
         {
             id: 430,
@@ -7783,7 +7783,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/vidskiptastjori-hja-ok",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-24"
+            lastVerified: "2026-09-21"
         },
         {
             id: 431,
@@ -7801,7 +7801,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/part-time-sales-travel-agent-downtown-reykjavik-office",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-24"
+            lastVerified: "2026-09-21"
         },
         {
             id: 432,
@@ -7819,7 +7819,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/vaktstjori-i-gestamottoeku-front-desk-supervisor-alda-hotel",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-25"
+            lastVerified: "2026-09-21"
         },
         {
             id: 433,
@@ -7837,7 +7837,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/travel-coordinator-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-25"
+            lastVerified: "2026-09-21"
         },
         {
             id: 434,
@@ -7855,7 +7855,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/associate-specialist-ehs",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 435,
@@ -7873,7 +7873,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/finance-specialist-7",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 436,
@@ -7891,7 +7891,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/technical-product-owner-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 437,
@@ -7909,7 +7909,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/software-engineer-54",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 438,
@@ -7927,7 +7927,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sap-administration",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-28"
+            lastVerified: "2026-09-21"
         },
         {
             id: 439,
@@ -7945,7 +7945,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/vidskiptathrounarstjori-8",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-30"
+            lastVerified: "2026-09-21"
         },
         {
             id: 440,
@@ -7963,7 +7963,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/deildarstjori-yfir-sjalfstaedri-busetu",
             featured: false,
             status: "filled",
-            lastVerified: "2026-06-30"
+            lastVerified: "2026-09-21"
         },
         {
             id: 441,
@@ -7981,7 +7981,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-vidhaldsstjornun-cmms-specialist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 442,
@@ -7999,7 +7999,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/information-security-officer-junior",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 443,
@@ -8017,7 +8017,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/design-transfer-engineer-oessur",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 444,
@@ -8035,7 +8035,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/oeryggisfulltrui-rafvirki-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 445,
@@ -8053,7 +8053,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/tryggingastaerdfraedingur-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 446,
@@ -8071,7 +8071,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-product-manager-for-weighing-grading",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 447,
@@ -8089,7 +8089,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/electronics-software-engineer",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 448,
@@ -8125,7 +8125,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/oska-eftir-husasmid",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-03"
+            lastVerified: "2026-09-21"
         },
         {
             id: 450,
@@ -8143,7 +8143,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/qc-bioassay-scientist-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-03"
+            lastVerified: "2026-09-21"
         },
         {
             id: 451,
@@ -8161,7 +8161,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/framleidslutaeknir-manufacturing-technician",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-03"
+            lastVerified: "2026-09-21"
         },
         {
             id: 452,
@@ -8179,7 +8179,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/experienced-coach-driver-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-03"
+            lastVerified: "2026-09-21"
         },
         {
             id: 453,
@@ -8197,7 +8197,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/heimavist-ma-og-vma-leitar-ad-matrad-matartaekni-til-starfa-i-moetuneyti",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-04"
+            lastVerified: "2026-09-21"
         },
         {
             id: 454,
@@ -8215,7 +8215,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-umhverfisvoektun-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-04"
+            lastVerified: "2026-09-21"
         },
         {
             id: 455,
@@ -8233,7 +8233,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsfolk-i-framleidslu-8",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-04"
+            lastVerified: "2026-09-21"
         },
         {
             id: 456,
@@ -8251,7 +8251,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/r-d-innovation-excellence-specialist-oessur",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-07"
+            lastVerified: "2026-09-21"
         },
         {
             id: 457,
@@ -8269,7 +8269,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-launavinnslu-payroll-specialist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-07"
+            lastVerified: "2026-09-21"
         },
         {
             id: 458,
@@ -8287,7 +8287,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sterility-assurance-sr-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-07"
+            lastVerified: "2026-09-21"
         },
         {
             id: 459,
@@ -8305,7 +8305,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/analytical-r-d-scientist-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-07"
+            lastVerified: "2026-09-21"
         },
         {
             id: 460,
@@ -8323,7 +8323,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsmadur-a-rannsoknarstofu-6",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-07"
+            lastVerified: "2026-09-21"
         },
         {
             id: 461,
@@ -8341,7 +8341,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/global-information-security-director-embla-medical",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 462,
@@ -8359,7 +8359,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/skrifstofustjori-manufacturing-operations-coordinator",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 463,
@@ -8377,7 +8377,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/materials-readiness-planner-procurement-serfraedingur-i-aaetlanagerd-og-efnisframbodi",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 464,
@@ -8395,7 +8395,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-starfsmanni-a-noc-vaktbord-hlutastarf-helgarvaktir",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 465,
@@ -8413,7 +8413,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/project-manager-customer-delivery-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 466,
@@ -8431,7 +8431,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/framleidslustarf-i-silicone-kvoeldvaktir-8",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 467,
@@ -8449,7 +8449,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/rafvirki-243",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-09"
+            lastVerified: "2026-09-21"
         },
         {
             id: 468,
@@ -8467,7 +8467,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/qa-microbiology-review-specialist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 469,
@@ -8485,7 +8485,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-biotechnologist-downstream-operations",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 470,
@@ -8503,7 +8503,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/we-are-hiring-skilled-steel-workers",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-10"
+            lastVerified: "2026-09-21"
         },
         {
             id: 471,
@@ -8521,7 +8521,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/mjolkurfraedingur-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 472,
@@ -8539,7 +8539,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/devops-serfraedingur-full-stack-forritari",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-13"
+            lastVerified: "2026-09-21"
         },
         {
             id: 473,
@@ -8557,7 +8557,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/gagnaserfraedingur-data-engineer-gervigreind-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 474,
@@ -8575,7 +8575,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/vidskiptastjori-133",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 475,
@@ -8593,7 +8593,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/full-stack-ai-forritari-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-14"
+            lastVerified: "2026-09-21"
         },
         {
             id: 476,
@@ -8611,7 +8611,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-voeruthroun-isafjoerdur",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-15"
+            lastVerified: "2026-09-21"
         },
         {
             id: 477,
@@ -8629,7 +8629,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/soelufulltrui-i-verslanir-bioeffect",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 478,
@@ -8647,7 +8647,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/oeflugur-starfsmadur-oskast-i-vidhaldsdeild-solheima-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 479,
@@ -8665,7 +8665,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/markadsstjori-jonsbok",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 480,
@@ -8683,7 +8683,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsmenn-i-heimathjonustu-i-fjardabyggd",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 481,
@@ -8701,7 +8701,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/scientist-drug-product-development-process-development",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 482,
@@ -8719,7 +8719,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/afgreidslu-starf-islenska-skilyrdi-11",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 483,
@@ -8737,7 +8737,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/internal-communications-and-culture-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 484,
@@ -8755,7 +8755,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/batch-record-reviewer-serfraedingur-i-yfirferd-lotuskraa-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 485,
@@ -8773,7 +8773,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/infrastructure-facilities-assistant",
             featured: false,
             status: "filled",
-            lastVerified: "2026-07-23"
+            lastVerified: "2026-09-21"
         },
         {
             id: 486,
@@ -8791,7 +8791,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-throun-a-maeliadferdum-6",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 487,
@@ -8809,7 +8809,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/qc-rannsoknarstofutaeknir-qc-laboratory-technician",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 488,
@@ -8827,7 +8827,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/adstodarmanneskja-a-rannsoknarstofu-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 489,
@@ -8845,7 +8845,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/qc-bioassay-principal-scientist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 490,
@@ -8863,7 +8863,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/leikskolakennari-345",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 491,
@@ -8881,7 +8881,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/qa-on-the-floor-specialist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 492,
@@ -8899,7 +8899,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/vidskiptathrounarstjori-a-islandi",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 493,
@@ -8917,7 +8917,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/matreidslumadur-grillari-a-nordurtorgi",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 494,
@@ -8935,7 +8935,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/commerical-operation-coordinator",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-01"
+            lastVerified: "2026-09-21"
         },
         {
             id: 495,
@@ -8953,7 +8953,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/master-data-lead",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-04"
+            lastVerified: "2026-09-21"
         },
         {
             id: 496,
@@ -8971,7 +8971,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ehs-specialist-5",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-05"
+            lastVerified: "2026-09-21"
         },
         {
             id: 497,
@@ -8989,7 +8989,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-aseptic-manufacturing-technician-yfirframleidslutaeknir-i-smitgatarframleidslu",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-06"
+            lastVerified: "2026-09-21"
         },
         {
             id: 498,
@@ -9007,7 +9007,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/global-product-manager-4",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-06"
+            lastVerified: "2026-09-21"
         },
         {
             id: 499,
@@ -9025,7 +9025,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/skrifstofu-og-mannaudsfulltrui-atlas-verktakar-ehf",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 500,
@@ -9043,7 +9043,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/framleidslustarf-i-koltrefjadeild-oessur",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-08"
+            lastVerified: "2026-09-21"
         },
         {
             id: 501,
@@ -9061,7 +9061,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/documentation-assistant",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 502,
@@ -9079,7 +9079,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/verkefnastjori-thjonustusvids-vidhald-og-breytingar",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 503,
@@ -9097,7 +9097,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/byrjadu-starfsferil-hja-alvotech-entry-level-manufacturing-operator-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 504,
@@ -9115,7 +9115,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-sjonraenni-gaedaskodun-visual-inspection-technologist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 505,
@@ -9133,7 +9133,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/taeknimanneskja-i-framlinuthjonustu",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 506,
@@ -9151,7 +9151,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/manufacturing-compliance-specialist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-17"
+            lastVerified: "2026-09-21"
         },
         {
             id: 507,
@@ -9169,7 +9169,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/verkefnastjori-innleiding-vidskiptavina-2",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 508,
@@ -9187,7 +9187,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/fjarmalastjori-cfo-3",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 509,
@@ -9205,7 +9205,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/soelufulltrui-252",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-19"
+            lastVerified: "2026-09-21"
         },
         {
             id: 510,
@@ -9223,7 +9223,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-operational-excellence-specialist",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-20"
+            lastVerified: "2026-09-21"
         },
         {
             id: 511,
@@ -9241,7 +9241,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-stjorn-og-eftirlitskerfum-control-sme",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-22"
+            lastVerified: "2026-09-21"
         },
         {
             id: 512,
@@ -9259,7 +9259,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-scientist-analytical-r-d-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-25"
+            lastVerified: "2026-09-21"
         },
         {
             id: 513,
@@ -9277,7 +9277,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-procurement-specialist-embla-medical",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-25"
+            lastVerified: "2026-09-21"
         },
         {
             id: 514,
@@ -9295,7 +9295,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-starfsfolki-a-noc-vaktbord-hlutastarf-helgarvaktir",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-26"
+            lastVerified: "2026-09-21"
         },
         {
             id: 515,
@@ -9313,7 +9313,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/verkefnastjori-framkvaemda-on-site-engineering-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-27"
+            lastVerified: "2026-09-21"
         },
         {
             id: 516,
@@ -9330,8 +9330,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-08-27",
             applicationUrl: "https://alfred.is/starf/arctic-trucks-leitar-ad-starfsmanni-a-dekkjaverkstaedid-thetta-er-framtidarstarf",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-08-27"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 517,
@@ -9349,7 +9349,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/forstoedumadur-vidskipta-og-samningsmala-senior-commercial-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-27"
+            lastVerified: "2026-09-21"
         },
         {
             id: 518,
@@ -9367,7 +9367,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/gaedaeftirlitsstjori-qa-qc-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-27"
+            lastVerified: "2026-09-21"
         },
         {
             id: 519,
@@ -9385,7 +9385,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/cost-controller-1",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-27"
+            lastVerified: "2026-09-21"
         },
         {
             id: 520,
@@ -9403,7 +9403,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/starfsmadur-i-bokhaldi-5",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-29"
+            lastVerified: "2026-09-21"
         },
         {
             id: 521,
@@ -9421,7 +9421,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/assistant-store-manager-information-center-assistant-manager",
             featured: false,
             status: "filled",
-            lastVerified: "2026-08-29"
+            lastVerified: "2026-09-21"
         },
         {
             id: 522,
@@ -9439,7 +9439,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/sales-travel-agent",
             featured: false,
             status: "filled",
-            lastVerified: "2026-09-02"
+            lastVerified: "2026-09-21"
         },
         {
             id: 523,
@@ -9456,8 +9456,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-03",
             applicationUrl: "https://alfred.is/starf/housekeeping-cleaning-1",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-03"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 524,
@@ -9474,8 +9474,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-08",
             applicationUrl: "https://alfred.is/starf/bokari-og-uppgjoersadili-6",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-08"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 525,
@@ -9492,8 +9492,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-08",
             applicationUrl: "https://alfred.is/starf/verkfraedingur-i-voeruthroun-2",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-08"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 526,
@@ -9510,8 +9510,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/soelustjori-island",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-15"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 527,
@@ -9528,8 +9528,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/soelu-og-markadsfulltrui-34",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-15"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 528,
@@ -9546,8 +9546,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/qc-raw-materials-scientist-visual-inspection",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-15"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 529,
@@ -9564,8 +9564,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-fjarmalum-22",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-15"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 530,
@@ -9582,8 +9582,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/senior-embedded-software-engineer",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-15"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 531,
@@ -9600,8 +9600,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/assistant-project-manager-on-site",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-16"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 532,
@@ -9618,8 +9618,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/adstodarmanneskja-i-moetuneyti-7",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-16"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 533,
@@ -9636,8 +9636,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/gildinga-serfraedingur-e-validation-technician",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-16"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 534,
@@ -9654,8 +9654,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/qa-specialist-9",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-16"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 535,
@@ -9672,8 +9672,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/project-procurement-manager-iceland",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-16"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 536,
@@ -9690,8 +9690,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/starfsmadur-oskast-a-lager-hja-inter-ehf",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-16"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 537,
@@ -9708,8 +9708,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/hr-manager-people-partner-global-business-functions",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-16"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 538,
@@ -9726,8 +9726,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-17",
             applicationUrl: "https://alfred.is/starf/data-engineer-18",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-17"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 539,
@@ -9744,8 +9744,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-17",
             applicationUrl: "https://alfred.is/starf/software-engineer-55",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-17"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 540,
@@ -9762,8 +9762,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-18",
             applicationUrl: "https://alfred.is/starf/product-designer-engineer-oessur",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-18"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 541,
@@ -9780,8 +9780,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-18",
             applicationUrl: "https://alfred.is/starf/fulltrui-a-fjarmalasvidi-bookkeeper",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-18"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 542,
@@ -9798,8 +9798,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-18",
             applicationUrl: "https://alfred.is/starf/senior-specialist-manufacturing-operations-1",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-18"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 543,
@@ -9816,8 +9816,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-18",
             applicationUrl: "https://alfred.is/starf/qc-analytical-scientist",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-18"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 544,
@@ -9834,8 +9834,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-19",
             applicationUrl: "https://alfred.is/starf/mst-compliance-support-specialist",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-19"
+            status: "active",
+            lastVerified: "2026-09-21"
         },
         {
             id: 545,
@@ -9852,8 +9852,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-19",
             applicationUrl: "https://alfred.is/starf/qa-specialist-product-testing-review",
             featured: false,
-            status: "filled",
-            lastVerified: "2026-09-19"
+            status: "active",
+            lastVerified: "2026-09-21"
         }
     ]
 };
