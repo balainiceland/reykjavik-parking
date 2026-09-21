@@ -1082,6 +1082,19 @@ class AlfredPlaywrightScraper:
 
 # ---------------- Contradiction Check ----------------
 
+def posting_age_days(posted: Optional[str]) -> Optional[int]:
+    """Days since a job was posted, or None if the date is unusable.
+
+    None means "no evidence", not "old". A posting with no date must not be
+    retired on the strength of a date we do not have.
+    """
+    try:
+        d = datetime.strptime((posted or '')[:10], '%Y-%m-%d').date()
+    except ValueError:
+        return None
+    return (datetime.now().date() - d).days
+
+
 def normalise_url(url: str) -> str:
     """Comparable form of an application URL: no query string, no trailing slash."""
     return (url or '').split('?')[0].split('#')[0].rstrip('/').lower()
@@ -1199,6 +1212,19 @@ def visible_text(html: str) -> str:
 # The same embedded JSON, read properly. These are the source's own structured
 # statement about the posting, and are far more reliable than any phrase — but
 # only when the VALUE is read, not the key.
+# How long an unverifiable posting stays on the board.
+#
+# Only applies to jobs on a shared careers-page URL, because those are the ones
+# nothing can retire: their page answers 200 forever and says nothing about any
+# individual role. Jobs on their own URL are left to the verifier, which has
+# actual evidence.
+#
+# 90 days is well past the life of a normal posting — Icelandic listings
+# usually carry a deadline inside a month — while being long enough that a slow
+# hire is not cut off early. Every such job on the board is currently 240+ days
+# old, so this is not a close call for any of them.
+SHARED_URL_MAX_AGE_DAYS = 90
+
 _EXPIRED_TRUE = re.compile(r'"expired"\s*:\s*true', re.I)
 _APPS_DISABLED = re.compile(r'"applicationsEnabled"\s*:\s*false', re.I)
 
@@ -1303,9 +1329,18 @@ def verify_all_jobs(js_file_path: str, delay: float = 0.5,
         job_id = job.get('id', '?')
 
         # A listing page shared by several jobs cannot speak for any one of
-        # them. Left alone in both directions.
+        # them, so it is never fetched. Age is the only evidence available.
         if normalise_url(url) in shared_urls:
-            summary['shared_url'] += 1
+            aged = posting_age_days(job.get('postedDate'))
+            if (current_status == 'active' and aged is not None
+                    and aged > SHARED_URL_MAX_AGE_DAYS):
+                job['status'] = 'filled'
+                job['lastVerified'] = today
+                summary['aged_out'] = summary.get('aged_out', 0) + 1
+                print(f"  AGED OUT: [{job_id}] {job.get('company', '')} - "
+                      f"{job.get('title', '')} ({aged} days old)")
+            else:
+                summary['shared_url'] += 1
             continue
 
         # Skip jobs already marked as filled — unless we are repairing.
@@ -1338,6 +1373,9 @@ def verify_all_jobs(js_file_path: str, delay: float = 0.5,
         print(f"  Previously filled: {summary['already_filled']}")
         print(f"  Errors (skipped): {summary['error']}")
         print(f"  Shared careers-page URL (not checkable): {summary['shared_url']}")
+        if summary.get('aged_out'):
+            print(f"  Aged out (unverifiable and over "
+                  f"{SHARED_URL_MAX_AGE_DAYS} days): {summary['aged_out']}")
     else:
         print("Error: Failed to write updated statuses to file.")
 
