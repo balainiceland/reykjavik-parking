@@ -1081,19 +1081,69 @@ class AlfredPlaywrightScraper:
 
 # ---------------- Job Verification ----------------
 
-# Keywords that indicate a job has been filled/removed on the page (Icelandic + English)
-FILLED_KEYWORDS = [
+# Phrases that mean a job has been filled or withdrawn (Icelandic + English).
+#
+# These are matched against the page's VISIBLE TEXT only, and each must appear
+# as a whole phrase. Both of those constraints were learned the hard way.
+#
+# The list used to contain the bare word 'expired', matched as a substring
+# against the raw HTML. Alfred embeds its job record in the page as JSON:
+#
+#     "published":"2026-09-17T00:00:00Z","expired":false,"applicationsEnabled":true
+#
+# `'expired' in page_text` is true of that. So the verifier read the source
+# explicitly stating the job is OPEN as proof that it was closed, and killed
+# every newly-posted job within days of it appearing. Sixteen live jobs were
+# showing "No Longer Available" when this was found.
+#
+# It also contained bare 'ráðið' ("hired"), which matches the perfectly ordinary
+# recruiting line "ráðið verður í starfið um leið og rétti einstaklingurinn er
+# fundinn" — "the post WILL BE filled as soon as we find the right person",
+# which only appears while a job is open.
+FILLED_PHRASES = [
     'starf ekki lengur laust',
     'starfið hefur verið ráðið',
+    'búið er að ráða í starfið',
     'ekki lengur í boði',
+    'auglýsing útrunnin',
+    'umsóknarfrestur er liðinn',
     'this position has been filled',
-    'no longer available',
+    'this position is no longer available',
+    'no longer accepting applications',
     'position has been closed',
     'this job is no longer',
-    'expired',
-    'ráðið',
-    'auglýsing útrunnin',
+    'this job has expired',
+    'the application deadline has passed',
 ]
+
+_SCRIPT_RE = re.compile(r'<(script|style|noscript)\b.*?</\1>', re.S | re.I)
+_TAG_RE = re.compile(r'<[^>]+>')
+_WS_RE = re.compile(r'\s+')
+
+
+def visible_text(html: str) -> str:
+    """The text a person would actually read, lowercased.
+
+    Strips <script>, <style> and all markup. The embedded JSON that broke the
+    old check lives inside a <script>, so it never reaches the phrase match —
+    and a phrase found here is genuinely on the page rather than in an
+    attribute, a cookie banner's source or a field NAME.
+    """
+    text = _SCRIPT_RE.sub(' ', html or '')
+    text = _TAG_RE.sub(' ', text)
+    return _WS_RE.sub(' ', text).lower()
+
+
+# The same embedded JSON, read properly. These are the source's own structured
+# statement about the posting, and are far more reliable than any phrase — but
+# only when the VALUE is read, not the key.
+_EXPIRED_TRUE = re.compile(r'"expired"\s*:\s*true', re.I)
+_APPS_DISABLED = re.compile(r'"applicationsEnabled"\s*:\s*false', re.I)
+
+
+def source_says_closed(html: str) -> bool:
+    """True when the page's own job record says the posting is over."""
+    return bool(_EXPIRED_TRUE.search(html or '') or _APPS_DISABLED.search(html or ''))
 
 
 def verify_job_url(url: str, session: requests.Session, delay: float = 0.5) -> str:
@@ -1117,10 +1167,15 @@ def verify_job_url(url: str, session: requests.Session, delay: float = 0.5) -> s
         if r.status_code >= 400:
             return 'filled'
 
-        # 200 OK — check page content for soft removal indicators
-        page_text = r.text.lower()
-        for keyword in FILLED_KEYWORDS:
-            if keyword in page_text:
+        # 200 OK — the source's own structured record first: it is unambiguous
+        # where a phrase match is a guess.
+        if source_says_closed(r.text):
+            return 'filled'
+
+        # Then whole phrases, against visible text only.
+        page_text = visible_text(r.text)
+        for phrase in FILLED_PHRASES:
+            if phrase in page_text:
                 return 'filled'
 
         # Check for redirect to homepage or generic jobs page (soft removal)
@@ -1137,10 +1192,17 @@ def verify_job_url(url: str, session: requests.Session, delay: float = 0.5) -> s
         return 'error'
 
 
-def verify_all_jobs(js_file_path: str, delay: float = 0.5) -> Dict[str, int]:
+def verify_all_jobs(js_file_path: str, delay: float = 0.5,
+                    recheck_filled: bool = False) -> Dict[str, int]:
     """
     Verify all jobs in jobs-data.js and update their status.
     Returns a summary dict with counts.
+
+    Filled jobs are skipped by default: a post that has genuinely been filled
+    does not reopen, and re-fetching hundreds of dead URLs every run is waste.
+    `recheck_filled` exists because that assumption holds only while the
+    detector is right — when it is wrong, the skip is what makes the damage
+    permanent.
     """
     existing_jobs, max_id = load_existing_jobs(js_file_path)
     print(f"Verifying {len(existing_jobs)} jobs...")
@@ -1156,8 +1218,8 @@ def verify_all_jobs(js_file_path: str, delay: float = 0.5) -> Dict[str, int]:
         current_status = job.get('status', 'active')
         job_id = job.get('id', '?')
 
-        # Skip jobs already marked as filled
-        if current_status == 'filled':
+        # Skip jobs already marked as filled — unless we are repairing.
+        if current_status == 'filled' and not recheck_filled:
             summary['already_filled'] += 1
             continue
 
@@ -1168,8 +1230,11 @@ def verify_all_jobs(js_file_path: str, delay: float = 0.5) -> Dict[str, int]:
         status = verify_job_url(url, session, delay)
         summary[status] += 1
 
-        if status == 'filled':
-            print(f"  FILLED: [{job_id}] {job.get('company', '')} - {job.get('title', '')}")
+        if status == 'filled' and current_status != 'filled':
+            print(f"  FILLED:   [{job_id}] {job.get('company', '')} - {job.get('title', '')}")
+        elif status == 'active' and current_status == 'filled':
+            summary['revived'] = summary.get('revived', 0) + 1
+            print(f"  REOPENED: [{job_id}] {job.get('company', '')} - {job.get('title', '')}")
 
         job['status'] = status if status != 'error' else current_status
         job['lastVerified'] = today
@@ -1264,6 +1329,12 @@ def main():
         '--verify', action='store_true',
         help="Verify existing jobs are still active (checks applicationUrl)"
     )
+    parser.add_argument(
+        '--recheck-filled', action='store_true',
+        help="Also re-check jobs already marked filled. Normally they are "
+             "skipped, since a filled job stays filled — but a bug in the "
+             "detector can only be repaired by looking again."
+    )
     args = parser.parse_args()
 
     # Paths
@@ -1345,7 +1416,8 @@ def main():
             print(f"Error: jobs-data.js not found at {jobs_data_path}")
         else:
             print("Verifying existing job listings...")
-            verify_all_jobs(str(jobs_data_path), delay=args.delay)
+            verify_all_jobs(str(jobs_data_path), delay=args.delay,
+                            recheck_filled=args.recheck_filled)
 
 
 if __name__ == "__main__":
