@@ -21,6 +21,24 @@ cd "$SCRIPT_DIR"
 # Run the scraper with playwright, merge, and verify existing jobs
 $PYTHON startup_job_scraper.py --playwright --merge --verify >> "$LOG_FILE" 2>&1
 
+# Surface a board that is hiding open jobs.
+#
+# Everything above is redirected into $LOG_FILE, so launchd_stderr.log stays
+# empty on a healthy run. Writing the alarm to stderr HERE — outside that
+# redirect — means a non-empty launchd_stderr.log is itself the signal, with
+# no log-reading required.
+#
+# This is the check that was missing when the filled-detector matched the bare
+# word 'expired' inside `"expired":false` and quietly killed every job posted
+# over two weeks. The log read perfectly normally the whole time.
+if grep -q "ARE LISTED LIVE ON THE SOURCE BUT SHOWN AS UNAVAILABLE" "$LOG_FILE"; then
+    {
+        echo "JOBS BOARD ALARM - $(date '+%Y-%m-%d %H:%M:%S')"
+        sed -n '/ARE LISTED LIVE ON THE SOURCE BUT SHOWN AS UNAVAILABLE/,/^!\{10,\}$/p' "$LOG_FILE" | tail -40
+        echo "Full log: $LOG_FILE"
+    } >&2
+fi
+
 # Check if new jobs were added
 if grep -q "Successfully added" "$LOG_FILE" | tail -1; then
     echo "New jobs found - regenerating zip..." >> "$LOG_FILE"

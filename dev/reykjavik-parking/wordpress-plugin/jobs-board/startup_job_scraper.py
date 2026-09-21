@@ -1079,6 +1079,68 @@ class AlfredPlaywrightScraper:
             return None
 
 
+
+# ---------------- Contradiction Check ----------------
+
+def normalise_url(url: str) -> str:
+    """Comparable form of an application URL: no query string, no trailing slash."""
+    return (url or '').split('?')[0].split('#')[0].rstrip('/').lower()
+
+
+def check_contradictions(js_file_path: str, scraped: List[Dict]) -> List[Dict]:
+    """Jobs the source is listing RIGHT NOW that we are showing as unavailable.
+
+    A job appearing in today's scrape was, by definition, on the source's
+    listing page minutes ago. If our copy says "No Longer Available", one of
+    the two is wrong and it is not the source.
+
+    This exists because that state is otherwise invisible. A detector bug once
+    matched the bare word 'expired' inside `"expired":false` and killed every
+    job posted over two weeks — six Alvotech roles among them — and because
+    filled jobs are skipped on later runs, nothing ever looked at them again.
+    The scraper log read completely normally throughout: jobs found, merged,
+    pushed. The only way to see it was to compare the two files.
+
+    Matched on URL rather than title and company: employers repost the same
+    role at a new URL, and matching on the text pairs a live repost with a
+    correctly-filled old entry, inventing contradictions that are not real.
+    """
+    published, _ = load_existing_jobs(js_file_path)
+    live_urls = {normalise_url(j.get('url') or j.get('applicationUrl'))
+                 for j in scraped}
+    live_urls.discard('')
+    return [j for j in published
+            if j.get('status') == 'filled'
+            and normalise_url(j.get('applicationUrl')) in live_urls]
+
+
+def report_contradictions(js_file_path: str, scraped: List[Dict]) -> int:
+    """Print the check's result. Returns the number of contradictions."""
+    if not scraped:
+        print("\nContradiction check skipped: nothing was scraped this run.")
+        return 0
+
+    bad = check_contradictions(js_file_path, scraped)
+    if not bad:
+        print(f"\nContradiction check: OK — none of the {len(scraped)} jobs "
+              f"listed live are marked unavailable.")
+        return 0
+
+    print("\n" + "!" * 70)
+    print(f"!! {len(bad)} JOB(S) ARE LISTED LIVE ON THE SOURCE BUT SHOWN AS UNAVAILABLE")
+    print("!!")
+    print("!! The board is hiding jobs that are open. This usually means the")
+    print("!! filled-detection is producing false positives — check what the")
+    print("!! page actually says before trusting it.")
+    print("!!")
+    for j in bad:
+        print(f"!!   [{j.get('id')}] {j.get('company', '')[:28]:30} "
+              f"{j.get('title', '')[:36]:38} verified {str(j.get('lastVerified', ''))[:10]}")
+    print("!!")
+    print("!! To re-examine them:  --verify --recheck-filled")
+    print("!" * 70)
+    return len(bad)
+
 # ---------------- Job Verification ----------------
 
 # Phrases that mean a job has been filled or withdrawn (Icelandic + English).
@@ -1418,6 +1480,12 @@ def main():
             print("Verifying existing job listings...")
             verify_all_jobs(str(jobs_data_path), delay=args.delay,
                             recheck_filled=args.recheck_filled)
+
+    # Always check, verify or not: the point is to catch a board that is
+    # hiding open jobs, whatever put it in that state.
+    if jobs_data_path.exists() and all_jobs:
+        scraped_dicts = [j.__dict__ if hasattr(j, '__dict__') else j for j in all_jobs]
+        report_contradictions(str(jobs_data_path), scraped_dicts)
 
 
 if __name__ == "__main__":
