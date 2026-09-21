@@ -276,7 +276,7 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
-            status: "active",
+            status: "filled",
             lastVerified: "2026-09-21"
         },
         {
@@ -294,7 +294,7 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
-            status: "active",
+            status: "filled",
             lastVerified: "2026-09-21"
         },
         {
@@ -312,7 +312,7 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
-            status: "active",
+            status: "filled",
             lastVerified: "2026-09-21"
         },
         {
