@@ -112,6 +112,28 @@ fi
 
 cd "$SCRIPT_DIR"
 
+# Deploy the plugin's own code if it changed.
+#
+# Job data does NOT go through here — it reaches the site via jsDelivr and is
+# already live by this point. This only catches a change to the PHP, CSS or JS,
+# which happens a few times a year. The script compares against what the site
+# is actually serving and does nothing when they match, so running it nightly
+# costs three HTTP requests.
+#
+# It exits 0 and does nothing when ~/.jobs-board-deploy.conf is absent, so an
+# unconfigured machine does not turn this into a failing run.
+if [ -x "$SCRIPT_DIR/deploy_plugin.sh" ]; then
+    echo "" >> "$LOG_FILE"
+    "$SCRIPT_DIR/deploy_plugin.sh" >> "$LOG_FILE" 2>&1 || {
+        echo "WARNING: plugin deploy failed — the site is still serving the" >> "$LOG_FILE"
+        echo "previous plugin code. Job data is unaffected." >> "$LOG_FILE"
+        {
+            echo "JOBS BOARD: plugin deploy failed - $(date '+%Y-%m-%d %H:%M:%S')"
+            this_run | tail -12
+        } >&2
+    }
+fi
+
 echo "" >> "$LOG_FILE"
 echo "Scraper completed at $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE"
 echo "" >> "$LOG_FILE"
