@@ -91,6 +91,23 @@ else
     git commit -m "Update jobs board data ($JOB_COUNT jobs)" >> "$LOG_FILE" 2>&1
     git push origin master >> "$LOG_FILE" 2>&1
     echo "Pushed updated jobs data to reykjavik-parking repo" >> "$LOG_FILE"
+
+    # Tell jsDelivr the file changed.
+    #
+    # The board reads its data from cdn.jsdelivr.net/gh/...@master. A branch
+    # reference is mutable, so jsDelivr serves it with s-maxage=43200 — the
+    # edge holds yesterday's jobs for TWELVE HOURS after the push, and the
+    # browser copy (max-age=604800) for a week. Pushing alone therefore does
+    # not update the site; it only makes the new data eligible to appear
+    # eventually. One purge call makes the push take effect immediately.
+    PURGE="https://purge.jsdelivr.net/gh/balainiceland/reykjavik-parking@master/$DATA_PATH/js/jobs-data.json"
+    if curl -sf --max-time 30 "$PURGE" >> "$LOG_FILE" 2>&1; then
+        echo "" >> "$LOG_FILE"
+        echo "Purged jsDelivr cache — new data is live now" >> "$LOG_FILE"
+    else
+        echo "" >> "$LOG_FILE"
+        echo "WARNING: jsDelivr purge failed; the site will pick the data up within 12h" >> "$LOG_FILE"
+    fi
 fi
 
 cd "$SCRIPT_DIR"
