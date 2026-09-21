@@ -18,8 +18,18 @@ echo "========================================" >> "$LOG_FILE"
 # Change to script directory
 cd "$SCRIPT_DIR"
 
+# Everything below greps the log for things THIS run said. scraper_log.txt is
+# appended to forever, so grepping the whole file finds any run that ever said
+# it — "Successfully added" has been true since the first successful merge in
+# February regardless of what tonight did. Record where this run starts and
+# read only from there.
+LOG_OFFSET=$(( $(wc -c < "$LOG_FILE" 2>/dev/null || echo 0) + 1 ))
+
 # Run the scraper with playwright, merge, and verify existing jobs
 $PYTHON startup_job_scraper.py --playwright --merge --verify >> "$LOG_FILE" 2>&1
+
+# This run's output, and nothing earlier.
+this_run() { tail -c "+$LOG_OFFSET" "$LOG_FILE"; }
 
 # Surface a board that is hiding open jobs.
 #
@@ -31,16 +41,18 @@ $PYTHON startup_job_scraper.py --playwright --merge --verify >> "$LOG_FILE" 2>&1
 # This is the check that was missing when the filled-detector matched the bare
 # word 'expired' inside `"expired":false` and quietly killed every job posted
 # over two weeks. The log read perfectly normally the whole time.
-if grep -q "ARE LISTED LIVE ON THE SOURCE BUT SHOWN AS UNAVAILABLE" "$LOG_FILE"; then
+if this_run | grep -q "ARE LISTED LIVE ON THE SOURCE BUT SHOWN AS UNAVAILABLE"; then
     {
         echo "JOBS BOARD ALARM - $(date '+%Y-%m-%d %H:%M:%S')"
-        sed -n '/ARE LISTED LIVE ON THE SOURCE BUT SHOWN AS UNAVAILABLE/,/^!\{10,\}$/p' "$LOG_FILE" | tail -40
+        this_run | sed -n '/ARE LISTED LIVE ON THE SOURCE BUT SHOWN AS UNAVAILABLE/,/^!\{10,\}$/p' | tail -40
         echo "Full log: $LOG_FILE"
     } >&2
 fi
 
 # Check if new jobs were added
-if grep -q "Successfully added" "$LOG_FILE" | tail -1; then
+# `grep -q X | tail -1` tested tail's exit status, which is always 0, so the
+# zip was rebuilt on every run whether or not anything changed.
+if this_run | grep -q "Successfully added"; then
     echo "New jobs found - regenerating zip..." >> "$LOG_FILE"
     rm -f jobs-board.zip
     zip -r jobs-board.zip . -x "*.pyc" -x "__pycache__/*" -x "*.json" -x "startup_job_scraper.py" -x ".DS_Store" -x "run_scraper.sh" -x "scraper_log.txt" >> "$LOG_FILE" 2>&1
