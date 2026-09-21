@@ -121,6 +121,9 @@ fi
 BATCH=$(mktemp)
 trap 'rm -f "$BATCH"' EXIT
 {
+    # A leading '-' tells sftp to carry on when the command fails. These exist
+    # on any site that has ever had the plugin installed, so the failure is the
+    # normal case and is silenced rather than reported as a problem.
     echo "-mkdir $REMOTE_DIR"
     echo "-mkdir $REMOTE_DIR/css"
     echo "-mkdir $REMOTE_DIR/js"
@@ -160,11 +163,51 @@ if [ -n "${SFTP_PASSWORD:-}" ]; then
     esac
 else
     [ -f "$SFTP_KEY" ] || die "no SFTP_PASSWORD set and the key is missing: $SFTP_KEY"
+
+    # A passphrase-protected key cannot be used unattended unless an agent is
+    # holding it: BatchMode suppresses the prompt, ssh cannot sign, and the
+    # server reports "Permission denied" — indistinguishable from a key it has
+    # never heard of. That cost several rounds of debugging the wrong end.
+    #
+    # launchd does not inherit the ssh-agent from a login shell, so the nightly
+    # run starts with an empty one even though it works by hand. Load the key
+    # from the macOS Keychain, which is where its passphrase already lives.
+    if ! ssh-keygen -y -P "" -f "$SFTP_KEY" >/dev/null 2>&1; then
+        key_fp=$(ssh-keygen -lf "$SFTP_KEY" | awk '{print $2}')
+
+        # Already available? Nothing to do.
+        if ! ssh-add -l 2>/dev/null | grep -q "$key_fp"; then
+            # Try the agent we inherited, if any.
+            ssh-add --apple-load-keychain >/dev/null 2>&1 || true
+        fi
+
+        # Still nothing — most likely because launchd handed us no agent at
+        # all, which is exactly the nightly case: SSH_AUTH_SOCK is a login
+        # shell's, and a scheduled job does not get one. Start a private agent,
+        # take the passphrase from the Keychain where it already lives, and
+        # tear it down on the way out.
+        if ! ssh-add -l 2>/dev/null | grep -q "$key_fp"; then
+            eval "$(ssh-agent -s)" >/dev/null 2>&1
+            OWN_AGENT=1
+            trap 'rm -f "$BATCH" 2>/dev/null; [ -n "${OWN_AGENT:-}" ] && ssh-agent -k >/dev/null 2>&1' EXIT
+            ssh-add --apple-load-keychain >/dev/null 2>&1 || true
+        fi
+
+        if ! ssh-add -l 2>/dev/null | grep -q "$key_fp"; then
+            die "$(basename "$SFTP_KEY") has a passphrase, is not in any agent, and its
+     passphrase is not in the Keychain. Store it once with:
+         ssh-add --apple-use-keychain $SFTP_KEY
+     (A locked login Keychain will also cause this.)"
+        fi
+    fi
     if ! sftp -q -o StrictHostKeyChecking=accept-new -o BatchMode=yes \
-              -i "$SFTP_KEY" -b "$BATCH" "$SFTP_USER@$SFTP_HOST"; then
+              -i "$SFTP_KEY" -b "$BATCH" "$SFTP_USER@$SFTP_HOST" \
+              > /tmp/sftp-deploy.$$ 2>&1; then
+        sed 's/^/deploy:   /' /tmp/sftp-deploy.$$ >&2; rm -f /tmp/sftp-deploy.$$
         die "SFTP failed. Check the credentials in $CONF, and that
      $(basename "$SFTP_KEY").pub is registered under Hosting Configuration."
     fi
+    rm -f /tmp/sftp-deploy.$$
 fi
 
 # ── Confirm it landed ───────────────────────────────────────────────────
