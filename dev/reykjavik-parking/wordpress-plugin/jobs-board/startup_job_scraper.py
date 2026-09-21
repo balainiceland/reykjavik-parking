@@ -1272,13 +1272,41 @@ def verify_all_jobs(js_file_path: str, delay: float = 0.5,
     session = requests.Session()
     session.headers.update(HEADERS)
 
+    # Some employers give one careers-page URL for every opening they have:
+    # fifteen Kerecis roles all point at the same Coloplast listing, twelve
+    # beqom roles at one BambooHR page, ten Össur roles at one Workday search.
+    #
+    # Fetching that page says nothing about any single job on it. It cannot
+    # report a closure — the page is still there once a role is gone — and it
+    # can wrongly condemn a whole batch at once, which is what happened to
+    # three Climeworks roles that were all marked filled from one transient
+    # response to careers-search.
+    #
+    # So they are not checked. That is honest rather than helpful: their status
+    # is now frozen at whatever it is, and nothing here will ever retire them.
+    # Deciding when an unverifiable posting has gone stale is a separate
+    # question from whether its URL is reachable.
+    url_counts: Dict[str, int] = {}
+    for job in existing_jobs:
+        u = normalise_url(job.get('applicationUrl'))
+        if u:
+            url_counts[u] = url_counts.get(u, 0) + 1
+    shared_urls = {u for u, n in url_counts.items() if n > 1}
+
     today = datetime.now().strftime('%Y-%m-%d')
-    summary = {'active': 0, 'filled': 0, 'error': 0, 'already_filled': 0}
+    summary = {'active': 0, 'filled': 0, 'error': 0, 'already_filled': 0,
+               'shared_url': 0}
 
     for job in existing_jobs:
         url = job.get('applicationUrl', '')
         current_status = job.get('status', 'active')
         job_id = job.get('id', '?')
+
+        # A listing page shared by several jobs cannot speak for any one of
+        # them. Left alone in both directions.
+        if normalise_url(url) in shared_urls:
+            summary['shared_url'] += 1
+            continue
 
         # Skip jobs already marked as filled — unless we are repairing.
         if current_status == 'filled' and not recheck_filled:
@@ -1309,6 +1337,7 @@ def verify_all_jobs(js_file_path: str, delay: float = 0.5,
         print(f"  Newly filled: {summary['filled']}")
         print(f"  Previously filled: {summary['already_filled']}")
         print(f"  Errors (skipped): {summary['error']}")
+        print(f"  Shared careers-page URL (not checkable): {summary['shared_url']}")
     else:
         print("Error: Failed to write updated statuses to file.")
 
