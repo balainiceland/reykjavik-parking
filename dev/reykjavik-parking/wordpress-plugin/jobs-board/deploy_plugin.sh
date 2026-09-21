@@ -26,9 +26,14 @@
 #
 #       SFTP_HOST=sftp.wp.com
 #       SFTP_USER=your.username
-#       SFTP_KEY=$HOME/.ssh/id_ed25519
 #       REMOTE_DIR=/htdocs/wp-content/plugins/jobs-board
 #       VERIFY_URL=https://startupiceland.com/wp-content/plugins/jobs-board
+#
+#   Then ONE of:
+#       SFTP_KEY=$HOME/.ssh/id_ed25519          # preferred: no secret on disk
+#       SFTP_PASSWORD=the-generated-password     # what WordPress.com hands you
+#
+#   chmod 600 the file either way.
 #
 # Usage:
 #   ./deploy_plugin.sh --check    what differs between local and live
@@ -113,8 +118,6 @@ if [ "$MODE" != "--force" ] && [ ${#changed[@]} -le 1 ] \
 fi
 
 # ── Send ────────────────────────────────────────────────────────────────
-[ -f "$SFTP_KEY" ] || die "ssh key not found: $SFTP_KEY"
-
 BATCH=$(mktemp)
 trap 'rm -f "$BATCH"' EXIT
 {
@@ -127,10 +130,41 @@ trap 'rm -f "$BATCH"' EXIT
 } > "$BATCH"
 
 echo "deploy: sending ${#FILES[@]} file(s) to $SFTP_USER@$SFTP_HOST:$REMOTE_DIR"
-if ! sftp -q -o StrictHostKeyChecking=accept-new -o BatchMode=yes \
-          -i "$SFTP_KEY" -b "$BATCH" "$SFTP_USER@$SFTP_HOST"; then
-    die "SFTP failed. Check the credentials in $CONF and that the public key
-     is registered under Hosting Configuration."
+
+# Two ways in. A key is preferable — nothing secret ends up on disk and it
+# cannot be shoulder-surfed out of a config file — but WordPress.com issues a
+# generated password by default, so that path is supported rather than making
+# key setup a precondition for this working at all.
+if [ -n "${SFTP_PASSWORD:-}" ]; then
+    command -v expect >/dev/null || die "SFTP_PASSWORD is set but 'expect' is not installed.
+     Either install expect, or switch to key auth by setting SFTP_KEY."
+    expect -c "
+        log_user 0
+        set timeout 120
+        spawn sftp -o StrictHostKeyChecking=accept-new -b $BATCH $SFTP_USER@$SFTP_HOST
+        expect {
+            -re {[Pp]assword:} { send \"$SFTP_PASSWORD\r\"; exp_continue }
+            -re {denied|Permission denied} { exit 5 }
+            timeout { exit 6 }
+            eof
+        }
+        catch wait result
+        exit [lindex \$result 3]
+    "
+    rc=$?
+    case $rc in
+        0) ;;
+        5) die "SFTP rejected the password. Regenerate it under Hosting Configuration." ;;
+        6) die "SFTP timed out connecting to $SFTP_HOST." ;;
+        *) die "SFTP failed (exit $rc). Check SFTP_HOST, SFTP_USER and REMOTE_DIR in $CONF." ;;
+    esac
+else
+    [ -f "$SFTP_KEY" ] || die "no SFTP_PASSWORD set and the key is missing: $SFTP_KEY"
+    if ! sftp -q -o StrictHostKeyChecking=accept-new -o BatchMode=yes \
+              -i "$SFTP_KEY" -b "$BATCH" "$SFTP_USER@$SFTP_HOST"; then
+        die "SFTP failed. Check the credentials in $CONF, and that
+     $(basename "$SFTP_KEY").pub is registered under Hosting Configuration."
+    fi
 fi
 
 # ── Confirm it landed ───────────────────────────────────────────────────
