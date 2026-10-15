@@ -1,6 +1,6 @@
 {
   "version": "1.6.0",
-  "lastUpdated": "2026-01-18T16:09:45.853Z",
+  "lastUpdated": "2026-10-15T08:42:34.384Z",
   "sectors": [
     {
       "id": "all",
@@ -61,6 +61,10 @@
     {
       "id": "hrtech",
       "name": "HR Tech"
+    },
+    {
+      "id": "gigeconomy",
+      "name": "Gig-Economy"
     },
     {
       "id": "other",
@@ -177,6 +181,26 @@
       "foundedYear": 2016
     },
     {
+      "id": 168,
+      "name": "Kríta",
+      "description": "Fast and flexible financing solutions for businesses with focus on speed, automation, and transparency",
+      "website": "https://www.krita.is",
+      "sector": "fintech",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2020
+    },
+    {
+      "id": 169,
+      "name": "Rapyd Europe",
+      "description": "Global fintech platform providing payment solutions and financial services to businesses in Iceland and Europe",
+      "website": "https://www.rapyd.net",
+      "sector": "fintech",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2016
+    },
+    {
       "id": 10,
       "name": "Kerecis",
       "description": "Medical devices using fish skin for wound healing and tissue regeneration",
@@ -215,6 +239,26 @@
       "status": "active",
       "acquiredBy": null,
       "foundedYear": 2012
+    },
+    {
+      "id": 166,
+      "name": "Coripharma",
+      "description": "Development, manufacturing, and export of generic pharmaceuticals with 26 products in production and 21 in development",
+      "website": "https://www.coripharma.is",
+      "sector": "healthtech",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2018
+    },
+    {
+      "id": 170,
+      "name": "Alvotech",
+      "description": "Global biopharmaceutical company focused on developing and manufacturing biosimilar medicines to increase access to affordable biologics",
+      "website": "https://www.alvotech.com",
+      "sector": "healthtech",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2013
     },
     {
       "id": 14,
@@ -357,6 +401,56 @@
       "foundedYear": 2015
     },
     {
+      "id": 163,
+      "name": "Atlas",
+      "description": "Icelandic cloud infrastructure provider offering secure, locally-hosted VMs, Kubernetes, and S3-compatible storage with full data sovereignty",
+      "website": "https://runatlas.is",
+      "sector": "saas",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2025
+    },
+    {
+      "id": 164,
+      "name": "GRID",
+      "description": "Spreadsheet technology company building AI-powered spreadsheet engines and tools for modern applications",
+      "website": "https://grid.is",
+      "sector": "saas",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2018
+    },
+    {
+      "id": 167,
+      "name": "Lagaviti",
+      "description": "AI-powered legal technology platform using cutting-edge LLMs and RAG systems for legal research and analysis",
+      "website": "https://www.lagaviti.is",
+      "sector": "saas",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2023
+    },
+    {
+      "id": 173,
+      "name": "Jónsbók",
+      "description": "Legal AI software using LLMs and agentic technology to assist lawyers and paralegals in Iceland, Hungary, and Europe",
+      "website": "https://www.jonsbok.is",
+      "sector": "saas",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2023
+    },
+    {
+      "id": 175,
+      "name": "Tern Systems",
+      "description": "Air Traffic Management solutions provider delivering safety-critical systems to customers in Europe and Asia",
+      "website": "https://www.tern.systems",
+      "sector": "saas",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 1999
+    },
+    {
       "id": 28,
       "name": "Sling",
       "description": "Employee scheduling and workforce management platform",
@@ -445,6 +539,16 @@
       "status": "active",
       "acquiredBy": null,
       "foundedYear": 2012
+    },
+    {
+      "id": 165,
+      "name": "Alor",
+      "description": "Solar energy systems and battery energy storage solutions (BESS), including repurposing EV batteries for distributed energy production",
+      "website": "https://alor.is",
+      "sector": "cleantech",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2023
     },
     {
       "id": 37,
@@ -537,6 +641,16 @@
       "foundedYear": 2010
     },
     {
+      "id": 172,
+      "name": "Teledyne Gavia",
+      "description": "Designs and manufactures autonomous underwater vehicles (AUVs) including the Gavia, Osprey, and SeaRaptor submarines",
+      "website": "https://www.teledynemarine.com/gavia",
+      "sector": "maritime",
+      "status": "acquired",
+      "acquiredBy": "Teledyne Technologies",
+      "foundedYear": 1997
+    },
+    {
       "id": 46,
       "name": "Syndis",
       "description": "Cybersecurity risk assessment and penetration testing",
@@ -545,6 +659,26 @@
       "status": "active",
       "acquiredBy": null,
       "foundedYear": 2013
+    },
+    {
+      "id": 162,
+      "name": "Aftra",
+      "description": "Cybersecurity SaaS that simulates hacker methods, making security simple and actionable for the C-suite. Spinoff from Syndis",
+      "website": "https://aftra.io",
+      "sector": "security",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2024
+    },
+    {
+      "id": 176,
+      "name": "Varist",
+      "description": "Real-time sandboxing and malware detection cybersecurity solutions",
+      "website": "https://www.varist.com",
+      "sector": "security",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2020
     },
     {
       "id": 47,
@@ -595,6 +729,16 @@
       "status": "active",
       "acquiredBy": null,
       "foundedYear": 2012
+    },
+    {
+      "id": 171,
+      "name": "Pikkoló",
+      "description": "Sustainable smart distribution system for online grocery stores using refrigerated self-service stations",
+      "website": "https://www.pikkolo.is",
+      "sector": "food",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2022
     },
     {
       "id": 52,
@@ -940,7 +1084,7 @@
       "id": 86,
       "name": "Smitten",
       "description": "Next-generation dating app blending dating, social, and gaming",
-      "website": "https://www.smitten.app",
+      "website": "https://www.smitten.fun/",
       "sector": "media",
       "status": "active",
       "acquiredBy": null,
@@ -1341,7 +1485,7 @@
       "name": "TAPP",
       "description": "Complete gig economy platform for project management, contracts, and invoicing",
       "website": null,
-      "sector": "saas",
+      "sector": "gigeconomy",
       "status": "active",
       "acquiredBy": null,
       "foundedYear": 2023
@@ -1695,6 +1839,26 @@
       "status": "active",
       "acquiredBy": null,
       "foundedYear": 2026
+    },
+    {
+      "id": 162,
+      "name": "VAST Data",
+      "description": "Data infrastructure company providing flash storage and data management solutions with offices in Reykjavik",
+      "website": "https://www.vastdata.com",
+      "sector": "data",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2016
+    },
+    {
+      "id": 163,
+      "name": "Hoobla",
+      "description": "Marketplace platform where businesses meet vetted freelance specialists, managers and consultants. Thinking local, working global.",
+      "website": "https://hoobla.com",
+      "sector": "gigeconomy",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2021
     }
   ]
 }

@@ -20,6 +20,7 @@ var STARTUP_SECTORS = [
     { id: 'data', name: 'Data / Analytics' },
     { id: 'edtech', name: 'EdTech / Education' },
     { id: 'hrtech', name: 'HR Tech' },
+    { id: 'gigeconomy', name: 'Gig-Economy' },
     { id: 'other', name: 'Other' }
 ];
 
@@ -1465,7 +1466,7 @@ var icelandStartups = [
         name: "TAPP",
         description: "Complete gig economy platform for project management, contracts, and invoicing",
         website: null,
-        sector: "saas",
+        sector: "gigeconomy",
         status: "active",
         acquiredBy: null,
         foundedYear: 2023
@@ -1837,6 +1838,16 @@ var icelandStartups = [
         status: "active",
         acquiredBy: null,
         foundedYear: 2016
+    },
+    {
+        id: 163,
+        name: "Hoobla",
+        description: "Marketplace platform where businesses meet vetted freelance specialists, managers and consultants. Thinking local, working global.",
+        website: "https://hoobla.com",
+        sector: "gigeconomy",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2021
     }
 ];
 
