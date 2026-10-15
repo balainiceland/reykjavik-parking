@@ -7,9 +7,9 @@
 var StartupIcelandJobsData = {
 
     metadata: {
-        lastUpdated: "2026-09-19",
+        lastUpdated: "2026-10-14",
         version: "1.0.0",
-        totalJobs: 545
+        totalJobs: 576
     },
 
     categories: {
@@ -61,7 +61,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/34",
             featured: true,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 2,
@@ -79,7 +79,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/35",
             featured: true,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 3,
@@ -97,7 +97,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/31",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 4,
@@ -115,7 +115,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/33",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 5,
@@ -133,7 +133,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/30",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 6,
@@ -151,7 +151,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/36",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 7,
@@ -169,7 +169,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.ccpgames.com/en/postings/38bbae43-3698-49e1-9777-4de698f04965",
             featured: true,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 8,
@@ -187,7 +187,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.ccpgames.com/postings/3918fe38-f52f-4e65-9890-f30f2bd2a4d3",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 9,
@@ -205,7 +205,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://monerium.com/jobs/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 10,
@@ -222,8 +222,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://dohop.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 11,
@@ -240,8 +240,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://dohop.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 12,
@@ -259,7 +259,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://dteehf.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 13,
@@ -276,7 +276,7 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
-            status: "active",
+            status: "filled",
             lastVerified: "2026-09-21"
         },
         {
@@ -294,7 +294,7 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
-            status: "active",
+            status: "filled",
             lastVerified: "2026-09-21"
         },
         {
@@ -312,7 +312,7 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
             featured: false,
-            status: "active",
+            status: "filled",
             lastVerified: "2026-09-21"
         },
         {
@@ -331,7 +331,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-full-stack-developer-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 17,
@@ -348,8 +348,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-16",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 18,
@@ -366,8 +366,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-16",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 19,
@@ -384,8 +384,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-16",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 20,
@@ -402,8 +402,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-14",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 21,
@@ -420,8 +420,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-12",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 22,
@@ -438,8 +438,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-12",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 23,
@@ -456,8 +456,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-06",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 24,
@@ -474,8 +474,8 @@ var StartupIcelandJobsData = {
             postedDate: "2025-12-23",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 25,
@@ -492,8 +492,8 @@ var StartupIcelandJobsData = {
             postedDate: "2025-12-23",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 26,
@@ -510,8 +510,8 @@ var StartupIcelandJobsData = {
             postedDate: "2025-12-19",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 27,
@@ -528,8 +528,8 @@ var StartupIcelandJobsData = {
             postedDate: "2025-12-04",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 28,
@@ -546,8 +546,8 @@ var StartupIcelandJobsData = {
             postedDate: "2025-12-03",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 29,
@@ -564,8 +564,8 @@ var StartupIcelandJobsData = {
             postedDate: "2025-12-03",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 30,
@@ -582,8 +582,8 @@ var StartupIcelandJobsData = {
             postedDate: "2025-12-03",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 31,
@@ -600,8 +600,8 @@ var StartupIcelandJobsData = {
             postedDate: "2025-12-03",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 32,
@@ -618,8 +618,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-20",
             applicationUrl: "https://careers.lsretail.com/jobs",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 33,
@@ -636,8 +636,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-20",
             applicationUrl: "https://careers.lsretail.com/jobs",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 34,
@@ -654,8 +654,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-20",
             applicationUrl: "https://careers.lsretail.com/jobs",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 35,
@@ -672,8 +672,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-20",
             applicationUrl: "https://careers.lsretail.com/jobs",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 36,
@@ -691,7 +691,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://jbtm.wd108.myworkdayjobs.com/en-US/JBT_Marel_Career_Site/details/Senior-Manager-Product-Management_19979",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 37,
@@ -709,7 +709,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://meniga.bamboohr.com/careers/98",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 38,
@@ -726,8 +726,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-20",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 39,
@@ -744,8 +744,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-16",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 40,
@@ -762,8 +762,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-09",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 41,
@@ -780,8 +780,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-09",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 42,
@@ -798,8 +798,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-09",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 43,
@@ -816,8 +816,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-06",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 44,
@@ -834,8 +834,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-06",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 45,
@@ -852,8 +852,8 @@ var StartupIcelandJobsData = {
             postedDate: "2025-12-20",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 46,
@@ -870,8 +870,8 @@ var StartupIcelandJobsData = {
             postedDate: "2025-12-20",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 47,
@@ -888,8 +888,8 @@ var StartupIcelandJobsData = {
             postedDate: "2025-12-20",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 48,
@@ -906,8 +906,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 49,
@@ -924,8 +924,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 50,
@@ -942,8 +942,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 51,
@@ -960,8 +960,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 52,
@@ -978,8 +978,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 53,
@@ -996,8 +996,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 54,
@@ -1014,8 +1014,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 55,
@@ -1032,8 +1032,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: true,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 56,
@@ -1050,8 +1050,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 57,
@@ -1068,8 +1068,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 58,
@@ -1086,8 +1086,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 59,
@@ -1104,8 +1104,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 60,
@@ -1123,7 +1123,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://jobs.50skills.com/smittendating/en/40119",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 61,
@@ -1231,7 +1231,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "mailto:hr@krita.is",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 67,
@@ -1249,7 +1249,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.rapyd.net/company/careers/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 68,
@@ -1266,8 +1266,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-22",
             applicationUrl: "https://www.alvotech.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 69,
@@ -1284,8 +1284,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-22",
             applicationUrl: "https://www.alvotech.com/careers",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 70,
@@ -1303,7 +1303,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.pikkolo.is",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 71,
@@ -1321,7 +1321,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "mailto:hlynur@hagvangur.is",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 72,
@@ -1338,8 +1338,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-22",
             applicationUrl: "https://www.jonsbok.is",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 73,
@@ -1356,8 +1356,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-22",
             applicationUrl: "https://www.jonsbok.is",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 74,
@@ -1375,7 +1375,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.hefringmarine.com",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 75,
@@ -1393,7 +1393,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tern.systems",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 76,
@@ -1411,7 +1411,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ripple.com/careers",
             featured: true,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 77,
@@ -1428,8 +1428,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-23",
             applicationUrl: "mailto:ibo@kerecis.com",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 78,
@@ -1447,7 +1447,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://jobs.50skills.com/smittendating/en",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 79,
@@ -1464,8 +1464,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-24",
             applicationUrl: "mailto:ibo@kerecis.com",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 80,
@@ -1483,7 +1483,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-software-engineer-17/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 81,
@@ -1501,7 +1501,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/frontend-software-engineer-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 82,
@@ -1519,7 +1519,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/product-software-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 83,
@@ -1536,8 +1536,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/data-scientist-6/",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-07"
         },
         {
             id: 84,
@@ -1572,8 +1572,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/frontend-engineer-2/",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-07"
         },
         {
             id: 86,
@@ -1591,7 +1591,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/product-manager-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 87,
@@ -1609,7 +1609,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/engineering-delivery-lead-international-customers-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 88,
@@ -1627,7 +1627,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-frontend-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 89,
@@ -1645,7 +1645,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/machine-learning-engineer-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 90,
@@ -1663,7 +1663,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-quality-system-specialist-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 91,
@@ -1681,7 +1681,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/data-engineer-11/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 92,
@@ -1699,7 +1699,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/dba-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 93,
@@ -1717,7 +1717,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/frontend-developer-15/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 94,
@@ -1735,7 +1735,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/chief-technology-officer-cto/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 95,
@@ -1753,7 +1753,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/join-our-startup-as-lead-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 96,
@@ -1771,7 +1771,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/network-engineer-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 97,
@@ -1789,7 +1789,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/information-security-lead/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 98,
@@ -1807,7 +1807,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/summer-employee-associate-software-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 99,
@@ -1825,7 +1825,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/full-stack-forritari-fyrir-spennandi-gervigreindarverkefni/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 100,
@@ -1843,7 +1843,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/react-native-full-stack-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 101,
@@ -1861,7 +1861,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/bakendaforritari-21/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 102,
@@ -1879,7 +1879,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/framendaforritari-27/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 103,
@@ -1897,7 +1897,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/backend-software-developer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 104,
@@ -1915,7 +1915,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-in-product-development/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 105,
@@ -1933,7 +1933,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-tm/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 106,
@@ -1951,7 +1951,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/netserfraedingur-4/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 107,
@@ -1969,7 +1969,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/security-engineer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 108,
@@ -1987,7 +1987,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/system-administrator-14/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 109,
@@ -2005,7 +2005,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/database-administrator/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 110,
@@ -2023,7 +2023,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/delivery-lead-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 111,
@@ -2041,7 +2041,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-in-customer-success-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 112,
@@ -2059,7 +2059,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/devops-engineer-25/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 113,
@@ -2077,7 +2077,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-quality-assurance-engineer-in-customer-success/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 114,
@@ -2095,7 +2095,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-in-customer-success/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 115,
@@ -2113,7 +2113,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineers-python-vue/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 116,
@@ -2131,7 +2131,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/junior-senior-it-consultants/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 117,
@@ -2149,7 +2149,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/engineering-manager-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 118,
@@ -2167,7 +2167,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-68/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 119,
@@ -2185,7 +2185,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-16/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 120,
@@ -2203,7 +2203,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-software-engineer-14/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 121,
@@ -2221,7 +2221,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-unreal-engine/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 122,
@@ -2239,7 +2239,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/system-administrator-10/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 123,
@@ -2257,7 +2257,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/data-integration-specialist/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 124,
@@ -2275,7 +2275,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/summer-internship/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 125,
@@ -2293,7 +2293,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/framendaforritari-react-native-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 126,
@@ -2311,7 +2311,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-in-product-development/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 127,
@@ -2329,7 +2329,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/research-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 128,
@@ -2347,7 +2347,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/leidtogi-i-hagnytingu-gervigreindar/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 129,
@@ -2365,7 +2365,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-system-specialist-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 130,
@@ -2383,7 +2383,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/viltu-taka-thatt-i-ad-mota-framtidina-og-koma-hugbunadarverkefnum-i-innleidingu-og-throun/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 131,
@@ -2401,7 +2401,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/technical-consultant-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 132,
@@ -2419,7 +2419,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/serfraedingur-i-notendathjonustu-5/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 133,
@@ -2437,7 +2437,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/junior-information-security-consultant/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 134,
@@ -2455,7 +2455,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-information-security-consultant/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 135,
@@ -2473,7 +2473,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/core-developer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 136,
@@ -2491,7 +2491,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/it-support-specialist/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 137,
@@ -2509,7 +2509,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-front-end-developer-12/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 138,
@@ -2527,7 +2527,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-python-developer-4/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 139,
@@ -2545,7 +2545,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/technical-support-specialist-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 140,
@@ -2563,7 +2563,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-developer-37/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 141,
@@ -2581,7 +2581,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/kubernetes-developer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 142,
@@ -2599,7 +2599,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-devops-cloud-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 143,
@@ -2617,7 +2617,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/network-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 144,
@@ -2635,7 +2635,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/system-architect-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 145,
@@ -2653,7 +2653,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/project-manager-7/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 146,
@@ -2671,7 +2671,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/research-engineer-air-traffic-control-systems/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 147,
@@ -2689,7 +2689,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/upplysingaoryggisstjori-med-reynslu/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 148,
@@ -2707,7 +2707,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/director-cybersecurity/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 149,
@@ -2725,7 +2725,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/stjornunarleg-oryggisradgjof-syndis-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 150,
@@ -2743,7 +2743,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-solution-architect/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 151,
@@ -2905,7 +2905,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/fullstack-developer-python-react-firebase/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 160,
@@ -3049,7 +3049,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-47/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 168,
@@ -3517,7 +3517,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "mailto:gislinils@stigalolduna.is",
             featured: true,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 194,
@@ -5173,7 +5173,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 286,
@@ -5335,7 +5335,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/infra-wizard/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 295,
@@ -5407,7 +5407,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-lead-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 299,
@@ -5695,7 +5695,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-devops-engineer-4/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 315,
@@ -6181,7 +6181,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-quality-assurance-engineer-5/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 342,
@@ -6541,7 +6541,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/sumarstarf-marketplace-samthaettingar/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 362,
@@ -6703,7 +6703,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/it-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 371,
@@ -8107,7 +8107,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/junior-frontend-engineer-customer-facing/",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 449,
@@ -9330,8 +9330,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-08-27",
             applicationUrl: "https://alfred.is/starf/arctic-trucks-leitar-ad-starfsmanni-a-dekkjaverkstaedid-thetta-er-framtidarstarf",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-08"
         },
         {
             id: 517,
@@ -9456,8 +9456,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-03",
             applicationUrl: "https://alfred.is/starf/housekeeping-cleaning-1",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-15"
         },
         {
             id: 524,
@@ -9474,8 +9474,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-08",
             applicationUrl: "https://alfred.is/starf/bokari-og-uppgjoersadili-6",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-08"
         },
         {
             id: 525,
@@ -9492,8 +9492,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-08",
             applicationUrl: "https://alfred.is/starf/verkfraedingur-i-voeruthroun-2",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-29"
         },
         {
             id: 526,
@@ -9510,8 +9510,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/soelustjori-island",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-06"
         },
         {
             id: 527,
@@ -9528,8 +9528,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/soelu-og-markadsfulltrui-34",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-06"
         },
         {
             id: 528,
@@ -9546,8 +9546,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/qc-raw-materials-scientist-visual-inspection",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 529,
@@ -9565,7 +9565,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-fjarmalum-22",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 530,
@@ -9582,8 +9582,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/senior-embedded-software-engineer",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-01"
         },
         {
             id: 531,
@@ -9600,8 +9600,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/assistant-project-manager-on-site",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 532,
@@ -9618,8 +9618,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/adstodarmanneskja-i-moetuneyti-7",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 533,
@@ -9636,8 +9636,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/gildinga-serfraedingur-e-validation-technician",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-01"
         },
         {
             id: 534,
@@ -9654,8 +9654,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/qa-specialist-9",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-23"
         },
         {
             id: 535,
@@ -9672,8 +9672,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/project-procurement-manager-iceland",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-29"
         },
         {
             id: 536,
@@ -9690,8 +9690,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/starfsmadur-oskast-a-lager-hja-inter-ehf",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-06"
         },
         {
             id: 537,
@@ -9708,8 +9708,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/hr-manager-people-partner-global-business-functions",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-29"
         },
         {
             id: 538,
@@ -9726,8 +9726,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-17",
             applicationUrl: "https://alfred.is/starf/data-engineer-18",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-29"
         },
         {
             id: 539,
@@ -9744,8 +9744,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-17",
             applicationUrl: "https://alfred.is/starf/software-engineer-55",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-09-29"
         },
         {
             id: 540,
@@ -9762,8 +9762,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-18",
             applicationUrl: "https://alfred.is/starf/product-designer-engineer-oessur",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-02"
         },
         {
             id: 541,
@@ -9781,7 +9781,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/fulltrui-a-fjarmalasvidi-bookkeeper",
             featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
         },
         {
             id: 542,
@@ -9798,8 +9798,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-18",
             applicationUrl: "https://alfred.is/starf/senior-specialist-manufacturing-operations-1",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-01"
         },
         {
             id: 543,
@@ -9816,8 +9816,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-18",
             applicationUrl: "https://alfred.is/starf/qc-analytical-scientist",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-01"
         },
         {
             id: 544,
@@ -9834,8 +9834,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-19",
             applicationUrl: "https://alfred.is/starf/mst-compliance-support-specialist",
             featured: false,
-            status: "active",
-            lastVerified: "2026-09-21"
+            status: "filled",
+            lastVerified: "2026-10-02"
         },
         {
             id: 545,
@@ -9852,8 +9852,566 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-19",
             applicationUrl: "https://alfred.is/starf/qa-specialist-product-testing-review",
             featured: false,
+            status: "filled",
+            lastVerified: "2026-10-02"
+        },
+        {
+            id: 546,
+            company: "Embla Medical | Össur",
+            companyLogo: null,
+            title: "Global Product Owner, Manufacturing Systems | Embla Medical",
+            description: "Are you an experienced manufacturing and transformation leader who thrives at the intersection of operations, technology, and business change? Do you enjoy shaping future-state manufacturing capabilities while driving alignment across global sites and functions? Then this could be your next challenge.\n\nYour Role\n\nAs a Global Product Owner, Manufacturing Systems, you will lead the definition,...",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "lead",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-21",
+            applicationUrl: "https://alfred.is/starf/global-product-owner-manufacturing-systems-embla-medical",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-02"
+        },
+        {
+            id: 547,
+            company: "KS",
+            companyLogo: null,
+            title: "Bifvélavirki",
+            description: "Kaupfélag Skagfirðinga Sauðárkróki\n\nBifreiðaverkstæði KS óskar eftir að ráða bifvélavirkja í fullt starf.\n\nHelstu verkefni og ábyrgð\n\nBilanagreining og mat á nauðsynlegum aðgerðum\n\nAlmennar viðgerðir á bifreiðum, lyfturum, dráttarvélum, vörubílum og öðrum tækjum\n\nReglubundnar viðhaldsskoðanir og eftirlit\n\nMenntunar- og hæfniskröfur\n\nSveinspróf/meistarapróf í bifvélavirkjun\n\nGóð almenn...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Akureyri, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-23",
+            applicationUrl: "https://alfred.is/starf/bifvelavirki-116",
+            featured: false,
             status: "active",
-            lastVerified: "2026-09-21"
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 548,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "Batch Record Reviewer",
+            description: "Hefur þú gott auga fyrir smáatriðum og áhuga á gæðamálum í lyfja- og líftækniiðnaði? Við erum að leita að metnaðarfullum Batch Record Reviewer til að tryggja að framleiðsla okkar uppfylli strangar reglugerðarkröfur og hæstu gæðastaðla.\n\n(English)\n\nAre you detail-oriented and passionate about quality assurance in the pharmaceutical or biotech industry? We are seeking a dedicated Batch Record...",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-23",
+            applicationUrl: "https://alfred.is/starf/batch-record-reviewer",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-06"
+        },
+        {
+            id: 549,
+            company: "Pikkoló ehf.",
+            companyLogo: null,
+            title: "Pikkoló sendill óskast!",
+            description: "Pikkoló leitar af hressum og hraustum einstaklingum með áhuga á að taka þátt í að breyta leiknum á matvörumarkaði og hjálpa fólki að nálgast mat - og dagvörur í nærumhverfi sínu með snjallari og umhverfisvænni hætti.\n\nUm er að ræða hlutastarf á dagvinnutíma og um helgar. Krafa er gerð um bílpróf og að einstaklingurinn sé 20 ára eða eldri.\n\nHvað er Pikkoló?\n\nPikkoló er spennandi...",
+            category: "other",
+            type: "part-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-23",
+            applicationUrl: "https://alfred.is/starf/pikkolo-sendill-oskast-6",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-01"
+        },
+        {
+            id: 550,
+            company: "Kerecis",
+            companyLogo: null,
+            title: "Mannauðs- og skrifstofufulltrúi",
+            description: "Langar þig að starfa í fjölbreyttu hlutverki þar sem mannauðsmál og skrifstofuumsjón koma saman?\n\nKerecis leitar að skipulögðum, þjónustulunduðum og jákvæðum einstaklingi í starf skrifstofu- og mannauðsfulltrúa á skrifstofu fyrirtækisins í Reykjavík.\n\nÍ þessu fjölbreytta starfi gegnir þú mikilvægu hlutverki í daglegum mannauðsmálum fyrirtækisins og stuðlar að jákvæðri upplifun starfsfólks allt...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-24",
+            applicationUrl: "https://alfred.is/starf/mannauds-og-skrifstofufulltrui-1",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-04"
+        },
+        {
+            id: 551,
+            company: "Embla Medical | Össur",
+            companyLogo: null,
+            title: "Starfsmaður á renniverkstæði / CNC",
+            description: "Við óskum eftir að ráða öflugan starfsmann á renniverkstæði (CNC) Össurar sem er áhugasamur um að takast á við nýja hluti og með góða samskiptafærni. Viðkomandi þarf að geta hafið störf sem fyrst.\n\nUnnið er á vöktum og er vinnutíminn aðra vikuna frá 07.00-16.00 (mánudags til föstudags) og næstu viku frá 16.00-01.00 (mánudags til fimmtudags).\n\nMenntunar- og hæfniskröfur\n\nEiga gott með að vinna...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-24",
+            applicationUrl: "https://alfred.is/starf/starfsmadur-a-renniverkstaedi-cnc-6",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-06"
+        },
+        {
+            id: 552,
+            company: "Kerecis",
+            companyLogo: null,
+            title: "Sérfræðingur í Global Labeling",
+            description: "Kerecis | Reykjavík\n\nViltu taka þátt í þróun og skráningu lækningatækja úr fiskroði ?\n\nKerecis er það fyrirtæki sem vex hraðast í heiminum á sviði meðferðar á vefjaskaða og byggir tækni sína á hagnýtingu á roði og ﬁtusýrum. Lækningavörur Kerecis eru notaðar til meðhöndlunar á margskonar líkamsskaða; m.a. á skurðsárum, þrálátum sárum, og brunasárum til að ﬂýta fyrir gróanda og að styrkja vef...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-24",
+            applicationUrl: "https://alfred.is/starf/serfraedingur-i-global-labeling",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-13"
+        },
+        {
+            id: 553,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "Quality eSystem Specialist",
+            description: "Scope and responsibility:\n\nProvide Quality Systems expertise and support for GxP electronic systems across the organization.\nSupport the administration, configuration, maintenance, and continuous improvement of quality-related electronic systems, including Veeva Quality, Veeva LIMS, MasterControl, and other regulated platforms.\nDesign, create, verify, and maintain system master data and data...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-29",
+            applicationUrl: "https://alfred.is/starf/quality-esystem-specialist",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-09"
+        },
+        {
+            id: 554,
+            company: "Treble Technologies",
+            companyLogo: null,
+            title: "Office & Operations Coordinator",
+            description: "Treble is building the acoustic intelligence platform for the next frontier of AI and audio technology. We bring together physics, AI, and simulation to give teams the synthetic data and development tools to design devices, develop algorithms, and train and evaluate AI systems at scale. From wearables and voice AI to physical AI, world models, and multimodal foundation models, our ambition is...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-09-29",
+            applicationUrl: "https://alfred.is/starf/office-operations-coordinator",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 555,
+            company: "IB ehf",
+            companyLogo: null,
+            title: "Bifvélavirki",
+            description: "Við óskum eftir að ráða til liðs við okkur starfsmann á verkstæði.\n\nErum að leita að vönum og sjáfstæðum manni á bílaverkstæði IB ehf á Selfossi.\nGóð tölvukunátta er kostur.\n\nOkkur vantar metnaðarfullan einstakling sem er tilbúinn til að takast á við nýjar áskoranir.\n\nFarið er fram á snyrtimennsku og góða umgengni.\nUm er að ræða 100% starf.\n\nVerkstæðið okkar er rúmgott, snyrtilegt og mjög vel...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Akureyri, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-29",
+            applicationUrl: "https://alfred.is/starf/bifvelavirki-120",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-05"
+        },
+        {
+            id: 556,
+            company: "Embla Medical | Össur",
+            companyLogo: null,
+            title: "Business Central Specialist",
+            description: "Looking for a role where strong Business Central knowledge, problem-solving, and global collaboration come together to support systems that help people move better every day?\n\nAt Embla Medical, we improve people’s mobility so they can live their Life Without Limitations. Behind that mission are business applications that help our teams work efficiently, serve our customers reliably, and...",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-29",
+            applicationUrl: "https://alfred.is/starf/business-central-specialist-3",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-06"
+        },
+        {
+            id: 557,
+            company: "Embla Medical | Össur",
+            companyLogo: null,
+            title: "Enterprise Architect | Embla Medical",
+            description: "Embla Medical’s Enterprise IT is looking for an experienced Enterprise Architect to help shape and govern technology architecture across our global organization. This role is one of several Enterprise Architect roles across the company and is expected to work collaboratively within the broader enterprise architecture community to ensure coherence and alignment on the technology landscape, as...",
+            category: "marketing",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-29",
+            applicationUrl: "https://alfred.is/starf/enterprise-architect-embla-medical",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-09"
+        },
+        {
+            id: 558,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "Manufacturing Cleaning Specialist",
+            description: "We are looking for a Manufacturing Cleaning Specialist to join our team at Alvotech. In this role, you will be responsible for performing and overseeing cleaning activities in GMP-classified areas, including Drug Substance Manufacturing (DSM) areas, in full compliance with approved procedures and EHS standards. You will ensure the availability of cleaning materials, handle chemical waste...",
+            category: "other",
+            type: "part-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-29",
+            applicationUrl: "https://alfred.is/starf/manufacturing-cleaning-specialist",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-09"
+        },
+        {
+            id: 559,
+            company: "VR",
+            companyLogo: null,
+            title: "VR á Egilsstöðum",
+            description: "Hefur þú auga fyrir smáatriðum og gaman af því að aðstoða fólk?\n\nVR leitar að þjónustulunduðum og nákvæmum einstaklingi til starfa við afgreiðslu umsókna í sjóði VR á skrifstofu félagsins á Egilsstöðum.\n\nUm er að ræða 100% starf og er vinnutíminn frá kl. 8:30- 16:00 alla virka daga. Minna starfshlutfall kemur til greina. Æskilegt er að viðkomandi geti hafið störf sem fyrst.\n\nHelstu...",
+            category: "other",
+            type: "part-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-29",
+            applicationUrl: "https://alfred.is/starf/skrifstofa-vr-a-egilsstoedum-starf-a-thjonustusvidi",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-05"
+        },
+        {
+            id: 560,
+            company: "50skills",
+            companyLogo: null,
+            title: "Head of Education",
+            description: "Every customer of 50skills builds workflows that run their people operations, and every one of those workflows is a lesson waiting to be taught. Nobody is teaching them yet. Our CEO's live demos are the best content we have, and they disappear the moment the call ends.\n\nThat is the job. You find the story, work out how the product solves the problem behind it, write it, make it, and get people...",
+            category: "marketing",
+            type: "full-time",
+            experienceLevel: "executive",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-30",
+            applicationUrl: "https://alfred.is/starf/head-of-education",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 561,
+            company: "50skills",
+            companyLogo: null,
+            title: "Education Producer",
+            description: "You love editing and you want to edit something that matters to the people watching. At 50skills, video is becoming the way we teach: product explainers, tutorials, customer stories, event films and short cuts, all of it running through your hands from raw footage to the finished cut. You will learn the product deeply enough to make the cut match what is being said, down to how the mouse moves...",
+            category: "operations",
+            type: "contract",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-09-30",
+            applicationUrl: "https://alfred.is/starf/education-producer",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 562,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "Senior Specialist, Quality Control",
+            description: "Scope and Responsibilities:\n\nManagement and oversight of individual analytical method transfers for QC, including protocol/report/gap analysis generation and implementation plans, review and approval workflows between the receiving and transferring unit.\nParticipate in preparations for regulatory submissions, inspections, and responses to health authorities and/or partners for QC related...",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-02",
+            applicationUrl: "https://alfred.is/starf/senior-specialist-quality-control",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 563,
+            company: "atNorth",
+            companyLogo: null,
+            title: "Öryggisstjóri (HSE Manager)",
+            description: "atNorth leitar að kraftmiklum og lausnamiðuðum öryggisstjóra, HSE Manager, í gagnaver félagsins á Reykjanesi. Starfið hentar einstaklingi með reynslu og menntun á sviði rafvirkjunar sem hefur brennandi áhuga á öryggismálum, heilsu og umhverfi, og vill taka virkan þátt í að efla örugga, faglega og ábyrga vinnustaðamenningu. HSE Manager gegnir lykilhlutverki í daglegri eftirfylgni með...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-02",
+            applicationUrl: "https://alfred.is/starf/oeryggisstjori-hse-manager",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 564,
+            company: "Embla Medical | Össur",
+            companyLogo: null,
+            title: "Digital Product Designer - UI & Design Systems",
+            description: "Every digital interaction can make a meaningful difference when it helps people access the products, services and support that enable greater mobility. At Embla Medical, design, technology and healthcare come together to solve real problems - and thoughtful UI turns that purpose into clear, accessible and beautifully crafted experiences.\n\nThis is a new opportunity for a UI-first Digital...",
+            category: "design",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-02",
+            applicationUrl: "https://alfred.is/starf/digital-product-designer-ui-design-systems",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-09"
+        },
+        {
+            id: 565,
+            company: "atNorth",
+            companyLogo: null,
+            title: "Sérfræðingur í stjórn- og eftirlitskerfum (Control SME)",
+            description: "atNorth á Reykjanesi leitar að öflugum sérfræðingi til að tryggja áreiðanlegan rekstur og áframhaldandi þróun stjórn- og eftirlitskerfa gagnaversins. Starfið felur í sér umsjón með PLC-, SCADA- og BMS-kerfum, viðhald og bilanagreiningu, ásamt innleiðingu tæknilegra umbóta sem styðja við öruggan og skilvirkan rekstur.\n\nVið leitum að aðila með sterkan tæknilegan grunn, góða samskiptahæfni og...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-02",
+            applicationUrl: "https://alfred.is/starf/serfraedingur-i-stjorn-og-eftirlitskerfum-control-sme-1",
+            featured: false,
+            status: "filled",
+            lastVerified: "2026-10-14"
+        },
+        {
+            id: 566,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "Head of Warehouses - Alvotech",
+            description: "Head of Warehouses is responsible for leading warehouse operations in Iceland, including internal sites and external partners. It focuses on safe, compliant, and efficient operations, strong people leadership, GMP/GDP and EHS compliance, performance management, cost control, operational excellence, and long-term warehouse capacity planning.\n\n\n\nKey responsibilities:\n\nLeads the warehousing...",
+            category: "operations",
+            type: "full-time",
+            experienceLevel: "executive",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-03",
+            applicationUrl: "https://alfred.is/starf/head-of-warehouses-alvotech",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 567,
+            company: "Pikkoló ehf.",
+            companyLogo: null,
+            title: "Pikkoló leitar að skapandi samfélagsmiðlafulltrúa!",
+            description: "Pikkoló leitar að hugmyndaríkum og drífandi einstaklingi með áhuga á að taka þátt í að breyta leiknum á matvörumarkaði og hjálpa fólki að nálgast mat- og dagvörur í nærumhverfi sínu með snjallari og umhverfisvænni hætti.\n\nUm er að ræða hlutastarf við efnisgerð og umsjón samfélagsmiðla. Starfshlutfall og vinnutími eru eftir samkomulagi.\n\nHvað er Pikkoló?\n\nPikkoló er spennandi...",
+            category: "marketing",
+            type: "part-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-03",
+            applicationUrl: "https://alfred.is/starf/pikkolo-leitar-ad-skapandi-samfelagsmidlafulltrua",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 568,
+            company: "Embla Medical | Össur",
+            companyLogo: null,
+            title: "R&D Stoðtækjafræðingur | Össur",
+            description: "Össur leitar að stoðtækjafræðingi (Certified Prosthetist/Orthotist, CPO) til að ganga til liðs við Þróundardeild Össurar– Biomechanical Testing teymið. Sem hluti af teyminu, ber stoðtækjafræðingur R&D ábyrgð á að skipuleggja og veita þá stoðtækjaþjónustu sem nauðsynleg er fyrir klínískar prófanir sem framkvæmdar eru í Þróunardeild Össurar, auk annarra verkefna sem viðkoma þeim prófunum.\n\nÞetta...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-06",
+            applicationUrl: "https://alfred.is/starf/r-d-stodtaekjafraedingur-oessur",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 569,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "QC Analytical Product Testing Senior scientist",
+            description: "The Quality Control department at Alvotech is looking for a dedicated and quality-minded QC Analytical Product Testing Senior scientist with extensive experience in the field, who will be a part of the Quality control team responsible for quality control and release testing of product manufactured at Alvotech.\n\nScope and responsibility:\n\nPerforms routine analytical testing using advanced...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-06",
+            applicationUrl: "https://alfred.is/starf/qc-analytical-product-testing-senior-scientist",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 570,
+            company: "50skills",
+            companyLogo: null,
+            title: "AI Engineer",
+            description: "AI Engineer\n\nAI is in everything we build. Navigator, the AI agents inside Journeys and Hire, and work we have not announced yet. Our development team builds with AI every day, and we are adding an engineer whose whole focus is the AI in our products.\n\nThis is a hands-on engineering role. You write the code, design the systems, measure the results and ship the features yourself. Your opinions...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-06",
+            applicationUrl: "https://alfred.is/starf/ai-engineer",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 571,
+            company: "Lagaviti ehf.",
+            companyLogo: null,
+            title: "Senior Full Stack / AI forritari",
+            description: "Lagaviti er mjög öflug gervigreindarlausn sem beitir allra nýjustu gervigreindartækni á hverjum tíma – ekki bara cutting edge heldur hreinlega bleeding edge tækni. Þróun lausnarinnar felur í sér fjölmargar tæknilegar áskoranir sem hafa í mörgum tilvikum ekki verið leystar áður, auk þess sem lausnin hefur mjög jákvæð samfélagsleg áhrif.\n\nVegna áframhaldandi vaxtar leitum við nú að öflugum,...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-08",
+            applicationUrl: "https://alfred.is/starf/senior-full-stack-ai-forritari",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 572,
+            company: "OK",
+            companyLogo: null,
+            title: "Tæknifólk í Framlínuþjónustu",
+            description: "Fjar- og vettvangsþjónustuteymi OK stækkar og við leitum að einstaklingi með góða reynslu af notendaþjónustu. Starfið hentar einkar vel þjónustuliprum einstaklingi sem á auðvelt með samskipti við viðskiptavini hvort sem er í síma eða í eigin persónu.\n\nUm er að ræða fullt starf á dagtíma frá 09:00-17:00 alla virka daga.\n\nHjá OK starfar samhentur hópur fólks og er kapp lagt á að viðhalda góðum...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-08",
+            applicationUrl: "https://alfred.is/starf/taeknifolk-i-framlinuthjonustu-1",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 573,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "CapEx PMO Systems Specialist",
+            description: "I. PMO Systems Ownership\n\nOwn and administer CapEx PMO systems, reporting platforms, and digital tools.\nDevelop and maintain the PMO systems roadmap, including enhancements, integrations, and digitalization initiatives.\nOwn the Power BI reporting environment and related analytics solutions.\nAct as system owner and administrator for Asana and other approved PMO applications.\nDesign, develop,...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-09",
+            applicationUrl: "https://alfred.is/starf/capex-pmo-systems-specialist",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 574,
+            company: "DTE",
+            companyLogo: null,
+            title: "Field Service Specialist (Service, Build & Enablement)",
+            description: "A robot reaches into a furnace of molten aluminum alloy, pulls a sample, and a laser reads what elements are in the metal, while it is still liquid. DTE is a world leader in this area and this now runs around the clock at plants in both Europe and the United States.\n\nYou would be the person who builds it, installs it, starts it up, and keeps it running.\n\nThis role sits in Iceland, which makes...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-10-09",
+            applicationUrl: "https://alfred.is/starf/field-service-specialist-service-build-enablement",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 575,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "Senior Product Complaint Specialist",
+            description: "We are looking for a Senior Product Complaint Specialist who will be responsible for leading investigations related to Product Quality Complaints (PQC), while also supporting deviation, OOS, and other quality event investigations in a GMP-regulated pharmaceutical environment. The role ensures investigations are conducted in a timely, compliant, and scientifically sound manner, identifying root...",
+            category: "product",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-14",
+            applicationUrl: "https://alfred.is/starf/senior-product-complaint-specialist",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
+        },
+        {
+            id: 576,
+            company: "DTE",
+            companyLogo: null,
+            title: "Tækjasérfræðingur – uppsetning, þjónusta og þjálfun",
+            description: "Vélmenni teygir sig inn í ofn með bráðinni álblöndu, tekur sýni og leysir greinir hvaða frumefni eru í málminum á meðan hann er enn í fljótandi formi. DTE er leiðandi á heimsvísu á þessu sviði og tæknin er nú í notkun allan sólarhringinn í álverum bæði í Evrópu og Bandaríkjunum.\n\nÞú verður sá einstaklingur sem smíðar búnaðinn, setur hann upp, gangsetur hann og tryggir að hann haldist...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-14",
+            applicationUrl: "https://alfred.is/starf/tkjaserfrdingur-uppsetning-thjonusta-og-thjalfun",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-15"
         }
     ]
 };
