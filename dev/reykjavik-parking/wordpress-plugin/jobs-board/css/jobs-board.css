@@ -670,21 +670,459 @@
 
 
 /* Iceland's changing world of work ([iceland_work_trends]) */
-/* The theme centres everything in page content (#content, .post-content);
-   the report reads left-aligned. The id outranks the theme's selectors. */
-#siwt-container,
-#siwt-container :is(h1, h2, h3, p, section, div, dl, dt, dd, ul, li, th, td) {
+/* Layout from the "Changing World of Work Redesign" canvas. Brand colours:
+   navy #112D50, plum #6D2D6C. Fonts: the site's own (Proxima Nova, Tisa)
+   with close fallbacks. The theme centres page content and sets its serif on
+   p/li/a; the id below outranks it so the report keeps its own layout. */
+#siwt-container {
+    --siwt-navy: #112D50;
+    --siwt-plum: #6D2D6C;
+    --siwt-plum-dark: #3A1239;
+    --siwt-ground: #F2F2F2;
+    --siwt-ink: #1E1E1E;
+    --siwt-muted: #4A4F57;
+    --siwt-faint: #6B7280;
+    --siwt-sans: proxima-nova, Montserrat, "Helvetica Neue", Arial, sans-serif;
+    --siwt-serif: ff-tisa-web-pro, "Source Serif 4", Georgia, serif;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 0 48px;
+    color: var(--siwt-ink);
+    font-family: var(--siwt-serif);
     text-align: left;
+}
+
+#siwt-container :is(h1, h2, h3, p, section, div, dl, dt, dd, ul, li, th, td, span, header) {
+    text-align: left;
+}
+
+#siwt-container :is(p, li, dd, td, span, div, section, header, ul, dl, table, tr) {
+    font-family: inherit;
+}
+
+#siwt-container :is(h1, h2, h3, th, .siwt-eyebrow, .siwt-small, .siwt-stat-value, .siwt-col-value,
+    .siwt-col-year, .siwt-marker-label, .siwt-legend, .siwt-hbars, .siwt-table, .siwt-chip,
+    .siwt-callout strong, .siwt-sources a, .siwt-hero-eyebrow, .siwt-hero-date) {
+    font-family: var(--siwt-sans);
+}
+
+#siwt-container a {
+    color: var(--siwt-plum);
+}
+
+#siwt-container a:hover {
+    color: var(--siwt-plum-dark);
+}
+
+/* Hero */
+#siwt-container .siwt-hero {
+    background: var(--siwt-navy);
+    color: #fff;
+    border-radius: 20px;
+    padding: 56px 48px 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#siwt-container .siwt-hero-eyebrow {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #E6B8E4;
+}
+
+#siwt-container .siwt-hero-title {
+    margin: 0;
+    font-size: clamp(32px, 4.2vw, 50px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    color: #fff;
+    max-width: 14ch;
+    text-wrap: balance;
+}
+
+#siwt-container .siwt-hero-lead {
+    margin: 0;
+    font-size: 19px;
+    line-height: 1.55;
+    color: #D6DEE9;
+    max-width: 62ch;
+}
+
+#siwt-container .siwt-stats {
+    display: grid;
+    /* Three across in the theme's ~700px content column. */
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 165px), 1fr));
+    gap: 14px;
+    margin-top: 12px;
+}
+
+#siwt-container .siwt-stat {
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 14px;
+    padding: 20px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+#siwt-container .siwt-stat-value {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 1;
+    color: #fff;
+    font-variant-numeric: tabular-nums;
+}
+
+#siwt-container .siwt-stat-value.is-accent {
+    color: #F0C6EE;
+}
+
+#siwt-container .siwt-stat-text {
+    font-size: 15px;
+    line-height: 1.45;
+    color: #D6DEE9;
+}
+
+#siwt-container .siwt-hero-date {
+    margin: 4px 0 0;
+    font-size: 13px;
+    color: #9FB0C6;
+}
+
+/* Sections */
+#siwt-container .siwt-main {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 28px;
+}
+
+#siwt-container .siwt-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 0;
+}
+
+#siwt-container .siwt-card.is-dark {
+    background: var(--siwt-navy);
+    color: #fff;
+}
+
+#siwt-container .siwt-pair {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+    gap: 28px;
+}
+
+#siwt-container .siwt-eyebrow {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--siwt-plum);
+}
+
+#siwt-container .is-dark .siwt-eyebrow {
+    color: #E6B8E4;
+}
+
+#siwt-container .siwt-h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--siwt-navy);
+    text-wrap: balance;
+}
+
+#siwt-container .siwt-h2.is-large {
+    font-size: 30px;
+}
+
+#siwt-container .is-dark .siwt-h2 {
+    color: #fff;
+}
+
+#siwt-container .siwt-text {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--siwt-muted);
+    max-width: 66ch;
+}
+
+#siwt-container .is-dark .siwt-text {
+    color: #D6DEE9;
+}
+
+#siwt-container .siwt-small {
+    margin: 4px 0 0;
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--siwt-faint);
+}
+
+/* Column chart */
+#siwt-container .siwt-chart {
+    position: relative;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+#siwt-container .siwt-cols {
+    display: grid;
+    gap: 6px;
+    align-items: end;
+    height: 290px;
+}
+
+#siwt-container .siwt-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    gap: 6px;
+    min-width: 0;
+}
+
+#siwt-container .siwt-col-bar {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+#siwt-container .siwt-col-value {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--siwt-muted);
+    text-align: center;
+}
+
+#siwt-container .siwt-col-value.is-accent {
+    color: var(--siwt-plum);
+}
+
+#siwt-container .siwt-col-year {
+    font-size: 11px;
+    color: var(--siwt-faint);
+    text-align: center;
+}
+
+#siwt-container .siwt-marker {
+    position: absolute;
+    top: 0;
+    bottom: 24px;
+    border-left: 2px dashed #9FB0C6;
+    margin-left: -4px;
+}
+
+#siwt-container .siwt-marker-label {
+    position: absolute;
+    top: 0;
+    margin: 0 0 0 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--siwt-muted);
+    white-space: nowrap;
+}
+
+/* Exposure */
+#siwt-container .siwt-stack {
+    display: flex;
+    height: 28px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+#siwt-container .siwt-legend {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr));
+    gap: 8px 18px;
+    font-size: 13px;
+    color: #374151;
+}
+
+#siwt-container .siwt-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#siwt-container .siwt-swatch {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    flex: none;
+}
+
+#siwt-container .siwt-callout {
+    margin-top: 8px;
+    background: #F7EEF7;
+    border-radius: 12px;
+    padding: 16px 18px;
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--siwt-plum-dark);
+}
+
+/* Horizontal bars */
+#siwt-container .siwt-hbars {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+    font-size: 13px;
+    color: #374151;
+}
+
+#siwt-container .siwt-hbar {
+    display: grid;
+    grid-template-columns: minmax(0, 11rem) 1fr 2.6rem;
+    gap: 10px;
+    align-items: center;
+}
+
+#siwt-container .siwt-hbar-track {
+    height: 14px;
+    background: #EEF2F6;
+    border-radius: 7px;
+}
+
+#siwt-container .siwt-hbar-fill {
+    height: 100%;
+    background: var(--siwt-navy);
+    border-radius: 7px;
+    min-width: 4px;
+}
+
+#siwt-container .siwt-hbar-value {
+    text-align: right;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Table */
+#siwt-container .siwt-table-wrap {
+    overflow-x: auto;
+    margin-top: 6px;
+}
+
+#siwt-container .siwt-table {
+    width: 100%;
+    min-width: 520px;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+#siwt-container .siwt-table th {
+    padding: 10px 8px;
+    border-bottom: 2px solid #E5E7EB;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--siwt-faint);
+}
+
+#siwt-container .siwt-table td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #F0F2F5;
+    font-family: var(--siwt-sans);
 }
 
 #siwt-container .siwt-num {
     text-align: right;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
 }
 
-/* The theme also sets its serif face (and spacing) on paragraphs, list items
-   and links in page content; the report keeps one typeface throughout. */
-#siwt-container :is(p, li, dd, dt, a, td, th, h1, h2) {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+#siwt-container .siwt-table tr.is-highlight .siwt-occ,
+#siwt-container .siwt-table tr.is-highlight .siwt-meter-value {
+    color: var(--siwt-plum);
+    font-weight: 700;
+}
+
+#siwt-container .siwt-meter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#siwt-container .siwt-meter-track {
+    flex: 1;
+    height: 8px;
+    background: #EEF2F6;
+    border-radius: 4px;
+}
+
+#siwt-container .siwt-meter-fill {
+    height: 100%;
+    border-radius: 4px;
+}
+
+#siwt-container .siwt-meter-value {
+    width: 2.6rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
+/* AI chips */
+#siwt-container .siwt-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+#siwt-container .siwt-chip {
+    background: #F0C6EE;
+    color: var(--siwt-plum-dark);
+    border-radius: 999px;
+    padding: 7px 14px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* About */
+#siwt-container .siwt-about {
+    border-top: 2px solid #D9DEE5;
+    padding-top: 26px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: 28px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #374151;
+}
+
+#siwt-container .siwt-about p {
+    margin: 0 0 10px;
+}
+
+#siwt-container .siwt-h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--siwt-navy);
+}
+
+#siwt-container .siwt-sources {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 #siwt-container .siwt-sources li {
@@ -692,161 +1130,29 @@
     padding: 0;
 }
 
-#siwt-container .siwt-sources + .siwt-note {
-    margin-top: 10px;
-}
-
-.siwt-container {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    color: #333;
-}
-
-.siwt-kicker {
-    margin: 0;
-    font-size: 0.8rem;
+#siwt-container .siwt-sources a {
     font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #f5a623;
 }
 
-.siwt-h1 {
-    margin: 6px 0 8px;
-    font-size: 2rem;
-    line-height: 1.2;
-    color: #000;
+#siwt-container .siwt-muted {
+    color: var(--siwt-faint);
+    font-size: 14px;
 }
 
-.siwt-lead,
-.siwt-note {
-    margin: 0;
-    color: #666;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    max-width: 68ch;
-}
-
-.siwt-section {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 18px 20px;
-    margin-top: 20px;
-}
-
-.siwt-h2 {
-    margin: 0 0 6px;
-    font-size: 1.15rem;
-    color: #32373c;
-}
-
-.siwt-bars {
-    display: grid;
-    gap: 6px;
-    margin-top: 14px;
-}
-
-.siwt-bar-row {
-    display: grid;
-    /* Fixed value column, so every bar's track is the same length. */
-    grid-template-columns: minmax(7rem, 14rem) 1fr 9.5rem;
-    align-items: center;
-    gap: 10px;
-    font-size: 0.85rem;
-}
-
-.siwt-bar-label {
-    overflow-wrap: anywhere;
-}
-
-.siwt-bar-track {
-    background: #f8f9fa;
-    height: 18px;
-}
-
-.siwt-bar-fill {
-    background: #32373c;
-    height: 100%;
-    min-width: 2px;
-}
-
-.siwt-bar-value {
-    color: #555;
-    font-variant-numeric: tabular-nums;
-    white-space: nowrap;
-}
-
-.siwt-table-wrap {
-    overflow-x: auto;
-    margin-top: 12px;
-}
-
-.siwt-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.85rem;
-}
-
-.siwt-table th {
-    text-align: left;
-    color: #888;
-    font-weight: 600;
-    border-bottom: 1px solid #ddd;
-    padding: 6px 8px;
-}
-
-.siwt-table td {
-    border-bottom: 1px solid #f0f0f0;
-    padding: 6px 8px;
-}
-
-.siwt-num {
-    text-align: right;
-    font-variant-numeric: tabular-nums;
-}
-
-.siwt-methods dt {
-    font-weight: 600;
-    color: #32373c;
-    margin-top: 10px;
-}
-
-.siwt-methods dd {
-    margin: 2px 0 0;
-    color: #555;
-    font-size: 0.85rem;
-    line-height: 1.5;
-}
-
-.siwt-sources {
-    list-style: none;
-    margin: 4px 0 0;
-    padding: 0;
-    display: grid;
-    gap: 6px;
-}
-
-.siwt-sources li {
-    font-size: 0.85rem;
-    line-height: 1.5;
-    color: #555;
-}
-
-.siwt-sources a {
-    color: #32373c;
-    font-weight: 600;
-}
-
-.siwt-error,
-.siwt-loading {
+#siwt-container .siwt-error,
+#siwt-container .siwt-loading {
     color: #888;
 }
 
-@media (max-width: 480px) {
-    .siwt-h1 { font-size: 1.5rem; }
-    /* Label on its own line, so the bar keeps most of the width. */
-    .siwt-bar-row { grid-template-columns: 1fr 7.5rem; row-gap: 2px; font-size: 0.8rem; }
-    .siwt-bar-label { grid-column: 1 / -1; }
+@media (max-width: 600px) {
+    #siwt-container .siwt-hero { padding: 36px 22px 30px; border-radius: 16px; }
+    #siwt-container .siwt-card { padding: 22px 18px; }
+    #siwt-container .siwt-stat-value { font-size: 42px; }
+    #siwt-container .siwt-h2.is-large { font-size: 24px; }
+    #siwt-container .siwt-cols { height: 240px; gap: 3px; }
+    #siwt-container .siwt-col-value { font-size: 10px; }
+    #siwt-container .siwt-col-year { font-size: 9px; }
+    #siwt-container .siwt-hbar { grid-template-columns: minmax(0, 8.5rem) 1fr 2.4rem; }
+    /* Too little room right of the marker on a phone: the label sits to its left. */
+    #siwt-container .siwt-marker-label { transform: translateX(calc(-100% - 14px)); font-size: 11px; }
 }
