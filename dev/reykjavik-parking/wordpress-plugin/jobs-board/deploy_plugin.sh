@@ -52,6 +52,7 @@ FILES=(
     "jobs-board.php"
     "css/jobs-board.css"
     "js/jobs-board.js"
+    "js/work-trends.js"
 )
 
 MODE="${1:-deploy}"

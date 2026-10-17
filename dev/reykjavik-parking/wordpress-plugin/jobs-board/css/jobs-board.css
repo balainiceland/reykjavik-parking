@@ -667,3 +667,141 @@
         padding: 4px 10px;
     }
 }
+
+
+/* Iceland's changing world of work ([iceland_work_trends]) */
+.siwt-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+.siwt-kicker {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #f5a623;
+}
+
+.siwt-h1 {
+    margin: 6px 0 8px;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #000;
+}
+
+.siwt-lead,
+.siwt-note {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    max-width: 68ch;
+}
+
+.siwt-section {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 18px 20px;
+    margin-top: 20px;
+}
+
+.siwt-h2 {
+    margin: 0 0 6px;
+    font-size: 1.15rem;
+    color: #32373c;
+}
+
+.siwt-bars {
+    display: grid;
+    gap: 6px;
+    margin-top: 14px;
+}
+
+.siwt-bar-row {
+    display: grid;
+    /* Fixed value column, so every bar's track is the same length. */
+    grid-template-columns: minmax(7rem, 14rem) 1fr 9.5rem;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+}
+
+.siwt-bar-label {
+    overflow-wrap: anywhere;
+}
+
+.siwt-bar-track {
+    background: #f8f9fa;
+    height: 18px;
+}
+
+.siwt-bar-fill {
+    background: #32373c;
+    height: 100%;
+    min-width: 2px;
+}
+
+.siwt-bar-value {
+    color: #555;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.siwt-table-wrap {
+    overflow-x: auto;
+    margin-top: 12px;
+}
+
+.siwt-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+.siwt-table th {
+    text-align: left;
+    color: #888;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    padding: 6px 8px;
+}
+
+.siwt-table td {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 6px 8px;
+}
+
+.siwt-num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.siwt-methods dt {
+    font-weight: 600;
+    color: #32373c;
+    margin-top: 10px;
+}
+
+.siwt-methods dd {
+    margin: 2px 0 0;
+    color: #555;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.siwt-error,
+.siwt-loading {
+    color: #888;
+}
+
+@media (max-width: 480px) {
+    .siwt-h1 { font-size: 1.5rem; }
+    /* Label on its own line, so the bar keeps most of the width. */
+    .siwt-bar-row { grid-template-columns: 1fr 7.5rem; row-gap: 2px; font-size: 0.8rem; }
+    .siwt-bar-label { grid-column: 1 / -1; }
+}

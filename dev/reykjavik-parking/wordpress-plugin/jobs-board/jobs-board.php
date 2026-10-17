@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Jobs Board
  * Plugin URI: https://startupiceland.com
  * Description: Searchable jobs board for Icelandic startups with filtering by category, type, level, and remote options.
- * Version: 1.3.0
+ * Version: 1.4.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -26,6 +26,7 @@ class Startup_Iceland_Jobs_Board {
 
     private function __construct() {
         add_shortcode('startup_jobs', array($this, 'render_jobs_board'));
+        add_shortcode('iceland_work_trends', array($this, 'render_work_trends'));
         add_action('wp_enqueue_scripts', array($this, 'enqueue_scripts'));
     }
 
@@ -51,6 +52,28 @@ class Startup_Iceland_Jobs_Board {
                 true
             );
         }
+
+        // Iceland's changing world of work: figures published daily by the
+        // jobs research database (github.com/balainiceland/iceland-work-trends)
+        if (is_a($post, 'WP_Post') && has_shortcode($post->post_content, 'iceland_work_trends')) {
+            wp_enqueue_style(
+                'startup-jobs-css',
+                plugin_dir_url(__FILE__) . 'css/jobs-board.css',
+                array(),
+                '1.4.0'
+            );
+            wp_enqueue_script(
+                'iceland-work-trends-js',
+                plugin_dir_url(__FILE__) . 'js/work-trends.js',
+                array(),
+                '1.4.0',
+                true
+            );
+        }
+    }
+
+    public function render_work_trends($atts) {
+        return '<div class="siwt-container" id="siwt-container"><p class="siwt-loading">Loading the latest figures…</p></div>';
     }
 
     public function render_jobs_board($atts) {
