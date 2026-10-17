@@ -19,6 +19,7 @@ Usage:
 import argparse
 import json
 import re
+import unicodedata
 import time
 from dataclasses import dataclass
 from datetime import datetime
@@ -42,50 +43,75 @@ HEADERS = {
 
 # ---------------- Startup Directory ----------------
 
-def load_startup_names(js_file_path: str) -> Set[str]:
-    """Extract startup names from the startups-data.js file."""
-    startups = set()
+# Company names are compared whole, after normalising: accents folded, legal
+# suffixes (ehf, hf, ...) dropped, punctuation removed. Until 2026-10 a company
+# also qualified when a directory name merely appeared inside it, so the
+# directory's "Heima" let in Leikskólinn Álfheimar, Garðheimar, Sólheimar and
+# every other "-heimar" employer, "Alda" let in ALDA hótel, and so on.
+LEGAL_SUFFIXES = {'ehf', 'hf', 'ohf', 'ses', 'sf', 'slf', 'inc', 'ltd', 'llc', 'as', 'ab',
+                  'gmbh', 'corp', 'limited', 'plc'}
+# Words that only describe a company's form or reach. Trailing ones are dropped
+# on both sides, so "Rapyd" matches "Rapyd Europe" and "Verne" "Verne Global",
+# while "Atlas Verktakar" (contractors) stays a different company from "Atlas".
+GENERIC_TRAILING = {'europe', 'global', 'dynamics', 'solutions', 'group', 'iceland', 'island',
+                    'holding', 'holdings', 'technologies', 'technology', 'labs', 'software',
+                    'systems', 'international'}
+# Verified renames and parents, normalised name -> directory name (normalised).
+COMPANY_ALIASES = {
+    'embla medical': 'ossur',      # Össur's parent company, renamed 2024
+    'beqom': 'payanalytics',       # beqom acquired PayAnalytics; jobs list as "beqom (PayAnalytics)"
+    'jbt marel': 'marel',          # Marel's name since its 2025 merger with JBT
+    'indo sparisjodur': 'indo',    # Indó's legal name
+    'kvika banki': 'kvika',        # Kvika's legal name
+    'atlas cloud': 'atlas',        # runatlas.is is run by Atlas Cloud ehf.
+}
 
-    with open(js_file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
 
-    # Extract names using regex - looking for name: "..." patterns
-    pattern = r'name:\s*"([^"]+)"'
-    matches = re.findall(pattern, content)
-
-    for name in matches:
-        # Add original name
-        startups.add(name.lower().strip())
-        # Add variations without common suffixes
-        for suffix in [' ehf', ' ehf.', ' hf', ' hf.', ' slf', ' ses', ' inc', ' ltd']:
-            if name.lower().endswith(suffix):
-                startups.add(name.lower().replace(suffix, '').strip())
-
-    return startups
+def _fold(text: str) -> str:
+    text = (text or '').lower().replace('æ', 'ae').replace('ð', 'd').replace('þ', 'th').replace('ö', 'o')
+    return unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode()
 
 
 def normalize_company_name(name: str) -> str:
-    """Normalize company name for matching."""
-    name = name.lower().strip()
-    # Remove common suffixes
-    for suffix in [' ehf', ' ehf.', ' hf', ' hf.', ' slf', ' ses', ' inc', ' ltd', ' iceland']:
-        name = name.replace(suffix, '')
-    return name.strip()
+    """'Coripharma ehf.' -> 'coripharma'; 'Össur hf' -> 'ossur'."""
+    words = re.sub(r'[^a-z0-9]+', ' ', _fold(name)).split()
+    return ' '.join(w for w in words if w not in LEGAL_SUFFIXES)
+
+
+def _core(normalized: str) -> str:
+    """Drop trailing generic words: 'rapyd europe' -> 'rapyd'."""
+    words = normalized.split()
+    while len(words) > 1 and words[-1] in GENERIC_TRAILING:
+        words.pop()
+    return ' '.join(words)
+
+
+def load_startup_names(js_file_path: str) -> Set[str]:
+    """Normalised names of every startup in startups-data.js, with and without
+    trailing generic words ('verne global' and 'verne')."""
+    with open(js_file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    startups = set()
+    for name in re.findall(r'name:\s*"([^"]+)"', content):
+        normalized = normalize_company_name(name)
+        if normalized:
+            startups.add(normalized)
+            startups.add(_core(normalized))
+    return startups
 
 
 def is_startup(company_name: str, startup_names: Set[str]) -> bool:
-    """Check if a company name matches any startup in the directory."""
-    normalized = normalize_company_name(company_name)
-
-    # Direct match
-    if normalized in startup_names:
-        return True
-
-    # Check if any startup name is contained in the company name
-    for startup in startup_names:
-        if startup in normalized or normalized in startup:
-            return True
-
+    """True when the company, or one part of a combined name ("Embla Medical |
+    Össur", "beqom (PayAnalytics)"), is a directory startup by whole name."""
+    parts = [company_name] + re.split(r'\s*[|()]\s*|\s+[-–]\s+', company_name or '')
+    for part in parts:
+        normalized = normalize_company_name(part)
+        if not normalized:
+            continue
+        for key in (normalized, _core(normalized)):
+            key = COMPANY_ALIASES.get(key, key)
+            if key in startup_names:
+                return True
     return False
 
 
