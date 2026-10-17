@@ -55,7 +55,7 @@ fi
 if this_run | grep -q "Successfully added"; then
     echo "New jobs found - regenerating zip..." >> "$LOG_FILE"
     rm -f jobs-board.zip
-    zip -r jobs-board.zip . -x "*.pyc" -x "__pycache__/*" -x "*.json" -x "startup_job_scraper.py" -x ".DS_Store" -x "run_scraper.sh" -x "scraper_log.txt" >> "$LOG_FILE" 2>&1
+    zip -r jobs-board.zip . -x "*.pyc" -x "__pycache__/*" -x "*.json" -x "startup_job_scraper.py" -x ".DS_Store" -x "run_scraper.sh" -x "scraper_log.txt" -x "*.log" >> "$LOG_FILE" 2>&1
     echo "Zip regenerated at $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE"
 fi
 
