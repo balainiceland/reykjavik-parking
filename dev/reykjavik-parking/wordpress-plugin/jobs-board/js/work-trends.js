@@ -4,12 +4,28 @@
  * research database publishes daily (balainiceland/iceland-work-trends).
  * Layout follows the "Changing World of Work Redesign" canvas (Oct 2026).
  * Every number comes from the data; headlines are worded to stay true as it changes.
- * Version: 2.0.0
+ * Version: 2.2.0
  */
 (function () {
     'use strict';
 
-    var BASE = 'https://cdn.jsdelivr.net/gh/balainiceland/iceland-work-trends@main/data/';
+    // GitHub's raw files refresh within 5 minutes of the daily publish. jsDelivr
+    // caches which commit @main points to for hours, so it is only the fallback.
+    var SOURCES = ['https://raw.githubusercontent.com/balainiceland/iceland-work-trends/main/data/',
+                   'https://cdn.jsdelivr.net/gh/balainiceland/iceland-work-trends@main/data/'];
+
+    function load(file) {
+        function from(i) {
+            return fetch(SOURCES[i] + file + '.json').then(function (r) {
+                if (!r.ok) throw new Error(file + ': ' + r.status);
+                return r.json();
+            }).catch(function (e) {
+                if (i + 1 < SOURCES.length) return from(i + 1);
+                throw e;
+            });
+        }
+        return from(0);
+    }
     // The last ordinary year before generative AI went mainstream: the baseline
     // the latest year's share of AI mentions is compared against.
     var BASELINE_YEAR = 2019;
@@ -77,7 +93,7 @@
             s.appendChild(el('span', 'siwt-stat-text', text));
             stats.appendChild(s);
         }
-        stat(num(market.open_postings), 'open job postings in Iceland today');
+        stat(num(market.open_postings), 'open jobs advertised in Iceland today');
         var latest = years[years.length - 1];
         var base = years.filter(function (y) { return y.year === BASELINE_YEAR; })[0];
         if (latest) {
@@ -90,7 +106,7 @@
             all += g.postings;
             if (g.gradient === 'Minimal Exposure' || g.gradient === 'Not Exposed') low += g.postings;
         });
-        if (all) stat(pct(low / all), 'of open postings are in jobs generative AI barely touches');
+        if (all) stat(pct(low / all), 'of open jobs are ones generative AI barely touches');
         hero.appendChild(stats);
         hero.appendChild(el('p', 'siwt-hero-date', 'Updated ' + new Date(summary.generated_at).toLocaleDateString('en-GB',
             { day: 'numeric', month: 'long', year: 'numeric' })));
@@ -184,7 +200,7 @@
         s.appendChild(bar);
         s.appendChild(legend);
         var call = el('div', 'siwt-callout');
-        call.appendChild(el('strong', null, num(exposed) + ' open postings (' + pct(exposed / total) + ')'));
+        call.appendChild(el('strong', null, num(exposed) + ' open jobs (' + pct(exposed / total) + ')'));
         call.appendChild(document.createTextNode(' are in occupations where generative AI could do a substantial share of the tasks.'));
         s.appendChild(call);
         parent.appendChild(s);
@@ -193,7 +209,7 @@
     function renderGroups(parent, market) {
         var s = card();
         eyebrow(s, 'Who Iceland is hiring');
-        s.appendChild(el('h2', 'siwt-h2', 'Open postings by occupation group'));
+        s.appendChild(el('h2', 'siwt-h2', 'Open jobs by occupation group'));
         var max = Math.max.apply(null, market.by_major_group.map(function (g) { return g.postings; }).concat([1]));
         var list = el('div', 'siwt-hbars');
         market.by_major_group.forEach(function (g) {
@@ -224,7 +240,7 @@
         var wrap = el('div', 'siwt-table-wrap');
         var table = el('table', 'siwt-table');
         var head = el('tr');
-        ['Occupation', 'Open postings', 'Exposure to generative AI'].forEach(function (h, i) {
+        ['Occupation', 'Open jobs', 'Exposure to generative AI'].forEach(function (h, i) {
             head.appendChild(el('th', i === 1 ? 'siwt-num' : null, h));
         });
         var thead = el('thead');
@@ -261,7 +277,7 @@
         var ai = market.ai;
         var s = card('is-dark');
         eyebrow(s, 'AI in today’s job ads');
-        s.appendChild(el('h2', 'siwt-h2', num(ai.postings_mentioning_ai) + ' open postings mention AI, and ' +
+        s.appendChild(el('h2', 'siwt-h2', num(ai.postings_mentioning_ai) + ' open jobs mention AI, and ' +
             num(ai.ai_roles) + ' are AI roles.' + (ai.top_ai_tools.length ? ' Employers are already naming the tools.' : '')));
         if (ai.top_ai_tools.length) {
             var chips = el('div', 'siwt-chips');
@@ -303,7 +319,7 @@
         p.appendChild(document.createTextNode(' (Gmyrek et al., ILO Working Paper 140, CC BY 4.0).'));
         right.appendChild(p);
         var p2 = el('p', 'siwt-muted');
-        p2.appendChild(document.createTextNode('Counts are postings seen, not unique jobs. The figures are '));
+        p2.appendChild(document.createTextNode('A job advertised on several sites counts once. The figures are '));
         var data = el('a', null, 'open data');
         data.href = 'https://github.com/balainiceland/iceland-work-trends';
         p2.appendChild(data);
@@ -317,12 +333,7 @@
     function init() {
         var root = document.getElementById('siwt-container');
         if (!root) return;
-        Promise.all(['summary', 'market_now', 'ai_mentions_by_year'].map(function (f) {
-            return fetch(BASE + f + '.json').then(function (r) {
-                if (!r.ok) throw new Error(f + ': ' + r.status);
-                return r.json();
-            });
-        })).then(function (d) {
+        Promise.all(['summary', 'market_now', 'ai_mentions_by_year'].map(load)).then(function (d) {
             var summary = d[0], market = d[1], years = aiYears(d[2]);
             root.replaceChildren();
             renderHero(root, summary, market, years);
