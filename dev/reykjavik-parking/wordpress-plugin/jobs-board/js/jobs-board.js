@@ -553,9 +553,12 @@
 
         // Description excerpt
         if (job.description) {
-            var excerpt = job.description.length > 150
-                ? job.description.substring(0, 150).replace(/\s+\S*$/, '') + '...'
-                : job.description;
+            // Some sources join words with no-break spaces (U+00A0, U+202F),
+            // which never wrap: one such run widened the page on phones.
+            var description = job.description.replace(/[\u00a0\u202f\u2007]/g, ' ');
+            var excerpt = description.length > 150
+                ? description.substring(0, 150).replace(/\s+\S*$/, '') + '...'
+                : description;
             html += '<p class="sjb-job-excerpt">' + escapeHtml(excerpt) + '</p>';
         }
 

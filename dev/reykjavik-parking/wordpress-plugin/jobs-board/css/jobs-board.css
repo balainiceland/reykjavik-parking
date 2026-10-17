@@ -315,6 +315,14 @@
 }
 
 /* Job Excerpt */
+.sjb-job-title,
+.sjb-job-meta,
+.sjb-job-excerpt {
+    /* A long unbroken run (a URL, a source's no-break spaces) wraps
+       instead of widening the page on phones. */
+    overflow-wrap: anywhere;
+}
+
 .sjb-job-excerpt {
     font-size: 0.9rem;
     color: #666;
