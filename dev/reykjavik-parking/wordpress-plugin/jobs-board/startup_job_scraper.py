@@ -163,6 +163,10 @@ def load_existing_jobs(js_file_path: str) -> Tuple[List[Dict], int]:
                     job[field] = None
 
         # Extract boolean fields
+        startup_match = re.search(r'startup:\s*(true|false)', job_str)
+        if startup_match:
+            job['startup'] = startup_match.group(1) == 'true'
+
         featured_match = re.search(r'featured:\s*(true|false)', job_str)
         if featured_match:
             job['featured'] = featured_match.group(1) == 'true'
@@ -328,6 +332,44 @@ def merge_jobs_into_datafile(new_jobs: List[Dict], js_file_path: str) -> int:
     return len(unique_new_jobs)
 
 
+def refresh_startup_flags(js_file_path: str, startup_names: Set[str]) -> Tuple[int, int]:
+    """Set every job's `startup` flag from the Startup Directory, as it is today.
+
+    The board also lists jobs from companies outside the directory (older
+    entries, and ones the earlier substring match let in); the flag is what the
+    site shows as the Startup badge and filter. Recomputed each run, so adding a
+    company to the directory badges its existing jobs too. The field sits just
+    before `featured:`, which update_job_statuses() anchors on.
+
+    Returns (jobs flagged as startups, flags changed).
+    """
+    with open(js_file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    flagged = changed = 0
+
+    def fix(m):
+        nonlocal flagged, changed
+        block = m.group(0)
+        company_match = re.search(r'company:\s*"((?:[^"\\]|\\.)*)"', block)
+        company = company_match.group(1).replace('\\"', '"') if company_match else ''
+        flag = 'true' if is_startup(company, startup_names) else 'false'
+        flagged += flag == 'true'
+        current = re.search(r'startup:\s*(true|false)', block)
+        if current:
+            if current.group(1) == flag:
+                return block
+            changed += 1
+            return block[:current.start(1)] + flag + block[current.end(1):]
+        changed += 1
+        return re.sub(r'(\n(\s*)featured:)', rf'\n\g<2>startup: {flag},\1', block, count=1)
+
+    new_content = re.sub(r'\{\s*id:\s*\d+,.*?\n\s*\}', fix, content, flags=re.DOTALL)
+    if changed and ']\n};' in new_content:
+        with open(js_file_path, 'w', encoding='utf-8') as f:
+            f.write(new_content)
+    return flagged, changed
+
+
 def generate_job_js(job: Dict, job_id: int) -> str:
     """Generate JavaScript object string for a job."""
     def escape_js_string(s):
@@ -365,6 +407,7 @@ def generate_job_js(job: Dict, job_id: int) -> str:
             salary: {salary},
             postedDate: {posted_date},
             applicationUrl: {app_url},
+            startup: {'true' if job.get('startup', True) else 'false'},
             featured: {featured},
             status: "active",
             lastVerified: "{today}"
@@ -1627,6 +1670,8 @@ def main():
             added = merge_jobs_into_datafile(jobs_data, str(jobs_data_path))
             if added > 0:
                 print(f"Successfully added {added} new jobs to jobs-data.js")
+            flagged, changed = refresh_startup_flags(str(jobs_data_path), startup_names)
+            print(f"Startup flags: {flagged} jobs at directory startups ({changed} updated)")
 
     # Print summary
     print("\nJobs by company:")

@@ -1,6 +1,6 @@
 /**
  * Startup Iceland Jobs Board - Main JavaScript
- * Version: 1.2.0
+ * Version: 1.3.0
  */
 
 (function() {
@@ -22,10 +22,11 @@
             category: 'all',
             type: 'all',
             level: 'all',
-            remote: 'all'
+            remote: 'all',
+            employer: 'all'
         },
         sort: 'newest',
-        trends: { measure: 'postings', status: 'all' }
+        trends: { measure: 'postings', status: 'all', employers: 'all' }
     };
 
     // DOM Elements
@@ -47,6 +48,8 @@
             container: container,
             search: document.getElementById('sjb-search'),
             categoryFilter: document.getElementById('sjb-category-filter'),
+            employerFilter: document.getElementById('sjb-employer-filter'),
+            startupNote: document.getElementById('sjb-startup-note'),
             typeFilter: document.getElementById('sjb-type-filter'),
             levelFilter: document.getElementById('sjb-level-filter'),
             remoteFilter: document.getElementById('sjb-remote-filter'),
@@ -251,7 +254,8 @@
 
         var jobs = state.jobs.filter(function(j) {
             return /^\d{4}-\d{2}/.test(j.postedDate || '') &&
-                (state.trends.status === 'all' || j.status !== 'filled');
+                (state.trends.status === 'all' || j.status !== 'filled') &&
+                (state.trends.employers === 'all' || j.startup);
         });
         var months = {};
         state.jobs.forEach(function(j) {
@@ -377,6 +381,14 @@
             });
         }
 
+        // Employer filter: all employers, or Startup Directory companies only
+        if (elements.employerFilter) {
+            elements.employerFilter.addEventListener('change', function(e) {
+                state.filters.employer = e.target.value;
+                applyFilters();
+            });
+        }
+
         // Type filter
         if (elements.typeFilter) {
             elements.typeFilter.addEventListener('change', function(e) {
@@ -431,6 +443,11 @@
 
             // Category filter
             if (state.filters.category !== 'all' && job.category !== state.filters.category) {
+                return false;
+            }
+
+            // Employer filter
+            if (state.filters.employer === 'startups' && !job.startup) {
                 return false;
             }
 
@@ -502,6 +519,11 @@
             });
             elements.companyCount.textContent = Object.keys(uniqueCompanies).length;
         }
+        if (elements.startupNote) {
+            var atStartups = state.filteredJobs.filter(function(job) { return job.startup; }).length;
+            elements.startupNote.textContent = (state.filters.employer === 'startups' || !state.filteredJobs.length)
+                ? '' : ', ' + atStartups + ' at startups';
+        }
 
         // Show/hide no jobs message
         if (elements.noJobs) {
@@ -545,6 +567,9 @@
         // Meta info (company, location, remote)
         html += '<div class="sjb-job-meta">';
         html += '<span class="sjb-company">' + escapeHtml(job.company) + '</span>';
+        if (job.startup) {
+            html += ' <span class="sjb-startup-badge" title="In the Startup Iceland directory">Startup</span>';
+        }
         html += '<span class="sjb-separator">&middot;</span>';
         html += '<span class="sjb-location">' + escapeHtml(job.location) + '</span>';
         html += '<span class="sjb-separator">&middot;</span>';

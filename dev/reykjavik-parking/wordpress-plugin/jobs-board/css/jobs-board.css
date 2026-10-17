@@ -314,6 +314,22 @@
     color: #ccc;
 }
 
+/* Startup badge: a company in the Startup Iceland directory */
+.sjb-startup-badge {
+    display: inline-block;
+    vertical-align: 2px;
+    margin-left: 6px;
+    padding: 2px 8px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #32373c;
+    background: #fff4e0;
+    border: 1px solid #f5a623;
+    border-radius: 3px;
+}
+
 /* Job Excerpt */
 .sjb-job-title,
 .sjb-job-meta,

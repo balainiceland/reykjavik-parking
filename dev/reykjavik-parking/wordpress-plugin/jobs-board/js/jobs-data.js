@@ -67,6 +67,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/34",
+            startup: true,
             featured: true,
             status: "active",
             lastVerified: "2026-10-17"
@@ -85,6 +86,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/35",
+            startup: true,
             featured: true,
             status: "active",
             lastVerified: "2026-10-17"
@@ -103,6 +105,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/31",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -121,6 +124,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/33",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -139,6 +143,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/30",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -157,6 +162,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://treble.bamboohr.com/careers/36",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -175,6 +181,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://careers.ccpgames.com/en/postings/38bbae43-3698-49e1-9777-4de698f04965",
+            startup: true,
             featured: true,
             status: "active",
             lastVerified: "2026-10-17"
@@ -193,6 +200,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://careers.ccpgames.com/postings/3918fe38-f52f-4e65-9890-f30f2bd2a4d3",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -211,6 +219,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://monerium.com/jobs/",
+            startup: false,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -229,6 +238,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://dohop.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -247,6 +257,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://dohop.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -265,6 +276,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://dteehf.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -283,6 +295,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -301,6 +314,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -319,6 +333,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-19",
             applicationUrl: "https://climeworks.com/careers-search",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -337,6 +352,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-20",
             applicationUrl: "https://www.tvinna.is/jobs/senior-full-stack-developer-3/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -355,6 +371,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-16",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -373,6 +390,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-16",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -391,6 +409,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-16",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -409,6 +428,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-14",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -427,6 +447,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-12",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -445,6 +466,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-12",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -463,6 +485,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-06",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -481,6 +504,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-23",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -499,6 +523,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-23",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -517,6 +542,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-19",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -535,6 +561,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-04",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -553,6 +580,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-03",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -571,6 +599,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-03",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -589,6 +618,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-03",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -607,6 +637,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-03",
             applicationUrl: "https://careers.coloplast.com/Kerecis/go/Kerecis/9696001",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -625,6 +656,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-20",
             applicationUrl: "https://careers.lsretail.com/jobs",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -643,6 +675,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-20",
             applicationUrl: "https://careers.lsretail.com/jobs",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -661,6 +694,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-20",
             applicationUrl: "https://careers.lsretail.com/jobs",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -679,6 +713,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-20",
             applicationUrl: "https://careers.lsretail.com/jobs",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -697,6 +732,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-14",
             applicationUrl: "https://jbtm.wd108.myworkdayjobs.com/en-US/JBT_Marel_Career_Site/details/Senior-Manager-Product-Management_19979",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -715,6 +751,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-20",
             applicationUrl: "https://meniga.bamboohr.com/careers/98",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -733,6 +770,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-20",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -751,6 +789,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-16",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -769,6 +808,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-09",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -787,6 +827,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-09",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -805,6 +846,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-09",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -823,6 +865,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-06",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -841,6 +884,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-06",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -859,6 +903,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-20",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -877,6 +922,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-20",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -895,6 +941,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2025-12-20",
             applicationUrl: "https://ossur.wd3.myworkdayjobs.com/OssurCareersGlobal",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -913,6 +960,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -931,6 +979,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -949,6 +998,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -967,6 +1017,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -985,6 +1036,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1003,6 +1055,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1021,6 +1074,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1039,6 +1093,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: true,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1057,6 +1112,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1075,6 +1131,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1093,6 +1150,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1111,6 +1169,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://beqom.bamboohr.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1129,6 +1188,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://jobs.50skills.com/smittendating/en/40119",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1147,6 +1207,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-21",
             applicationUrl: "https://alfred.is/starf/product-software-developer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -1165,6 +1226,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://alfred.is/en/starf/rafvirki-med-nyskoepunarhugarfar-oskast",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -1183,6 +1245,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://alfred.is/en/starf/velamadur-i-poekkunardeild-packaging-mechanic",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -1201,6 +1264,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://alfred.is/en/fyrirtaeki/lagaviti",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -1219,6 +1283,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://alfred.is/en/fyrirtaeki/lagaviti",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -1237,6 +1302,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "mailto:hr@krita.is",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1255,6 +1321,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.rapyd.net/company/careers/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1273,6 +1340,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.alvotech.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1291,6 +1359,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.alvotech.com/careers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1309,6 +1378,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.pikkolo.is",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1327,6 +1397,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "mailto:hlynur@hagvangur.is",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1345,6 +1416,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.jonsbok.is",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1363,6 +1435,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.jonsbok.is",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1381,6 +1454,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-22",
             applicationUrl: "https://www.hefringmarine.com",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1399,6 +1473,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-23",
             applicationUrl: "https://www.tern.systems",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1417,6 +1492,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-23",
             applicationUrl: "https://ripple.com/careers",
+            startup: false,
             featured: true,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1435,6 +1511,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-23",
             applicationUrl: "mailto:ibo@kerecis.com",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1453,6 +1530,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-24",
             applicationUrl: "https://jobs.50skills.com/smittendating/en",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1471,6 +1549,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-24",
             applicationUrl: "mailto:ibo@kerecis.com",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -1489,6 +1568,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/senior-software-engineer-17/",
+            startup: false,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1507,6 +1587,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/frontend-software-engineer-iceland/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1525,6 +1606,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/product-software-developer/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1543,6 +1625,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/data-scientist-6/",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-07"
@@ -1561,6 +1644,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/senior-software-engineer-16/",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -1579,6 +1663,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/frontend-engineer-2/",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-07"
@@ -1597,6 +1682,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/product-manager-iceland/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1615,6 +1701,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/engineering-delivery-lead-international-customers-iceland/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1633,6 +1720,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/senior-frontend-engineer/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1651,6 +1739,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/machine-learning-engineer-3/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1669,6 +1758,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/senior-quality-system-specialist-iceland/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1687,6 +1777,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/data-engineer-11/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1705,6 +1796,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/dba-3/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1723,6 +1815,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/frontend-developer-15/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1741,6 +1834,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/chief-technology-officer-cto/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1759,6 +1853,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/join-our-startup-as-lead-developer/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1777,6 +1872,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/network-engineer-3/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1795,6 +1891,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/information-security-lead/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1813,6 +1910,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/summer-employee-associate-software-engineer/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1831,6 +1929,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/full-stack-forritari-fyrir-spennandi-gervigreindarverkefni/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1849,6 +1948,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/react-native-full-stack-developer/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1867,6 +1967,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/bakendaforritari-21/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1885,6 +1986,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/framendaforritari-27/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1903,6 +2005,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/backend-software-developer-2/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1921,6 +2024,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-in-product-development/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1939,6 +2043,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-tm/",
+            startup: false,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1957,6 +2062,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/netserfraedingur-4/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1975,6 +2081,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/security-engineer-2/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -1993,6 +2100,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/system-administrator-14/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2011,6 +2119,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/database-administrator/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2029,6 +2138,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/delivery-lead-2/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2047,6 +2157,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-in-customer-success-3/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2065,6 +2176,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/devops-engineer-25/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2083,6 +2195,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/senior-quality-assurance-engineer-in-customer-success/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2101,6 +2214,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-in-customer-success/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2119,6 +2233,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/software-engineers-python-vue/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2137,6 +2252,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/junior-senior-it-consultants/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2155,6 +2271,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/engineering-manager-iceland/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2173,6 +2290,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-68/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2191,6 +2309,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-16/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2209,6 +2328,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/senior-software-engineer-14/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2227,6 +2347,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-unreal-engine/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2245,6 +2366,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/system-administrator-10/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2263,6 +2385,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/data-integration-specialist/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2281,6 +2404,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/summer-internship/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2299,6 +2423,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/framendaforritari-react-native-developer/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2317,6 +2442,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-in-product-development/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2335,6 +2461,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/research-engineer/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2353,6 +2480,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/leidtogi-i-hagnytingu-gervigreindar/",
+            startup: false,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2371,6 +2499,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/quality-system-specialist-2/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2389,6 +2518,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/viltu-taka-thatt-i-ad-mota-framtidina-og-koma-hugbunadarverkefnum-i-innleidingu-og-throun/",
+            startup: false,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2407,6 +2537,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/technical-consultant-2/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2425,6 +2556,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/serfraedingur-i-notendathjonustu-5/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2443,6 +2575,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/junior-information-security-consultant/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2461,6 +2594,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/senior-information-security-consultant/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2479,6 +2613,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/core-developer-2/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2497,6 +2632,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/it-support-specialist/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2515,6 +2651,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/senior-front-end-developer-12/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2533,6 +2670,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/senior-python-developer-4/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2551,6 +2689,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/technical-support-specialist-2/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2569,6 +2708,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/software-developer-37/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2587,6 +2727,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/kubernetes-developer-2/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2605,6 +2746,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/senior-devops-cloud-engineer/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2623,6 +2765,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/network-engineer/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2641,6 +2784,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/system-architect-2/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2659,6 +2803,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/project-manager-7/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2677,6 +2822,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/research-engineer-air-traffic-control-systems/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2695,6 +2841,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/upplysingaoryggisstjori-med-reynslu/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2713,6 +2860,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/director-cybersecurity/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2731,6 +2879,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/stjornunarleg-oryggisradgjof-syndis-2/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2749,6 +2898,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-solution-architect/",
+            startup: false,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2767,6 +2917,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://alfred.is/starf/social-media-manager-samfelagsmidlastjori",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -2785,6 +2936,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-kerfisstjora",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -2803,6 +2955,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-gaedatryggingardeild-qa-specialist-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -2821,6 +2974,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://alfred.is/starf/sumarstarf-hja-carbfix",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -2839,6 +2993,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://alfred.is/starf/sumarstoerf-hja-alvotech-summer-position-at-alvotech",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -2857,6 +3012,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://alfred.is/starf/gesta-thjonusta-guest-service-3",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -2875,6 +3031,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://alfred.is/starf/vidskiptastjori-hja-fjartaeknifyrirtaeki-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -2893,6 +3050,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-25",
             applicationUrl: "https://alfred.is/starf/logistics-and-supply-chain-associate",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -2911,6 +3069,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-26",
             applicationUrl: "https://www.tvinna.is/jobs/fullstack-developer-python-react-firebase/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -2929,6 +3088,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-27",
             applicationUrl: "https://alfred.is/starf/hefur-thu-ahuga-a-ad-leida-rekstur-rannsoknarstofa-we-are-seeking-a-lab-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -2947,6 +3107,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-27",
             applicationUrl: "https://alfred.is/starf/sterility-assurance-senior-specialist-reyndur-serfraedingur-i-daudhreinsun-og-oerveruoeryggi",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -2965,6 +3126,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-28",
             applicationUrl: "https://alfred.is/starf/solution-architect-mobile-applications-embla-medical",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -2983,6 +3145,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-28",
             applicationUrl: "https://alfred.is/starf/bokari-299",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3001,6 +3164,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-28",
             applicationUrl: "https://alfred.is/starf/project-manager-28",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3019,6 +3183,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-28",
             applicationUrl: "https://alfred.is/starf/corporate-finance-coordinator-embla-medical",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3037,6 +3202,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-29",
             applicationUrl: "https://alfred.is/starf/verslunarstjori-bioeffect-verslana",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3055,6 +3221,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-30",
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-47/",
+            startup: false,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -3073,6 +3240,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-30",
             applicationUrl: "https://alfred.is/starf/framleidslutaeknir-aseptic-processing-technologist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3091,6 +3259,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-30",
             applicationUrl: "https://alfred.is/starf/bara-tala-leitar-ad-islenskukennara",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3109,6 +3278,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-30",
             applicationUrl: "https://alfred.is/starf/framleidslutaeknir-dpvi-technologist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3127,6 +3297,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-30",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-poekkunardeild-coripharma-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3145,6 +3316,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-30",
             applicationUrl: "https://alfred.is/starf/velamadur-i-poekkunardeild-packaging-mechanic",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3163,6 +3335,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-01-30",
             applicationUrl: "https://alfred.is/starf/voeruhusastjori-7",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3181,6 +3354,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-02",
             applicationUrl: "https://alfred.is/starf/vaktstjori-i-poekkunardeild-shift-manager-in-packaging-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3199,6 +3373,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-02",
             applicationUrl: "https://alfred.is/starf/country-security-operations-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3217,6 +3392,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-02",
             applicationUrl: "https://alfred.is/starf/reyndur-serfraedingur-i-gaedamalum-samsettra-lyfja-og-taekjaafurda-combination-products-device",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3235,6 +3411,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-02",
             applicationUrl: "https://alfred.is/starf/prentumsjon-artwork-coordinator-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3253,6 +3430,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-02",
             applicationUrl: "https://alfred.is/starf/backend-developer-go-expert",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3271,6 +3449,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-03",
             applicationUrl: "https://alfred.is/starf/devops-engineer-34",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3289,6 +3468,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-03",
             applicationUrl: "https://alfred.is/starf/frontend-developer-ui-ux",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3307,6 +3487,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-04",
             applicationUrl: "https://alfred.is/starf/starf-i-afyllingu-hja-bioeffect",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3325,6 +3506,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-04",
             applicationUrl: "https://alfred.is/starf/afleysingarmanneskja-i-moetuneyti",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3343,6 +3525,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-04",
             applicationUrl: "https://alfred.is/starf/customer-success-manager-15",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3361,6 +3544,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-04",
             applicationUrl: "https://alfred.is/starf/hse-engineer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3379,6 +3563,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-04",
             applicationUrl: "https://alfred.is/starf/rafvirki-rafmagnsserfraedingur",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3397,6 +3582,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-04",
             applicationUrl: "https://alfred.is/starf/viltu-starfa-i-upplysingataekni-4",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3415,6 +3601,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-04",
             applicationUrl: "https://alfred.is/starf/deildarstjori-blaskoga",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3433,6 +3620,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-07",
             applicationUrl: "https://alfred.is/starf/framleidslutaeknir-manufacturing-technologist-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3451,6 +3639,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-07",
             applicationUrl: "https://alfred.is/starf/atmonia-leitar-ad-verkefnisstjora",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3469,6 +3658,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-07",
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-leidtoga-yfir-noc-vaktbordi",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3487,6 +3677,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-07",
             applicationUrl: "https://alfred.is/starf/purchasing-processor-serfraedingur-i-innkaupum",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3505,6 +3696,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-07",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-throun-lyfjaforma-7",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3523,6 +3715,7 @@ var StartupIcelandJobsData = {
             salary: "~1M ISK/month + stock options",
             postedDate: "2026-02-09",
             applicationUrl: "mailto:gislinils@stigalolduna.is",
+            startup: false,
             featured: true,
             status: "active",
             lastVerified: "2026-10-17"
@@ -3541,6 +3734,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-10",
             applicationUrl: "https://alfred.is/starf/almennur-starfsmadur-i-urbeiningardeild",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3559,6 +3753,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-10",
             applicationUrl: "https://alfred.is/starf/ahaettustyring-indo-serfraedingur-i-utlanum",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3577,6 +3772,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-11",
             applicationUrl: "https://alfred.is/starf/financial-controller-10",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3595,6 +3791,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-11",
             applicationUrl: "https://alfred.is/starf/bokari-301",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3613,6 +3810,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-11",
             applicationUrl: "https://alfred.is/starf/indo-leitar-ad-thjonustufulltrua-i-framtidarstarf",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3631,6 +3829,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-11",
             applicationUrl: "https://alfred.is/starf/fjarmalastjori-indo",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3649,6 +3848,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-12",
             applicationUrl: "https://alfred.is/starf/markadsfulltrui-94",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3667,6 +3867,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-12",
             applicationUrl: "https://alfred.is/starf/analytical-r-d-scientist-serfraedingur-i-greiningarthroun",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3685,6 +3886,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-13",
             applicationUrl: "https://alfred.is/starf/sumarstarf-i-erfdafraedihopi-matis",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3703,6 +3905,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-14",
             applicationUrl: "https://alfred.is/starf/framleidslustarf-bionic-technician-4",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3721,6 +3924,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-17",
             applicationUrl: "https://alfred.is/starf/countertops-installation-4",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3739,6 +3943,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-17",
             applicationUrl: "https://alfred.is/starf/verkfraedingur-i-gaedasetri",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3757,6 +3962,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-17",
             applicationUrl: "https://alfred.is/starf/framkvaemdastjori-rannsokna-og-throunar",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3775,6 +3981,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-18",
             applicationUrl: "https://alfred.is/starf/business-central-specialist-embla-medical",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3793,6 +4000,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-18",
             applicationUrl: "https://alfred.is/starf/thjonustuserfraedingur-i-fiski-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3811,6 +4019,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-19",
             applicationUrl: "https://alfred.is/starf/director-of-corporate-development-m-a-embla-medical",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3829,6 +4038,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-19",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-skipulags-og-umhverfismalum",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3847,6 +4057,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-19",
             applicationUrl: "https://alfred.is/starf/hse-serfraedingur",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3865,6 +4076,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-19",
             applicationUrl: "https://alfred.is/starf/verkefnastjorar-project-managers",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3883,6 +4095,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-19",
             applicationUrl: "https://alfred.is/starf/jardfraedingur-eda-jardefnafraedingur-geologist-or-geochemist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3901,6 +4114,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-19",
             applicationUrl: "https://alfred.is/starf/jardedlisfraedingur-geophysicist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3919,6 +4133,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-19",
             applicationUrl: "https://alfred.is/starf/serfraedingar-i-throunarteymi",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3937,6 +4152,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-19",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-orkusoelusamningum-og-vidskiptathroun-business-development-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3955,6 +4171,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-19",
             applicationUrl: "https://alfred.is/starf/markads-og-samskiptastjori-4",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3973,6 +4190,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-20",
             applicationUrl: "https://alfred.is/starf/compliance-and-risk-management-principal-specialist-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -3991,6 +4209,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-20",
             applicationUrl: "https://alfred.is/starf/graphic-design-intern",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4009,6 +4228,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-20",
             applicationUrl: "https://alfred.is/starf/it-support-administrator-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4027,6 +4247,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-21",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-matvaelaoerverufraedi-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4045,6 +4266,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-21",
             applicationUrl: "https://alfred.is/starf/pos-customer-support-summer-position",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4063,6 +4285,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-21",
             applicationUrl: "https://alfred.is/starf/netserfraedingur-21",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4081,6 +4304,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-21",
             applicationUrl: "https://alfred.is/starf/financial-controller-11",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4099,6 +4323,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-21",
             applicationUrl: "https://alfred.is/starf/noc-specialist-summer-position",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4117,6 +4342,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-22",
             applicationUrl: "https://alfred.is/starf/lead-game-designer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4135,6 +4361,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-24",
             applicationUrl: "https://alfred.is/starf/senior-customer-solution-architect",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4153,6 +4380,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-24",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-ahaettumati-personutrygginga-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4171,6 +4399,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-26",
             applicationUrl: "https://alfred.is/starf/senior-product-complaint-specialist-serfraedingur-i-medhoendlun-voerukvartana",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4189,6 +4418,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-26",
             applicationUrl: "https://alfred.is/starf/software-developer-embla-medical",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4207,6 +4437,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-26",
             applicationUrl: "https://alfred.is/starf/serfraedingur-scientist-analytical-r-d",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4225,6 +4456,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-26",
             applicationUrl: "https://alfred.is/starf/rafvirki-facility-maintenance-electrician-3",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4243,6 +4475,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-26",
             applicationUrl: "https://alfred.is/starf/senior-scientist-drug-product-development-formulation-development",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4261,6 +4494,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-26",
             applicationUrl: "https://alfred.is/starf/senior-scientist-drug-product-development-material-science",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4279,6 +4513,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-26",
             applicationUrl: "https://alfred.is/starf/publishing-intern",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4297,6 +4532,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-26",
             applicationUrl: "https://alfred.is/starf/senior-scientist-drug-product-development-process-development",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4315,6 +4551,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-26",
             applicationUrl: "https://alfred.is/starf/user-acquisition-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4333,6 +4570,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-27",
             applicationUrl: "https://alfred.is/starf/qc-labratory-scientist-serfraedingur-a-rannsoknarstofu",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4351,6 +4589,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-28",
             applicationUrl: "https://alfred.is/starf/qa-senior-specialist-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4369,6 +4608,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-28",
             applicationUrl: "https://alfred.is/starf/operations-agent",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4387,6 +4627,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-28",
             applicationUrl: "https://alfred.is/starf/accountant-19",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4405,6 +4646,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-28",
             applicationUrl: "https://alfred.is/starf/leikskolakennarar-52",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4423,6 +4665,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-28",
             applicationUrl: "https://alfred.is/starf/director-hr-software-digital",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4441,6 +4684,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-02-28",
             applicationUrl: "https://alfred.is/starf/devops-systems-engineer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4459,6 +4703,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-03",
             applicationUrl: "https://alfred.is/starf/senior-ui-ux-designer-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4477,6 +4722,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-03",
             applicationUrl: "https://alfred.is/starf/qa-on-the-floor-gaedaeftirlit-a-framleidslugolfi",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4495,6 +4741,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-03",
             applicationUrl: "https://alfred.is/starf/sumar-og-solarstarf-a-kaffihusi-og-i-verslun-a-solheimum-i-grimsnesi",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4513,6 +4760,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-03",
             applicationUrl: "https://alfred.is/starf/tools-programmer-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4531,6 +4779,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-04",
             applicationUrl: "https://alfred.is/starf/director-of-business-development-iceland",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4549,6 +4798,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-05",
             applicationUrl: "https://alfred.is/starf/business-central-technical-architect-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4567,6 +4817,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-06",
             applicationUrl: "https://alfred.is/starf/design-manager-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4585,6 +4836,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-08",
             applicationUrl: "https://alfred.is/starf/starf-i-framleidslu-hja-bioeffect",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4603,6 +4855,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-09",
             applicationUrl: "https://alfred.is/starf/sumarstoerf-hja-me-travel-prime-tours",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4621,6 +4874,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-10",
             applicationUrl: "https://alfred.is/starf/starfsmadur-a-lager-warehouse-employee-4",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4639,6 +4893,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-10",
             applicationUrl: "https://alfred.is/starf/data-engineer-bi-platform-owner",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4657,6 +4912,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-10",
             applicationUrl: "https://alfred.is/starf/senior-expert-scientists",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4675,6 +4931,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-10",
             applicationUrl: "https://alfred.is/starf/cyber-security-it-compliance-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4693,6 +4950,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-10",
             applicationUrl: "https://alfred.is/starf/skjalastjori-32",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4711,6 +4969,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-11",
             applicationUrl: "https://alfred.is/starf/senior-scientist-analytical-r-d",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4729,6 +4988,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-11",
             applicationUrl: "https://alfred.is/starf/scientist-physicochemical-assays",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4747,6 +5007,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-11",
             applicationUrl: "https://alfred.is/starf/scientist-analytical-r-d",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4765,6 +5026,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-12",
             applicationUrl: "https://alfred.is/starf/ai-driven-growth-marketing-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4783,6 +5045,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-13",
             applicationUrl: "https://alfred.is/starf/senior-software-engineer-full-stack-typescript",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4801,6 +5064,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-14",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-hraefnamaelingum-a-gaedrannsoknadeild-3",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4819,6 +5083,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-14",
             applicationUrl: "https://alfred.is/starf/deildarstjori-soltun-heima",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4837,6 +5102,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-14",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-hagdeild-fp-a",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4855,6 +5121,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-14",
             applicationUrl: "https://alfred.is/starf/sales-travel-agent-downtown-reykjavik-office-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4873,6 +5140,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-14",
             applicationUrl: "https://alfred.is/starf/viltu-styra-oert-staekkandi-gagnaveri-hja-spennandi-althjodlegu-fyrirtaeki",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4891,6 +5159,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-16",
             applicationUrl: "https://alfred.is/starf/studningsfulltruar-oskast-i-sumarafleysingar",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4909,6 +5178,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-16",
             applicationUrl: "https://alfred.is/starf/oeflugur-bokari-oskast-til-starfa-a-solheimum",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4927,6 +5197,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-17",
             applicationUrl: "https://alfred.is/starf/ehs-specialist-oessur",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4945,6 +5216,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-17",
             applicationUrl: "https://alfred.is/starf/alvotech-oskar-eftir-skipuloegdum-og-lausnamidudum-maintenance-planner",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4963,6 +5235,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-18",
             applicationUrl: "https://alfred.is/starf/scientist-in-potency-and-binding",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4981,6 +5254,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-18",
             applicationUrl: "https://alfred.is/starf/senior-scientist-ard-potency-and-binding",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -4999,6 +5273,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-18",
             applicationUrl: "https://alfred.is/starf/senior-back-end-developer-3",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5017,6 +5292,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-18",
             applicationUrl: "https://alfred.is/starf/financial-accountant-part-time",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5035,6 +5311,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-19",
             applicationUrl: "https://alfred.is/starf/spennandi-taekifaeri-hja-alvotech-maintenance-technician-3",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5053,6 +5330,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-19",
             applicationUrl: "https://alfred.is/starf/it-manager-clinical-safety-systems-icmr",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5071,6 +5349,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-19",
             applicationUrl: "https://alfred.is/starf/soelu-og-markadsstjori-head-of-growth",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5089,6 +5368,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-19",
             applicationUrl: "https://alfred.is/starf/industrial-product-designer-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5107,6 +5387,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-19",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-throunardeild-liftaeknilyfja-frumuraektun-scientist-usp-development",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5125,6 +5406,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-19",
             applicationUrl: "https://alfred.is/starf/byrjadu-starfsferil-hja-alvotech-start-your-career-at-alvotech",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5143,6 +5425,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-19",
             applicationUrl: "https://alfred.is/starf/sumarafleysing-starfsmadur-i-heimathjonustu-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5161,6 +5444,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-19",
             applicationUrl: "https://alfred.is/starf/technician",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5179,6 +5463,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-21",
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-iceland/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -5197,6 +5482,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-21",
             applicationUrl: "https://alfred.is/starf/adstodarmanneskja-i-thvottahus-rannsoknar-3",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5215,6 +5501,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-21",
             applicationUrl: "https://alfred.is/starf/hreinsitaeknir-manufacturing-cleaning-specialist-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5233,6 +5520,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-21",
             applicationUrl: "https://alfred.is/starf/tjonafulltrui-personutjona-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5251,6 +5539,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-21",
             applicationUrl: "https://alfred.is/starf/software-engineer-52",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5269,6 +5558,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-21",
             applicationUrl: "https://alfred.is/starf/soelustjori-oskast-6",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5287,6 +5577,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-25",
             applicationUrl: "https://alfred.is/starf/taeknimadur-i-umsjon-og-vidhaldi-velbunadar-vid-taeknideild",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5305,6 +5596,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-25",
             applicationUrl: "https://alfred.is/starf/umsjonarmadur-fasteigna-og-vidhalds-2",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5323,6 +5615,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-25",
             applicationUrl: "https://alfred.is/starf/utkeyrsla-og-lagerstarf-delivery-driver-warehouse-worker",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5341,6 +5634,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-26",
             applicationUrl: "https://www.tvinna.is/jobs/infra-wizard/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -5359,6 +5653,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-26",
             applicationUrl: "https://alfred.is/starf/tjonafulltru-eignatjona",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5377,6 +5672,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-27",
             applicationUrl: "https://alfred.is/starf/cnc-starfsmadur-i-frumgerdarsmidi-cnc-machinist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5395,6 +5691,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-27",
             applicationUrl: "https://alfred.is/starf/taeknimadur-med-reynslu-3",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5413,6 +5710,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-28",
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-lead-2/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -5431,6 +5729,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-28",
             applicationUrl: "https://alfred.is/starf/studningsfulltruar-oskast-i-felagsthjonustu-solheima",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5449,6 +5748,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-28",
             applicationUrl: "https://alfred.is/starf/strategic-purchaser-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5467,6 +5767,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-03-28",
             applicationUrl: "https://alfred.is/starf/starfsmadur-i-gaedasetri-oessur",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5485,6 +5786,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-02",
             applicationUrl: "https://alfred.is/starf/commissioning-and-qualification-specialist-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5503,6 +5805,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-02",
             applicationUrl: "https://alfred.is/starf/verkefnastjori-upplysingataeknimala-2",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5521,6 +5824,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/senior-data-engineer-7",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5539,6 +5843,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/erp-application-support-lead",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5557,6 +5862,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-voerustjora-prentlausna-og-vaxtar",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5575,6 +5881,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-starfsmanni-a-noc-vaktbord",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5593,6 +5900,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/soelumadur-vogabaejar-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5611,6 +5919,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/graphics-programmer-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5629,6 +5938,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/verslunarstarf-i-byggingavoeruverslun",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5647,6 +5957,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/arctic-trucks-dekkjaverkstaedi",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5665,6 +5976,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/bilstjori-vogabaejar",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5683,6 +5995,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-08",
             applicationUrl: "https://alfred.is/starf/talent-acquisition-support-specialist-6month-contract",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5701,6 +6014,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-13",
             applicationUrl: "https://www.tvinna.is/jobs/senior-devops-engineer-4/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -5719,6 +6033,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-13",
             applicationUrl: "https://alfred.is/starf/aml-analyst",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5737,6 +6052,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-13",
             applicationUrl: "https://alfred.is/starf/skrifstofu-og-rekstrarumsjon",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5755,6 +6071,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-13",
             applicationUrl: "https://alfred.is/starf/specialist-tech-ops-control-operations",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5773,6 +6090,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-13",
             applicationUrl: "https://alfred.is/starf/soelustjori-bioeffect-a-islandi-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5791,6 +6109,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-13",
             applicationUrl: "https://alfred.is/starf/sales-solution-engineer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5809,6 +6128,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-13",
             applicationUrl: "https://alfred.is/starf/framleidslustarf-i-silicone-deild-framtidarstarf",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5827,6 +6147,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-13",
             applicationUrl: "https://alfred.is/starf/spennandi-taekifaeri-hja-alvotech-pilot-scientist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5845,6 +6166,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-13",
             applicationUrl: "https://alfred.is/starf/vidhaldsmadur-i-verksmidju-siglufjoerdur-3",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5863,6 +6185,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-14",
             applicationUrl: "https://alfred.is/starf/senior-business-controller",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5881,6 +6204,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-14",
             applicationUrl: "https://alfred.is/starf/ithrottafraedingur-ithrottakennari-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5899,6 +6223,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-15",
             applicationUrl: "https://alfred.is/starf/deildarstjorar-12",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5917,6 +6242,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-15",
             applicationUrl: "https://alfred.is/starf/qc-scientists-analytical-shift-daytime-roles",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5935,6 +6261,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-15",
             applicationUrl: "https://alfred.is/starf/leikskolaserkennari-throskathjalfi-66",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5953,6 +6280,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-15",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-sjonraenni-gaedaskodun-dpvi-technologist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5971,6 +6299,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-16",
             applicationUrl: "https://alfred.is/starf/starfsmadur-thvottahuss-og-bilstjori",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -5989,6 +6318,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-16",
             applicationUrl: "https://alfred.is/starf/associate-scientist-qc-product-testing-fixedterm-1-year",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6007,6 +6337,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-17",
             applicationUrl: "https://alfred.is/starf/verkefnastjori-vidhalds-og-framkvaemda",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6025,6 +6356,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-17",
             applicationUrl: "https://alfred.is/starf/soelumadur-i-jeppabud-7",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6043,6 +6375,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-18",
             applicationUrl: "https://alfred.is/starf/hr-coordinator-temporary-position",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6061,6 +6394,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-18",
             applicationUrl: "https://alfred.is/starf/gaedaskodun-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6079,6 +6413,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-21",
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-kerfisstjora-med-microsoft-thekkingu",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6097,6 +6432,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-21",
             applicationUrl: "https://alfred.is/starf/leikskolakennarar-54",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6115,6 +6451,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-22",
             applicationUrl: "https://alfred.is/starf/leikskolakennari-hja-leikskolanum-alfheimum",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6133,6 +6470,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-22",
             applicationUrl: "https://alfred.is/starf/grafiskur-hoennudur-67",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6151,6 +6489,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-22",
             applicationUrl: "https://alfred.is/starf/serkennslustjori-hja-leikskolanum-alfheimum",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6169,6 +6508,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-22",
             applicationUrl: "https://alfred.is/starf/deildarstjori-hja-leikskolanum-alfheimum-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6187,6 +6527,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-23",
             applicationUrl: "https://www.tvinna.is/jobs/software-quality-assurance-engineer-5/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -6205,6 +6546,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-23",
             applicationUrl: "https://alfred.is/starf/leikskolakennari-338",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6223,6 +6565,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-25",
             applicationUrl: "https://alfred.is/starf/thjonustufulltrui-i-mottoeku-service-representative",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6241,6 +6584,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-27",
             applicationUrl: "https://alfred.is/starf/starfskraftur-i-heimathjonustu-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6259,6 +6603,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-28",
             applicationUrl: "https://alfred.is/starf/serhaeft-starf-vid-proteinvinnslu",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6277,6 +6622,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-28",
             applicationUrl: "https://alfred.is/starf/software-engineer-53",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6295,6 +6641,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-29",
             applicationUrl: "https://alfred.is/starf/growth-marketing-specialist-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6313,6 +6660,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-29",
             applicationUrl: "https://alfred.is/starf/it-support-technician-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6331,6 +6679,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-04-30",
             applicationUrl: "https://alfred.is/starf/taeknimadur-vidgerdarmadur-oskast-til-inter-ehf",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6349,6 +6698,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-01",
             applicationUrl: "https://alfred.is/starf/lagerstjori-kvik-innrettinga",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6367,6 +6717,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-01",
             applicationUrl: "https://alfred.is/starf/back-end-fullstack-engineer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6385,6 +6736,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-01",
             applicationUrl: "https://alfred.is/starf/oeflugur-fulltrui-i-innkaupadeild",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6403,6 +6755,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-05",
             applicationUrl: "https://alfred.is/starf/senior-accounting-manager-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6421,6 +6774,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-06",
             applicationUrl: "https://alfred.is/starf/bilanagreiningar-og-forritun-2",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6439,6 +6793,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-06",
             applicationUrl: "https://alfred.is/starf/starfsfolk-i-framleidsludeild-manufacturing-operators",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6457,6 +6812,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-06",
             applicationUrl: "https://alfred.is/starf/teymisstjori-100-starf",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6475,6 +6831,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-07",
             applicationUrl: "https://alfred.is/starf/viltu-verda-stor-partur-af-hratt-vaxandi-fyrirtaeki",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6493,6 +6850,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-07",
             applicationUrl: "https://alfred.is/starf/spennandi-taekifaeri-hja-alvotech-control-operations-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6511,6 +6869,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-08",
             applicationUrl: "https://alfred.is/starf/starfsmadur-i-heimathjonustu-a-stoedvarfirdi-og-breiddalsvik",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6529,6 +6888,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-09",
             applicationUrl: "https://alfred.is/starf/starfsfolk-i-voeruhus-warehouse-operator-9",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6547,6 +6907,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-12",
             applicationUrl: "https://www.tvinna.is/jobs/sumarstarf-marketplace-samthaettingar/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -6565,6 +6926,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-12",
             applicationUrl: "https://alfred.is/starf/car-cleaning-13",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6583,6 +6945,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-12",
             applicationUrl: "https://alfred.is/starf/leitum-ad-smidum-i-fjoelbreytt-verkefni-2",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6601,6 +6964,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-12",
             applicationUrl: "https://alfred.is/starf/serkennslustjori-til-eins-ars",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6619,6 +6983,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-12",
             applicationUrl: "https://alfred.is/starf/ai-solutions-engineer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6637,6 +7002,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-12",
             applicationUrl: "https://alfred.is/starf/senior-manager-of-cyber-infrastructure-and-it-support",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6655,6 +7021,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-12",
             applicationUrl: "https://alfred.is/starf/deildarstjori-244",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6673,6 +7040,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-12",
             applicationUrl: "https://alfred.is/starf/kennari-15",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6691,6 +7059,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-12",
             applicationUrl: "https://alfred.is/starf/ai-solutions-analyst",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6709,6 +7078,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-14",
             applicationUrl: "https://www.tvinna.is/jobs/it-engineer/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -6727,6 +7097,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-14",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-umsjon-loftgaedamaelitaekja",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6745,6 +7116,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-16",
             applicationUrl: "https://alfred.is/starf/mannaudsstjori-84",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6763,6 +7135,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-19",
             applicationUrl: "https://alfred.is/starf/starfsmadur-i-voeruhus-og-utkeyrslu-2",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6781,6 +7154,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-20",
             applicationUrl: "https://alfred.is/starf/framleidsluserfraedingur-manufacturing-engineer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6799,6 +7173,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-21",
             applicationUrl: "https://alfred.is/starf/hr-business-partner-temporary-position",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6817,6 +7192,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-22",
             applicationUrl: "https://alfred.is/starf/head-of-quality-compliance",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6835,6 +7211,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-24",
             applicationUrl: "https://alfred.is/starf/finance-business-partner-group-finance",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6853,6 +7230,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-24",
             applicationUrl: "https://alfred.is/starf/starfsmadur-i-heimathjonustu-helgarvinna-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6871,6 +7249,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-27",
             applicationUrl: "https://alfred.is/starf/serfraedingur-a-vidhaldssvidi-maintenance-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6889,6 +7268,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-27",
             applicationUrl: "https://alfred.is/starf/senior-scientist-analytical-r-d-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6907,6 +7287,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-29",
             applicationUrl: "https://alfred.is/starf/helgarvaktir-sumarvinna-a-kaffihusinu-graenu-koennunni-og-i-verslun-a-solheimum-i-grimsnesi",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6925,6 +7306,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-29",
             applicationUrl: "https://alfred.is/starf/serkennslustjori-i-leikskolann-hulduheima-selfossi-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6943,6 +7325,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-29",
             applicationUrl: "https://alfred.is/starf/summer-assistant-documentation-ways-of-working-part-time",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6961,6 +7344,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-29",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-lanavinnslu",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6979,6 +7363,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-29",
             applicationUrl: "https://alfred.is/starf/senior-development-engineer-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -6997,6 +7382,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-05-30",
             applicationUrl: "https://alfred.is/starf/vidskiptastjori-132",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7015,6 +7401,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-02",
             applicationUrl: "https://alfred.is/starf/sales-engineer-6",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7033,6 +7420,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-02",
             applicationUrl: "https://alfred.is/starf/legal-intern-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7051,6 +7439,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-02",
             applicationUrl: "https://alfred.is/starf/velvirki-i-taeknideild-ora",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7069,6 +7458,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-03",
             applicationUrl: "https://alfred.is/starf/qc-bioassay-associate-scientist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7087,6 +7477,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-03",
             applicationUrl: "https://alfred.is/starf/bokari-accountant",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7105,6 +7496,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-04",
             applicationUrl: "https://alfred.is/starf/director-of-group-consolidation-financial-reporting",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7123,6 +7515,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-04",
             applicationUrl: "https://alfred.is/starf/framkvaemdastjori-voerustjornunarsvids-supply-chain-operations",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7141,6 +7534,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-04",
             applicationUrl: "https://alfred.is/starf/sumarstarf-a-lager-15",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7159,6 +7553,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-04",
             applicationUrl: "https://alfred.is/starf/finance-business-partner-embla-medical",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7177,6 +7572,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-04",
             applicationUrl: "https://alfred.is/starf/data-centre-ehs-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7195,6 +7591,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-05",
             applicationUrl: "https://alfred.is/starf/haspenntur-rafvirki-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7213,6 +7610,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-05",
             applicationUrl: "https://alfred.is/starf/store-manager-information-center-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7231,6 +7629,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-05",
             applicationUrl: "https://alfred.is/starf/store-and-information-center-employee",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7249,6 +7648,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-05",
             applicationUrl: "https://alfred.is/starf/taeknimadur-i-framlinuthjonustu-6",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7267,6 +7667,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-05",
             applicationUrl: "https://alfred.is/starf/raestitaeknir-15",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7285,6 +7686,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-06",
             applicationUrl: "https://alfred.is/starf/business-development-manager-iceland",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7303,6 +7705,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-09",
             applicationUrl: "https://alfred.is/starf/deildarstjori-248",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7321,6 +7724,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-09",
             applicationUrl: "https://alfred.is/starf/weighing-r-d-engineer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7339,6 +7743,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/lagerstarfsmadur-204",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7357,6 +7762,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/senior-specialist-manufacturing-operations",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7375,6 +7781,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/principal-specialist-dsp-msat",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7393,6 +7800,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/chef-kitchen-position",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7411,6 +7819,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/chief-operating-officer-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7429,6 +7838,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/leikskolaserkennari-throskathjalfi-68",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7447,6 +7857,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/senior-specialist-usp-msat",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7465,6 +7876,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/exciting-science-graduate-opportunity-biotech-manufacturing",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7483,6 +7895,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/pipari-43",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7501,6 +7914,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/building-leader-housekeeping-selfoss",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7519,6 +7933,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/ui-ux-designer-6",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7537,6 +7952,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/umhverfis-heilbrigdis-og-oeryggisstjori-ehs-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7555,6 +7971,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/product-developer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7573,6 +7990,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-15",
             applicationUrl: "https://alfred.is/starf/scientist-drug-product-development",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7591,6 +8009,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-16",
             applicationUrl: "https://alfred.is/starf/maintenance-technician-oessur",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7609,6 +8028,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-16",
             applicationUrl: "https://alfred.is/starf/ef-stor-dekk-eru-ekki-vandamal-heldur-skemmtileg-askorun-tha-viljum-vid-heyra-i-ther",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7627,6 +8047,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-16",
             applicationUrl: "https://alfred.is/starf/rafvirki-i-nyskoepunarverkefni",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7645,6 +8066,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-21",
             applicationUrl: "https://alfred.is/starf/hreinistaeknir-manufacturing-cleaning-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7663,6 +8085,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-21",
             applicationUrl: "https://alfred.is/starf/adstodarleikskolastjori-49",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7681,6 +8104,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-21",
             applicationUrl: "https://alfred.is/starf/project-manager-30",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7699,6 +8123,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-21",
             applicationUrl: "https://alfred.is/starf/leikskolastjori-42",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7717,6 +8142,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-21",
             applicationUrl: "https://alfred.is/starf/senior-project-manager-3",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7735,6 +8161,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-21",
             applicationUrl: "https://alfred.is/starf/software-developer-python-vue",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7753,6 +8180,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-23",
             applicationUrl: "https://alfred.is/starf/digital-product-owner-ai-automation-embla-medical",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7771,6 +8199,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-23",
             applicationUrl: "https://alfred.is/starf/soelustjori-bara-tala",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7789,6 +8218,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-24",
             applicationUrl: "https://alfred.is/starf/vidskiptastjori-hja-ok",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7807,6 +8237,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-24",
             applicationUrl: "https://alfred.is/starf/part-time-sales-travel-agent-downtown-reykjavik-office",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7825,6 +8256,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-25",
             applicationUrl: "https://alfred.is/starf/vaktstjori-i-gestamottoeku-front-desk-supervisor-alda-hotel",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7843,6 +8275,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-25",
             applicationUrl: "https://alfred.is/starf/travel-coordinator-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7861,6 +8294,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-26",
             applicationUrl: "https://alfred.is/starf/associate-specialist-ehs",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7879,6 +8313,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-26",
             applicationUrl: "https://alfred.is/starf/finance-specialist-7",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7897,6 +8332,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-28",
             applicationUrl: "https://alfred.is/starf/technical-product-owner-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7915,6 +8351,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-28",
             applicationUrl: "https://alfred.is/starf/software-engineer-54",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7933,6 +8370,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-28",
             applicationUrl: "https://alfred.is/starf/sap-administration",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7951,6 +8389,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-30",
             applicationUrl: "https://alfred.is/starf/vidskiptathrounarstjori-8",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7969,6 +8408,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-06-30",
             applicationUrl: "https://alfred.is/starf/deildarstjori-yfir-sjalfstaedri-busetu",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -7987,6 +8427,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-01",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-vidhaldsstjornun-cmms-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8005,6 +8446,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-01",
             applicationUrl: "https://alfred.is/starf/information-security-officer-junior",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8023,6 +8465,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-02",
             applicationUrl: "https://alfred.is/starf/design-transfer-engineer-oessur",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8041,6 +8484,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-02",
             applicationUrl: "https://alfred.is/starf/oeryggisfulltrui-rafvirki-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8059,6 +8503,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-02",
             applicationUrl: "https://alfred.is/starf/tryggingastaerdfraedingur-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8077,6 +8522,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-02",
             applicationUrl: "https://alfred.is/starf/senior-product-manager-for-weighing-grading",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8095,6 +8541,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-02",
             applicationUrl: "https://alfred.is/starf/electronics-software-engineer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8113,6 +8560,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-03",
             applicationUrl: "https://www.tvinna.is/jobs/junior-frontend-engineer-customer-facing/",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -8131,6 +8579,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-03",
             applicationUrl: "https://alfred.is/starf/oska-eftir-husasmid",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8149,6 +8598,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-03",
             applicationUrl: "https://alfred.is/starf/qc-bioassay-scientist-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8167,6 +8617,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-03",
             applicationUrl: "https://alfred.is/starf/framleidslutaeknir-manufacturing-technician",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8185,6 +8636,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-03",
             applicationUrl: "https://alfred.is/starf/experienced-coach-driver-3",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8203,6 +8655,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-04",
             applicationUrl: "https://alfred.is/starf/heimavist-ma-og-vma-leitar-ad-matrad-matartaekni-til-starfa-i-moetuneyti",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8221,6 +8674,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-04",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-umhverfisvoektun-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8239,6 +8693,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-04",
             applicationUrl: "https://alfred.is/starf/starfsfolk-i-framleidslu-8",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8257,6 +8712,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-07",
             applicationUrl: "https://alfred.is/starf/r-d-innovation-excellence-specialist-oessur",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8275,6 +8731,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-07",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-launavinnslu-payroll-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8293,6 +8750,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-07",
             applicationUrl: "https://alfred.is/starf/sterility-assurance-sr-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8311,6 +8769,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-07",
             applicationUrl: "https://alfred.is/starf/analytical-r-d-scientist-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8329,6 +8788,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-07",
             applicationUrl: "https://alfred.is/starf/starfsmadur-a-rannsoknarstofu-6",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8347,6 +8807,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-08",
             applicationUrl: "https://alfred.is/starf/global-information-security-director-embla-medical",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8365,6 +8826,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-08",
             applicationUrl: "https://alfred.is/starf/skrifstofustjori-manufacturing-operations-coordinator",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8383,6 +8845,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-08",
             applicationUrl: "https://alfred.is/starf/materials-readiness-planner-procurement-serfraedingur-i-aaetlanagerd-og-efnisframbodi",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8401,6 +8864,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-09",
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-starfsmanni-a-noc-vaktbord-hlutastarf-helgarvaktir",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8419,6 +8883,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-09",
             applicationUrl: "https://alfred.is/starf/project-manager-customer-delivery-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8437,6 +8902,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-09",
             applicationUrl: "https://alfred.is/starf/framleidslustarf-i-silicone-kvoeldvaktir-8",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8455,6 +8921,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-09",
             applicationUrl: "https://alfred.is/starf/rafvirki-243",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8473,6 +8940,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-10",
             applicationUrl: "https://alfred.is/starf/qa-microbiology-review-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8491,6 +8959,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-10",
             applicationUrl: "https://alfred.is/starf/senior-biotechnologist-downstream-operations",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8509,6 +8978,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-10",
             applicationUrl: "https://alfred.is/starf/we-are-hiring-skilled-steel-workers",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8527,6 +8997,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-13",
             applicationUrl: "https://alfred.is/starf/mjolkurfraedingur-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8545,6 +9016,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-13",
             applicationUrl: "https://alfred.is/starf/devops-serfraedingur-full-stack-forritari",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8563,6 +9035,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-13",
             applicationUrl: "https://alfred.is/starf/gagnaserfraedingur-data-engineer-gervigreind-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8581,6 +9054,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-14",
             applicationUrl: "https://alfred.is/starf/vidskiptastjori-133",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8599,6 +9073,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-14",
             applicationUrl: "https://alfred.is/starf/full-stack-ai-forritari-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8617,6 +9092,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-15",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-voeruthroun-isafjoerdur",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8635,6 +9111,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-17",
             applicationUrl: "https://alfred.is/starf/soelufulltrui-i-verslanir-bioeffect",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8653,6 +9130,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-17",
             applicationUrl: "https://alfred.is/starf/oeflugur-starfsmadur-oskast-i-vidhaldsdeild-solheima-2",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8671,6 +9149,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-17",
             applicationUrl: "https://alfred.is/starf/markadsstjori-jonsbok",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8689,6 +9168,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-22",
             applicationUrl: "https://alfred.is/starf/starfsmenn-i-heimathjonustu-i-fjardabyggd",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8707,6 +9187,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-22",
             applicationUrl: "https://alfred.is/starf/scientist-drug-product-development-process-development",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8725,6 +9206,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-22",
             applicationUrl: "https://alfred.is/starf/afgreidslu-starf-islenska-skilyrdi-11",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8743,6 +9225,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-22",
             applicationUrl: "https://alfred.is/starf/internal-communications-and-culture-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8761,6 +9244,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-22",
             applicationUrl: "https://alfred.is/starf/batch-record-reviewer-serfraedingur-i-yfirferd-lotuskraa-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8779,6 +9263,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-07-23",
             applicationUrl: "https://alfred.is/starf/infrastructure-facilities-assistant",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8797,6 +9282,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-01",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-throun-a-maeliadferdum-6",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8815,6 +9301,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-01",
             applicationUrl: "https://alfred.is/starf/qc-rannsoknarstofutaeknir-qc-laboratory-technician",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8833,6 +9320,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-01",
             applicationUrl: "https://alfred.is/starf/adstodarmanneskja-a-rannsoknarstofu-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8851,6 +9339,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-01",
             applicationUrl: "https://alfred.is/starf/qc-bioassay-principal-scientist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8869,6 +9358,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-01",
             applicationUrl: "https://alfred.is/starf/leikskolakennari-345",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8887,6 +9377,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-01",
             applicationUrl: "https://alfred.is/starf/qa-on-the-floor-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8905,6 +9396,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-01",
             applicationUrl: "https://alfred.is/starf/vidskiptathrounarstjori-a-islandi",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8923,6 +9415,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-01",
             applicationUrl: "https://alfred.is/starf/matreidslumadur-grillari-a-nordurtorgi",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8941,6 +9434,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-01",
             applicationUrl: "https://alfred.is/starf/commerical-operation-coordinator",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8959,6 +9453,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-04",
             applicationUrl: "https://alfred.is/starf/master-data-lead",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8977,6 +9472,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-05",
             applicationUrl: "https://alfred.is/starf/ehs-specialist-5",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -8995,6 +9491,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-06",
             applicationUrl: "https://alfred.is/starf/senior-aseptic-manufacturing-technician-yfirframleidslutaeknir-i-smitgatarframleidslu",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9013,6 +9510,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-06",
             applicationUrl: "https://alfred.is/starf/global-product-manager-4",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9031,6 +9529,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-08",
             applicationUrl: "https://alfred.is/starf/skrifstofu-og-mannaudsfulltrui-atlas-verktakar-ehf",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9049,6 +9548,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-08",
             applicationUrl: "https://alfred.is/starf/framleidslustarf-i-koltrefjadeild-oessur",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9067,6 +9567,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-17",
             applicationUrl: "https://alfred.is/starf/documentation-assistant",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9085,6 +9586,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-17",
             applicationUrl: "https://alfred.is/starf/verkefnastjori-thjonustusvids-vidhald-og-breytingar",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9103,6 +9605,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-17",
             applicationUrl: "https://alfred.is/starf/byrjadu-starfsferil-hja-alvotech-entry-level-manufacturing-operator-3",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9121,6 +9624,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-17",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-sjonraenni-gaedaskodun-visual-inspection-technologist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9139,6 +9643,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-17",
             applicationUrl: "https://alfred.is/starf/taeknimanneskja-i-framlinuthjonustu",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9157,6 +9662,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-17",
             applicationUrl: "https://alfred.is/starf/manufacturing-compliance-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9175,6 +9681,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-19",
             applicationUrl: "https://alfred.is/starf/verkefnastjori-innleiding-vidskiptavina-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9193,6 +9700,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-19",
             applicationUrl: "https://alfred.is/starf/fjarmalastjori-cfo-3",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9211,6 +9719,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-19",
             applicationUrl: "https://alfred.is/starf/soelufulltrui-252",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9229,6 +9738,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-20",
             applicationUrl: "https://alfred.is/starf/senior-operational-excellence-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9247,6 +9757,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-22",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-stjorn-og-eftirlitskerfum-control-sme",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9265,6 +9776,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-25",
             applicationUrl: "https://alfred.is/starf/serfraedingur-scientist-analytical-r-d-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9283,6 +9795,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-25",
             applicationUrl: "https://alfred.is/starf/senior-procurement-specialist-embla-medical",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9301,6 +9814,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-26",
             applicationUrl: "https://alfred.is/starf/ok-leitar-ad-starfsfolki-a-noc-vaktbord-hlutastarf-helgarvaktir",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9319,6 +9833,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-27",
             applicationUrl: "https://alfred.is/starf/verkefnastjori-framkvaemda-on-site-engineering-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9337,6 +9852,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-27",
             applicationUrl: "https://alfred.is/starf/arctic-trucks-leitar-ad-starfsmanni-a-dekkjaverkstaedid-thetta-er-framtidarstarf",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-08"
@@ -9355,6 +9871,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-27",
             applicationUrl: "https://alfred.is/starf/forstoedumadur-vidskipta-og-samningsmala-senior-commercial-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9373,6 +9890,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-27",
             applicationUrl: "https://alfred.is/starf/gaedaeftirlitsstjori-qa-qc-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9391,6 +9909,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-27",
             applicationUrl: "https://alfred.is/starf/cost-controller-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9409,6 +9928,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-29",
             applicationUrl: "https://alfred.is/starf/starfsmadur-i-bokhaldi-5",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9427,6 +9947,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-08-29",
             applicationUrl: "https://alfred.is/starf/assistant-store-manager-information-center-assistant-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9445,6 +9966,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-02",
             applicationUrl: "https://alfred.is/starf/sales-travel-agent",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-21"
@@ -9463,6 +9985,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-03",
             applicationUrl: "https://alfred.is/starf/housekeeping-cleaning-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-15"
@@ -9481,6 +10004,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-08",
             applicationUrl: "https://alfred.is/starf/bokari-og-uppgjoersadili-6",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-08"
@@ -9499,6 +10023,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-08",
             applicationUrl: "https://alfred.is/starf/verkfraedingur-i-voeruthroun-2",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-29"
@@ -9517,6 +10042,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/soelustjori-island",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-06"
@@ -9535,6 +10061,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/soelu-og-markadsfulltrui-34",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-06"
@@ -9553,6 +10080,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/qc-raw-materials-scientist-visual-inspection",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -9571,6 +10099,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-fjarmalum-22",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -9589,6 +10118,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-15",
             applicationUrl: "https://alfred.is/starf/senior-embedded-software-engineer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-01"
@@ -9607,6 +10137,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/assistant-project-manager-on-site",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -9625,6 +10156,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/adstodarmanneskja-i-moetuneyti-7",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -9643,6 +10175,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/gildinga-serfraedingur-e-validation-technician",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-01"
@@ -9661,6 +10194,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/qa-specialist-9",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-23"
@@ -9679,6 +10213,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/project-procurement-manager-iceland",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-29"
@@ -9697,6 +10232,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/starfsmadur-oskast-a-lager-hja-inter-ehf",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-06"
@@ -9715,6 +10251,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-16",
             applicationUrl: "https://alfred.is/starf/hr-manager-people-partner-global-business-functions",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-29"
@@ -9733,6 +10270,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-17",
             applicationUrl: "https://alfred.is/starf/data-engineer-18",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-29"
@@ -9751,6 +10289,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-17",
             applicationUrl: "https://alfred.is/starf/software-engineer-55",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-09-29"
@@ -9769,6 +10308,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-18",
             applicationUrl: "https://alfred.is/starf/product-designer-engineer-oessur",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-02"
@@ -9787,6 +10327,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-18",
             applicationUrl: "https://alfred.is/starf/fulltrui-a-fjarmalasvidi-bookkeeper",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -9805,6 +10346,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-18",
             applicationUrl: "https://alfred.is/starf/senior-specialist-manufacturing-operations-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-01"
@@ -9823,6 +10365,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-18",
             applicationUrl: "https://alfred.is/starf/qc-analytical-scientist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-01"
@@ -9841,6 +10384,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-19",
             applicationUrl: "https://alfred.is/starf/mst-compliance-support-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-02"
@@ -9859,6 +10403,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-19",
             applicationUrl: "https://alfred.is/starf/qa-specialist-product-testing-review",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-02"
@@ -9877,6 +10422,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-21",
             applicationUrl: "https://alfred.is/starf/global-product-owner-manufacturing-systems-embla-medical",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-02"
@@ -9895,6 +10441,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-23",
             applicationUrl: "https://alfred.is/starf/bifvelavirki-116",
+            startup: false,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -9913,6 +10460,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-23",
             applicationUrl: "https://alfred.is/starf/batch-record-reviewer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-06"
@@ -9931,6 +10479,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-23",
             applicationUrl: "https://alfred.is/starf/pikkolo-sendill-oskast-6",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-01"
@@ -9949,6 +10498,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-24",
             applicationUrl: "https://alfred.is/starf/mannauds-og-skrifstofufulltrui-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-04"
@@ -9967,6 +10517,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-24",
             applicationUrl: "https://alfred.is/starf/starfsmadur-a-renniverkstaedi-cnc-6",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-06"
@@ -9985,6 +10536,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-24",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-global-labeling",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-13"
@@ -10003,6 +10555,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-29",
             applicationUrl: "https://alfred.is/starf/quality-esystem-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-09"
@@ -10021,6 +10574,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-29",
             applicationUrl: "https://alfred.is/starf/office-operations-coordinator",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-16"
@@ -10039,6 +10593,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-29",
             applicationUrl: "https://alfred.is/starf/bifvelavirki-120",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-05"
@@ -10057,6 +10612,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-29",
             applicationUrl: "https://alfred.is/starf/business-central-specialist-3",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-06"
@@ -10075,6 +10631,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-29",
             applicationUrl: "https://alfred.is/starf/enterprise-architect-embla-medical",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-09"
@@ -10093,6 +10650,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-29",
             applicationUrl: "https://alfred.is/starf/manufacturing-cleaning-specialist",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-09"
@@ -10111,6 +10669,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-29",
             applicationUrl: "https://alfred.is/starf/skrifstofa-vr-a-egilsstoedum-starf-a-thjonustusvidi",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-05"
@@ -10129,6 +10688,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-30",
             applicationUrl: "https://alfred.is/starf/head-of-education",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-16"
@@ -10147,6 +10707,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-09-30",
             applicationUrl: "https://alfred.is/starf/education-producer",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-16"
@@ -10165,6 +10726,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-02",
             applicationUrl: "https://alfred.is/starf/senior-specialist-quality-control",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -10183,6 +10745,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-02",
             applicationUrl: "https://alfred.is/starf/oeryggisstjori-hse-manager",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-15"
@@ -10201,6 +10764,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-02",
             applicationUrl: "https://alfred.is/starf/digital-product-designer-ui-design-systems",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-09"
@@ -10219,6 +10783,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-02",
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-stjorn-og-eftirlitskerfum-control-sme-1",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-14"
@@ -10237,6 +10802,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-03",
             applicationUrl: "https://alfred.is/starf/head-of-warehouses-alvotech",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-16"
@@ -10255,6 +10821,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-03",
             applicationUrl: "https://alfred.is/starf/pikkolo-leitar-ad-skapandi-samfelagsmidlafulltrua",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -10273,6 +10840,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-06",
             applicationUrl: "https://alfred.is/starf/r-d-stodtaekjafraedingur-oessur",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -10291,6 +10859,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-06",
             applicationUrl: "https://alfred.is/starf/qc-analytical-product-testing-senior-scientist",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -10309,6 +10878,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-06",
             applicationUrl: "https://alfred.is/starf/ai-engineer",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -10327,6 +10897,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-08",
             applicationUrl: "https://alfred.is/starf/senior-full-stack-ai-forritari",
+            startup: true,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-17"
@@ -10345,6 +10916,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-08",
             applicationUrl: "https://alfred.is/starf/taeknifolk-i-framlinuthjonustu-1",
+            startup: false,
             featured: false,
             status: "filled",
             lastVerified: "2026-10-16"
@@ -10363,6 +10935,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-09",
             applicationUrl: "https://alfred.is/starf/capex-pmo-systems-specialist",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -10381,6 +10954,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-09",
             applicationUrl: "https://alfred.is/starf/field-service-specialist-service-build-enablement",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -10399,6 +10973,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-14",
             applicationUrl: "https://alfred.is/starf/senior-product-complaint-specialist",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -10417,6 +10992,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-14",
             applicationUrl: "https://alfred.is/starf/tkjaserfrdingur-uppsetning-thjonusta-og-thjalfun",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -10435,6 +11011,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-17",
             applicationUrl: "https://alfred.is/starf/payroll-specialist",
+            startup: true,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"
@@ -10453,6 +11030,7 @@ var StartupIcelandJobsData = {
             salary: null,
             postedDate: "2026-10-17",
             applicationUrl: "https://alfred.is/starf/taktu-forystu-i-kerfinu-sem-bjargar-mannslifum",
+            startup: false,
             featured: false,
             status: "active",
             lastVerified: "2026-10-17"

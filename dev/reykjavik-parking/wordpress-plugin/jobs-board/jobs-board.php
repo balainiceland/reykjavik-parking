@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Jobs Board
  * Plugin URI: https://startupiceland.com
  * Description: Searchable jobs board for Icelandic startups with filtering by category, type, level, and remote options.
- * Version: 1.2.0
+ * Version: 1.3.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -39,7 +39,7 @@ class Startup_Iceland_Jobs_Board {
                 'startup-jobs-css',
                 plugin_dir_url(__FILE__) . 'css/jobs-board.css',
                 array(),
-                '1.2.0'
+                '1.3.0'
             );
 
             // Plugin JS — fetches jobs data from jsDelivr CDN at runtime
@@ -47,7 +47,7 @@ class Startup_Iceland_Jobs_Board {
                 'startup-jobs-js',
                 plugin_dir_url(__FILE__) . 'js/jobs-board.js',
                 array(),
-                '1.2.0',
+                '1.3.0',
                 true
             );
         }
@@ -80,6 +80,13 @@ class Startup_Iceland_Jobs_Board {
                         <select id="sjb-category-filter">
                             <option value="all">All Categories</option>
                             <!-- Populated by JS -->
+                        </select>
+                    </div>
+                    <div class="sjb-filter-wrapper">
+                        <label for="sjb-employer-filter">Employer:</label>
+                        <select id="sjb-employer-filter">
+                            <option value="all">All Employers</option>
+                            <option value="startups">Startups Only</option>
                         </select>
                     </div>
                     <div class="sjb-filter-wrapper">
@@ -134,6 +141,10 @@ class Startup_Iceland_Jobs_Board {
                         <button type="button" data-trend="measure" data-value="postings" aria-pressed="true">Job postings</button>
                         <button type="button" data-trend="measure" data-value="companies" aria-pressed="false">Companies hiring</button>
                     </div>
+                    <div class="sjb-seg" role="group" aria-label="Employers">
+                        <button type="button" data-trend="employers" data-value="all" aria-pressed="true">All employers</button>
+                        <button type="button" data-trend="employers" data-value="startups" aria-pressed="false">Startups</button>
+                    </div>
                     <div class="sjb-seg" role="group" aria-label="Status">
                         <button type="button" data-trend="status" data-value="all" aria-pressed="true">All postings</button>
                         <button type="button" data-trend="status" data-value="open" aria-pressed="false">Open now</button>
@@ -149,7 +160,7 @@ class Startup_Iceland_Jobs_Board {
             <?php if ($show_count): ?>
             <!-- Count Bar -->
             <div class="sjb-count-bar">
-                <span>Showing <strong id="sjb-showing-count">0</strong> jobs from <strong id="sjb-company-count">0</strong> companies</span>
+                <span>Showing <strong id="sjb-showing-count">0</strong> jobs from <strong id="sjb-company-count">0</strong> companies<span id="sjb-startup-note"></span></span>
             </div>
             <?php endif; ?>
 
