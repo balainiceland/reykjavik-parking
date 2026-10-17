@@ -7,16 +7,24 @@
 var StartupIcelandJobsData = {
 
     metadata: {
-        lastUpdated: "2026-10-14",
+        lastUpdated: "2026-10-17",
         version: "1.0.0",
-        totalJobs: 576
+        totalJobs: 578
     },
 
     categories: {
         engineering: "Engineering",
+        it: "IT & Security",
+        science: "Science & R&D",
+        production: "Production & Trades",
+        healthcare: "Healthcare",
+        education: "Education",
+        hospitality: "Hospitality & Food",
+        "customer-service": "Customer Service",
         design: "Design",
         marketing: "Marketing",
         sales: "Sales",
+        consulting: "Consulting",
         operations: "Operations",
         product: "Product",
         finance: "Finance",
@@ -61,7 +69,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/34",
             featured: true,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 2,
@@ -79,7 +87,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/35",
             featured: true,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 3,
@@ -97,7 +105,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/31",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 4,
@@ -115,7 +123,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/33",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 5,
@@ -133,7 +141,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/30",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 6,
@@ -151,7 +159,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://treble.bamboohr.com/careers/36",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 7,
@@ -169,7 +177,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.ccpgames.com/en/postings/38bbae43-3698-49e1-9777-4de698f04965",
             featured: true,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 8,
@@ -187,7 +195,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://careers.ccpgames.com/postings/3918fe38-f52f-4e65-9890-f30f2bd2a4d3",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 9,
@@ -205,7 +213,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://monerium.com/jobs/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 10,
@@ -259,7 +267,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://dteehf.bamboohr.com/careers",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 13,
@@ -331,7 +339,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-full-stack-developer-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 17,
@@ -411,7 +419,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Wound Care Clinical Specialist",
             description: "Provide clinical expertise and support for Kerecis wound care products across multiple US locations.",
-            category: "other",
+            category: "healthcare",
             type: "full-time",
             experienceLevel: "mid",
             location: "USA (Multiple Locations)",
@@ -627,7 +635,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Consultant (German Speaking)",
             description: "Provide consulting services for LS Retail's unified commerce solutions. German language skills required.",
-            category: "other",
+            category: "consulting",
             type: "full-time",
             experienceLevel: "mid",
             location: "Europe (Remote)",
@@ -645,7 +653,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Consultant (French Speaking)",
             description: "Provide consulting services for LS Retail's unified commerce solutions. French language skills required.",
-            category: "other",
+            category: "consulting",
             type: "full-time",
             experienceLevel: "mid",
             location: "Europe (Remote)",
@@ -691,7 +699,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://jbtm.wd108.myworkdayjobs.com/en-US/JBT_Marel_Career_Site/details/Senior-Manager-Product-Management_19979",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 37,
@@ -709,7 +717,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://meniga.bamboohr.com/careers/98",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 38,
@@ -987,7 +995,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Pay Equity Consultant",
             description: "Advise clients on pay equity analysis and compliance. Help organizations achieve fair and transparent compensation practices.",
-            category: "other",
+            category: "consulting",
             type: "full-time",
             experienceLevel: "mid",
             location: "Tivoli, Italy",
@@ -1095,7 +1103,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Business Consultant",
             description: "Deliver consulting services for beqom's compensation management solutions. Work with clients to optimize their compensation processes.",
-            category: "other",
+            category: "consulting",
             type: "full-time",
             experienceLevel: "mid",
             location: "Leeds, UK",
@@ -1123,7 +1131,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://jobs.50skills.com/smittendating/en/40119",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 61,
@@ -1231,7 +1239,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "mailto:hr@krita.is",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 67,
@@ -1249,7 +1257,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.rapyd.net/company/careers/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 68,
@@ -1303,7 +1311,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.pikkolo.is",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 71,
@@ -1321,7 +1329,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "mailto:hlynur@hagvangur.is",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 72,
@@ -1375,7 +1383,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.hefringmarine.com",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 75,
@@ -1393,7 +1401,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tern.systems",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 76,
@@ -1411,7 +1419,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://ripple.com/careers",
             featured: true,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 77,
@@ -1447,7 +1455,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://jobs.50skills.com/smittendating/en",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 79,
@@ -1483,7 +1491,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-software-engineer-17/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 81,
@@ -1501,7 +1509,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/frontend-software-engineer-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 82,
@@ -1519,7 +1527,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/product-software-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 83,
@@ -1591,7 +1599,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/product-manager-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 87,
@@ -1609,7 +1617,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/engineering-delivery-lead-international-customers-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 88,
@@ -1627,7 +1635,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-frontend-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 89,
@@ -1645,7 +1653,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/machine-learning-engineer-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 90,
@@ -1663,7 +1671,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-quality-system-specialist-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 91,
@@ -1681,7 +1689,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/data-engineer-11/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 92,
@@ -1699,7 +1707,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/dba-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 93,
@@ -1717,7 +1725,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/frontend-developer-15/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 94,
@@ -1735,7 +1743,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/chief-technology-officer-cto/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 95,
@@ -1753,7 +1761,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/join-our-startup-as-lead-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 96,
@@ -1771,7 +1779,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/network-engineer-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 97,
@@ -1789,7 +1797,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/information-security-lead/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 98,
@@ -1807,7 +1815,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/summer-employee-associate-software-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 99,
@@ -1825,7 +1833,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/full-stack-forritari-fyrir-spennandi-gervigreindarverkefni/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 100,
@@ -1843,7 +1851,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/react-native-full-stack-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 101,
@@ -1861,7 +1869,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/bakendaforritari-21/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 102,
@@ -1869,7 +1877,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Framendaforritari",
             description: "Framendaforritari Kvika 25. Oct 2024 Fullt starf Við leitum af framendaforritara í banka- og verðbréfahóp á upplýsingatæknisviði bankans. Helstu verkefni eru rekstur og þróun á framendalausnum vörumerkja bankans sem eru notuð af tugþúsundum Íslendinga á hverjum degi. Ef þú hefur metnað til að takast á við krefjandi verkefni, hefur áhuga á fjármálastarfsemi og sækist í að kynnast flóknu...",
-            category: "other",
+            category: "engineering",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -1879,7 +1887,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/framendaforritari-27/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 103,
@@ -1897,7 +1905,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/backend-software-developer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 104,
@@ -1915,7 +1923,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-in-product-development/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 105,
@@ -1933,7 +1941,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-tm/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 106,
@@ -1951,7 +1959,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/netserfraedingur-4/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 107,
@@ -1969,7 +1977,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/security-engineer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 108,
@@ -1987,7 +1995,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/system-administrator-14/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 109,
@@ -2005,7 +2013,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/database-administrator/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 110,
@@ -2023,7 +2031,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/delivery-lead-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 111,
@@ -2041,7 +2049,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-in-customer-success-3/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 112,
@@ -2059,7 +2067,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/devops-engineer-25/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 113,
@@ -2077,7 +2085,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-quality-assurance-engineer-in-customer-success/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 114,
@@ -2095,7 +2103,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-in-customer-success/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 115,
@@ -2113,7 +2121,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineers-python-vue/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 116,
@@ -2131,7 +2139,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/junior-senior-it-consultants/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 117,
@@ -2149,7 +2157,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/engineering-manager-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 118,
@@ -2167,7 +2175,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-68/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 119,
@@ -2185,7 +2193,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-engineer-16/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 120,
@@ -2203,7 +2211,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-software-engineer-14/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 121,
@@ -2221,7 +2229,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-unreal-engine/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 122,
@@ -2239,7 +2247,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/system-administrator-10/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 123,
@@ -2257,7 +2265,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/data-integration-specialist/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 124,
@@ -2275,7 +2283,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/summer-internship/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 125,
@@ -2293,7 +2301,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/framendaforritari-react-native-developer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 126,
@@ -2311,7 +2319,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-in-product-development/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 127,
@@ -2329,7 +2337,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/research-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 128,
@@ -2347,7 +2355,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/leidtogi-i-hagnytingu-gervigreindar/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 129,
@@ -2365,7 +2373,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-system-specialist-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 130,
@@ -2373,7 +2381,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Viltu taka þátt í að móta framtíðina og koma hugbúnaðarverkefnum í innleiðingu og þróun?",
             description: "Viltu taka þátt í að móta framtíðina og koma hugbúnaðarverkefnum í innleiðingu og þróun? OR 24. Nov 2023 Fullt starf Við leitum að metnaðarfullum einstakling í fjölbreyttan hóp sérfræðinga á upplýsingatæknisviði OR samstæðunnar Helstu viðfangsefni Helstu viðfangsefni eru vinna í teymi með verkefnastjórum og viðskiptavinum við að móta og skrásetja hugbúnaðarkröfur , halda og stýra vinnufundum til...",
-            category: "other",
+            category: "engineering",
             type: "full-time",
             experienceLevel: "lead",
             location: "Iceland",
@@ -2383,7 +2391,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/viltu-taka-thatt-i-ad-mota-framtidina-og-koma-hugbunadarverkefnum-i-innleidingu-og-throun/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 131,
@@ -2401,7 +2409,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/technical-consultant-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 132,
@@ -2419,7 +2427,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/serfraedingur-i-notendathjonustu-5/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 133,
@@ -2427,7 +2435,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Junior Information Security Consultant",
             description: "Junior Information Security Consultant Syndis 9. Oct 2023 Fullt starf Við leitum að starfsfólki í stjórnunarlega öryggisráðgjöf (Information Security Management) í fjölbreytt verkefni fyrir spennandi fyrirtæki. Starfssvið: – Aðstoð við upplýsingaöryggisráðgjöf fyrir viðskiptavini – Tilfallandi ráðgjöfi og verkefnastýring – Vöruþróun og textasmíð Hæfniskröfur: – Áhugi á öryggismálum og að læra...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "entry",
             location: "Iceland",
@@ -2437,7 +2445,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/junior-information-security-consultant/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 134,
@@ -2445,7 +2453,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Senior Information Security Consultant",
             description: "Senior Information Security Consultant Syndis 9. Oct 2023 Fullt starf Við leitum að starfsfólki í stjórnunarlega öryggisráðgjöf (Information Security Management) í fjölbreytt verkefni fyrir spennandi fyrirtæki. Starfssvið: – Upplýsingaöryggisráðgjöf fyrir viðskiptavini – Kynningar og námskeið – Vöruþróun Hæfniskröfur: – Haldbær reynsla á sviði upplýsingaöryggis – Sjálfstæði í vinnubrögðum –...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "senior",
             location: "Iceland",
@@ -2455,7 +2463,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-information-security-consultant/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 135,
@@ -2473,7 +2481,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/core-developer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 136,
@@ -2491,7 +2499,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/it-support-specialist/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 137,
@@ -2509,7 +2517,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-front-end-developer-12/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 138,
@@ -2527,7 +2535,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-python-developer-4/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 139,
@@ -2545,7 +2553,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/technical-support-specialist-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 140,
@@ -2563,7 +2571,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-developer-37/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 141,
@@ -2581,7 +2589,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/kubernetes-developer-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 142,
@@ -2599,7 +2607,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-devops-cloud-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 143,
@@ -2617,7 +2625,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/network-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 144,
@@ -2635,7 +2643,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/system-architect-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 145,
@@ -2653,7 +2661,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/project-manager-7/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 146,
@@ -2671,7 +2679,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/research-engineer-air-traffic-control-systems/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 147,
@@ -2679,7 +2687,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Upplýsingaöryggisstjóri með reynslu",
             description: "Upplýsingaöryggisstjóri með reynslu Syndis 17. Mar 2023 Fullt starf Ert þú upplýsingaöryggisstjóri sem vilt vinna í stærsta upplýsingaöryggisfyrirtæki landsins? Við leitum að starfsfólki með reynslu í stjórnunarlegri öryggisráðgjöf í fjölbreytt verkefni fyrir spennandi fyrirtæki. Starfssvið: Upplýsingaöryggisráðgjöf við viðskiptavini Upplýsingaöryggisstjóri til leigu (vCISO) Hæfniskröfur: A.m.k....",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -2689,7 +2697,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/upplysingaoryggisstjori-med-reynslu/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 148,
@@ -2707,7 +2715,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/director-cybersecurity/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 149,
@@ -2715,7 +2723,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Stjórnunarleg öryggisráðgjöf Syndis",
             description: "Stjórnunarleg öryggisráðgjöf Syndis Syndis 21. Feb 2023 Fullt starf Við leitum að starfsfólki í stjórnunarlega öryggisráðgjöf í fjölbreytt verkefni fyrir spennandi fyrirtæki. Starfssvið: Öryggisráðgjöf við viðskiptavini Kynningar og námskeið Vöruþróun Hæfniskröfur: Áhugi á öryggismálum og að læra nýja hluti Mjög góð samskiptahæfni Hafa GAMAN Metnaður og samviskusemi Færni í rituðu og töluðu máli,...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -2725,7 +2733,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/stjornunarleg-oryggisradgjof-syndis-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 150,
@@ -2743,7 +2751,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/hugbunadarserfraedingur-solution-architect/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 151,
@@ -2751,7 +2759,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Social Media Manager / Samfélagsmiðlastjóri",
             description: "Join us in creating the most fun dating app in the world 🫶\n\nSmitten is a gamified dating app that gets you into better conversations.We believe work should be fun, and you should be excited to get to work on Mondays. That mindset is why, over the past few years, we’ve been recognized by Great Place to Work as one of Iceland’s top workplaces.\n\nIf you are the kind of person who can’t help but...",
-            category: "other",
+            category: "marketing",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -2769,7 +2777,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "OK leitar að kerfisstjóra",
             description: "OK leitar að áhugasömum einstakling með kerfisstjórareynslu til að bætast við frábært teymi okkar í kerfisstjórn.\nUm er að ræða fullt starf á dagtíma með mætingu á starfsstöð á höfuðborgarsvæðinu.\nVinnutími er frá kl 8:00-16:00 alla virka daga.\n\nHjá OK starfar fjölbreyttur hópur fólks og hvetjum við öll sem uppfylla hæfnikröfur og hafa áhuga á starfinu til að sækja um, óháð kyni.\n\nHelstu...",
-            category: "other",
+            category: "it",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -2841,7 +2849,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Gesta þjónusta / Guest service",
             description: "Heimaleiga óskar eftir áreiðanlegum og skipulögðum einstaklingi í kvöld- og bakvaktir\n\nHeimaleiga leitar að þjónustuliprum og ábyrgum einstaklingi til að sinna síðdegis- og kvöldþjónustu fyrir hótelíbúðir. Starfið felur í sér samskipti við gesti, létt viðhaldsverk og viðbrögð við neyðartilvikum utan hefðbundins vinnutíma.\nHeimaleiga þjónustar íbúðir í skammtímaleigu á höfðuborgarsvæðinu og...",
-            category: "other",
+            category: "customer-service",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -2859,7 +2867,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Viðskiptastjóri hjá fjártæknifyrirtæki",
             description: "Kríta er í hraðri sókn og leitar að lausnamiðuðum og metnaðarfullum viðskiptastjóra til að styrkja söluteymið okkar.\n\nÍ þessu lykilhlutverki munt þú byggja upp og þróa ný viðskiptasambönd, sinna samskiptum við núverandi viðskiptavini og tryggja að þjónustan okkar sé ætíð í fremstu röð. Þú verður andlit Kríta gagnvart fyrirtækjum sem treysta sveigjanlegum fjármögnunarlausnum Kríta.\n\nUm Kríta...",
-            category: "other",
+            category: "sales",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -2877,7 +2885,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsmaður í flutningum og birgðastjórnun (Logistics and Supply Chain Associate)",
             description: "Kerecis óskar eftir að ráða skipulagðan og metnaðarfullan einstakling í starf starfsmanns í flutningum og birgðastjórnun. Um er að ræða fullt starf á starfstöð fyrirtækisins á Ísafirði. Æskilegt er að viðkomandi geti hafið störf sem fyrst.\n\nHelstu verkefni og ábyrgð\n\n• Eftirlit með birgðastöðu aðfanga\n• Umsjón með birgðatalningum aðfanga og framleiddra vara\n• Móttaka og skoðun á aðföngum\n•...",
-            category: "other",
+            category: "operations",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -2905,7 +2913,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/fullstack-developer-python-react-firebase/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 160,
@@ -2913,7 +2921,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Hefur þú áhuga á að starfa við umsjón rannsóknarstofa? / We are seeking a Lab Manager",
             description: "Við leitum að öflugum aðila til að hafa umsjón með rannsóknarstofum okkar (e. Lab Manager) innan R&D. Um er að ræða tímabundna stöðu til eins árs. Við hvetjum áhugasama til að kynna sér starfið betur hér fyrir neðan.\n\nÍ starfinu verður þú hluti af teymi sem styður R&D starfsemina með framúrskarandi umsjón rannsóknastofa. Í þessu hlutverki munt þú sjá um að tryggja að rekstur rannsóknarstofa sé...",
-            category: "other",
+            category: "science",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -2931,7 +2939,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Senior Sterility Assurance Specialist / Reyndur sérfræðingur í dauðhreinsun og örveruöryggi",
             description: "Við leitum að reynslumiklum sérfræðingi í dauðhreinsun og örveruöryggi til að ganga til liðs við teymið okkar á spennandi vaxtarskeiði. Í þessu hlutverki munt þú gegna lykilhlutverki í að móta og styrkja aðferðir okkar í smitgát, dauðhreinsun og örverustýringu í bæði virkniefna‑ (DS) og lyfjaformunarframleiðslu (DP).\n\nÞú munt starfa í kraftmiklu og samvinnumiðuðu umhverfi, þar sem þú kemur...",
-            category: "other",
+            category: "science",
             type: "internship",
             experienceLevel: "senior",
             location: "Reykjavik, Iceland",
@@ -2967,7 +2975,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Bókari",
             description: "Garðheimar óska eftir jákvæðum og skipulögðum bókara til að slást í hópinn. Starfið felur í sér fjölbreytt verkefni á fjármálasviði.\n\nUm er að ræða 100% starf. Æskilegt er að viðkomandi geti hafið störf fljótlega.\n\nHelstu verkefni og ábyrgð\n\nFærsla og afstemning bókhalds.\n\nMóttaka og skráning reikninga. \n\nReikningagerð, innheimta og eftirfylgni. \n\nGreiðsla innlendra reikninga. \n\nÝmis...",
-            category: "other",
+            category: "finance",
             type: "internship",
             experienceLevel: "mid",
             location: "Iceland",
@@ -3049,7 +3057,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-47/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 168,
@@ -3075,7 +3083,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Bara tala leitar að íslenskukennara",
             description: "Íslenska með hreim er tákn um hugrekki!\n\nBara tala er íslenskt nýsköpunarfyrirtæki sem brennur fyrir því að auðvelda fólki að læra og auka færni sína í íslensku. Við þróum stafræna tungumálalausn sem byggir á íslenskri máltækni þar sem áhersla er lögð á talmál, starfstengdan orðaforða og hagnýta íslensku í daglegu lífi.\n\nVið leitum nú að drífandi og skapandi kennara eða fræðslustjóra til að...",
-            category: "other",
+            category: "education",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3111,7 +3119,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í pökkunardeild Coripharma",
             description: "Coripharma leitar að sérfræðingi í pökkunardeild á framleiðslusviði. Við óskum eftir öflugum aðila sem getur unnið sjálfstætt sem og í teymi og hefur þekkingu og reynslu á sviði gæðamála og GMP.\n\nSérfræðingurinn mun annast fjölbreytt verkefni og er í daglegum samskiptum við teymið í pökkun sem og aðrar deildir innan fyrirtækisins. Verkefni sérfræðings tengjast bæði undirbúningi og stuðningi...",
-            category: "other",
+            category: "production",
             type: "contract",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3129,7 +3137,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Vélamaður í pökkunardeild/Packaging Mechanic",
             description: "Coripharma í Hafnarfirði leitar að reynslumiklum og ábyrgðarfullum vélamanni til starfa við pökkunarlínur í pökkunardeild á framleiðslussviði. Um er að ræða krefjandi og tæknilegt starf í lyfjaframleiðslu þar sem vélamaðurinn gegnir lykilhlutverki í að vinna með sérhæfðar og flóknar pökkunarvélar samkvæmt ströngum gæðakröfum og GMP-stöðlum.\n\nVélamaður ber ábyrgð á og sérhæfir sig í uppsetningu...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3147,7 +3155,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Vöruhúsastjóri",
             description: "Dýrheimar óska eftir að ráða öflugan og skipulagðan einstakling í starf vöruhúsastjóra. Leitað er að jákvæðum aðila sem er tilbúinn til að starfa í hröðu þekkingarteymi. Um er að ræða fullt starf.\n\nHelstu verkefni:\n\n· Dagleg stjórnun vöruhúss\n\n· Móttaka og tiltekt pantana\n\n· Vörumóttaka og gámalosun\n\n· Umsjón með útkeyrslu pantana sem og tilfallandi útkeyrsla\n\n· Umhirða og eftirlit með...",
-            category: "other",
+            category: "operations",
             type: "internship",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -3165,7 +3173,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Vaktstjóri í pökkunardeild/Shift manager in Packaging",
             description: "Framleiðslusvið Coripharma leitar að traustum og ábyrgum einstaklingi í starf vaktstjóra í pökkunardeild. Í pökkunardeild er unnið með sérhæfðan vélbúnað þar sem töflum og hylkjum er pakkað í þynnur og glös. Unnið er samkvæmt GMP og öryggisstöðlum.\n\nVaktstjóri vinnur vaktavinnu líkt og annað starfsfólk vaktarinnar.\n\nUm er að ræða þrískiptar vaktir (dag-, kvöld- og næturvakt) frá mánudegi til...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3219,7 +3227,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Prentumsjón / Artwork Coordinator",
             description: "Coripharma leitar að metnaðarfullum og sjálfstæðum einstaklingi í prentumsjón (artwork coordination) hjá Innkaupa- og áætlanadeild. Þú munt vinna við fjölbreytt og krefjandi verkefni, hafa samskipti við viðskiptavini og prentsmiðjur og tryggja gæði og tímasetningu prentverka frá frumgögnum til útgáfu. Ef þú hefur reynslu úr prentiðnaði, sterka þekkingu á grafískum forritum og góða...",
-            category: "other",
+            category: "design",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3291,7 +3299,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starf í áfyllingu hjá BIOEFFECT",
             description: "BIOEFFECT leitar að öflugum starfsmanni í áfyllingu á húðvörum félagsins. Um er að ræða fullt starf.\n\nStarfið tilheyrir framleiðslusviði félagsins sem sér um framleiðslu, pökkun og afgreiðslu á allri húðvörulínu BIOEFFECT. Vörurnar eru sendar til söluaðila á Íslandi og um allan heim en vörur félagsins eru seldar í 26 löndum. BIOEFFECT eru al-íslenskar húðvörur og fer öll framleiðsla...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Iceland",
@@ -3309,7 +3317,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Afleysingarmanneskja í mötuneyti",
             description: "Viltu taka þátt í verkefnum með það að markmiði að bæta hreyfanleika fólks?\n\nVið leitum að jákvæðum og duglegum liðsfélaga í afleysingarstarf til 6 mánaða (til 1. sept 2026), með möguleika á framlengingu.\n\nMötuneyti Össurar framreiðir fjölbreyttan og hollan mat fyrir starfsfólk fyrirtækisins. Starfið felur í sér framreiðslu á mat, uppvask, almenn þrif og aðstoð við önnur tilfallandi...",
-            category: "other",
+            category: "hospitality",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3327,7 +3335,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Customer Success Manager",
             description: "About Kara Connect:\nKara Connect is a leading Nordic wellbeing platform on a mission to become the world’s leading hub for employee support. We are a truly international organisation with a head office in Iceland, a strategic hub in Dublin, and a growing team in the United Kingdom.\nWe value diversity of thought and a strong work ethic. If you are a team player who is ready to take total...",
-            category: "other",
+            category: "customer-service",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3363,7 +3371,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "RAFVIRKI / RAFMAGNSSÉRFRÆÐINGUR",
             description: "atNorth heldur áfram að stækka starfsemi sína á Fitjum og leitar að kraftmiklum reynslubolta í starf í rafvirkja/rafmagnssérfræðings.\n\nVið kunnum að meta góða liðsfélaga sem eru áhugasamir um að læra og vaxa í heimi gagnavera og gervigreindar.\n\nÁreiðanleg rafkerfi eru mikilvægur hlekkur í starfsemi gagnavera okkar og mikilvægt að uppsetning þeirra, viðhald og rekstur séu með skilvirkum og...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3381,7 +3389,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Viltu starfa í upplýsingatækni?",
             description: "OK leitar að áhugasömum einstakling til að bætast við frábært teymi okkar í fjar- og vettvangsþjónustu. Um er að ræða fullt starf á dagtíma.\n\nStarfið hentar einkar vel þjónustuliprum einstaklingum sem hafa áhuga á tækni og eiga auðvelt með samskipti við viðskiptavini hvort sem er í síma eða í eigin persónu.\n\nHjá OK starfar fjölbreyttur hópur fólks og hvetjum við öll sem uppfylla hæfnikröfur og...",
-            category: "other",
+            category: "it",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3417,7 +3425,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Framleiðslutæknir - Manufacturing Technologist",
             description: "Gakktu til liðs við framleiðsluteymið hjá Alvotech í Reykjavík! Við leitum að einstaklingum með jákvætt viðhorf, góða aðlögunarhæfni og getu til að takast á við áskoranir. Vinna á dag- og kvöldvöktum er nauðsynleg.\n\nÞessi staða býður upp á hagnýta reynslu í alþjóðlegu umhverfi ásamt fjölbreyttum tækifærum til starfsþróunar!\n\n\n\nHelstu verkefni og ábyrgð:\n\nFlutningur framleiðsluefna frá vöruhúsi...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3435,7 +3443,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Atmonia leitar að verkefnisstjóra",
             description: "Atmonia er nýsköpunarfyrirtæki á sviði djúptækni.\n\nVið leitum að lausnamiðaðri manneskju í hlutastarf verkefnastjóra og aðstoðarmanns framkvæmdastjóra. Verkefnin verða fjölbreytt. Helstu verkefni felast meðal annars í að hafa umsjón með og samhæfa tímalínur verkefna, auðvelda samskipti milli hagsmunaaðila og tryggja að áfangar verkefnia náist. Halda utan um verkferla og tryggja samræmi við...",
-            category: "other",
+            category: "operations",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3453,7 +3461,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "OK leitar að leiðtoga yfir NOC vaktborði",
             description: "OK leitar að áhugasömum, drífandi einstakling með kerfisstjórareynslu til að takast á við nýja stöðu sem NOC leiðtogi með okkar frábæra vöktunar-teymi og koma að framþróun á þjónustunni, kerfum, verklagi og öðru. Um er að ræða fullt starf á dagtíma með mætingu á starfsstöð á höfuðborgarsvæðinu. Vinnutími er að jafnaði frá kl 8:00-16:00 alla virka daga.\n\nHjá OK starfar fjölbreyttur hópur fólks...",
-            category: "other",
+            category: "it",
             type: "internship",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -3471,7 +3479,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Purchasing Processor / Sérfræðingur í innkaupum",
             description: "Við leitum að nákvæmum og skipulögðum sérfræðingi í innkaupum til að slást í lið með okkur. Um er að ræða 10 mánaða tímabundið starf, með möguleika á framlengingu.\n\nÍ starfinu styður viðkomandi við dagleg innkaupaferli fyrir framleiðslu, rannsóknarstofur, gæðateymi og verkfræðisvið. Hlutverkið felur í sér nákvæma vinnu í SAP, samskipti við birgja og áreiðanlega umsýslu gagna.\n\n(English)\n\nWe...",
-            category: "other",
+            category: "operations",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3517,7 +3525,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "mailto:gislinils@stigalolduna.is",
             featured: true,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 194,
@@ -3525,7 +3533,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Almennur starfsmaður í úrbeiningardeild",
             description: "Við leitum að metnaðarfullum og ábyrgum aðilum í framleiðslustörf hjá Kjötvinslunni Síld og fisk (Ali).\n\nVinnutími:\nMánudagur: 07:00 - 15:00\nÞriðjudagur til fimmtudagur: 06:00-15:00\nFöstudagur: 07:00 - 11:30\n\nSíld og fiskur (Ali) er dótturfélag Langasjávar ehf. Félög í samstæðunni sérhæfa sig í framleiðslu og dreifingu á matvælum. Fyrirtækið vinnur markvisst að jafnréttismálum og stuðlar að...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Iceland",
@@ -3543,7 +3551,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Áhættustýring indó - sérfræðingur í útlánum",
             description: "Ertu sérfræðingur í útlánum og kannt að hugsa út fyrir bankann?\n\nÚtlánastarfsemi indó er í örum vexti og því leitum við að drífandi og kraftmiklum liðsfélaga í áhættustýringateymið okkar til að móta næsta kafla með okkur. Við leitum að einstaklingi með reynslu af lánamálum og góðan skilning á regluverki fjármálafyrirtækja til að þróa og reka útlánaumgjörð indó.\n\nVið leitum að aðila með...",
-            category: "other",
+            category: "finance",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3579,7 +3587,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Bókari",
             description: "Verne óskar eftir að ráða bókara til að sjá um fjárhagsbókhald, um er að ræða tímabundna stöðu í eitt ár. Starfsstöð er í Keflavík með möguleika á fjarvinnu 1-2 daga í viku. Um er að ræða tímabundna stöðu til 1 árs.\n\n\nHelstu verkefni og ábyrgð:\n\nDaglegt fjárhagsbókhald, tryggja að það sé í samræmi við reikningsskila staðla, skattareglur og stefnu samstæðu\nYfirsýn fjárhagsferla og...",
-            category: "other",
+            category: "finance",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -3597,7 +3605,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "indó leitar að þjónustufulltrúa í framtíðarstarf",
             description: "Ertu lausnamiðað samskiptaséní sem kann að hugsa út fyrir bankann? Þá gætum við verið að leita að þér!\n\nVið hjá indó erum að leita að margslungnum og metnaðarfullum þjónustufulltrúa í teymið okkar. Við leitum því að áhugasömum orkubolta með menntun og reynslu sem nýtist í starfi, en það er þó engin þörf á að vera bankasérfræðingur, enda erum við ekki banki.\n\nÞjónustuteymi indó sér um allt það...",
-            category: "other",
+            category: "customer-service",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3633,7 +3641,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Markaðsfulltrúi",
             description: "Garðheimar leita að metnaðarfullum og drífandi einstaklingi með mikla sköpunargleði til að ganga til liðs við markaðsdeildina okkar. Um er að ræða mjög fjölbreytt starf við markaðssetningu á breiðu vöruúrvali verslunarinnar þar sem mikið af markaðsefni er unnið innanhúss. Mjög spennandi tækifæri á frábærum vinnustað þar sem hæfileikar hvers og eins fá að njóta sín. Um er að ræða 80% starf með...",
-            category: "other",
+            category: "marketing",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3669,7 +3677,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sumarstarf í Erfðafræðihópi Matís",
             description: "Erfðafræðideild Matís leitar að öflugum starfskrafti til að taka þátt í erfðagreiningarverkefni sumarið 2026. Verkefnið miðar að greiningu arfgerða sem tengjast þoli gegn riðu í sauðfé.\n\nHelstu verkefni og ábyrgð\n\nStarfið felur einkum í sér:\n\nMóttöku sýna og flutning lífsýna í sýnaglös,\nDNA-útdrátt og\nPCR greiningar\n\nStarfstími er frá miðjum maí fram á síðla hausts.\n\nUmsækjendur eru beðnir um...",
-            category: "other",
+            category: "science",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3687,7 +3695,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Framleiðslustarf | Bionic Technician",
             description: "Langar þig að vera hluti af spennandi og sterkri liðsheild innan Bionic framleiðslu Össurar?\n\nVið leitum að liðsauka við framleiðslu á hátæknivörum fyrir viðskiptavini Össurar um allan heim. Við bjóðum spennandi umhverfi þar sem framþróun er í hávegum höfð. Lögð er áhersla á öruggt vinnuumhverfi og stöðugar umbætur þar sem starfsfólki er gefið tækifæri til að hafa áhrif á...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3723,7 +3731,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Verkfræðingur í Gæðasetri",
             description: "Viltu taka þátt í að tryggja að tæknilausnir sem breyta lífi fólks standist hæstu gæðakröfur?\n\nÍ Gæðasetri Össurar færðu tækifæri til að vinna að nýjustu lækningatækjum, greina flókin gögn og hafa bein áhrif á vörur sem koma til með að bæta líf þúsunda notenda um heim allan. Við leitum að lausnamiðuðum og framsæknum verkfræðingi sem hefur áhuga á tækni, greiningum og samvinnu við fjölbreytt...",
-            category: "other",
+            category: "engineering",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3741,7 +3749,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Framkvæmdastjóri rannsókna og þróunar",
             description: "BIOEFFECT leitar að öflugum og reynslumiklum stjórnanda til að leiða rannsóknar- og vöruþróunarstarf fyrirtækisins. Um er að ræða lykilhlutverk þar sem viðkomandi ber ábyrgð á þróun og eflingu vöruframboðs BIOEFFECT, með sterkri vísindalegri nálgun og áherslu á gæði, öryggi og virkni.\n\nFramkvæmdastjóri rannsókna og þróunar leiðir faglegt rannsóknastarf, vinnur að nýsköpun og kemur fram fyrir...",
-            category: "other",
+            category: "science",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -3795,7 +3803,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Director of Corporate Development (M&A) | Embla Medical",
             description: "Viltu taka þátt í verkefnum með það að markmiði að bæta hreyfanleika fólks?\n\nFjármálateymi Embla Medical leitar að metnaðarfullum Director of Corporate Development (M&A). Director of Corporate Developement (M&A) ber ábyrgð á að leiða alþjóðlegt M&A ferli Embla Medical, sem felur í sér að meta og framkvæma samruna, yfirtökur og aðrar stefnumarkandi fjárfestingar sem styrkja langtíma...",
-            category: "other",
+            category: "operations",
             type: "full-time",
             experienceLevel: "executive",
             location: "Reykjavik, Iceland",
@@ -3831,7 +3839,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "HSE SÉRFRÆÐINGUR",
             description: "atNorth heldur áfram að stækka á Akureyri og leitar nú að lausnamiðuðum og skipulögðum aðila starf HSE sérfræðings.\n\nVið leitum að einstaklingi með brennandi áhuga á öryggis, umhverfis- og heilbrigðismálum sem vill tryggja að vinnuumhverfið sé ávallt öruggt, faglegt og í samræmi við gildandi kröfur.\n\nÍ þessu starfi verður þú lykilaðili í að leiða og innleiða öfluga öryggismenningu innan...",
-            category: "other",
+            category: "operations",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -3849,7 +3857,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Verkefnastjórar (Project Managers)",
             description: "(English below)\n\nSpennandi tækifæri í ört vaxandi grænu orkufyrirtæki.\n\nReykjavík Geothermal er eitt metnaðarfyllsta orkufyrirtæki landsins. Frá stofnun þess árið 2008 hefur félagið unnið að þróunar-, fjárfestinga- og ráðgjafaverkefnum á sviði jarðhita í yfir 50 þjóðlöndum í flestum heimsálfum. Í dag er fyrirtækið í örum vexti og er meðal annars að þróa eigin verkefni á Kanaríeyjum og á...",
-            category: "other",
+            category: "operations",
             type: "contract",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -3867,7 +3875,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Jarðfræðingur eða jarðefnafræðingur (Geologist or Geochemist)",
             description: "(English Below)\n\n\nSpennandi tækifæri í ört vaxandi grænu orkufyrirtæki.\n\nReykjavík Geothermal er eitt metnaðarfyllsta orkufyrirtæki landsins. Frá stofnun þess árið 2008 hefur félagið unnið að þróunar-, fjárfestinga- og ráðgjafaverkefnum á sviði jarðhita í yfir 50 þjóðlöndum í flestum heimsálfum. Í dag er fyrirtækið í örum vexti og er meðal annars að þróa eigin verkefni á Kanaríeyjum og á...",
-            category: "other",
+            category: "science",
             type: "internship",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -3885,7 +3893,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Jarðeðlisfræðingur (Geophysicist)",
             description: "(English below)\n\nSpennandi tækifæri í ört vaxandi grænu orkufyrirtæki.\n\nReykjavík Geothermal er eitt metnaðarfyllsta orkufyrirtæki landsins. Frá stofnun þess árið 2008 hefur félagið unnið að þróunar-, fjárfestinga- og ráðgjafaverkefnum á sviði jarðhita í yfir 50 þjóðlöndum í flestum heimsálfum. Í dag er fyrirtækið í örum vexti og er meðal annars að þróa eigin verkefni á Kanaríeyjum og á...",
-            category: "other",
+            category: "science",
             type: "internship",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -3921,7 +3929,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í orkusölusamningum og viðskiptaþróun (Business Development Specialist)",
             description: "(English below)\n\nSpennandi tækifæri í ört vaxandi grænu orkufyrirtæki.\n\nReykjavík Geothermal er eitt metnaðarfyllsta orkufyrirtæki landsins. Frá stofnun þess árið 2008 hefur félagið unnið að þróunar-, fjárfestinga- og ráðgjafaverkefnum á sviði jarðhita í yfir 50 þjóðlöndum í flestum heimsálfum. Í dag er fyrirtækið í örum vexti og er meðal annars að þróa eigin verkefni á Kanaríeyjum og á...",
-            category: "other",
+            category: "sales",
             type: "contract",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -3993,7 +4001,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "IT Support Administrator",
             description: "Viltu taka þátt í verkefnum með það að markmiði að bæta hreyfanleika fólks?\n\nVið leitum að hressum og áreiðanlegum aðila í IT Support Iceland teymi Össurar. IT Support Iceland sinnir notendaþjónustu á vél- og hugbúnaði fyrir starfsfólk Össurar á Ísland.\n\nErt þú tæknisérfræðingurinn í þinni fjölskyldu? Ert þú alltaf fengin/nn/ð til að laga netið hjá fjarskyldum frænkum? Hringir amma þín bara í...",
-            category: "other",
+            category: "it",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -4011,7 +4019,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í matvælaörverufræði",
             description: "Matís leitar að metnaðarfullum og öflugum sérfræðingi til starfa á rannsóknastofu okkar í Reykjavík. Um er að ræða fjölbreytt og krefjandi starf á sviði matvælaörverufræði þar sem nákvæmni, fagmennska og samstarfshæfni eru lykilatriði.\n\nHelstu verkefni og ábyrgð\nFramkvæmd almennra örverurannsókna með faggildum aðferðum, þ.m.t. undirbúningur sýna fyrir ræktun og greiningar örvera eftir...",
-            category: "other",
+            category: "science",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -4029,7 +4037,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "POS Customer Support - Summer Position",
             description: "Our Customer Service team at Rapyd Europe is looking for a tech-savvy POS Customer Support representative to join us for the summer. If you love troubleshooting hardware, working with networks, and helping merchants succeed, this is for you!\n\nIt’s a fast-paced role with on-call shifts, perfect for someone who thrives under pressure.\n\nHelstu verkefni og ábyrgð\nSet up and maintenance service of...",
-            category: "other",
+            category: "customer-service",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -4047,7 +4055,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Netsérfræðingur",
             description: "OK leitar að öflugum netsérfræðingi með haldgóða reynslu.\nVið leitum að einstakling sem hefur brennandi áhuga á netmálum og almennu upplýsingaöryggi til að bætast í hópinn og hjálpa okkur í spennandi netverkefnum hjá viðskiptavinum OK. Starfið tilheyrir Kjarnalausnum OK og felst í ráðgjöf og þjónustu við viðskiptavini ásamt uppsetningum og verkefnavinnu.\n\nHjá OK starfar fjölbreyttur hópur...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -4083,7 +4091,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "NOC Specialist - Summer Position",
             description: "Rapyd Europe is looking for a NOC Specialist to join our Iceland-based team for the summer season! If you love troubleshooting, monitoring high-stakes systems, and working in a fast-paced 24/7 environment, we want to meet you. It’s a great chance to gain hands-on experience with global payment tech while working with an incredible team.\n\nHelstu verkefni og ábyrgð\nManaging NOC daily...",
-            category: "other",
+            category: "it",
             type: "internship",
             experienceLevel: "mid",
             location: "Iceland",
@@ -4137,7 +4145,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Hjúkrunarfræðingur í áhættumati persónutrygginga",
             description: "Það er okkur hjá TM kappsmál að veita framúrskarandi ráðgjöf og þjónustu. Við auglýsum nú laust starf hjúkrunarfræðings í áhættumati persónutrygginga og leitum að öflugum og jákvæðum einstaklingi með ríka þjónustulund, framúrskarandi samskiptahæfileika og mikinn metnað í 50% starf.\n\nHelstu verkefni og ábyrgð\nMóttaka og yfirferð umsókna um persónutryggingar\nSamskipti við umsækjendur, lækna og...",
-            category: "other",
+            category: "healthcare",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -4209,7 +4217,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Rafvirki / Facility Maintenance Electrician",
             description: "Alvotech leitar að rafvirkja. Viðkomandi mun setja upp, viðhalda rafkerfum og búnaði til að tryggja örugga og skilvirka starfsemi í lyfjaframleiðsluumhverfi sem fylgir GMP-stöðlum. Verkefnið felur einnig í sér reglulegt viðhald, að uppfylla viðeigandi reglur og staðla, og að halda nákvæma skráningu.\n\nHelstu verkefni og ábyrgð\n\nSetja upp, viðhalda og lagfæra rafkerfi og búnað til að tryggja...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -4389,7 +4397,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Leikskólakennarar",
             description: "Leikskólinn Jötunheimar auglýsir eftir leikskólakennurum sem fyrst eða eftir samkomulagi.\n\nLeitað er að leikskólakennurum sem hafa áhuga á að starfa í leikskóla þar sem fram fer faglegt leikskólastarf með áherslu á leik, samvinnu, traust og gleði. Í leikskólanum Jötunheimum er virkt lærdómssamfélag og teymisvinna en ásamt því er leikskólinn einnig Heilsueflandi leikskóli.\n\nLeikskólakennari...",
-            category: "other",
+            category: "education",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -4479,7 +4487,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sumar og sólarstarf á kaffihúsi og í verslun á Sólheimum í Grímsnesi",
             description: "Kaffihúsið Græna kannan og verslunin Vala á Sólheimum óska eftir að ráða í sumarstörf, bæði full vinna og hlutastörf.\n\nStarfið er líflegt og hentar fólki sem vill þjónusta, selja og gefa af sér til annarra, gesta og íbúa.\n\nVið leitum af jákvæðu, brosmildu og ábyrgu fólki sem býr yfir þjónustulund, lipurð í mannlegum samskiptum, hefur áhuga á hreinlæti, er stundvíst og heiðarlegt.\n\nAð lágmarki...",
-            category: "other",
+            category: "hospitality",
             type: "part-time",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -4569,7 +4577,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starf í Framleiðslu hjá BIOEFFECT",
             description: "BIOEFFECT leitar að öflugum starfsmanni í átöppun á húðvörum félagsins. Um er að ræða fullt starf.\n\nVinnutími er 8-16 mánudaga til fimmtudaga og 8-15 á föstudögum.\n\nStarfið tilheyrir framleiðslusviði félagsins sem sér um framleiðslu, pökkun og afgreiðslu á allri húðvörulínu BIOEFFECT. Vörurnar eru sendar til söluaðila á Íslandi og um allan heim en vörur félagsins eru seldar í 26 löndum....",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -4605,7 +4613,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsmaður á lager | Warehouse Employee",
             description: "Við óskum eftir að ráða öfluga manneskju í vöruhús Össurar sem er áhugasöm um að takast á við nýjar áskoranir, lipur í samskiptum og fellur vel inn í öflugan hóp starfsfólks.\n\nVöruhúsið þjónustar allar framleiðsludeildir og stoðdeildir Össurar. Við leggjum mikla áherslu á hátt þjónustustig, vönduð vinnubrögð og góðan starfsanda.\n\nMenntunar- og hæfniskröfur\nAlmenn tölvukunnátta, þekking á...",
-            category: "other",
+            category: "operations",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -4677,7 +4685,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "SKJALASTJÓRI",
             description: "Hér er spennandi tækifæri fyrir metnaðarfullan aðila sem hefur áhuga á að taka vikan þátt í að móta samræmda og faglega skjalastjórnun í byggingaframkvæmdum í alþjóðlegu umhverfi.\n\natNorth leitar að skipulögðum og nákvæmum aðila í starf skjalastjóra.\n\nSkjalastjóri styður við Verkefnastofu (PMO) atNorth og vinnur að því að tryggja samræmda og vandaða skjalastjórnun í öllum þróunarverkefnum...",
-            category: "other",
+            category: "operations",
             type: "contract",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -4785,7 +4793,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í hráefnamælingum á gæðrannsóknadeild",
             description: "Coripharma leitar af sérfræðingi inn á gæðarannsóknardeild. Við leitum að einstaklingi sem hefur gaman af vinnu á rannsóknarstofu og hefur getu til að vinna sjálfstætt sem og að skila af sér niðurstöðum í takt við tímalínur. Mikilvægt er að starfsmaðurinn passi inn í skemmtilegan hóp sem fyrir starfa við deildina.\n\nHráefnamælingar eru fjölbreyttar og viðkomandi þarf að geta tileinkað sér...",
-            category: "other",
+            category: "science",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -4821,7 +4829,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í hagdeild (FP&A)",
             description: "Kvika leitar að sérfræðingi í viðskiptagreind og greiningum innan hagdeildar bankans. Verkefnin eru margvísleg en hagdeild stýrir m.a. áætlanagerð samstæðunnar, vinnur að þróun stjórnendaupplýsinga og lykilmælikvarða, ásamt því að annast skýrslu- og upplýsingagjöf til eftirlitsaðila.\n\nHelstu verkefni og ábyrgð\n\n·         Þróun og rekstur á lykilmælikvörðum samstæðu\n\n·         Þróun á...",
-            category: "other",
+            category: "finance",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -4857,7 +4865,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Viltu stýra ört stækkandi gagnaveri hjá spennandi alþjóðlegu fyrirtæki?",
             description: "Gagnaver atNorth á Reykjanesi, ICE02 er vaxandi gagnaver á Norðurlöndum. Áætlað er að gagnaverið muni skila meira en 20 milljörðum í tekjum á ári en í dag starfa þar um 40 starfsmenn. Gert er ráð fyrir því að þeim fjölgi í um 100 eftir að stækkun gagnaversins lýkur.\n\nVið leitum nú að öflugum leiðtoga til að stýra starfsemi á svæðinu en hlutverkið krefst mikillar reynslu af rekstri ásamt...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -4875,7 +4883,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Stuðningsfulltrúar óskast í sumarafleysingar",
             description: "Félagsþjónusta Sólheima óskar eftir að ráða stuðningsfulltrúa í sumarafleysingar, til að aðstoða þjónustunotendur í sjálfstæðri búsetu sem og með búsetu í íbúðakjörnum.\n\nUm er að ræða 100% störf í afleysingum. Unnið er í vaktalotum, langar vaktir í 6 daga og frí í 8 daga á milli.\n\nÆskilegt er að umsækjandi hafi reynslu af störfum með fötluðu fólki, sé jákvæður og hafi ríka þjónustulund. Laun...",
-            category: "other",
+            category: "healthcare",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5019,7 +5027,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Spennandi tækifæri hjá Alvotech / Maintenance Technician",
             description: "Alvotech er leiðandi alþjóðlegt líftæknifyrirtæki sem vinnur að því að gera líftæknilyf aðgengilegri um allan heim. Við leitum að metnaðarfullum einstaklingum sem vilja taka þátt í að tryggja áreiðanleika og öryggi framleiðsluferla í lyfjaverksmiðju fyrirtækisins. Unnið er á dag-, kvöld- og næturvöktum.\n\nHelstu verkefni\n\nFramkvæma reglubundið viðhald og viðgerðir á búnaði.\nTaka þátt í...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5127,7 +5135,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sumarafleysing - Starfsmaður í heimaþjónustu",
             description: "Fjölskyldusvið Fjarðabyggðar leitar eftir metnaðarfullum og áhugasömum einstaklingi til sumarstarfs í heimaþjónustu í Fjarðabyggð. Að öllu jafna er inni á heimilum og eftir þjónustusamningum hvers og eins þjónustuþega, staðsetningin er því breytileg. Um er að ræða tímabundið 100% starfshlutfall.\n\nStarfsmaður í heimaþjónustu starfar eftir lögum um félagsþjónustu sveitarfélaga nr. 40/1991, lögum...",
-            category: "other",
+            category: "healthcare",
             type: "part-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -5145,7 +5153,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Technician",
             description: "Alvotech leitar að nákvæmum, skipulögðum, jákvæðum og áhugasömum einstaklingi til að ganga til liðs við Analytical R&D Physicochemical Assays teymið sem Analytical R&D Technician.\n\nStarfið felur í sér fjölbreyttar sýnagreiningar sem styðja við vöruþróun og reglugerðargögn, ásamt daglegum verkefnum tengdum umhirðu og rekstri rannsóknastofu.\n\n(English)\n\nAlvotech is looking for an organized,...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5173,7 +5181,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-engineer-iceland/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 286,
@@ -5181,7 +5189,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Aðstoðarmanneskja í þvottahús rannsóknar",
             description: "Gæðarannsóknardeild er hluti af gæðasviði Coripharma og sér um mælingar á hráefnum sem notuð eru í lyfjaframleiðslu, sem og mælingar á framleiðsluvörum fyrirtækisins.\n\nVið leitum að ábyrgri og nákvæmri aðstoðarmanneskju í þvottahús rannsóknarstofu. Starfið felst aðallega í þvotti á rannsóknarvörum, tiltekt og frágangi. Einnig felur starfið í sér móttöku og utanumhald á birgðum rannsóknarefna...",
-            category: "other",
+            category: "hospitality",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5199,7 +5207,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Hreinsitæknir / Manufacturing Cleaning Specialist",
             description: "Hreinsitæknir / Manufacturing Cleaning Specialist\n\nAlvotech í Reykjavík leitar eftir áhugasömum einstaklingum til að ganga til liðs við framleiðsluteymið í stöðu hreinsitæknis.\n\nSem hreinsitæknir munt þú gegna mikilvægu hlutverki við að viðhalda hreinlæti í framleiðslunni hjá okkur. Hjá Alvotech störfum við í reglubundnu umhverfi sem krefst umfangsmikillar þjálfunar. Við leitum að...",
-            category: "other",
+            category: "hospitality",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5217,7 +5225,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Tjónafulltrúi persónutjóna",
             description: "Það er okkur hjá TM kappsmál að veita framúrskarandi ráðgjöf og þjónustu. Við auglýsum nú laust tímabundið starf tjónafulltrúa til 12 mánaða í teymi persónutjóna og leitum að jákvæðum einstaklingi með framúrskarandi samskiptahæfileika, ríka þjónustulund og metnað.\n\nHelstu verkefni og ábyrgð\nAlmenn afgreiðsla vegna persónutjóna\nMóttaka og skráning tjónstilkynninga\nSamskipti og þjónusta við...",
-            category: "other",
+            category: "customer-service",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5253,7 +5261,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sölustjóri óskast",
             description: "Við leitum að drífandi og metnaðarfullum einstaklingi sem hefur áhuga á að taka þátt í að byggja upp ört stækkandi samfélag Kozmoz notenda.\n\nUm er að ræða hlutastarf sem hentar vel með annarri vinnu og gefur þér tækifæri til að hafa bein áhrif á stefnumótun og vöruþróun fyrirtækisins.\n\nHelstu verkefni felast í að kynna Kozmoz appið fyrir iðnaðarmönnum og verktökum ásamt því að aðstoða nýja...",
-            category: "other",
+            category: "sales",
             type: "part-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -5271,7 +5279,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Tæknimaður í umsjón og viðhaldi vélbúnaðar við tæknideild",
             description: "Coripharma leitar að lausnamiðuðum, metnaðarfullum og jákvæðum einstaklingi í starf tæknimanns í umsjón og viðhaldi vélbúnaðar við tæknideild.\n\nTæknideild Coripharma er stoðdeild innan framleiðslu- og verkfræðisviðs og sér um viðhald og eftirlit með mjög fjölbreyttum tækjabúnaði í verksmiðju og á rannsóknarstofum fyrirtækisins, sem staðsett er í Hafnarfirði.\n\nStarfsemi Coripharma þarf að...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5289,7 +5297,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Umsjónarmaður fasteigna og viðhalds",
             description: "Heimaleiga leitar að umsjónarmanni í viðhaldi fasteigna.\n\nHelsta ábyrgðarsvið umsjónarmanns er að sinna viðhaldi og eftirliti með fasteignum sem Heimaleiga er með í rekstri.\n\nStarfslýsing:\n\nViðhald fasteigna\n\nReglulegt eftirlit fasteigna\n\nAkstur á sendingum\n\nÝmislegt fleira\n\nHæfniskröfur:\n\nMenntun eða reynsla sem nýtist í starfi\n\nÞekking/reynsla af almennu viðhaldi fasteigna\n\nReynsla af léttum...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5307,7 +5315,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Útkeyrsla og lagerstarf - Delivery Driver & Warehouse worker",
             description: "Síld og Fiskur (Ali) óskar eftir starfsmanni í lager og útkeyrslu.\n\nMarkmið og tilgangur starfs:\n\nMarkmið og tilgangur starfsins er að sjá um útkeyrslu á pöntunum til viðskiptavina Ali á 15 tonna bíl með lyftu. Gild ökuréttindi í bifreiðaflokki C er nauðsyn. Það er kostur að geta hafið störf sem fyrst.\n\nVinnutími er frá 7-15:15\n\nVið hvetjum konur jafnt sem karla til að sækja um...",
-            category: "other",
+            category: "operations",
             type: "part-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -5335,7 +5343,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/infra-wizard/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 295,
@@ -5343,7 +5351,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Tjónafulltrú eignatjóna",
             description: "Það er okkur hjá TM kappsmál að veita framúrskarandi ráðgjöf og þjónustu. Við auglýsum nú laust starf tjónafulltrúa í eignatjónum og leitum að öflugum og jákvæðum einstaklingi með ríka þjónustulund, framúrskarandi samskiptahæfileika og mikinn metnað.\n\nHelstu verkefni og ábyrgð\n\nAlmenn afgreiðsla vegna eignatjóna \n\nTjónaskráning og mat á bótaskyldu \n\nTjónaskoðanir og tjónamat \n\nSamskipti og...",
-            category: "other",
+            category: "customer-service",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5361,7 +5369,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "CNC starfsmaður í frumgerðarsmíði / CNC Machinist",
             description: "Við leitum að færum CNC starfsmanni á fræsivélar og rennibekki til að starfa á þróunarrenniverkstæði Össurar. Starfsmaðurinn sérhæfir sig í frumgerðarsmíði og smíði á íhlutum fyrir vélar í framleiðslu og þróun.\n\nMenntunar- og hæfniskröfur\n\nSveinspróf í rennismíði \n\nDrifkraftur og frumkvæði í verkefnavinnu \n\nGetur bæði unnið sjálfstætt og sem hluti af teymi \n\nReynsla af vinnu á...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5379,7 +5387,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Tæknimaður með reynslu",
             description: "atNorth stækkar á Akureyri og leitar að tæknimanni með reynslu til starfa í gagnaver sitt.\n\natNorth á Akureyri leitar að öflugum, skipulögðum og lausnamiðuðum tæknimanni með reynslu.\n\nÞetta er kjörið tækifæri fyrir einstakling sem vill taka þátt í að móta stöðugt vaxandi starfsemi gagnavers atNorth á Akureyri.\n\natNorth leggur mikinn metnað í að mennta starfsfólk sitt og veita þjálfun í öllu...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5407,7 +5415,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/quality-assurance-lead-2/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 299,
@@ -5415,7 +5423,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Stuðningsfulltrúar óskast í félagsþjónustu Sólheima.",
             description: "Sólheima óskar eftir að ráða tvo stuðningsfulltrúa til starfa í félagsþjónustu Sólheima. Stuðningsfulltrúar aðstoða þjónustunotendur í sjálfstæðri búsetu og þjónustunotendur með búsetu í íbúðakjörnum.\n\nUm er að ræða tvær 100% stöður. Unnið er í vaktalotum, langar vaktir 6 daga í senn og frí í 8 daga á milli.\n\nÆskilegt er að umsækjandi hafi reynslu af störfum með fötluðu fólki, sé jákvæður og...",
-            category: "other",
+            category: "healthcare",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5433,7 +5441,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Strategic Purchaser",
             description: "JBT Marel leitar að drífandi og framsýnum Strategic Purchaser til að ganga til liðs við Innkaupateymið okkar í Garðabæ. Í þessu áhrifamikla starfi munt þú taka þátt í að móta vöruflokkastefnu, leiða innkaupaverkefni og tryggja að aðfangakeðjan sé tilbúin fyrir framtíðar nýsköpun og vöxt.\n\nÞú munt vinna náið með þverfaglegum teymum og birgjum— og gegna lykilhlutverki í að koma nýrri tækni í...",
-            category: "other",
+            category: "operations",
             type: "part-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -5451,7 +5459,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsmaður í Gæðasetri | Össur",
             description: "Í Gæðasetrinu vinnum við að því að tryggja að tæki sem sjúklingar treysta á séu örugg, áreiðanleg og í hæstu gæðum.\n\nSem starfsmaður í Gæðasetrinu tekur þú þátt í verkefnum sem hafa bein áhrif á líf og heilbrigði notenda um allan heim. Í þessu hlutverki verður þú mikilvægur hluti af daglegri starfsemi Gæðasetursins og styður við fjölbreytt verkefni sem snúa að prófunum, greiningum og...",
-            category: "other",
+            category: "operations",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5469,7 +5477,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Commissioning and Qualification Specialist",
             description: "Langar þig að byggja upp feril í stjórnun, prófun og staðfestingu á GMP‑búnaði og kerfum? Hefur þú áhuga á hagnýtri tækni­vinnu sem skiptir raunverulegu máli í framleiðslu á líftæknilyfjum? Við hjá Alvotech leitum að Specialist í Commissioning & Qualification (C&Q) til að styrkja teymið okkar og tryggja að búnaður, kerfi og aðstaða uppfylli alþjóðlega GMP‑staðla.\n\n[English]\n\nAre you motivated...",
-            category: "other",
+            category: "science",
             type: "contract",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5487,7 +5495,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Verkefnastjóri upplýsingatæknimála",
             description: "Heimar leita að drífandi og tæknilega sterkum verkefnastjóra upplýsingatæknimála til að taka við og þróa áfram mikilvægt hlutverk innan félagsins. Um er að ræða sjálfstætt lykilhlutverk með víðtækt svigrúm til áhrifa, þar sem upplýsingatækni styður við metnaðarfull þróunarverkefni og áframhaldandi uppbyggingu reksturs. Viðkomandi þarf að búa yfir góðri samskiptafærni og eiga auðvelt með að...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "lead",
             location: "Iceland",
@@ -5523,7 +5531,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "ERP Application Support Lead",
             description: "We are seeking a motivated individual to join our team and take ownership of critical system support and operational excellence.\nThis role is primarily hands-on and operational, with a strong focus on resolving daily system issues, supporting users, and ensuring system stability. The role involves close collaboration with both business stakeholders and technical teams to maintain system...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "lead",
             location: "Iceland",
@@ -5559,7 +5567,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "OK leitar að starfsmanni á NOC vaktborð",
             description: "OK leitar að áhugasömum og metnaðarfullum einstakling til að sinna starfi NOC vaktmanns á miðlægri vöktunarmiðstöð félagsins. Um er að ræða fullt starf á dagtíma með mætingu á starfsstöð á höfuðborgarsvæðinu. Vinnutími er að jafnaði frá kl 8:00-16:00 alla virka daga en möguleiki á tilfallandi vöktum utan dagtíma vegna afleysinga annarra í teyminu.\n\nHjá OK starfar fjölbreyttur hópur fólks og...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5577,7 +5585,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sölumaður Vogabæjar",
             description: "Mjólkursamlag Kaupfélags Skagfirðinga óskar eftir að ráða sölumann í tímabundið starf í starfsstöð þess í Reykjavík.\n\nHelstu verkefni og ábyrgð\nSala og þjónusta við viðskiptavini\nReglulegar heimsóknir til viðskiptavina\nUppröðun og framsetning vara í verslunum\nMenntunar- og hæfniskröfur\nJákvæðni og þjónustulund\nGóð samstarfs- og samskiptahæfni\nFrumkvæði, sjálfstæði og metnaður í starfi\nGóð...",
-            category: "other",
+            category: "sales",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5613,7 +5621,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Verslunarstarf í byggingavöruverslun",
             description: "Byggingavöruverslunin Eyri á Sauðárkróki óskar eftir að ráða starfsmann í fullt starf.\n\nHelstu verkefni og ábyrgð\nAfgreiðsla á timbri og grófvöru\nLyftaravinna\nUmsjón útisvæðis\nMenntunar- og hæfniskröfur\nJákvæðni og þjónustulund\nGóð hæfni í mannlegum samskiptum\nGóð almenn tölvukunnátta\nBílpróf og vinnuvélaréttindi\nReynsla af verslunarstörfum er kostur\nIðnmenntun eða reynsla/þekking á...",
-            category: "other",
+            category: "customer-service",
             type: "internship",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -5631,7 +5639,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Arctic Trucks - Dekkjaverkstæði",
             description: "Starfsmaður óskast á dekkjaverkstæði (dekkjatörn)\n\nArctic Trucks Ísland ehf., leitar að öflugum starfsmanni í komandi dekkjatörn. Um er að ræða tímabundið starf með möguleika á áframhaldandi ráðningu fyrir réttan aðila.\n\nStarfið felst í:\n\nDekkjaskiptum og þjónustu (stór jeppa- og sérdekk)\nUppsetningu aukahluta á bifreiðar\nAlmennri verkstæðisvinnu\n\nKröfur:\n\nGóð líkamleg geta (stór...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5649,7 +5657,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Bílstjóri Vogabæjar",
             description: "Mjólkursamlag Kaupfélags Skagfirðinga óskar eftir að ráða bílstjóra í tímabundið starf í starfsstöð þess í Reykjavík.\n\nHelstu verkefni og ábyrgð\nÚtkeyrsla á framleiðsluvörum\nSamskipti við viðskiptavini\nÞrif og umhirða bifreiðar\nMenntunar- og hæfniskröfur\nJákvæðni og þjónustulund\nGóð samstarfs- og samskiptahæfni\nSjálfstæð vinnubrögð, stundvísi og áreiðanleiki\nGóð íslensku- og...",
-            category: "other",
+            category: "operations",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5695,7 +5703,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/senior-devops-engineer-4/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 315,
@@ -5721,7 +5729,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Skrifstofu- og rekstrarumsjón",
             description: "Viltu starfa í fjölbreyttu hlutverki þar sem skipulag, samskipti og yfirsýn skipta máli? Við leitum að drífandi og skipulögðum einstaklingi til að taka að sér mikilvægt hlutverk í daglegum rekstri fyrirtækisins.\n\nStarfið snýr að því að halda utan um allt sem þarf að ganga upp - frá daglegu skrifstofuhaldi yfir í samskipti, skipulag og eftirfylgni verkefna. Við leitum að einstaklingi sem hefur...",
-            category: "other",
+            category: "operations",
             type: "part-time",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -5793,7 +5801,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Framleiðslustarf í Silicone deild - framtíðarstarf",
             description: "Langar þig að vera hluti af sterkri liðsheild innan stærstu framleiðslueiningar Össurar?\n\nVið leitum að liðsauka við framleiðslu á hágæða sílíkonhulsum fyrir viðskiptavini okkar um allan heim. Framleiðslan okkar er spennandi umhverfi þar sem framþróun er í hávegum höfð. Lögð er áhersla á öruggt vinnuumhverfi, stöðugar umbætur og starfsfólki gefið tækifæri til að hafa áhrif á...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5829,7 +5837,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Viðhaldsmaður í verksmiðju Siglufjörður",
             description: "Við hjá Primex ehf á Siglufirði leitum að öflugum viðhaldsmanni í teymið okkar. Um er að ræða spennandi og krefjandi starf hjá vaxandi fyrirtæki í sjávarlíftækni og nýsköpun.\n\nViðhaldsmaður sér um að byggja upp og viðhalda árangursríku viðhaldi alls búnaðar í framleiðsludeild og verksmiðju félagsins.\n\nHelstu verkefni og ábyrgð\nViðhaldsmaður vinnur að daglegum rekstri viðhalds ásamt því að sjá...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -5865,7 +5873,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Íþróttafræðingur/íþróttakennari",
             description: "Leikskólinn Jötunheimar auglýsir eftir íþróttafræðingi/íþróttakennara frá og með 6. ágúst 2026 í fullt starf. Hlutastarf kemur til greina.\n\nLeitað er að íþróttafræðingi/íþróttakennara sem hefur áhuga á að starfa í leikskóla þar sem fram fer faglegt leikskólastarf með áherslu er á leik, samvinnu, traust og gleði. Í leikskólanum Jötunheimum er virkt lærdómssamfélag og teymisvinna en ásamt því er...",
-            category: "other",
+            category: "education",
             type: "part-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -5919,7 +5927,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Leikskólasérkennari/Þroskaþjálfi",
             description: "Leikskólinn Jötunheimar auglýsir eftir leikskólasérkennara/þroskaþjálfa frá og með 6. ágúst 2026.\n\nLeitað er að leikskólasérkennara/þroskaþjálfa sem hafa áhuga á að starfa í leikskóla þar sem fram fer faglegt leikskólastarf með áherslu er á leik, samvinnu, traust og gleði. Í leikskólanum Jötunheimum er virkt lærdómssamfélag og teymisvinna en ásamt því er leikskólinn einnig Heilsueflandi...",
-            category: "other",
+            category: "healthcare",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -5955,7 +5963,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsmaður þvottahúss og bílstjóri",
             description: "Heimaleiga leitar að áreiðanlegum og skipulögðum einstaklingi til að sinna þvottahúsvinnu og þvottaakstri. Þetta er fjölbreytt fullt starf sem felur í sér bæði akstur á þvotti um helgar og þvottahúsavinnu á virkum dögum.\n\n\nHeimaleiga is looking for a reliable and organized individual to join our team as a laundry driver and laundry employee. This is a varied full-time role combining driving on...",
-            category: "other",
+            category: "hospitality",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -5991,7 +5999,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Verkefnastjóri viðhalds og framkvæmda",
             description: "Kaldalón er fasteignafélag með um 170.000 fermetra fasteigna. Félagið á dreift eignasafn víðsvegar um höfuðborgarsvæðið og er skráð á Aðalmarkað Nasdaq Iceland. Kaldalón er lítið í sniðum en stórt í framkvæmd – aðeins fimm starfsmenn vinna hjá félaginu þar sem lögð er áhersla á samvinna, ábyrgð og stuttar boðleiðir.\n\nKaldalón leitar nú að öflugri og lausnamiðaðri manneskju í stöðu...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6009,7 +6017,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sölumaður í jeppabúð",
             description: "Arctic Trucks á Íslandi ehf. óskar eftir því að ráða öflugan sölumann í verslun sína að Kletthálsi. Viðkomandi þarf að hafa reynslu af sölumennsku og þekkja vel til jeppa og jeppamennsku.\n\nVið leitum að starfsmanni sem getur hafið störf sem fyrst og býr yfir framúrskarandi þjónustulund, áreiðanleika og jákvæðni.\n\nHelstu verkefni og ábyrgð\n        Sala á jeppadekkjum\n        Sala á ferðavörum...",
-            category: "other",
+            category: "sales",
             type: "part-time",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -6045,7 +6053,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Gæðaskoðun",
             description: "Við óskum eftir að ráða öfluga manneskju í gæðaskoðun sem tilheyrir framleiðsludeild Össurar. Viðkomandi mun sinna mælingum og prófunum á hráefni og íhlutum fyrir framleiðslu, ásamt því að aðstoða og leysa af við kvörðun mælibúnaðar. Lögð er mikil áhersla á hátt þjónustustig og vönduð og nákvæm vinnubrögð.\n\nHelstu verkefni og ábyrgð\n\nMóttökuskoðun, framkvæmd gæðamælinga á íhlutum og hráefni og...",
-            category: "other",
+            category: "operations",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6063,7 +6071,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "OK leitar að kerfisstjóra með Microsoft þekkingu",
             description: "OK leitar að áhugasömum einstakling með kerfisstjórareynslu til að bætast við frábært teymi okkar í kerfisstjórn.\nOK er með starfsstöðvar á höfuðborgarsvæðinu, Selfossi og Sauðárkróki og er möguleiki á að sinna starfinu á öllum þeim starfsstöðum. Um er að ræða fullt starf á dagtíma.\n\nHjá OK starfar fjölbreyttur hópur fólks og hvetjum við öll sem uppfylla hæfnikröfur og hafa áhuga á starfinu...",
-            category: "other",
+            category: "it",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6081,7 +6089,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Leikskólakennarar",
             description: "Leikskólinn Hulduheimar auglýsir eftir leikskólakennurum frá og með 6. ágúst 2026.\n\nLeikskólakennari starfar samkvæmt stefnumörkun leikskólans sem tekur meðal annars mið af menntastefnu Sveitarfélagsins Árborgar, aðalnámskrá leikskóla, lögum og reglugerðum um leikskóla og öðrum lögum er við eiga.\n\nLeitað er að leikskólakennurum sem eru tilbúnir að starfa í leikskóla þar sem fram fer faglegt...",
-            category: "other",
+            category: "education",
             type: "part-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -6099,7 +6107,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Leikskólakennari hjá leikskólanum Álfheimum",
             description: "LeLeikskólinn Álfheimar auglýsir eftir leikskólakennurum frá og með 5.ágúst 2026.\n\n\nLeitað er að leikskólakennurum sem hafa áhuga á að starfa í leikskóla þar sem fram fer\nfaglegt leikskólastarf með áherslu er á leik, samvinnu, virðingu, hlýju, traust og gleði. Í\nleikskólanum Álfheimum er virkt lærdómssamfélag og teymisvinna en ásamt því er\nleikskólinn einnig grænfána leikskóli þar sem lögð er...",
-            category: "other",
+            category: "education",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -6135,7 +6143,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérkennslustjóri hjá leikskólanum Álfheimum",
             description: "Leikskólinn Álfheimar auglýsir eftir sérkennslustjóra frá og með 5. ágúst 2026.\nLeitað er að áhugasömum og metnaðarfullum einstaklingi sem er fær um að taka að sér umsjón með sérkennslu, stjórnunarlega ábyrgð og þátttöku í stjórnunarteymi.\nSérkennslustjóri starfar samkvæmt stefnumörkun leikskólans sem tekur miðal annar mið af\nmenntastefnu Sveitafélagsins Árborgar, aðaln´mskrá leikskóla, lögum...",
-            category: "other",
+            category: "education",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -6153,7 +6161,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Deildarstjóri hjá leikskólanum Álfheimum",
             description: "Leikskólinn Álfheimar auglýsir eftir deildarstjórum frá og með 5.ágúst 2026.\nLeitað er að deildarstjórum með leiðtogahæfileika sem eru tilbúnir að taka þátt í að leiða\náfram og þróa metnaðarfullt og faglegt starf leikskólans þar sem samvinna, traust og\ngleði ríkir. Í leikskólanum Álfheimum er virkt lærdómssamfélag og teymisvinna en ásamt\nþví er leikskólinn einnig grænfánaleikskóli sem leggur...",
-            category: "other",
+            category: "education",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -6181,7 +6189,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/software-quality-assurance-engineer-5/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 342,
@@ -6189,7 +6197,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Leikskólakennarar",
             description: "Leikskólinn Goðheimar auglýsir eftir leikskólakennurum frá og með 6. ágúst 2026.\n\nLeitað er eftir leikskólakennurum sem hafa áhuga á að starfa í leikskóla þar sem fram fer faglegt leikskólastarf með áherslu á leik og leikumhverfi barna. Í Goðheimum er lögð áhersla á vellíðan nemenda, að þeir séu meðvitaðir um eigin tilfinningar og styrkleika og geti sýnt sjálfum sér og öðrum vinsemd og...",
-            category: "other",
+            category: "education",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -6207,7 +6215,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Þjónustufulltrúi í móttöku / Service Representative",
             description: "Við leitum að þjónustufulltrúa í móttöku Alvotech. Þjónustufulltrúi hjá okkur sinnir lykilhlutverki í daglegri starfsemi fyrirtækisins. Starfið er fjölbreytt þjónustustarf þar sem áhersla er lögð á faglega móttöku, góð samskipti og stuðning við starfsfólk og gesti. Þjónustufulltrúi vinnur þvert á deildir og er mikilvægur tengiliður í daglegum rekstri.\n\n(English)\n\nThe Service Representative at...",
-            category: "other",
+            category: "customer-service",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6225,7 +6233,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfskraftur í heimaþjónustu",
             description: "Við leitum að öflugum og lausnamiðuðum einstaklingum til starfa í heimaþjónustu um kvöld og helgar á Seltjarnarnesi.\n\nVinnutími er 16:00-20:00 á virkum dögum og 13:00-17:00 um helgar\n\nStarfið hentar mjög vel með námi og sem sumarstarf\n\nStaða er laus strax\n\nHelstu verkefni og ábyrgð\n\nFélagslegur stuðningur\n\nAðstoða skjólstæðinga við dagleg verkefni \n\nLétt heimilisstörf\n\nSamskipti og...",
-            category: "other",
+            category: "healthcare",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6243,7 +6251,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérhæft starf við próteinvinnslu",
             description: "Mjólkursamlag Kaupfélags Skagfirðinga á Sauðárkróki óskar eftir að ráða öflugan einstakling í sérhæft starf við próteinvinnslu félagsins.\n\nHelstu verkefni og ábyrgð\n\n• Ábyrgð á daglegri keyrslu próteinverksmiðju \n• Eftirlit með vélum og tækjum\n• Gæðaeftirlit á framleiðslu\n• Innkaup\n\nMenntunar- og hæfniskröfur\n\n• Mjólkurfræði eða annað matvæla tengt nám er kostur\n• Góð færni í mannlegum...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -6297,7 +6305,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "IT Support Technician",
             description: "The IT Support Technician will provide hands-on, day-to-day IT support for approximately 50 office-based users on the KEF site, while also contributing to remote helpdesk support for a wider user base of approximately 200 employees and contractors across three regions. The role is focused on delivering reliable end-user support, owning and progressing tickets, maintaining strong documentation,...",
-            category: "other",
+            category: "it",
             type: "contract",
             experienceLevel: "mid",
             location: "Iceland",
@@ -6315,7 +6323,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Tæknimaður / Viðgerðarmaður óskast til Inter ehf.",
             description: "Inter ehf. leitar að drífandi og handlögnum einstakling í teymi okkar. Við þjónustum hátæknibúnað fyrir heilbrigðisgeirann og vantar liðsauka sem er tilbúinn að takast á við krefjandi og spennandi verkefni, jafnt á verkstæði sem og úti hjá viðskiptavinum.\n\nStarfssvið:\n\nAlhliða þjónusta, viðhald og viðgerðir á lækningatækjum og tengdum búnaði.\nUppsetningar á nýjum búnaði á heilbrigðisstofnunum...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6333,7 +6341,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Lagerstjóri Kvik innréttinga",
             description: "KVIK innréttingar leitar að öflugum og skipulögðum einstaklingi til að sinna starfi lagerstjóra\n\nVið bjóðum upp á spennandi starf í lifandi og vaxandi fyrirtæki þar sem gott starfsumhverfi og teymisandi er í fyrirrúmi.\n\nUmsóknir sendist í gegnum í Alfreð. Best er ef umsækjandi geti hafið störf fljótlega.\n\nHelstu verkefni og ábyrgð\nUmsjón og skipulag á lager og birgðum\nMóttaka, talning og...",
-            category: "other",
+            category: "operations",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6369,7 +6377,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Öflugur fulltrúi í innkaupadeild",
             description: "Garðheimar leita að metnaðarfullum og sjálfstæðum einstaklingi til að ganga til liðs við innkaupadeild fyrirtækisins. Um er að ræða fjölbreytt og skemmtilegt starf þar sem reynir á skipulagshæfni, nákvæmni og góða færni í mannlegum samskiptum. Viðkomandi mun einnig gegna mikilvægu hlutverki í innleiðingu nýs birgðakerfis og því leitum við að aðila með haldbæra tækniþekkingu, Excel kunnáttu og...",
-            category: "other",
+            category: "operations",
             type: "internship",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -6405,7 +6413,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Bilanagreiningar og forritun",
             description: "Við óskum eftir að ráða til liðs við okkur starfsmann á verkstæði.\n\nMikil kunnátta í bilanagreiningum og forritun bíla skilyrði.\n\nStarfssvið: Tölvuuppfærslur og tölvulestur fyrir Ford, GM og Chrysler. Allmennar viðgerðir og þjónusta á amerískum bifreiðum.\n\nOkkur vantar metnaðarfullan einstakling sem er tilbúinn til að takast á við nýjar áskoranir.\n\nFarið er fram á snyrtimennsku og góða...",
-            category: "other",
+            category: "engineering",
             type: "internship",
             experienceLevel: "mid",
             location: "Iceland",
@@ -6423,7 +6431,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsfólk í Framleiðsludeild/Manufacturing Operators",
             description: "Coripharma leitar að starfsfólki í tvö störf innan Framleiðsludeildar. Um er að ræða annars vegar starf við lyfjablöndun sem felur í sér vigtun, blöndun og frumvinnslu hráefna og hins vegar starf við töfluslátt, hylkjaáfyllingu og húðun taflna. Bæði störfin fela í sér vélavinnslu, samsetningu, þrif, skýrslugerð og skjalfestingu.\n\nÍ Framleiðsludeild Coripharma starfar fólk með fjölbreyttan...",
-            category: "other",
+            category: "production",
             type: "contract",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6495,7 +6503,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsmaður í heimaþjónustu á Stöðvarfirði og Breiðdalsvík",
             description: "Fjölskyldusvið Fjarðabyggðar leitar eftir metnaðarfullum og áhugasömum einstaklingi í heimaþjónustu í Fjarðabyggð. Að öllu jafna er inni á heimilum og eftir þjónustusamningum hvers og eins þjónustuþega, staðsetningin er því breytileg.\n\nUm er að ræða 50-70% starf. Staðsetning er á Stöðvarfirði og Breiðdalsvík og er æskilegt að búseta umsækjanda sé þar.\n\nStarfsmaður í heimaþjónustu starfar eftir...",
-            category: "other",
+            category: "healthcare",
             type: "part-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -6513,7 +6521,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsfólk í vöruhús / Warehouse Operator",
             description: "Vilt þú vera hluti af öflugu teymi í vöruhúsi Alvotech? Við leitum af jákvæðum og metnaðarfullum einstaklingi til starfa í vöruhúsið okkar. Starfið felur í sér móttöku, frágang og örugga meðhöndlun hráefna sem notuð eru við framleiðslu líftæknilyfja í samræmi við gæðaferla Alvotech og gæðastaðla (cGMP). Vinna fer fram á dag-, kvöld- og næturvöktum.\n\nUmfang og ábyrgð:\n\nMóttaka, frágangur og...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6531,7 +6539,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sumarstarf — Marketplace samþættingar",
             description: "Sumarstarf — Marketplace samþættingar 50skills 11. May 2026 Fullt starf Um starfið 50skills leitar að sumarstarfsmanni til að efla Journeys Integration Marketplace – safn tilbúinna samþættinga sem gerir viðskiptavinum okkar kleift að tengja mannauðs-ferla sína við önnur kerfi (Slack, BambooHR, Greenhouse, DocuSign og fjölmörg fleiri). Þú munt byggja samþættingar frá A til Ö: stilla auðkenningu,...",
-            category: "other",
+            category: "engineering",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -6541,7 +6549,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/sumarstarf-marketplace-samthaettingar/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 362,
@@ -6549,7 +6557,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Car Cleaning",
             description: "We are looking to add a powerful and positive member to the Cozy team\n\nWork format: Shifts: 2-2-3, 8:00-19:00.\n\nMain tasks & Responsibility\n\nThe position requires detailed car cleaning. It is physically demanding, so applicants must be physically capable and have a good work method to ensure high standards of cleanliness.\n\n\nRequirements\n\nDriving license is mandatory\nPunctuality\nDetailed,...",
-            category: "other",
+            category: "hospitality",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6567,7 +6575,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Leitum að smiðum í fjölbreytt verkefni",
             description: "Við hjá Atlas verktökum viljum bæta við okkur smiðum.\n\nUm er að ræða fjölbreytt og skemmtilegt starf í góðum hópi starfsfólks. Verkefnin okkar eru af öllum stærðum og gerðum á höfuðborgarsvæðinu og í nágrenni.\n\nÞað er mikilvægt að þú sért sjálfstæð/ur í vinnubrögðum, getir sýnt frumkvæði og hæfni í mannlegum samskiptum.\n\nHelstu verkefni og ábyrgð\n\nVerklegar framkvæmdir \n\nMenntunar- og...",
-            category: "other",
+            category: "production",
             type: "contract",
             experienceLevel: "mid",
             location: "Iceland",
@@ -6585,7 +6593,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérkennslustjóri til eins árs",
             description: "Yfirumsjón með skipulagningu, framkvæmd og endurmati sérkennslu í leikskólanum í samráði við leikskólastjóra.\n\nSérkennslustjóri sinnir einnig starfi tengiliðar farsældar innan leikskólans.\n\nHelstu verkefni og ábyrgð\n\n- Yfirumsjón með gerð verkefna og gerð einstaklingsnámskráa.\n- Yfirumsjón með samskiptum við foreldra, ráðgjafa og annarra sem koma að sérkennslu.\n- Fræðsla, ráðgjöf og stuðningur...",
-            category: "other",
+            category: "education",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -6657,7 +6665,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Kennari",
             description: "Starfssvið : Að vinna að uppeldi og menntun leikskólabarna samkvæmt stefnu og skipulagi skólans undir stjórn deildarstjóra\n\nHelstu verkefni og ábyrgð\n\nGerðar eru kröfur um góða hæfni í mannlegum samskiptum og stundvísi. \n\nMenntunar- og hæfniskröfur\n\n- Leyfisbréf til kennslu\n- Góð íslenskukunnátta í ræðu og riti\n- Reynsla af kennslu á leikskólastigi\n- Sjálfstæð og skipulögð vinnubrögð\n- Góð...",
-            category: "other",
+            category: "education",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -6703,7 +6711,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/it-engineer/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 371,
@@ -6711,7 +6719,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í umsjón loftgæðamælitækja",
             description: "Matís leitar að metnaðarfullum sérfræðingi til að sinna umsjón og rekstri loftgæðamælitækja.\n\nStarfið felur í sér kvörðun og grunnviðhald mælitækja á loftgæðamælistöðvum. Það býður upp á fjölbreytt starfsumhverfi, vettvangsvinnu, úrvinnslu og sveigjanlegan vinnutíma.\n\nHelstu verkefni og ábyrgð\nKvörðun loftgæðamælitækja á loftgæðamælistöðvum\nUppsetning og innleiðing nýs...",
-            category: "other",
+            category: "operations",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6729,7 +6737,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Mannauðsstjóri",
             description: "Matís leitar að öflugum og fjölhæfum leiðtoga til að leiða mannauðsmál vinnustaðarins. Við leitum að aðila sem hefur stefnumótandi sýn og getu til að hrinda verkefnum í framkvæmd, byggja upp traust samstarf og styðja stjórnendur og starfsfólk í síbreytilegu og metnaðarfullu starfsumhverfi.\n\nHelstu verkefni og ábyrgð\nYfirumsjón með stefnumótun og framkvæmd mannauðsmála\nStuðningur og ráðgjöf til...",
-            category: "other",
+            category: "operations",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6747,7 +6755,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsmaður í vöruhús og útkeyrslu",
             description: "Traust fyrirtæki með gæludýravörur óskar eftir starfsmanni í vöruhús og útkeyrslu. Við leitum að reyndum og ábyrgum starfsmanni í teymið okkar. Um er að ræða fullt framtíðarstarf frá 1.9.26 (ekki hluta- eða sumarstarf).\n\nGildi fyrirtækisins eru liðsheild, þekking og virðing.\n\nReglulegur vinnutími er 9-17 mánudaga til fimmtudaga og 9-16:15 föstudaga.\n\nHelstu verkefni og ábyrgð\nTiltekt pantana í...",
-            category: "other",
+            category: "operations",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6837,7 +6845,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsmaður í heimaþjónustu - helgarvinna",
             description: "Fjölskyldusvið Fjarðabyggðar leitar eftir metnaðarfullum og áhugasömum einstaklingi til starfa í þjónustuíbúðum eldra fólks og almennri heimaþjónustu í Neskaupstað.\n\nUm er að ræða helgarvinnu frá 10:00-16:00 og er unnið öllu jafna inni á heimilum og eftir þjónustusamningum hvers og eins þjónustuþega. Staðsetning er í Neskaupstað. Möguleiki er á hærra starfshlutfalli ef áhugi liggur...",
-            category: "other",
+            category: "healthcare",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6855,7 +6863,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur á viðhaldssviði / Maintenance Specialist",
             description: "Alvotech leitar að sérfræðingi á viðhaldssviði.\n\nHelstu verkefni\n\nSjá um lager varahluta og tryggja aðgengi og rétta meðhöndlun.\n\nAnnast innkaup og eftirfylgni með pöntunum.\n\nStyðja við viðhaldsteymi með undirbúningi og afhendingu varahluta.\n\nVera tengiliður við þjónustuaðila og birgja.\n\nSamræma vinnu verktaka í takt við framleiðslu og öryggiskröfur.\n\nHalda utan um skjöl og þjónustugögn frá...",
-            category: "other",
+            category: "production",
             type: "contract",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -6891,7 +6899,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Helgarvaktir, sumarvinna á kaffihúsinu Grænu könnunni og í verslun á Sólheimum í Grímsnesi",
             description: "Kaffihúsið Græna kannan og verslunin Vala á Sólheimum vill ráða á helgarvaktir í sumar.\n\nStarfið er líflegt og hentar fólki sem vill þjónusta, selja og gefa af sér til annarra, gesta og íbúa. Einnig er hluti að starfinu leiðsögn fyrir hópa á íslensku og ensku\n\nVið leitum af jákvæðu, brosmildu og ábyrgu fólki sem býr yfir þjónustulund, lipurð í mannlegum samskiptum, hefur áhuga á hreinlæti, er...",
-            category: "other",
+            category: "hospitality",
             type: "part-time",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -6909,7 +6917,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérkennslustjóri í leikskólann Hulduheima Selfossi",
             description: "Leikskólinn Hulduheimar auglýsir eftir sérkennslustjóra frá og með 6. ágúst 2026. Um er að ræða 80-100% stöðu\n\nLeitað er að áhugasömum og metnaðarfullum einstaklingi sem er fær um að taka að sér umsjón með sérkennslu, stjórnunarlega ábyrgð og þátttöku í stjórnunarteymi.\n\nSérkennslustjóri starfar samkvæmt stefnumörkun leikskólans sem tekur meðal annars mið af menntastefnu Sveitafélagsins...",
-            category: "other",
+            category: "education",
             type: "part-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -6945,7 +6953,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í lánavinnslu",
             description: "Kvika leitar að sérfræðingi í lánavinnslu til að sinna fjölbreyttum verkefnum tengdum bakvinnslu, skráningu og umsýslu lána. Starfið felur í sér mikilvægt hlutverk við að tryggja gæði gagna, skilvirkni ferla og góða þjónustu við viðskiptavini og samstarfsaðila.\n\nHelstu verkefni og ábyrgð\n\n·        Skráning nýrra viðskipta og trygging á gæðum gagna og skjölunar\n\n·        Umsýsla og skráning...",
-            category: "other",
+            category: "finance",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7017,7 +7025,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Legal Intern",
             description: "Are you a law graduate looking to start your career in an exciting, international tech company?\n\nLS Retail is searching for a talented legal intern to join our Legal & Tax team for a fixed-term period of approximately 12-14 months, starting this summer through the end of summer 2027.\n\nThis role offers a hands-on experience navigating international legal and regulatory challenges, giving you...",
-            category: "other",
+            category: "operations",
             type: "contract",
             experienceLevel: "entry",
             location: "Reykjavik, Iceland",
@@ -7035,7 +7043,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Vélvirki í tæknideild Ora",
             description: "Við hjá Ora leitum að öflugum og drífandi vélvirkja eða einstakling með sambærilega þekkingu til að leiða teymi tæknideildar fyrirtækisins.\n\nUm er að ræða fjölbreytt og skemmtilegt starf en tæknideild sinnir m.a. viðhaldi á framleiðsluvélum og búnaði fyrirtækisins.\n\nHelstu verkefni og ábyrgð\nUmsjón og ábyrgð með viðhaldi og viðgerðum á framleiðsluvélum og búnaði...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7125,7 +7133,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sumarstarf á lager",
             description: "JBT Marel leitar að kraftmiklum liðsfélaga í sumarstarf á lager sem vill taka þátt í að umbreyta því hvernig matvæli eru unnin.\n\nÓskað er eftir því að viðkomandi geti hafið störf sem fyrst.\n\n\nHelstu verkefni\n\nMóttaka vara- eða íhluta frá birgjum og skráning þeirra\nAfgreiðsla á vöru samkvæmt pöntunum\nÞátttaka í stöðugum umbótum\n\nHæfniskröfur\n\nNemi í framhalds- eða háskóla\nGóð færni í samskiptum...",
-            category: "other",
+            category: "operations",
             type: "internship",
             experienceLevel: "mid",
             location: "Iceland",
@@ -7233,7 +7241,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Tæknimaður í Framlínuþjónustu",
             description: "OK leitar að áhugasömum einstakling til að bætast við frábært teymi okkar í fjar- og vettvangsþjónustu. Um er að ræða fullt starf á dagtíma.\n\nStarfið hentar einkar vel þjónustuliprum einstaklingum sem hafa áhuga á tækni og eiga auðvelt með samskipti við viðskiptavini hvort sem er í síma eða í eigin persónu.\n\nHjá OK starfar fjölbreyttur hópur fólks og hvetjum við öll sem uppfylla hæfnikröfur og...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7251,7 +7259,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Ræstitæknir",
             description: "atNorth er að stækka starfsemi sína á Fitjum, Reykjanesbæ og leitar að nákvæmri og ábyrgri manneskju til að bætast í teymið sem ræstitæknir í ISO-vottuðu gagnaveri okkar.\n\nHér er um að ræða einstakt tækifæri til að starfa í hátæknilegu og snyrtilegu umhverfi hjá leiðandi fyrirtæki á Norðurlöndum.\n\nUm er að ræða framtíðarstarf í fullu starfi sem hentar öllum kynjum.\n\nHelstu verkefni og...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7323,7 +7331,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Lagerstarfsmaður",
             description: "Mjólkursamlag Kaupfélags Skagfirðinga óskar eftir að ráða lagerstarfsmann á starfsstöð þess í Reykjavík. Um framtíðarstarf er að ræða.\n\nHelstu verkefni og ábyrgð\n\nVörumóttaka, tiltekt pantana og vöruafgreiðsla\n\nMenntunar- og hæfniskröfur\n\nJákvæðni og góð hæfni í mannlegum samskiptum\n\nBílpróf\n\nGóðir skipulagshæfileikar\n\nGóð almenn tölvukunnátta\n\nVinnuvélaréttindi eru kostur\n\nHvetjum öll...",
-            category: "other",
+            category: "operations",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7359,7 +7367,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Principal Specialist, DSP MSAT",
             description: "Overview of role:\n\nAre you passionate about driving process excellence in biopharmaceutical manufacturing? Alvotech is seeking an MSAT Specialist to lead technology transfer, scale-up, and process optimization activities, ensuring seamless transition from development to GMP manufacturing. This role plays a critical part in supporting manufacturing performance, resolving technical challenges,...",
-            category: "other",
+            category: "science",
             type: "contract",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -7377,7 +7385,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Chef / Kitchen position",
             description: "We are looking for Experienced Chef for small Hotel at the North of Iceland. Accomodation. Starting - soon.\n\nHelstu verkefni og ábyrgð\n\nCooking food for Hotel guests\n\nMenntunar- og hæfniskröfur\n\nKitchen skills \n\nAuglýsing birt\n13. júní 2026\nUmsóknarfrestur\nEnginn\nSækja um\nVista\nDeila\nTungumálahæfni\nEnska\nNauðsyn\nMjög góð\nStarfstegund\nFullt...",
-            category: "other",
+            category: "hospitality",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7413,7 +7421,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Leikskólasérkennari, þroskaþjálfi",
             description: "Leikskólinn Hulduheimar auglýsir eftir leikskólasérkennara eða þroskaþjálfa frá og með 6. ágúst 2026, eða eftir samkomulagi.\n\nLeitað er að leikskólasérkennara eða þroskaþjálfa sem hafa áhuga á að starfa í leikskóla þar sem fram fer faglegt leikskólastarf með áherslu á leik, samvinnu, traust og gleði.\n\nLeikskólasérkennari/þroskaþjálfi starfar samkvæmt stefnumörkun leikskólans sem tekur meðal...",
-            category: "other",
+            category: "healthcare",
             type: "part-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -7431,7 +7439,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Senior Specialist, USP MSAT",
             description: "Overview of role:\n\nAre you a subject matter expert in upstream processing with a passion for innovation and technical excellence in biologics manufacturing? Alvotech is seeking a USP MSAT Specialist – Late Stage to lead upstream process support, scale-up, and lifecycle management for commercial biosimilar products.\n\nKey Responsibilities:\n\nAct as the Subject Matter Expert (SME) for upstream...",
-            category: "other",
+            category: "science",
             type: "full-time",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -7467,7 +7475,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Pípari",
             description: "Óska eftir að ráða starfsmann til að starfa í pípulagnadeild fyrirtækisins. Sveinspróf eða góð reynsla í greininni nauðsynleg. Frábært tækifæri til þess að koma og upplifa notarlegheitin fyrir norðan í sterku og stækkandi sveitarfélagi. Aðstoð með húsnæði samningsatriði.\n\nMenntunar- og hæfniskröfur\n\nSveinspróf eða mikil reynsla í greininni\n\nAuglýsing birt\n9. júní...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -7485,7 +7493,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Selfoss - Building Leader & Housekeeping",
             description: "Heimaleiga is expanding to Selfoss and is looking for new team members to join our housekeeping operation.\n\nWe are currently preparing a brand new property with 12 apartments for opening and are looking for both a full-time Building Leader and part-time Housekeepers to join the team.\n\nThe Building Leader will be the main housekeeper at the property and will work on-site on a full-time basis....",
-            category: "other",
+            category: "hospitality",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7521,7 +7529,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Umhverfis-, heilbrigðis- og öryggisstjóri (EHS Manager)",
             description: "Staðsetning: Keflavík\n\nVerne óskar eftir að ráða umhverfis-, heilbrigðis- og öryggisstjóra til að ganga til liðs við öflugt teymi á starfsstöð fyrirtækisins í Keflavík. Viðkomandi ber ábyrgð á að þróa, innleiða og viðhalda áætlunum á sviði umhverfis, heilbrigðis og öryggis til að tryggja öruggt og atvikalaust rekstrarumhverfi gagnavera. Starfið felur í sér náið samstarf við ýmsa hagaðila við...",
-            category: "other",
+            category: "operations",
             type: "contract",
             experienceLevel: "mid",
             location: "Iceland",
@@ -7575,7 +7583,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Maintenance Technician | Össur",
             description: "Taktu þátt í spennandi verkefnum með það að markmiði að bæta hreyfanleika fólks.\n\nHefur þú gaman af því að greina bilanir, finna lausnir og sjá hlutina virka aftur? Össur leitar að öflugum og drífandi Maintenance Technician í viðhaldsdeild fyrirtækisins á Íslandi. Í þessu hlutverki styður þú við framleiðsluna með því að tryggja áreiðanleika búnaðar og taka þátt í stöðugum umbótum. Við leitum...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7611,7 +7619,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Rafvirki í nýsköpunarverkefni",
             description: "Nýsköpunarfyrirtækið Alor ehf. óskar eftir að ráða rafvirkja í þróunarverkefni þar sem notuðum rafbílarafhlöðum er gefið nýtt líf sem rafhlöðuorkugeymslur (BESS lausnir). Verkefnið er á spennandi þróunarstigi þar sem nýr starfsmaður fær tækifæri til þess að taka þátt í áframhaldandi þróun og aðstoða við að leggja grunninn að nýrri kynslóð íslenskra orkugeymslulausna.\n\nHjá Alor vinnur samhentur...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7629,7 +7637,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Hreinistæknir / Manufacturing cleaning specialist",
             description: "Við leitum að hreinsitækni (Manufacturing Cleaning Specialist) til að ganga til liðs við teymið okkar hjá Alvotech. Í þessu hlutverki berð þú ábyrgð á að framkvæma og hafa eftirlit með þrifum á GMP svæðum, þar á meðal rannsóknarstofum gæðadeildar og lager. Starfið fer fram í samræmi við verklagsreglur, GMP-kröfur og EHS staðla.\n\nHelstu verkefni fela í sér að tryggja aðgengi að hreinsiefnum og...",
-            category: "other",
+            category: "hospitality",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7647,7 +7655,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Aðstoðarleikskólastjóri",
             description: "Leikskólinn Goðheimar auglýsir eftir aðstoðarleikskólastjóra í fullt starf.\nUm er að ræða gefandi og skemmtilegt stjórnunarstarf í góðu starfsumhverfi barna og\nfullorðinna. Leitað er að leikskólakennara með leiðtogahæfileika sem er tilbúinn að taka þátt í að leiða áfram og þróa metnaðarfullt og faglegt starf leikskólans.\n\nAðstoðaleikskólastjóri starfar samkvæmt stefnumörkun leikskólans sem...",
-            category: "other",
+            category: "education",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -7665,7 +7673,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Project Manager",
             description: "Íslenska\n\nVið leitum að öflugum verkefnastjóra til að leiða þverfagleg verkefni sem styðja við stefnu og vöxt fyrirtækisins. Starfið felur í sér að stýra flóknum verkefnum, tryggja samræmi við hagsmunaaðila og að niðurstöðum sé skilað innan tímaramma. Þetta er spennandi tækifæri til að vinna þvert á fyrirtækið, hafa áhrif á breytingar og leggja sitt af mörkum í verkefnum sem móta framtíð...",
-            category: "other",
+            category: "operations",
             type: "contract",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7683,7 +7691,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Leikskólastjóri",
             description: "Fjölskyldusvið sveitarfélagsins Árborgar auglýsir lausa til umsóknar stöðu leikskólastjóra Goðheima. Við leitum að öflugum og framsæknum leiðtoga til að stýra skólastofnun í ört stækkandi sveitarfélagi.\n\nRáðið verður í stöðuna frá 1. ágúst 2026 eða eftir nánara samkomulagi, starfshlutfall er 100%.\n\nÍ Sveitarfélaginu Árborg búa um 13.000 íbúar og starfa um 1100 manns hjá sveitarfélaginu. Lögð...",
-            category: "other",
+            category: "education",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -7701,7 +7709,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Senior Project Manager",
             description: "Íslenska\n\nVið leitum að reynslumiklum verkefnastjóra til að leiða þverfagleg verkefni sem styðja við stefnu og vöxt fyrirtækisins.\n\nStarfið felur í sér að stýra flóknum verkefnum, tryggja samræmi við hagsmunaaðila og árangursríka innleiðingu. Sem Senior Project Manager berð þú einnig ábyrgð á að þróa og bæta verkferla og aðferðir í verkefnastjórnun. Þetta er spennandi tækifæri til að vinna...",
-            category: "other",
+            category: "operations",
             type: "contract",
             experienceLevel: "senior",
             location: "Reykjavik, Iceland",
@@ -7755,7 +7763,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sölustjóri Bara tala",
             description: "Bara tala leitar að öflugum sölustjóra til að ganga til liðs við teymið. Sölustjórinn mun vinna náið með öllu teyminu, en þó sérstaklega framkvæmdastjóra og samskiptastjóra, að því sameiginlega markmiði að opna dyr fyrir erlent starfsfólk á Íslandi.\n\nAðalhlutverk sölustjórans verður að stækka samstarfshóp Bara tala. Það þýðir að viðkomandi greinir tækifæri hjá fyrirtækjum sem ekki eru í...",
-            category: "other",
+            category: "sales",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7773,7 +7781,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Viðskiptastjóri hjá OK",
             description: "OK leitar að reyndum og áhugasömum Viðskiptastjóra til að bætast við öflugt teymi okkar.\n\nHjá OK starfar teymi reynslumikilla sérfræðinga á flestum sviðum upplýsingatækni sem sjá um fjölbreytt verkefni í ráðgjöf, rekstri, þjónustu og innleiðingu lausna hjá stærstu og kröfuhörðustu fyrirtækjum og stofnunum landsins, ásamt stórum erlendum viðskiptavinum. Hjá OK sameinast eldmóður, reynsla og...",
-            category: "other",
+            category: "sales",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7809,7 +7817,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Vaktstjóri í gestamóttöku / Front desk supervisor Alda Hotel",
             description: "Alda Hótel Reykjavík leitar að öflugum og drífandi vaktsjóri til starfa í gestamóttöku. Um er að ræða vaktavinnu á 2-2-3 vöktum frá 8:00 - 20:00. Viðkomandi þarf að geta hafið störf í júlí.\n\nAlda Hotel Reykjavik is looking to hire an ambitious and enthusiastic Front desk supervisor. Full time position on 2-2-3 shifst from 8:00 - 20:00. Applicant needs to be available to start working in...",
-            category: "other",
+            category: "customer-service",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -7845,7 +7853,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Associate Specialist, EHS",
             description: "Íslenska\n\nEHS Associate Specialist tekur þátt í innleiðingu, eftirfylgni og viðhaldi á áætlunum sem tengjast umhverfis-, heilsu- og öryggismálum (EHS). Starfið felur í sér að sinna daglegum verkefnum í samræmi við skilgreinda ferla og verklag. Viðkomandi mun starfa náið með Head of Global EHS og veitir stuðning þvert á fyrirtækið til að tryggja að öryggisstaðlar, kröfur og verklagsreglur séu...",
-            category: "other",
+            category: "operations",
             type: "contract",
             experienceLevel: "executive",
             location: "Reykjavik, Iceland",
@@ -7935,7 +7943,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Viðskiptaþróunarstjóri",
             description: "Lýsing\n\nAtlas leitar að öflugum viðskiptaþróunarstjóra (e. Business Development Manager) í fullt starf. Starfið felur í sér að opna á ný viðskiptasambönd, fylgja tækifærum eftir til lokunar og að stuðla að betri markaðssetningu Atlas.\n\nAtlas Cloud er framtíð íslenskrar hýsingar og tækniinnviða. Í skýi Atlas (e. Cloud Computing) má geyma og vinna gögn með þeim þægindum og sparnaði sem þekkist í...",
-            category: "other",
+            category: "sales",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -7953,7 +7961,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Deildarstjóri yfir sjálfstæðri búsetu",
             description: "Félagsþjónusta Sólheima óskar eftir að ráða öflugan deildarstjóra til starfa, í þjónustu við íbúa í sjálfstæðri búsetu.\n\nUm er að ræða 100% stöðu í dagvinnu, en möguleiki á tilfallandi vöktum.\n\nÍ sjálfstæðri búsetu búa 24 fatlaðir einstaklingar með langvarandi stuðningsþarfir og stöðugildin 7.\n\nStarfsfólk vinnur eftir þjónandi leiðsögn, hugmyndafræði um sjálfstætt líf sem og þjónustu- og...",
-            category: "other",
+            category: "healthcare",
             type: "full-time",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -7971,7 +7979,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í viðhaldsstjórnun / CMMS Specialist",
             description: "Viltu vera í lykilhlutverki í að þróa og efla viðhaldsstjórnun hjá atNorth á Akureyri?\n\nVið leitum að öflugum sérfræðingi sem hefur mikinn áhuga á skipulagningu og stýringu verkefna, nær að vinna vel með ólíkum hópum og fá fólk með sér, en setur jafnframt skýrar kröfur um gæði og framkvæmd.\n\nÍ þessu hlutverki verður þú lykilaðili í að tryggja gagnagæði, viðhalda skýrum ferlum og skilvirka...",
-            category: "other",
+            category: "production",
             type: "contract",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8043,7 +8051,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Tryggingastærðfræðingur",
             description: "Við leitum að einstaklingi með sterkan fræðilegan grunn og framúrskarandi greiningarhæfni í hlutverk tryggingastærðfræðings félagsins.\n\nStarfið er krefjandi og fjölbreytt og felur í sér mat á vátryggingaskuld og vátryggingaáhættu ásamt verkefnum tengdum tjónaþróun, verðlagningu og arðsemi.\n\nAuk reglubundinna verkefna tryggingastærðfræðings mun viðkomandi taka þátt í ýmsum stefnumótandi...",
-            category: "other",
+            category: "finance",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8107,7 +8115,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://www.tvinna.is/jobs/junior-frontend-engineer-customer-facing/",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 449,
@@ -8115,7 +8123,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Óska eftir húsasmið",
             description: "Á. Steindórsson ehf. óskar eftir hressum húsasmið eða mjög vönum manni sem getur unnið sjálfstætt.\n\nSkilyrði að hafa gott vald á íslensku.\n\nVerkefnin sem við tökum að okkur eru mjög fjölbreytt, má nefna viðhald, breytingar og nýbyggingar.\n\nGóð verkefnastaða.\n\nHelstu verkefni og ábyrgð\n\nVið erum að óska eftir manni sem getur unnið sjálfstætt og er áreiðanlegur.\n\nMenntunar- og...",
-            category: "other",
+            category: "production",
             type: "contract",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -8151,7 +8159,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Tæknimaður / ​Maintenance Technician",
             description: "Tæknimaður / ​Maintenance Technician\n\nDescription\n\nAlvotech er leiðandi alþjóðlegt líftæknifyrirtæki sem vinnur að því að gera líftæknilyf aðgengilegri um allan heim. Við leitum að metnaðarfullum einstaklingum í stöðu tæknimanns sem vilja taka þátt í að tryggja áreiðanleika og öryggi framleiðsluferla í lyfjaverksmiðju fyrirtækisins. Unnið er á dag-, kvöld- og næturvöktum.\n\nHelstu...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8169,7 +8177,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Experienced Coach Driver",
             description: "We are looking for an experienced tour bus driver to join our team. The role requires long working days and overnight stays in hotels (provided by the company). You will be responsible for safe and comfortable transportation of passengers, working closely with tour guides to ensure a great customer experience.\n\nHelstu verkefni og ábyrgð\n\nAssist passengers with luggage and boarding.\n\nCoordinate...",
-            category: "other",
+            category: "operations",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -8187,7 +8195,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Heimavist MA og VMA leitar að matráð / matartækni til starfa í mötuneyti.",
             description: "Wymagania kwalifikacyjne:\n\n- Preferowane wykształcenie, doświadczenie i/lub wiedza z zakresu pracy w kawiarni\n\n- Dobra znajomość języka islandzkiego i/lub angielskiego.\n\n- Dokładność, samodzielność i umiejętność pracy pod presją.\n\n- Dobre umiejętności organizacyjne i samodzielne metody pracy.\n\n- Schludność i punktualność.\n\n- Umiejętność dobrej pracy w zespole\n\nPraca :\n\n- Gotowanie i...",
-            category: "other",
+            category: "hospitality",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8205,7 +8213,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í umhverfisvöktun",
             description: "Matís leitar að metnaðarfullum sérfræðingi til að sinna fjölbreyttum verkefnum á sviði umhverfisvöktunar.\n\nStarfið felur í sér umsjón með og framkvæmd umhverfisvöktunarverkefna fyrir iðnaðarsvæði á Íslandi, ásamt öðrum tilfallandi verkefnum. Auk þátttöku í gæðateymi sem vinnur að uppsetningu og vottun gæðakerfis samkvæmt alþjóðlegum stöðlum. Starfið býður upp á fjölbreytt verkefni, faglegar...",
-            category: "other",
+            category: "science",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8223,7 +8231,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsfólk í framleiðslu",
             description: "Vegna aukinna umsvifa vantar okkur fólk til framleiðslustarfa í hátæknisetri Kerecis á Ísafirði. Um er að ræða 100% stöðu og þarf viðkomandi að geta hafið störf sem fyrst.\n\nVerkefnin eru fjölbreytt og á öllum stigum framleiðslunnar, allt frá meðhöndlun hráefna til pökkunar á tilbúinni vöru.\n\nHELSTU VERKEFNI\n\nVinna við framleiðslu á vörum Kerecis\n\nHÆFNISKRÖFUR\n\nStúdentspróf\nGóð enskukunnátta í...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8259,7 +8267,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í launavinnslu (Payroll Specialist)",
             description: "Rapyd óskar eftir að ráða til sín sérfræðing í launavinnslu. Viðkomandi mun hafa umsjón með launavinnslu Rapyd á Íslandi og taka þátt í alþjóðlegu starfi mannauðs-/fjármálateymis.\n\nHjá Rapyd á Íslandi eru rúmlega 120 starfsmenn en á alþjóðavísu telur starfsfólk Rapyd yfir 900 manns.\n\nHelstu verkefni og ábyrgð\n\nUmsjón með launavinnslu fyrir yfir 120 starfsmenn\n\nUmsjón með launa- og...",
-            category: "other",
+            category: "finance",
             type: "full-time",
             experienceLevel: "lead",
             location: "Iceland",
@@ -8313,7 +8321,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsmaður á rannsóknarstofu",
             description: "Mjólkursamlag Kaupfélags Skagfirðinga á Sauðárkróki óskar eftir að ráða starfsmann á rannsóknarstofu.\n\nÍ Mjólkursamlagi Kaupfélags Skagfirðinga eru framleiddir brauðostar, ferskir ostar, rifinn ostur, viðbit og vörur Vogabæjar. Einnig er félagið Íslenskar Mysuafurðir með starfsstöð innan samlagsins, en þar er unnið mysuprótein.\n\nHelstu verkefni og ábyrgð\n\nUndirbúningur og frágangur á...",
-            category: "other",
+            category: "science",
             type: "full-time",
             experienceLevel: "mid",
             location: "Iceland",
@@ -8331,7 +8339,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Global Information Security Director | Embla Medical",
             description: "Viltu taka þátt í verkefnum með það að markmiði að bæta hreyfanleika fólks? \n\nEmbla Medical leitar að Global Director of Information Security til að leiða alþjóðlegt svið upplýsingaöryggis og vinna að stefnu fyrirtækisins í upplýsinga- og netöryggismálum.\n\nDirector of Information Security ber ábyrgð á að fyrirtækið starfi í samræmi við alþjóðlega staðla (t.d. ISO 27001, ISO 27701), reglugerðir...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "executive",
             location: "Reykjavik, Iceland",
@@ -8385,7 +8393,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "OK leitar að starfsmanni á NOC vaktborð - Hlutastarf/Helgarvaktir",
             description: "OK leitar að áhugasömum og metnaðarfullum einstakling til að sinna starfi NOC vaktmanns á miðlægri vöktunarmiðstöð félagsins. Um er að ræða hlutastarf með mætingu á starfsstöð á höfuðborgarsvæðinu.\n\nVinnutími er að jafnaði frá kl 8:00-16:00 aðra hverja helgi en möguleiki á tilfallandi vöktum utan dagtíma vegna afleysinga annarra í teyminu.\n\nHjá OK starfar fjölbreyttur hópur fólks og hvetjum...",
-            category: "other",
+            category: "it",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8421,7 +8429,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Framleiðslustarf í Silicone - Kvöldvaktir",
             description: "Viltu taka þátt í verkefnum með það að markmiði að bæta hreyfanleika fólks?\n\nVið leitum að liðsauka við framleiðslu á hágæða sílíkonhulsum fyrir viðskiptavini okkar um allan heim. Framleiðslan okkar er spennandi umhverfi þar sem framþróun er í hávegum höfð. Lögð er áhersla á öruggt vinnuumhverfi og stöðugar umbætur þar sem starfsfólki er gefið tækifæri til að hafa áhrif á...",
-            category: "other",
+            category: "production",
             type: "internship",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8439,7 +8447,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Rafvirki",
             description: "DTE leitar að reynslumiklum og handlögnum rafvirkja til starfa á spennandi tímamótum í uppbyggingu fyrirtækisins.\n\nSem hluti af afhendingarteymi DTE kemur þú að smíði og samsetningu á háþróuðum iðnaðarkerfum sem sameina lasertækni, ljósfræði, róbótatækni, sjálfvirknibúnað, hugbúnað og rauntímamælingar. Kerfin eru afhent leiðandi álframleiðendum um allan heim.\n\nÞú gegnir lykilhlutverki í...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8511,7 +8519,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Mjólkurfræðingur",
             description: "Mjólkursamlag Kaupfélags Skagfirðinga á Sauðárkróki óskar eftir að ráða mjólkurfræðing til starfa.\n\nÍ Mjólkursamlagi Kaupfélags Skagfirðinga eru framleiddir brauðostar, ferskir ostar, rifinn ostur, viðbit og vörur Vogabæjar. Einnig er félagið Íslenskar Mysuafurðir með starfsstöð innan samlagsins, en þar er unnið mysuprótein.\n\nHelstu verkefni og ábyrgð\n\nVinna afurðir úr hrámjólk og öðrum...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -8565,7 +8573,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Viðskiptastjóri",
             description: "Lagaviti er mjög öflug gervigreindarlausn sem beitir allra nýjustu gervigreindartækni á hverjum tíma, ekki bara cutting edge heldur hreinlega bleeding edge tækni. Þróun lausnarinnar felur í sér fjölmargar tæknilegar áskoranir sem hafa í mörgum tilvikum ekki verið leystar áður, auk þess sem lausnin hefur mjög jákvæð samfélagsleg áhrif.\n\nVegna áframhaldandi vaxtar leitum við nú að öflugum og...",
-            category: "other",
+            category: "sales",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8637,7 +8645,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Öflugur starfsmaður óskast í viðhaldsdeild Sólheima",
             description: "Við leitum að öflugum starfsmanni í Tómasarsmiðju, viðhaldsdeild Sólheima, í fjölbreytt verkefni, innanhúss sem utan.\n\nViðhaldsdeild Sólheima sinnir viðhaldi fasteigna ásamt alhliða þjónustu við byggðarhverfið.\n\nHelstu verkefni og ábyrgð\n\nAð sinna margvíslegum verkefnum, innandyra sem utan. \n\nMenntunar- og hæfniskröfur\n\nGóð alhliða verkkunnátta áskilin\n\nVinnuvélaréttindi æskileg\n\nReynsla af...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8655,7 +8663,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Markaðsstjóri – Jónsbók",
             description: "Byggðu upp vörumerki Jónsbókar á Norðurlöndum og í Mið- og Austur-Evrópu.\n\nJónsbók er gervigreindarlausn fyrir lögfræðinga og félagið starfar nú þegar á Íslandi, í Finnlandi, Noregi, Ungverjalandi, Króatíu, Póllandi og Rúmeníu. Við leitum að markaðsstjóra sem tekur fulla ábyrgð á markaðsmálum fyrirtækisins, allt frá samfélagsmiðlaauglýsingum til vörumerkjauppbyggingar og viðburða í fjölda...",
-            category: "other",
+            category: "marketing",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8673,7 +8681,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "STARFSMENN Í HEIMAÞJÓNUSTU Í FJARÐABYGGÐ",
             description: "Fjölskyldusvið Fjarðabyggðar leitar eftir metnaðarfullum og áhugasömum einstaklingum í heimaþjónustu í Fjarðabyggð. Að öllu jafna er inni á heimilum og eftir þjónustusamningum hvers og eins þjónustuþega, staðsetningin er því breytileg. Um er að ræða framtíðar- og tímabundin störf.\n\nStarfsmaður í heimaþjónustu starfar eftir lögum um félagsþjónustu sveitarfélaga nr. 40/1991, lögum um málefni...",
-            category: "other",
+            category: "healthcare",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8709,7 +8717,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Afgreiðslu starf ( íslenska skilyrði )",
             description: "> Aldan fisk og sælkeraverslun í Spönginni leitast eftir að ráða einstakling í 50 % starfshlutfall Vinnutími er umsemjanlegur, en verslunin er opinn frá 10:00-18:30.\n\n> Starfið sem um ræðir felur í sér afgreiðslu, áfyllingar, þrif og önnur tilfallandi verkefni.\n\n> Umsækjendur þurfa að hafa náð 20 ára aldri, búa yfir áreiðanleika, hafa ríka þjónustulund og vera reyklaus.\n\n> Íslensku kunnátta er...",
-            category: "other",
+            category: "customer-service",
             type: "part-time",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -8763,7 +8771,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Infrastructure Facilities Assistant",
             description: "As an Infrastructure Assistant, you will work under the direct supervision of a team member, supporting daily infrastructure tasks. You’ll play a key role in helping the team execute operational and maintenance duties efficiently. This is a support-focused role with no independent responsibilities, ideal for someone looking to gain hands-on experience in a collaborative setting.\n\nHelstu...",
-            category: "other",
+            category: "operations",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -8781,7 +8789,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í þróun á mæliaðferðum",
             description: "Coripharma óskar eftir öflugum og lausnamiðuðum sérfræðingi til starfa á Þróunardeild mæliaðferða. Deildin er hluti af Þróunarsviði Coripharma og sér um að þróa og gilda mæliaðferðir fyrir bæði hráefni og framleiðsluvörur. Starfið felur í sér fjölbreytt verkefni, m.a. á rannsóknarstofu þar sem áhersla er lögð á fagmennsku, nákvæmni og skil á niðurstöðum innan tilgreindra tímalína. Við leitum...",
-            category: "other",
+            category: "science",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8799,7 +8807,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "QC rannsóknarstofutæknir / QC Laboratory Technician",
             description: "QC rannsóknarstofutæknir / QC Laboratory Technician\n\nVið leitum að nákvæmum og áreiðanlegum QC rannsóknarstofutækni með sterka áherslu á gæði og öryggi til að styðja við daglegan rekstur gæðastýringarrannsóknarstofu. Starfið felur í sér að viðhalda hreinu, skipulögðu og GMP-samræmdu vinnuumhverfi og tryggja að starfsemi rannsóknarstofunnar uppfylli viðeigandi gæðakröfur og...",
-            category: "other",
+            category: "science",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8817,7 +8825,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Aðstoðarmanneskja á rannsóknarstofu",
             description: "Geymsluþolsdeild Coripharma er hluti af þróunarsviði fyrirtækisins og gegnir mikilvægu hlutverki við að tryggja gæði, öryggi og virkni lyfja yfir líftíma þeirra. Deildin annast stöðugleikarannsóknir á lyfjum bæði á þróunarstigi, og eftir markaðssetningu, í samræmi við ströng gæðaviðmið lyfjaiðnaðarins.\n\nVið leitum að öflugri og samviskusamri aðstoðarmanneskju á rannsóknarstofu sem hefur áhuga...",
-            category: "other",
+            category: "science",
             type: "full-time",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -8853,7 +8861,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Leikskólakennari",
             description: "Leikskólinn Álfheimar auglýsir eftir leikskólakennara frá 5.ágúst 2026.\n\nLeitað er að starfsmanni sem hefur áhuga á að starfa með börnum. Leikskólinn er heilsueflandi skóli á grænni grein ásamt því að mikil áhersla er lögð á útinám. Leiðarljós leikskólans eru Virðing - Hlýja - Traust.\n\nLeikskólakennari starfar samkvæmt stefnumörkun leikskólans sem tekur meðal annars mið af menntastefnu...",
-            category: "other",
+            category: "education",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -8889,7 +8897,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Viðskiptaþróunarstjóri á Íslandi",
             description: "Coripharma leitar að öflugum, metnaðarfullum og árangursdrifnum viðskiptaþróunarstjóra (e. Business Development Manager) í fullt starf. Leitað er að einstaklingi sem hefur brennandi áhuga á að byggja upp sterk viðskiptasambönd, greina ný tækifæri og stuðla að vexti á alþjóðlegum mörkuðum. Um er að ræða spennandi og krefjandi starf í alþjóðlegu viðskiptateymi Coripharma þar sem gefst tækifæri...",
-            category: "other",
+            category: "sales",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8907,7 +8915,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Matreiðslumaður/grillari á Norðurtorgi",
             description: "Okkur vantar á Norðurtorg Akureyri, matreiðslumann sem fyrst, í fullt starf á vöktum 2-2-3. Endilega sækið hér um eða sendið umsókn til hilda@saffran.is\n\nHelstu verkefni og ábyrgð\n\nAlmenn grill og eldunarstörf.\n\nMenntunar- og hæfniskröfur\n\nSjálfstæði, einbeiting og dugnaður\n\nAðrar upplýsingar verða gefnar ef að viðtali verður\n\nAuglýsing birt\n31. júlí 2026\nUmsóknarfrestur\n14. ágúst 2026\nSækja...",
-            category: "other",
+            category: "hospitality",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -8979,7 +8987,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Senior Aseptic Manufacturing Technician/ Yfirframleiðslutæknir í Smitgátarframleiðslu",
             description: "Íslenska\n\nGakktu til liðs við framleiðsluteymi hjá Alvotech í Reykjavík! Alvotech starfar í reglubundnu umhverfi þar sem nákvæmni og samviskusemi skipta sköpum. Við leitum að einstaklingum með jákvætt hugarfar, góða aðlögunarhæfni og hæfni til að takast á við áskoranir. Vaktavinna er nauðsynleg og felur í sér dag-, kvöld- og næturvaktir.\n\nHæfniskröfur:\n\nAð lágmarki 3 ára reynsla í...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "senior",
             location: "Reykjavik, Iceland",
@@ -9015,7 +9023,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Skrifstofu- og mannauðsfulltrúi – Atlas Verktakar ehf.",
             description: "Atlas Verktakar ehf. leitar að öflugum og skipulögðum starfsmanni í mannauðs og fjármálatengd verkefni. Einnig tilfallandi verkefni á skrifstofu.\n\nUm er að ræða fjölbreytt starf sem má útfæra sem hlutastarf eða fullt starf eftir samkomulagi.\n\nHelstu verkefni og ábyrgð\n\nHelstu verkefni:\n\nUmsjón með mannauðsmálum og daglegri eftirfylgni með starfsmannamálum\n\nAðstoð við ráðningar og móttöku nýrra...",
-            category: "other",
+            category: "operations",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9033,7 +9041,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Framleiðslustarf í Koltrefjadeild | Össur",
             description: "Við óskum eftir að ráða öflugt framleiðslustarfsfólk í CCP (koltrefjadeild) Össurar. Við leitum að áhugasömu fólki sem er tilbúið til að takast á við ný og spennandi verkefni.\n\nViðkomandi þarf að geta hafið störf sem fyrst.\n\nMenntunar- og hæfniskröfur\nEiga gott með að vinna í teymi og sjálfstætt \nJákvæðni \nHeiðarleiki \nStundvísi \nFríðindi í...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9069,7 +9077,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Verkefnastjóri þjónustusviðs (Viðhald og breytingar)",
             description: "Við hjá Atlas verktökum leitum að einstakling í starf verkefnastjóra framkvæmda á byggingarsviði. Í boði er fjölbreytt og krefjandi starf hjá framsæknu fyrirtæki.\n\nÞað er mikilvægt að viðkomandi búi yfir góðum skipulagshæfileikum, faglegum vinnubrögðum og lipurð í mannlegum samskiptum.\n\nHelstu verkefni og ábyrgð\n\nYfirumsjón með og ábyrgð á byggingaverkefnum og framkvæmd þeirra\n\nTilboðsgerð,...",
-            category: "other",
+            category: "production",
             type: "contract",
             experienceLevel: "lead",
             location: "Iceland",
@@ -9087,7 +9095,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Byrjaðu starfsferil hjá Alvotech / Entry Level Manufacturing Operator",
             description: "ENGLISH BELOW\n\nHjá Alvotech færð þú tækifæri til að byggja upp starfsferil í alþjóðlegu umhverfi og stuðla að bættu lífi fólks um allan heim. Við leitum að metnaðarfullum einstaklingum til að bætast í framleiðsluteymi okkar í Reykjavík. Þú þarft enga fyrri reynslu úr lyfjaframleiðslu - við kennum þér allt sem þú þarft að vita í Alvotech Akademíunni, 8 vikna starfsþjálfun. Þetta er launuð...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "entry",
             location: "Reykjavik, Iceland",
@@ -9123,7 +9131,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Tæknimanneskja í Framlínuþjónustu",
             description: "OK er að bæta við manneskju inn í frábært teymi okkar í fjar- og vettvangsþjónustu.\n\nUm er að ræða fullt starf á dagtíma.\n\nStarfið hentar einkar vel þjónustuliprum einstaklingi sem hefur áhuga á tækni og á auðvelt með samskipti við viðskiptavini hvort sem er í síma eða í eigin persónu.\n\nHjá OK starfar samhentur hópur fólks og er kapp lagt á að viðhalda góðum starfsanda, en það hefur skilað sér...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9141,7 +9149,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Manufacturing Compliance Specialist",
             description: "Alvotech leitar að metnaðarfullum sérfræðingi til að ganga til liðs við teymið okkar. Í þessu hlutverki munt þú styðja við starfsemi í framleiðslu líftæknilyfja, tryggja að farið sé eftir cGMP‑stöðlum og leggja þitt af mörkum til stöðugra umbóta í framleiðsluumhverfinu. Við leitum að lausnamiðuðum einstaklingi sem nýtur þess að starfa í fjölbreyttu og krefjandi vinnuumhverfi og hefur áhuga á...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9159,7 +9167,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Verkefnastjóri - Innleiðing viðskiptavina",
             description: "Viltu vera í lykilhlutverki í að tryggja framúrskarandi upplifun viðskiptavina og farsæla innleiðingu þeirra hjá atNorth á Akureyri?\n\nVið leitum að öflugum og þjónustumiðuðum aðila sem nýtur þess að leiða flókin innleiðingarverkefni, vinna þvert á ólíka hópa og byggja upp traust og langvarandi sambönd við viðskiptavini.\n\nÍ þessu hlutverki verður þú lykilaðili í að tryggja að uppsetning og...",
-            category: "other",
+            category: "operations",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9231,7 +9239,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í stjórn- og eftirlitskerfum / Control SME",
             description: "Viltu vera í lykilhlutverki í að þróa og efla eftirlits- og stýrikerfi hjá atNorth á Fitjum?\n\nVið leitum að öflugum sérfræðingi sem hefur mikinn áhuga á skipulagningu og stýringu verkefna, nær að vinna vel með ólíkum hópum og fá fólk með sér, en setur jafnframt skýrar kröfur um gæði og framkvæmd.\n\nÍ þessu hlutverki verður þú lykilaðili í að tryggja áreiðanlegan rekstur og stöðuga þróun stjórn-...",
-            category: "other",
+            category: "engineering",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9285,7 +9293,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "OK leitar að starfsfólki á NOC vaktborð - Hlutastarf/Helgarvaktir",
             description: "OK leitar að áhugasömum og metnaðarfullum einstaklingi til að sinna starfi NOC-vaktmanns á miðlægri vöktunarmiðstöð félagsins.\n\nUm er að ræða hlutastarf með mætingu á starfsstöð á höfuðborgarsvæðinu. Umsækjandi þarf að hafa einhverja reynslu af sambærilegum störfum.\n\nVinnutími er að jafnaði frá kl 16:00-22:00 aðra hverja helgi ásamt tveimur virkum kvöldum í mánuði frá 16:00-22:00, auk þess sem...",
-            category: "other",
+            category: "it",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9321,7 +9329,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Arctic Trucks leitar að starfsmanni á dekkjaverkstæðið. Þetta er framtíðarstarf.",
             description: "Arctic Trucks leitar að starfsmanni á dekkjaverkstæðið. Þetta er framtíðarstarf.\nStór dekk og breyttir jeppar eru daglegt brauð hjá okkur. Starfið er fjölbreytt, dekkin eru þung og verkefnin krefjandi. Við leitum að manni sem er til í það og vill vera hjá okkur til lengri tíma.\n\nHelstu verkefni og ábyrgð\n\nStarfið felst í:\n\nDekkjaskiptum og þjónustu (stór jeppa- og sérdekk)\nUppsetningu...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9339,7 +9347,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Forstöðumaður viðskipta- og samningsmála (Senior Commercial Manager)",
             description: "Verne Global óskar eftir að ráða reynslumikinn einstakling í stöðu forstöðumanns viðskipta- og samningsmála sem mun leiða viðskiptalega, samningslega og fjárhagslega stjórnun umfangsmikillar uppbyggingar gagnavers.\n\nViðkomandi mun starfa á framkvæmdastað og felur starfið í sér stefnumótandi ábyrgð á innkaupum, samningsumsýslu, kostnaðareftirliti, breytingastjórnun, kröfum, áhættustýringu og...",
-            category: "other",
+            category: "sales",
             type: "full-time",
             experienceLevel: "senior",
             location: "Iceland",
@@ -9393,7 +9401,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsmaður á Fjármálasviði",
             description: "Kerecis leitar að starfsmanni í ýmiss verkefni innan fjármálasviðs. Starfið hentar vel fyrir aðila sem er að stíga sín fyrstu skref í bókhaldi eða fjármálum eftir nám.\n\nStarfsmaður í bókhaldi hefur aðsetur á skrifstofu Kerecis.\n\nFarið verður yfir umsóknir jafn óðum og boðað í viðtöl.\n\nUm Kerecis\n\nKerecis is pioneering the use of fish skin and fatty acids in the globally expanding...",
-            category: "other",
+            category: "finance",
             type: "full-time",
             experienceLevel: "lead",
             location: "Reykjavik, Iceland",
@@ -9447,7 +9455,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Housekeeping / Cleaning",
             description: "Heimaleiga is a fast-growing company managing around 600 short-term rental apartments across Reykjavík, including properties such as Sif Apartments, EIR Apartments, Aurora Nooks and Swan House. We're looking for a reliable, hard-working addition to our housekeeping team to help us keep our apartments and facilities spotless for every guest.\n\nWe're hiring housekeepers for full-time and...",
-            category: "other",
+            category: "hospitality",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9465,7 +9473,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Bókari og Uppgjörsaðili",
             description: "Fjárheimar ehf. er ört vaxandi fyrirtæki á Selfossi, við þurfum að fjölga í okkar frábæra starfsmannahóp um bókara og uppgjörsaðila í 100% starf.\n\nUm er að ræða vinnu við færslu bókhalds, launavinnslur, reikningaskrif, afstemmingar og frágang bókhalds til uppgjörs, ásamt öllum þeim verkum sem falla til frá degi til dags. Við leitum að einstaklingum sem eru vandvirkir og nákvæmir, sem geta...",
-            category: "other",
+            category: "finance",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -9483,7 +9491,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Verkfræðingur í vöruþróun",
             description: "Verkfræðingur í vöruþróun\n\nVerkfræðingur í vöruþróun hjá Kerecis er hluti af reyndu teymi sérfræðinga í lækningatækjum sem bera ábyrgð á að þróa og koma á markað næstu kynslóð lækningartækja til meðferðar á mismunandi tegundum sára.\n\nVerkfræðingur í vöruþróun hefur aðsetur á skrifstofu Kerecis í Reykjavík og heyrir undir deildarstjóra vöruþróunar. Um er að ræða fullt starf.\n\nHelstu verkefni og...",
-            category: "other",
+            category: "engineering",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9501,7 +9509,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sölustjóri - Ísland",
             description: "Þú leiðir starfsemi 50skills á íslenskum markaði. Þú berð ábyrgð á öllu söluferlinu, jafnt fyrirspurnum sem berast og markvissri sókn til nýrra viðskiptavina, frá fyrstu samskiptum til undirritunar. Þú tekur við virkum sölutækifærum og ánægðum, virkum viðskiptavinahópi, með sterkt vörumerki og gott orðspor að baki á vaxandi markaði. Íslenski markaðurinn er skrefi á undan öðrum mörkuðum: þú...",
-            category: "other",
+            category: "sales",
             type: "part-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -9555,7 +9563,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í fjármálum",
             description: "Við leitum að sérfræðingi til að sinna daglegum fjármálarekstri 50skills og taka þátt í að bæta kerfi og verkferla hjá vaxandi tæknifyrirtæki. Þú hefur umsjón með reikningagerð, greiðslum, áætlanagerð og uppgjörum og vinnur náið með fjármála- og rekstrarstjóra. Starfið hentar þeim sem vinna sjálfstætt og af nákvæmni, sýna góða dómgreind og hafa áhuga á að finna betri leiðir til að leysa...",
-            category: "other",
+            category: "finance",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -9565,7 +9573,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/serfraedingur-i-fjarmalum-22",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 530,
@@ -9609,7 +9617,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Aðstoðarmanneskja í mötuneyti",
             description: "Við leitum að jákvæðum og duglegum liðsfélaga í mötuneyti Össurar þar sem framreiddur er fjölbreyttur og hollur matur fyrir starfsfólk fyrirtækisins. Starfið felur í sér framreiðslu á mat, uppvask, almenn þrif og aðstoð við önnur tilfallandi verkefni.\n\nNýlega opnaði nýtt og fallegt rými veitingasviðs fyrir starfsfólk Össurar sem býður upp á spennandi tækifæri í lifandi og skapandi...",
-            category: "other",
+            category: "hospitality",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9627,7 +9635,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Gildinga sérfræðingur (e. Validation Technician)",
             description: "Sérfræðingurinn verður hluti af teymi sem sér um framleiðslubúnað, gildingu ferla og tækja (e. Process Validation), ásamt því að veita víðtæka aðstoð við gæðamál. Starfið felur m.a. í sér söfnun og greiningu gagna, skrif á skýrslum, uppfærslum og viðhaldi ferla, og eftirfylgni með viðeigandi stöðlum og reglugerðum. Samhæfing með þverfaglegum teymum í fjölbreyttum verkefnum er...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9771,7 +9779,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Fulltrúi á fjármálasviði / Bookkeeper",
             description: "Rapyd Is Building the Future of Fintech\n\nRapyd is a financial technology company that allows businesses to accept and make payments anywhere, using any method. By building the largest local payments network, we’re unleashing global opportunities, letting businesses reach new markets faster, and giving more consumers access to innovative goods and services.\n\nBuilt from the ground up as a global...",
-            category: "other",
+            category: "finance",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9781,7 +9789,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/fulltrui-a-fjarmalasvidi-bookkeeper",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 542,
@@ -9825,7 +9833,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "MST Compliance Support Specialist",
             description: "Overview of role:\n\nAt Alvotech, we are driven by a shared purpose: improving lives by increasing access to affordable biologic medicines worldwide. As a fast-growing global biotechnology company, we foster a collaborative, inclusive, and innovative environment where talented professionals can make a meaningful impact.\n\nWe are looking for an experienced MST Compliance Support Specialist to join...",
-            category: "other",
+            category: "customer-service",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9879,7 +9887,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Bifvélavirki",
             description: "Kaupfélag Skagfirðinga Sauðárkróki\n\nBifreiðaverkstæði KS óskar eftir að ráða bifvélavirkja í fullt starf.\n\nHelstu verkefni og ábyrgð\n\nBilanagreining og mat á nauðsynlegum aðgerðum\n\nAlmennar viðgerðir á bifreiðum, lyfturum, dráttarvélum, vörubílum og öðrum tækjum\n\nReglubundnar viðhaldsskoðanir og eftirlit\n\nMenntunar- og hæfniskröfur\n\nSveinspróf/meistarapróf í bifvélavirkjun\n\nGóð almenn...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -9889,7 +9897,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/bifvelavirki-116",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 548,
@@ -9915,7 +9923,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Pikkoló sendill óskast!",
             description: "Pikkoló leitar af hressum og hraustum einstaklingum með áhuga á að taka þátt í að breyta leiknum á matvörumarkaði og hjálpa fólki að nálgast mat - og dagvörur í nærumhverfi sínu með snjallari og umhverfisvænni hætti.\n\nUm er að ræða hlutastarf á dagvinnutíma og um helgar. Krafa er gerð um bílpróf og að einstaklingurinn sé 20 ára eða eldri.\n\nHvað er Pikkoló?\n\nPikkoló er spennandi...",
-            category: "other",
+            category: "operations",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9933,7 +9941,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Mannauðs- og skrifstofufulltrúi",
             description: "Langar þig að starfa í fjölbreyttu hlutverki þar sem mannauðsmál og skrifstofuumsjón koma saman?\n\nKerecis leitar að skipulögðum, þjónustulunduðum og jákvæðum einstaklingi í starf skrifstofu- og mannauðsfulltrúa á skrifstofu fyrirtækisins í Reykjavík.\n\nÍ þessu fjölbreytta starfi gegnir þú mikilvægu hlutverki í daglegum mannauðsmálum fyrirtækisins og stuðlar að jákvæðri upplifun starfsfólks allt...",
-            category: "other",
+            category: "operations",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -9951,7 +9959,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Starfsmaður á renniverkstæði / CNC",
             description: "Við óskum eftir að ráða öflugan starfsmann á renniverkstæði (CNC) Össurar sem er áhugasamur um að takast á við nýja hluti og með góða samskiptafærni. Viðkomandi þarf að geta hafið störf sem fyrst.\n\nUnnið er á vöktum og er vinnutíminn aðra vikuna frá 07.00-16.00 (mánudags til föstudags) og næstu viku frá 16.00-01.00 (mánudags til fimmtudags).\n\nMenntunar- og hæfniskröfur\n\nEiga gott með að vinna...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -10014,8 +10022,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-29",
             applicationUrl: "https://alfred.is/starf/office-operations-coordinator",
             featured: false,
-            status: "active",
-            lastVerified: "2026-10-15"
+            status: "filled",
+            lastVerified: "2026-10-16"
         },
         {
             id: 555,
@@ -10023,7 +10031,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Bifvélavirki",
             description: "Við óskum eftir að ráða til liðs við okkur starfsmann á verkstæði.\n\nErum að leita að vönum og sjáfstæðum manni á bílaverkstæði IB ehf á Selfossi.\nGóð tölvukunátta er kostur.\n\nOkkur vantar metnaðarfullan einstakling sem er tilbúinn til að takast á við nýjar áskoranir.\n\nFarið er fram á snyrtimennsku og góða umgengni.\nUm er að ræða 100% starf.\n\nVerkstæðið okkar er rúmgott, snyrtilegt og mjög vel...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Akureyri, Iceland",
@@ -10077,7 +10085,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Manufacturing Cleaning Specialist",
             description: "We are looking for a Manufacturing Cleaning Specialist to join our team at Alvotech. In this role, you will be responsible for performing and overseeing cleaning activities in GMP-classified areas, including Drug Substance Manufacturing (DSM) areas, in full compliance with approved procedures and EHS standards. You will ensure the availability of cleaning materials, handle chemical waste...",
-            category: "other",
+            category: "hospitality",
             type: "part-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -10122,8 +10130,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-30",
             applicationUrl: "https://alfred.is/starf/head-of-education",
             featured: false,
-            status: "active",
-            lastVerified: "2026-10-15"
+            status: "filled",
+            lastVerified: "2026-10-16"
         },
         {
             id: 561,
@@ -10140,8 +10148,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-09-30",
             applicationUrl: "https://alfred.is/starf/education-producer",
             featured: false,
-            status: "active",
-            lastVerified: "2026-10-15"
+            status: "filled",
+            lastVerified: "2026-10-16"
         },
         {
             id: 562,
@@ -10159,7 +10167,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-specialist-quality-control",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 563,
@@ -10167,7 +10175,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Öryggisstjóri (HSE Manager)",
             description: "atNorth leitar að kraftmiklum og lausnamiðuðum öryggisstjóra, HSE Manager, í gagnaver félagsins á Reykjanesi. Starfið hentar einstaklingi með reynslu og menntun á sviði rafvirkjunar sem hefur brennandi áhuga á öryggismálum, heilsu og umhverfi, og vill taka virkan þátt í að efla örugga, faglega og ábyrga vinnustaðamenningu. HSE Manager gegnir lykilhlutverki í daglegri eftirfylgni með...",
-            category: "other",
+            category: "operations",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -10203,7 +10211,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Sérfræðingur í stjórn- og eftirlitskerfum (Control SME)",
             description: "atNorth á Reykjanesi leitar að öflugum sérfræðingi til að tryggja áreiðanlegan rekstur og áframhaldandi þróun stjórn- og eftirlitskerfa gagnaversins. Starfið felur í sér umsjón með PLC-, SCADA- og BMS-kerfum, viðhald og bilanagreiningu, ásamt innleiðingu tæknilegra umbóta sem styðja við öruggan og skilvirkan rekstur.\n\nVið leitum að aðila með sterkan tæknilegan grunn, góða samskiptahæfni og...",
-            category: "other",
+            category: "engineering",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -10230,8 +10238,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-10-03",
             applicationUrl: "https://alfred.is/starf/head-of-warehouses-alvotech",
             featured: false,
-            status: "active",
-            lastVerified: "2026-10-15"
+            status: "filled",
+            lastVerified: "2026-10-16"
         },
         {
             id: 567,
@@ -10249,7 +10257,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/pikkolo-leitar-ad-skapandi-samfelagsmidlafulltrua",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 568,
@@ -10257,7 +10265,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "R&D Stoðtækjafræðingur | Össur",
             description: "Össur leitar að stoðtækjafræðingi (Certified Prosthetist/Orthotist, CPO) til að ganga til liðs við Þróundardeild Össurar– Biomechanical Testing teymið. Sem hluti af teyminu, ber stoðtækjafræðingur R&D ábyrgð á að skipuleggja og veita þá stoðtækjaþjónustu sem nauðsynleg er fyrir klínískar prófanir sem framkvæmdar eru í Þróunardeild Össurar, auk annarra verkefna sem viðkoma þeim prófunum.\n\nÞetta...",
-            category: "other",
+            category: "science",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -10267,7 +10275,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/r-d-stodtaekjafraedingur-oessur",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 569,
@@ -10285,7 +10293,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/qc-analytical-product-testing-senior-scientist",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 570,
@@ -10303,7 +10311,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/ai-engineer",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 571,
@@ -10320,8 +10328,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-10-08",
             applicationUrl: "https://alfred.is/starf/senior-full-stack-ai-forritari",
             featured: false,
-            status: "active",
-            lastVerified: "2026-10-15"
+            status: "filled",
+            lastVerified: "2026-10-17"
         },
         {
             id: 572,
@@ -10329,7 +10337,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Tæknifólk í Framlínuþjónustu",
             description: "Fjar- og vettvangsþjónustuteymi OK stækkar og við leitum að einstaklingi með góða reynslu af notendaþjónustu. Starfið hentar einkar vel þjónustuliprum einstaklingi sem á auðvelt með samskipti við viðskiptavini hvort sem er í síma eða í eigin persónu.\n\nUm er að ræða fullt starf á dagtíma frá 09:00-17:00 alla virka daga.\n\nHjá OK starfar samhentur hópur fólks og er kapp lagt á að viðhalda góðum...",
-            category: "other",
+            category: "it",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -10338,8 +10346,8 @@ var StartupIcelandJobsData = {
             postedDate: "2026-10-08",
             applicationUrl: "https://alfred.is/starf/taeknifolk-i-framlinuthjonustu-1",
             featured: false,
-            status: "active",
-            lastVerified: "2026-10-15"
+            status: "filled",
+            lastVerified: "2026-10-16"
         },
         {
             id: 573,
@@ -10357,7 +10365,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/capex-pmo-systems-specialist",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 574,
@@ -10365,7 +10373,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Field Service Specialist (Service, Build & Enablement)",
             description: "A robot reaches into a furnace of molten aluminum alloy, pulls a sample, and a laser reads what elements are in the metal, while it is still liquid. DTE is a world leader in this area and this now runs around the clock at plants in both Europe and the United States.\n\nYou would be the person who builds it, installs it, starts it up, and keeps it running.\n\nThis role sits in Iceland, which makes...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -10375,7 +10383,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/field-service-specialist-service-build-enablement",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 575,
@@ -10393,7 +10401,7 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/senior-product-complaint-specialist",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
         },
         {
             id: 576,
@@ -10401,7 +10409,7 @@ var StartupIcelandJobsData = {
             companyLogo: null,
             title: "Tækjasérfræðingur – uppsetning, þjónusta og þjálfun",
             description: "Vélmenni teygir sig inn í ofn með bráðinni álblöndu, tekur sýni og leysir greinir hvaða frumefni eru í málminum á meðan hann er enn í fljótandi formi. DTE er leiðandi á heimsvísu á þessu sviði og tæknin er nú í notkun allan sólarhringinn í álverum bæði í Evrópu og Bandaríkjunum.\n\nÞú verður sá einstaklingur sem smíðar búnaðinn, setur hann upp, gangsetur hann og tryggir að hann haldist...",
-            category: "other",
+            category: "production",
             type: "full-time",
             experienceLevel: "mid",
             location: "Reykjavik, Iceland",
@@ -10411,7 +10419,43 @@ var StartupIcelandJobsData = {
             applicationUrl: "https://alfred.is/starf/tkjaserfrdingur-uppsetning-thjonusta-og-thjalfun",
             featured: false,
             status: "active",
-            lastVerified: "2026-10-15"
+            lastVerified: "2026-10-17"
+        },
+        {
+            id: 577,
+            company: "Alvotech hf",
+            companyLogo: null,
+            title: "Payroll Specialist",
+            description: "Alvotech is looking for a temporary (6 months contract with the possibility of extension) Payroll Specialist\nThe Payroll Specialist is responsible for ensuring accurate and timely payroll processing,\n\nmaintaining compliance with Icelandic labor laws, collective agreements, tax requirements,\n\nand internal policies. The role works closely with HR, Finance, managers, external payroll\n\nproviders,...",
+            category: "finance",
+            type: "contract",
+            experienceLevel: "mid",
+            location: "Reykjavik, Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-17",
+            applicationUrl: "https://alfred.is/starf/payroll-specialist",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-17"
+        },
+        {
+            id: 578,
+            company: "Alda Öryggi ehf.",
+            companyLogo: null,
+            title: "Taktu forystu í kerfinu sem bjargar mannslífum!",
+            description: "Við hjá Alda Öryggi erum að leita að reyndum Senior forritara í brúna hjá okkur sem vill taka þátt í að byggja upp alþjóðlegt hugbúnaðarfyrirtæki. Við höfum þróað tímamóta öryggisstjórnunarkerfi fyrir sjávarútveg sem hefur sannað gildi sitt á Íslandi og er í notkun hjá íslenskum og erlendum útgerðum. Nú stefnum við á frekari útbreiðslu erlendis og leitum að öflugum einstaklingi sem vill taka...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-17",
+            applicationUrl: "https://alfred.is/starf/taktu-forystu-i-kerfinu-sem-bjargar-mannslifum",
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-17"
         }
     ]
 };

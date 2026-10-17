@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Jobs Board
  * Plugin URI: https://startupiceland.com
  * Description: Searchable jobs board for Icelandic startups with filtering by category, type, level, and remote options.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -39,7 +39,7 @@ class Startup_Iceland_Jobs_Board {
                 'startup-jobs-css',
                 plugin_dir_url(__FILE__) . 'css/jobs-board.css',
                 array(),
-                '1.1.0'
+                '1.2.0'
             );
 
             // Plugin JS — fetches jobs data from jsDelivr CDN at runtime
@@ -47,7 +47,7 @@ class Startup_Iceland_Jobs_Board {
                 'startup-jobs-js',
                 plugin_dir_url(__FILE__) . 'js/jobs-board.js',
                 array(),
-                '1.1.0',
+                '1.2.0',
                 true
             );
         }
@@ -55,10 +55,12 @@ class Startup_Iceland_Jobs_Board {
 
     public function render_jobs_board($atts) {
         $atts = shortcode_atts(array(
-            'show_count' => 'true'
+            'show_count' => 'true',
+            'trends'     => 'true'
         ), $atts);
 
         $show_count = filter_var($atts['show_count'], FILTER_VALIDATE_BOOLEAN);
+        $show_trends = filter_var($atts['trends'], FILTER_VALIDATE_BOOLEAN);
 
         ob_start();
         ?>
@@ -121,6 +123,28 @@ class Startup_Iceland_Jobs_Board {
                     </div>
                 </div>
             </div>
+
+            <?php if ($show_trends): ?>
+            <!-- Hiring trends: drawn by JS from the same jobs data as the list -->
+            <details class="sjb-trends" id="sjb-trends" open>
+                <summary>Hiring trends</summary>
+                <p class="sjb-trends-lead" id="sjb-trends-lead"></p>
+                <div class="sjb-trends-controls">
+                    <div class="sjb-seg" role="group" aria-label="Measure">
+                        <button type="button" data-trend="measure" data-value="postings" aria-pressed="true">Job postings</button>
+                        <button type="button" data-trend="measure" data-value="companies" aria-pressed="false">Companies hiring</button>
+                    </div>
+                    <div class="sjb-seg" role="group" aria-label="Status">
+                        <button type="button" data-trend="status" data-value="all" aria-pressed="true">All postings</button>
+                        <button type="button" data-trend="status" data-value="open" aria-pressed="false">Open now</button>
+                    </div>
+                </div>
+                <div class="sjb-trends-scroll">
+                    <div class="sjb-trends-grid" id="sjb-trends-grid" role="group" aria-label="Job postings by category and month"></div>
+                </div>
+                <p class="sjb-trends-note">By the month a job was first posted. Tracking began in January 2026, so January includes jobs that were already open. Select a category to show its jobs below.</p>
+            </details>
+            <?php endif; ?>
 
             <?php if ($show_count): ?>
             <!-- Count Bar -->

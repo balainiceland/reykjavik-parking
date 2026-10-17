@@ -382,18 +382,84 @@ class Job:
 
 # ---------------- Category/Type Inference ----------------
 
+# Order matters: the first match wins, so specific categories come before broad
+# ones. Icelandic stems are matched anywhere in a word, because Icelandic job
+# titles are compounds (Framendaforritari = frontend developer) and a \b...\b
+# rule never matches inside them; that sent 41% of the board to "other".
+# Short English tokens keep \b so "ai" or "it" do not match inside other words.
+def _rx(english=(), stems=()):
+    parts = [rf"\b(?:{w})\b" for w in english] + list(stems)
+    return re.compile("|".join(parts), re.I)
+
+
 CATEGORY_RULES = [
-    (re.compile(r"\b(engineer|developer|backend|frontend|full[- ]?stack|devops|sre|software|forritari|hugbúnaðar|programmer)\b", re.I), "engineering"),
-    (re.compile(r"\b(data|scientist|analytics|ml|machine learning|ai|artificial)\b", re.I), "engineering"),
-    (re.compile(r"\b(design|ux|ui|grafísk|hönnuður|hönnun|visual)\b", re.I), "design"),
-    (re.compile(r"\b(marketing|markaðs|growth|content|seo|community|samfélagsmiðla)\b", re.I), "marketing"),
-    (re.compile(r"\b(sales|sölu|account executive|ae|sdr|bdr|revenue)\b", re.I), "sales"),
-    (re.compile(r"\b(operations|ops|people|hr|talent|recruit|starfsmannamál|ráðning)\b", re.I), "operations"),
-    (re.compile(r"\b(product manager|pm|vörustjór|product)\b", re.I), "product"),
-    (re.compile(r"\b(finance|accountant|controller|cfo|fjármál|bókhald)\b", re.I), "finance"),
-    (re.compile(r"\b(quality|qa|gæða|test)\b", re.I), "operations"),
-    (re.compile(r"\b(cto|ceo|chief|framkvæmdastjór)\b", re.I), "operations"),
+    (_rx(["engineer", "developer", "backend", "frontend", "full[- ]?stack", "devops", "sre",
+          "software", "programmer", "data scien\\w*", "data engineer", "machine learning", "ml", "ai"],
+         ["forritar", "hugbúnað", "verkfræð", "gagnaví", "gagnaverkfr", "samþætting", "forritun",
+          "stjórn- og eftirlitskerf"]), "engineering"),
+    (_rx(["it", "sysadmin", "system administrator", "noc", "network", "helpdesk", "help desk",
+          "cyber ?security", "information security", "security consultant", "it support",
+          "erp", "application support", "data cent(?:er|re)"],
+         ["kerfisstjór", "netsérfr", "upplýsingatækn", "upplýsingaöryggi", "öryggisráðgjöf", "tölvu",
+          "gagnaver", "framlínuþjónust"]),
+     "it"),
+    (_rx(["nurse", "clinical", "physician", "doctor", "wound care", "pharmacist", "therapist"],
+         ["hjúkrun", "lækn", "sjúkraþjálf", "lyfjafræðing", "heimaþjónust", "stuðningsfulltrú",
+          "þroskaþjálf", "búsetu", "umönnun"]), "healthcare"),
+    (_rx(["teacher", "tutor", "instructor"], ["kennar", "leikskól", "kennsl"]), "education"),
+    (_rx(["cook", "chef", "barista", "waiter", "waitress", "café", "cafe", "canteen", "kitchen",
+          "housekeeping", "cleaning", "cleaner"],
+         ["mötuney", "kaffihús", "matreiðsl", "matráð", "kokk", "eldhús", "þrif", "þvottah"]),
+     "hospitality"),
+    (_rx(["scientist", "lab", "laboratory", "research", "r&d", "chemist", "biologist", "geologist",
+          "geophysicist", "geochemist", "microbiolog\\w*", "sterility", "qc analyst", "msat",
+          "commissioning and qualification"],
+         ["rannsókn", "jarðfræð", "jarðeðlis", "jarðefna", "örverufr", "erfðafr", "efnafræð",
+          "líffræð", "dauðhreins", "hráefnamæl", "umhverfisvökt", "mæliaðferð"]), "science"),
+    (_rx(["manufacturing", "production", "packaging", "technician", "technologist", "mechanic",
+          "electrician", "operator", "assembly", "maintenance", "machinist", "welder",
+          "cnc", "plumber", "field service"],
+         ["framleiðsl", "pökkun", "vélam", "rafvirk", "rafmagn", "áfylling", "úrbeining",
+          "viðhald", "trésmið", "húsasmið", "járnsmið", "\\bsmið", "tæknir", "tæknimað",
+          "pípar", "verkstæð", "mjólkurfr", "tækjasérfr", "viðgerð", "vélvirk", "vélavirk", "próteinvinnsl"]),
+     "production"),
+    (_rx(["customer success", "customer support", "customer service", "support specialist",
+          "guest service", "receptionist", "front desk", "store employee", "retail"],
+         ["þjónustufulltrú", "þjónustuver", "gestaþjónust", "gesta þjónust", "móttök", "afgreiðsl", "verslunarst",
+          "tjónafulltr"]),
+     "customer-service"),
+    (_rx(["finance", "financial", "accountant", "bookkeeper", "controller", "cfo", "payroll",
+          "auditor", "treasury", "risk", "credit", "lending", "fp&a", "actuar\\w*"],
+         ["fjármál", "bókhald", "bókar", "endurskoð", "launafulltr", "launavinnsl", "áhættust",
+          "útlán", "lánavinnsl", "gjaldker", "hagdeild", "tryggingastærðfr", "uppgjör"]),
+     "finance"),
+    (_rx(["design", "designer", "ux", "ui", "visual", "artwork"],
+         ["hönnuð", "hönnun", "grafísk", "prentumsjón"]), "design"),
+    (_rx(["marketing", "growth", "content", "seo", "community", "social media", "brand"],
+         ["markaðs", "samfélagsmiðl", "kynning"]), "marketing"),
+    (_rx(["sales", "account executive", "account manager", "ae", "sdr", "bdr", "revenue",
+          "business development", "commercial manager"],
+         ["sölu", "viðskiptastjór", "viðskiptaþróun", "viðskipta- og samnings"]), "sales"),
+    (_rx(["consultant", "consulting", "advisor"], ["ráðgjaf", "ráðgjöf"]), "consulting"),
+    (_rx(["product manager", "product owner", "pm", "product"], ["vörustjór"]), "product"),
+    (_rx(["operations", "ops", "people", "hr", "talent", "recruit\\w*", "logistics", "supply chain",
+          "warehouse", "purchasing", "procurement", "project manager", "office manager", "hse",
+          "quality", "qa", "document control", "administrat\\w*", "shift manager", "cto", "ceo",
+          "chief", "director", "driver", "courier", "legal", "lawyer", "ehs",
+          "purchaser", "facilities"],
+         ["starfsmannam", "ráðning", "birgð", "lager", "vöruhús", "innkaup", "verkefnastjór",
+          "verkefnisstjór", "gæða", "skjalastjór", "vaktstjór", "framkvæmdastjór", "skrifstof",
+          "flutning", "bílstjór", "sendil", "lögfræð", "mannauð", "öryggisstjór"]), "operations"),
 ]
+
+# Labels for jobs-data.js `categories`; keep in step with CATEGORY_RULES.
+CATEGORY_LABELS = {
+    "engineering": "Engineering", "it": "IT & Security", "science": "Science & R&D",
+    "production": "Production & Trades", "healthcare": "Healthcare", "education": "Education",
+    "hospitality": "Hospitality & Food", "customer-service": "Customer Service",
+    "design": "Design", "marketing": "Marketing", "sales": "Sales", "consulting": "Consulting",
+    "operations": "Operations", "product": "Product", "finance": "Finance", "other": "Other",
+}
 
 TYPE_RULES = [
     (re.compile(r"\b(intern|internship|starfsnám|nám)\b", re.I), "internship"),
@@ -415,9 +481,15 @@ REMOTE_RULES = [
 ]
 
 
-def guess_category(text: str) -> str:
+def guess_category(text: str, title: str = "") -> str:
+    """Classify by the title alone when there is one. Descriptions mention every
+    function in passing ("work with our sales and data teams", an EHS manager's
+    'health'), and falling back to them misfiled about one job in ten. A title
+    that matches nothing stays "other", which is honest. `text` is only used for
+    callers that have no separate title."""
+    source = title or text
     for rx, cat in CATEGORY_RULES:
-        if rx.search(text):
+        if source and rx.search(source):
             return cat
     return "other"
 
@@ -669,7 +741,7 @@ class TvinnaScraper:
                 company=company,
                 title=title,
                 description=description,
-                category=guess_category(full_text),
+                category=guess_category(full_text, title),
                 job_type=job_type,
                 experience_level=guess_experience(full_text),
                 location="Iceland",
@@ -885,7 +957,7 @@ class AlfredScraper:
                     company=company,
                     title=title,
                     description=description,
-                    category=guess_category(full_text or title),
+                    category=guess_category(full_text, title),
                     job_type=details.get('type') or guess_type(full_text or title),
                     experience_level=guess_experience(full_text or title),
                     location=details.get('location', 'Iceland'),
@@ -1065,7 +1137,7 @@ class AlfredPlaywrightScraper:
                 company=company,
                 title=title,
                 description=description,
-                category=guess_category(f"{title} {description}"),
+                category=guess_category(description, title),
                 job_type=job_type,
                 experience_level=guess_experience(f"{title} {description}"),
                 location=location,

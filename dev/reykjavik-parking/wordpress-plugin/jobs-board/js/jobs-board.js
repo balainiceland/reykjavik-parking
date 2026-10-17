@@ -1,6 +1,6 @@
 /**
  * Startup Iceland Jobs Board - Main JavaScript
- * Version: 1.1.0
+ * Version: 1.2.0
  */
 
 (function() {
@@ -24,7 +24,8 @@
             level: 'all',
             remote: 'all'
         },
-        sort: 'newest'
+        sort: 'newest',
+        trends: { measure: 'postings', status: 'all' }
     };
 
     // DOM Elements
@@ -53,7 +54,9 @@
             jobsList: document.getElementById('sjb-jobs-list'),
             showingCount: document.getElementById('sjb-showing-count'),
             companyCount: document.getElementById('sjb-company-count'),
-            noJobs: document.getElementById('sjb-no-jobs')
+            noJobs: document.getElementById('sjb-no-jobs'),
+            trendsGrid: document.getElementById('sjb-trends-grid'),
+            trendsLead: document.getElementById('sjb-trends-lead')
         };
 
         // Load data via CDN with cache and fallback
@@ -200,6 +203,143 @@
     }
 
     /**
+     * Hiring trends: job categories by the month jobs were first posted, drawn
+     * from the same data as the list so it is always current. Darker cells mean
+     * more postings (or more companies hiring); selecting a row filters the list.
+     */
+    var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    var TREND_MONTHS = 12;
+
+    function monthLabel(ym) {
+        var m = parseInt(ym.slice(5, 7), 10) - 1;
+        return (m === 0 || m === 11) ? MONTHS[m] + ' \u2019' + ym.slice(2, 4) : MONTHS[m];
+    }
+
+    function trendValue(jobs) {
+        if (state.trends.measure === 'postings') return jobs.length;
+        var seen = {};
+        jobs.forEach(function(j) { seen[j.company] = true; });
+        return Object.keys(seen).length;
+    }
+
+    function shade(t) {
+        // From the panel grey (#f8f9fa) to the board's charcoal (#32373c).
+        var a = [248, 249, 250], b = [50, 55, 60];
+        var k = 0.12 + 0.88 * Math.sqrt(t);
+        return 'rgb(' + a.map(function(v, i) { return Math.round(v + (b[i] - v) * k); }).join(',') + ')';
+    }
+
+    function selectCategory(cat) {
+        state.filters.category = (state.filters.category === cat) ? 'all' : cat;
+        if (elements.categoryFilter) elements.categoryFilter.value = state.filters.category;
+        applyFilters();
+        if (state.filters.category !== 'all' && elements.jobsList) {
+            elements.jobsList.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
+
+    function trendCell(cls, text) {
+        var div = document.createElement('div');
+        div.className = cls;
+        if (text != null) div.textContent = text;
+        return div;
+    }
+
+    function renderTrends() {
+        var grid = elements.trendsGrid;
+        if (!grid) return;
+
+        var jobs = state.jobs.filter(function(j) {
+            return /^\d{4}-\d{2}/.test(j.postedDate || '') &&
+                (state.trends.status === 'all' || j.status !== 'filled');
+        });
+        var months = {};
+        state.jobs.forEach(function(j) {
+            if (/^\d{4}-\d{2}/.test(j.postedDate || '')) months[j.postedDate.slice(0, 7)] = true;
+        });
+        months = Object.keys(months).sort().slice(-TREND_MONTHS);
+
+        var byCat = {};
+        jobs.forEach(function(j) {
+            if (months.indexOf(j.postedDate.slice(0, 7)) === -1) return;
+            (byCat[j.category] = byCat[j.category] || []).push(j);
+        });
+        var cats = Object.keys(byCat).sort(function(a, b) {
+            if ((a === 'other') !== (b === 'other')) return a === 'other' ? 1 : -1;
+            return trendValue(byCat[b]) - trendValue(byCat[a]);
+        });
+
+        var cells = {}, max = 0;
+        cats.forEach(function(c) {
+            months.forEach(function(m) {
+                var list = byCat[c].filter(function(j) { return j.postedDate.slice(0, 7) === m; });
+                var v = trendValue(list);
+                cells[c + '|' + m] = { v: v, list: list };
+                if (v > max) max = v;
+            });
+        });
+
+        var unit = state.trends.measure === 'postings' ? 'postings' : 'companies hiring';
+        if (elements.trendsLead) {
+            var top = cats.filter(function(c) { return c !== 'other'; }).slice(0, 3).map(function(c) {
+                return getCategoryLabel(c) + ' (' + trendValue(byCat[c]) + ')';
+            });
+            elements.trendsLead.textContent = top.length
+                ? 'Most ' + unit + ' over the last ' + months.length + ' months: ' + top.join(', ') + '.'
+                : 'No jobs to show yet.';
+        }
+
+        grid.style.gridTemplateColumns = 'minmax(9rem, max-content) repeat(' + months.length + ', minmax(2.1rem, 1fr)) minmax(2.5rem, max-content)';
+        var kids = [trendCell('sjb-trends-colhead', '')];
+        months.forEach(function(m) { kids.push(trendCell('sjb-trends-colhead', monthLabel(m))); });
+        kids.push(trendCell('sjb-trends-colhead', 'Total'));
+
+        cats.forEach(function(c) {
+            var selected = state.filters.category === c;
+            var label = document.createElement('button');
+            label.type = 'button';
+            label.className = 'sjb-trends-rowhead' + (selected ? ' is-selected' : '');
+            label.textContent = getCategoryLabel(c);
+            label.setAttribute('aria-pressed', String(selected));
+            label.addEventListener('click', function() { selectCategory(c); });
+            kids.push(label);
+
+            months.forEach(function(m) {
+                var cell = cells[c + '|' + m];
+                var div = trendCell('sjb-trends-cell' + (selected ? ' is-selected' : ''), cell.v ? String(cell.v) : '');
+                var t = max ? cell.v / max : 0;
+                div.style.background = cell.v ? shade(t) : '#fff';
+                div.style.color = t > 0.45 ? '#fff' : '#32373c';
+                var counts = {};
+                cell.list.forEach(function(j) { counts[j.company] = (counts[j.company] || 0) + 1; });
+                var topCos = Object.keys(counts).sort(function(a, b) { return counts[b] - counts[a]; }).slice(0, 4)
+                    .map(function(co) { return co + ' (' + counts[co] + ')'; });
+                div.title = getCategoryLabel(c) + ', ' + monthLabel(m) + ': ' + cell.v + ' ' + unit +
+                    (topCos.length ? '\n' + topCos.join('\n') : '');
+                div.addEventListener('click', function() { selectCategory(c); });
+                kids.push(div);
+            });
+            kids.push(trendCell('sjb-trends-total', String(trendValue(byCat[c]))));
+        });
+
+        grid.replaceChildren.apply(grid, kids);
+    }
+
+    function bindTrendControls() {
+        var buttons = document.querySelectorAll('.sjb-trends [data-trend]');
+        Array.prototype.forEach.call(buttons, function(btn) {
+            btn.addEventListener('click', function() {
+                var group = btn.getAttribute('data-trend');
+                state.trends[group] = btn.getAttribute('data-value');
+                Array.prototype.forEach.call(buttons, function(b) {
+                    if (b.getAttribute('data-trend') === group) b.setAttribute('aria-pressed', String(b === btn));
+                });
+                renderTrends();
+            });
+        });
+    }
+
+    /**
      * Populate the category filter dropdown
      */
     function populateCategoryFilter() {
@@ -219,6 +359,8 @@
      * Bind event listeners
      */
     function bindEvents() {
+        bindTrendControls();
+
         // Search input
         if (elements.search) {
             elements.search.addEventListener('input', debounce(function(e) {
@@ -272,6 +414,8 @@
      * Apply all filters and render
      */
     function applyFilters() {
+        renderTrends();
+
         var filtered = state.jobs.filter(function(job) {
             // Search filter
             if (state.filters.search) {

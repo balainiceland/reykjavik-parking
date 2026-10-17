@@ -73,6 +73,16 @@ done
 SFTP_KEY="${SFTP_KEY:-$HOME/.ssh/id_ed25519}"
 VERIFY_URL="${VERIFY_URL:-}"
 
+# What the site serves, bypassing its edge cache. WordPress.com caches plugin
+# CSS/JS for a year (max-age=31536000), so a plain fetch right after an upload
+# returns the old copy: on 2026-10-16 and -17 a deploy that had worked was
+# reported as failed, and the next run re-sent the file for the same reason. A
+# query string the cache has never seen is a guaranteed miss, served fresh.
+live_sum() {
+    curl -sf --max-time 20 "$VERIFY_URL/$1?verify=$(date +%s)$RANDOM" 2>/dev/null \
+        | shasum -a 256 | cut -d' ' -f1
+}
+
 # ── What differs? ───────────────────────────────────────────────────────
 # Compared against what the site is actually serving, not against a local
 # record of what we believe we uploaded. A local manifest drifts the moment
@@ -89,9 +99,7 @@ if [ -n "$VERIFY_URL" ]; then
             *.php) changed+=("$f"); continue ;;
         esac
 
-        live_sum=$(curl -sf --max-time 20 "$VERIFY_URL/$f" 2>/dev/null \
-                   | shasum -a 256 | cut -d' ' -f1)
-        if [ "$local_sum" != "$live_sum" ]; then
+        if [ "$local_sum" != "$(live_sum "$f")" ]; then
             changed+=("$f")
         fi
     done
@@ -219,8 +227,7 @@ if [ -n "$VERIFY_URL" ]; then
     for f in "${FILES[@]}"; do
         case "$f" in *.php) continue ;; esac
         local_sum=$(shasum -a 256 "$SCRIPT_DIR/$f" | cut -d' ' -f1)
-        live_sum=$(curl -sf --max-time 20 "$VERIFY_URL/$f" | shasum -a 256 | cut -d' ' -f1)
-        if [ "$local_sum" = "$live_sum" ]; then
+        if [ "$local_sum" = "$(live_sum "$f")" ]; then
             echo "deploy:   OK   $f"
         else
             echo "deploy:   FAIL $f — the site is not serving what was sent" >&2

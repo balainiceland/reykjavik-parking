@@ -94,6 +94,134 @@
     border-color: #32373c;
 }
 
+/* Hiring trends heat map */
+.sjb-trends {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+}
+
+.sjb-trends summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #32373c;
+    font-size: 1rem;
+}
+
+.sjb-trends summary:focus-visible,
+.sjb-seg button:focus-visible,
+.sjb-trends-rowhead:focus-visible {
+    outline: 2px solid #32373c;
+    outline-offset: 2px;
+}
+
+.sjb-trends-lead {
+    margin: 8px 0 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.sjb-trends-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.sjb-seg {
+    display: inline-flex;
+    border: 1px solid #ddd;
+}
+
+.sjb-seg button {
+    font: inherit;
+    font-size: 0.8rem;
+    background: #fff;
+    color: #666;
+    border: 0;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.sjb-seg button + button {
+    border-left: 1px solid #ddd;
+}
+
+.sjb-seg button[aria-pressed="true"] {
+    background: #32373c;
+    color: #fff;
+}
+
+.sjb-trends-scroll {
+    overflow-x: auto;
+    margin-top: 14px;
+}
+
+.sjb-trends-grid {
+    display: grid;
+    gap: 3px;
+    min-width: 36rem;
+    font-size: 0.75rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.sjb-trends-colhead {
+    color: #888;
+    text-align: center;
+    align-self: end;
+    padding-bottom: 4px;
+}
+
+.sjb-trends-rowhead {
+    font: inherit;
+    font-size: 0.8rem;
+    text-align: left;
+    background: none;
+    border: 0;
+    padding: 0 10px 0 0;
+    color: #32373c;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.sjb-trends-rowhead:hover,
+.sjb-trends-rowhead.is-selected {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.sjb-trends-cell {
+    min-height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f0f0f0;
+    cursor: pointer;
+}
+
+.sjb-trends-cell:hover {
+    outline: 2px solid #32373c;
+    outline-offset: -2px;
+}
+
+.sjb-trends-cell.is-selected {
+    box-shadow: inset 0 0 0 2px #f5a623;
+}
+
+.sjb-trends-total {
+    color: #666;
+    align-self: center;
+    text-align: right;
+    padding-left: 8px;
+}
+
+.sjb-trends-note {
+    margin: 10px 0 0;
+    font-size: 0.75rem;
+    color: #888;
+}
+
 /* Count Bar */
 .sjb-count-bar {
     padding: 12px 20px;
@@ -245,6 +373,46 @@
 .sjb-tag-finance {
     background: #e8eaf6;
     color: #3949ab;
+}
+
+.sjb-tag-it {
+    background: #e1f5fe;
+    color: #0277bd;
+}
+
+.sjb-tag-science {
+    background: #f1f8e9;
+    color: #558b2f;
+}
+
+.sjb-tag-production {
+    background: #efebe9;
+    color: #6d4c41;
+}
+
+.sjb-tag-healthcare {
+    background: #fce4ec;
+    color: #c2185b;
+}
+
+.sjb-tag-education {
+    background: #fffde7;
+    color: #9e7c00;
+}
+
+.sjb-tag-hospitality {
+    background: #fbe9e7;
+    color: #d84315;
+}
+
+.sjb-tag-customer-service {
+    background: #e0f2f1;
+    color: #00695c;
+}
+
+.sjb-tag-consulting {
+    background: #ede7f6;
+    color: #5e35b1;
 }
 
 .sjb-tag-other {
