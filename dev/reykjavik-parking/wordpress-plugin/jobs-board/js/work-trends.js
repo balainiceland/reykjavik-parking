@@ -2,7 +2,7 @@
  * Startup Iceland - Iceland's changing world of work
  * Draws the [iceland_work_trends] page from the public figures the jobs
  * research database publishes daily (balainiceland/iceland-work-trends).
- * Version: 1.0.0
+ * Version: 1.1.0
  */
 (function () {
     'use strict';
@@ -15,6 +15,15 @@
         'Exposed: Gradient 4': 'Highest exposure', 'Exposed: Gradient 3': 'Significant exposure',
         'Exposed: Gradient 2': 'Moderate exposure', 'Exposed: Gradient 1': 'Low exposure, some tasks high',
         'Minimal Exposure': 'Minimal exposure', 'Not Exposed': 'Not exposed', 'Not in ILO index': 'Not scored by the ILO'
+    };
+
+    // What each source covers; used in the source list under "About these figures".
+    var SOURCE_INFO = {
+        alfred: { url: 'https://alfred.is', about: 'Iceland\u2019s largest job board, mostly private-sector jobs' },
+        starfatorg: { url: 'https://island.is/starfatorg', about: 'every public-sector vacancy, published on island.is' },
+        tvinna: { url: 'https://www.tvinna.is', about: 'tech and creative jobs, with an archive back to 2010' },
+        hagvangur: { url: 'https://www.hagvangur.is/jobs/', about: 'recruitment agency listings' },
+        intellecta: { url: 'https://intellecta.is/storf/', about: 'recruitment agency listings' }
     };
 
     function el(tag, cls, text) {
@@ -54,14 +63,19 @@
         parent.appendChild(list);
     }
 
+    // The Startup Iceland board's history is a subset of these, not a source of its own.
+    function marketSources(summary) {
+        return summary.sources.filter(function (s) { return s.id !== 'startupiceland_board'; });
+    }
+
     function renderHeadline(root, summary, market) {
         var head = el('header', 'siwt-head');
         head.appendChild(el('p', 'siwt-kicker', 'Iceland’s changing world of work'));
         head.appendChild(el('h1', 'siwt-h1', num(market.open_postings) + ' open job postings in Iceland today'));
-        var names = summary.sources.filter(function (s) { return s.id !== 'startupiceland_board'; })
-            .map(function (s) { return s.name; });
-        head.appendChild(el('p', 'siwt-lead', 'Collected daily from ' + names.join(', ') +
-            '. Updated ' + new Date(summary.generated_at).toLocaleDateString('en-GB',
+        var count = marketSources(summary).length;
+        head.appendChild(el('p', 'siwt-lead', 'Collected daily from ' + count +
+            ' Icelandic job sources, listed at the end. Updated ' +
+            new Date(summary.generated_at).toLocaleDateString('en-GB',
                 { day: 'numeric', month: 'long', year: 'numeric' }) + '.'));
         root.appendChild(head);
     }
@@ -138,7 +152,25 @@
     function renderMethods(root, summary) {
         var s = section(root, 'siwt-methods', 'About these figures');
         var dl = el('dl', 'siwt-methods');
-        [['Sources', summary.methods.sources], ['Occupations', summary.methods.occupations],
+        dl.appendChild(el('dt', null, 'Sources'));
+        var dd = el('dd');
+        var list = el('ul', 'siwt-sources');
+        marketSources(summary).forEach(function (src) {
+            var info = SOURCE_INFO[src.id] || {};
+            var li = el('li');
+            var a = el('a', null, src.name);
+            a.href = src.url || info.url || '#';
+            a.rel = 'noopener';
+            li.appendChild(a);
+            li.appendChild(document.createTextNode(
+                (info.about ? ': ' + info.about : '') + '. ' + num(src.postings) + ' postings collected.'));
+            list.appendChild(li);
+        });
+        dd.appendChild(list);
+        dd.appendChild(el('p', 'siwt-note', 'Collected daily since 17 October 2026. Contact details are ' +
+            'removed from every posting before it is stored.'));
+        dl.appendChild(dd);
+        [['Occupations', summary.methods.occupations],
          ['Exposure to AI', summary.methods.exposure], ['Caveats', summary.methods.caveats]].forEach(function (p) {
             dl.appendChild(el('dt', null, p[0]));
             dl.appendChild(el('dd', null, p[1]));

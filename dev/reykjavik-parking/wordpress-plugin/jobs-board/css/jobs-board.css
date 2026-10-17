@@ -670,6 +670,32 @@
 
 
 /* Iceland's changing world of work ([iceland_work_trends]) */
+/* The theme centres everything in page content (#content, .post-content);
+   the report reads left-aligned. The id outranks the theme's selectors. */
+#siwt-container,
+#siwt-container :is(h1, h2, h3, p, section, div, dl, dt, dd, ul, li, th, td) {
+    text-align: left;
+}
+
+#siwt-container .siwt-num {
+    text-align: right;
+}
+
+/* The theme also sets its serif face (and spacing) on paragraphs, list items
+   and links in page content; the report keeps one typeface throughout. */
+#siwt-container :is(p, li, dd, dt, a, td, th, h1, h2) {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+#siwt-container .siwt-sources li {
+    margin: 0;
+    padding: 0;
+}
+
+#siwt-container .siwt-sources + .siwt-note {
+    margin-top: 10px;
+}
+
 .siwt-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     max-width: 900px;
@@ -792,6 +818,25 @@
     color: #555;
     font-size: 0.85rem;
     line-height: 1.5;
+}
+
+.siwt-sources {
+    list-style: none;
+    margin: 4px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 6px;
+}
+
+.siwt-sources li {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.siwt-sources a {
+    color: #32373c;
+    font-weight: 600;
 }
 
 .siwt-error,
