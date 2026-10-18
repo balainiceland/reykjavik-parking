@@ -4,7 +4,7 @@
  * research database publishes daily (balainiceland/iceland-work-trends).
  * Layout follows the "Changing World of Work Redesign" canvas (Oct 2026).
  * Every number comes from the data; headlines are worded to stay true as it changes.
- * Version: 2.2.0
+ * Version: 2.3.0
  */
 (function () {
     'use strict';
@@ -291,6 +291,50 @@
         root.appendChild(s);
     }
 
+    // ── Coverage against Statistics Iceland ────────────────────────────────
+    var QUARTER_MONTHS = { '1': 'January\u2013March', '2': 'April\u2013June', '3': 'July\u2013September', '4': 'October\u2013December' };
+    function quarterLabel(q) { return QUARTER_MONTHS[q.slice(-1)] + ' ' + q.slice(0, 4); }
+
+    function renderCoverage(root, cov) {
+        if (!cov || !cov.available || !cov.coverage) return;
+        var s = card();
+        eyebrow(s, 'How much of the market this page sees');
+        var oneIn = Math.max(1, Math.round(1 / cov.coverage));
+        s.appendChild(el('h2', 'siwt-h2', 'This page sees about ' + (oneIn === 1 ? 'all' : '1 in ' + oneIn) +
+            ' of Iceland\u2019s job vacancies'));
+        // Sectors large enough to say something about (the survey rounds to tens).
+        var sized = cov.sectors.filter(function (x) { return x.official_vacancies >= 80 && x.coverage != null; });
+        var best = sized.slice().sort(function (a, b) { return b.coverage - a.coverage; }).slice(0, 2);
+        var worst = sized.slice().sort(function (a, b) { return a.coverage - b.coverage; }).slice(0, 2);
+        // Sector names already contain "and", so they are listed with semicolons, not joined in prose.
+        function named(list) {
+            return list.map(function (x) { return x.sector.toLowerCase() + ' (' + pct(Math.min(1, x.coverage)) + ')'; }).join('; ');
+        }
+        s.appendChild(el('p', 'siwt-text', num(cov.our_open_jobs) + ' open jobs advertised today, against ' +
+            num(cov.official_total_vacancies) + ' vacant positions in Statistics Iceland\u2019s latest survey (' +
+            quarterLabel(cov.official_quarter) + '). Best covered: ' + named(best) + '. Least covered: ' + named(worst) +
+            ', where many jobs are never advertised online.'));
+        var list = el('div', 'siwt-hbars is-coverage');
+        cov.sectors.filter(function (x) { return x.official_vacancies; })
+            .sort(function (a, b) { return b.official_vacancies - a.official_vacancies; })
+            .forEach(function (x) {
+                var row = el('div', 'siwt-hbar');
+                row.appendChild(el('span', 'siwt-hbar-label', x.sector));
+                var track = el('div', 'siwt-hbar-track');
+                var fill = el('div', 'siwt-hbar-fill');
+                fill.style.width = Math.min(100, 100 * x.coverage) + '%';
+                track.appendChild(fill);
+                row.appendChild(track);
+                row.appendChild(el('span', 'siwt-hbar-value', pct(Math.min(1, x.coverage)) + ' \u00b7 ' +
+                    num(x.our_open_jobs) + ' of ' + num(x.official_vacancies)));
+                list.appendChild(row);
+            });
+        s.appendChild(list);
+        s.appendChild(el('p', 'siwt-small', 'Share of each sector\u2019s official vacancies that appear here as open job ads. ' +
+            cov.caveats + ' Source: ' + cov.source));
+        root.appendChild(s);
+    }
+
     // ── About ──────────────────────────────────────────────────────────────
     function renderAbout(root, summary) {
         var s = el('section', 'siwt-about');
@@ -333,8 +377,11 @@
     function init() {
         var root = document.getElementById('siwt-container');
         if (!root) return;
-        Promise.all(['summary', 'market_now', 'ai_mentions_by_year'].map(load)).then(function (d) {
-            var summary = d[0], market = d[1], years = aiYears(d[2]);
+        Promise.all(['summary', 'market_now', 'ai_mentions_by_year'].map(load).concat([
+            // Coverage is optional: the page works without it.
+            load('coverage').catch(function () { return null; })
+        ])).then(function (d) {
+            var summary = d[0], market = d[1], years = aiYears(d[2]), coverage = d[3];
             root.replaceChildren();
             renderHero(root, summary, market, years);
             var main = el('div', 'siwt-main');
@@ -352,6 +399,7 @@
                 main.appendChild(wait);
             }
             renderAiNow(main, market);
+            renderCoverage(main, coverage);
             renderAbout(main, summary);
             root.appendChild(main);
         }).catch(function () {

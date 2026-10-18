@@ -1006,6 +1006,14 @@
     min-width: 4px;
 }
 
+#siwt-container .siwt-hbars.is-coverage .siwt-hbar {
+    grid-template-columns: minmax(0, 15rem) 1fr 9.5rem;
+}
+
+#siwt-container .siwt-hbars.is-coverage .siwt-hbar-fill {
+    background: var(--siwt-plum);
+}
+
 #siwt-container .siwt-hbar-value {
     text-align: right;
     font-weight: 700;
@@ -1153,6 +1161,8 @@
     #siwt-container .siwt-col-value { font-size: 10px; }
     #siwt-container .siwt-col-year { font-size: 9px; }
     #siwt-container .siwt-hbar { grid-template-columns: minmax(0, 8.5rem) 1fr 2.4rem; }
+    #siwt-container .siwt-hbars.is-coverage .siwt-hbar { grid-template-columns: 1fr 6.5rem; row-gap: 2px; }
+    #siwt-container .siwt-hbars.is-coverage .siwt-hbar-label { grid-column: 1 / -1; }
     /* Too little room right of the marker on a phone: the label sits to its left. */
     #siwt-container .siwt-marker-label { transform: translateX(calc(-100% - 14px)); font-size: 11px; }
 }
