@@ -7,9 +7,9 @@
 var StartupIcelandJobsData = {
 
     metadata: {
-        lastUpdated: "2026-10-17",
+        lastUpdated: "2026-10-18",
         version: "1.0.0",
-        totalJobs: 578
+        totalJobs: 588
     },
 
     categories: {
@@ -70,7 +70,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: true,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 2,
@@ -89,7 +89,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: true,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 3,
@@ -108,7 +108,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 4,
@@ -127,7 +127,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 5,
@@ -146,7 +146,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 6,
@@ -165,7 +165,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 7,
@@ -184,7 +184,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: true,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 8,
@@ -203,7 +203,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 9,
@@ -222,7 +222,7 @@ var StartupIcelandJobsData = {
             startup: false,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 10,
@@ -279,7 +279,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 13,
@@ -355,7 +355,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 17,
@@ -735,7 +735,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 37,
@@ -754,7 +754,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 38,
@@ -1191,7 +1191,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 61,
@@ -1305,7 +1305,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 67,
@@ -1324,7 +1324,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 68,
@@ -1381,7 +1381,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 71,
@@ -1400,7 +1400,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 72,
@@ -1457,7 +1457,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 75,
@@ -1476,7 +1476,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 76,
@@ -1495,7 +1495,7 @@ var StartupIcelandJobsData = {
             startup: false,
             featured: true,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 77,
@@ -1533,7 +1533,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 79,
@@ -1571,7 +1571,7 @@ var StartupIcelandJobsData = {
             startup: false,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 81,
@@ -1590,7 +1590,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 82,
@@ -1609,7 +1609,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 83,
@@ -1685,7 +1685,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 87,
@@ -1704,7 +1704,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 88,
@@ -1723,7 +1723,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 89,
@@ -1742,7 +1742,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 90,
@@ -1761,7 +1761,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 91,
@@ -1780,7 +1780,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 92,
@@ -1799,7 +1799,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 93,
@@ -1818,7 +1818,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 94,
@@ -1837,7 +1837,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 95,
@@ -1856,7 +1856,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 96,
@@ -1875,7 +1875,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 97,
@@ -1894,7 +1894,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 98,
@@ -1913,7 +1913,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 99,
@@ -1932,7 +1932,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 100,
@@ -1951,7 +1951,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 101,
@@ -1970,7 +1970,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 102,
@@ -1989,7 +1989,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 103,
@@ -2008,7 +2008,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 104,
@@ -2027,7 +2027,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 105,
@@ -2046,7 +2046,7 @@ var StartupIcelandJobsData = {
             startup: false,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 106,
@@ -2065,7 +2065,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 107,
@@ -2084,7 +2084,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 108,
@@ -2103,7 +2103,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 109,
@@ -2122,7 +2122,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 110,
@@ -2141,7 +2141,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 111,
@@ -2160,7 +2160,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 112,
@@ -2179,7 +2179,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 113,
@@ -2198,7 +2198,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 114,
@@ -2217,7 +2217,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 115,
@@ -2236,7 +2236,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 116,
@@ -2255,7 +2255,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 117,
@@ -2274,7 +2274,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 118,
@@ -2293,7 +2293,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 119,
@@ -2312,7 +2312,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 120,
@@ -2331,7 +2331,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 121,
@@ -2350,7 +2350,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 122,
@@ -2369,7 +2369,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 123,
@@ -2388,7 +2388,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 124,
@@ -2407,7 +2407,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 125,
@@ -2426,7 +2426,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 126,
@@ -2445,7 +2445,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 127,
@@ -2464,7 +2464,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 128,
@@ -2483,7 +2483,7 @@ var StartupIcelandJobsData = {
             startup: false,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 129,
@@ -2502,7 +2502,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 130,
@@ -2521,7 +2521,7 @@ var StartupIcelandJobsData = {
             startup: false,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 131,
@@ -2540,7 +2540,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 132,
@@ -2559,7 +2559,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 133,
@@ -2578,7 +2578,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 134,
@@ -2597,7 +2597,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 135,
@@ -2616,7 +2616,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 136,
@@ -2635,7 +2635,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 137,
@@ -2654,7 +2654,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 138,
@@ -2673,7 +2673,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 139,
@@ -2692,7 +2692,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 140,
@@ -2711,7 +2711,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 141,
@@ -2730,7 +2730,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 142,
@@ -2749,7 +2749,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 143,
@@ -2768,7 +2768,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 144,
@@ -2787,7 +2787,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 145,
@@ -2806,7 +2806,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 146,
@@ -2825,7 +2825,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 147,
@@ -2844,7 +2844,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 148,
@@ -2863,7 +2863,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 149,
@@ -2882,7 +2882,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 150,
@@ -2901,7 +2901,7 @@ var StartupIcelandJobsData = {
             startup: false,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 151,
@@ -3072,7 +3072,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 160,
@@ -3224,7 +3224,7 @@ var StartupIcelandJobsData = {
             startup: false,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 168,
@@ -3718,7 +3718,7 @@ var StartupIcelandJobsData = {
             startup: false,
             featured: true,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 194,
@@ -5466,7 +5466,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 286,
@@ -5637,7 +5637,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 295,
@@ -5713,7 +5713,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 299,
@@ -6017,7 +6017,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 315,
@@ -6530,7 +6530,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 342,
@@ -6910,7 +6910,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 362,
@@ -7081,7 +7081,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 371,
@@ -8563,7 +8563,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 449,
@@ -10102,7 +10102,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 530,
@@ -10330,7 +10330,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 542,
@@ -10444,7 +10444,7 @@ var StartupIcelandJobsData = {
             startup: false,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 548,
@@ -10729,7 +10729,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 563,
@@ -10824,7 +10824,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 568,
@@ -10843,7 +10843,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 569,
@@ -10862,7 +10862,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 570,
@@ -10881,7 +10881,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 571,
@@ -10938,7 +10938,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 574,
@@ -10957,7 +10957,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 575,
@@ -10976,7 +10976,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 576,
@@ -10995,7 +10995,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 577,
@@ -11014,7 +11014,7 @@ var StartupIcelandJobsData = {
             startup: true,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
         },
         {
             id: 578,
@@ -11033,7 +11033,197 @@ var StartupIcelandJobsData = {
             startup: false,
             featured: false,
             status: "active",
-            lastVerified: "2026-10-17"
+            lastVerified: "2026-10-18"
+        },
+        {
+            id: 579,
+            company: "Bókun",
+            companyLogo: null,
+            title: "Front-end Software Engineer",
+            description: "Front-end Software Engineer Bókun 7. Aug 2026 Fullt starf Front-end Software Engineer Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-10-18",
+            applicationUrl: "https://www.tvinna.is/jobs/front-end-software-engineer-4/",
+            startup: true,
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-18"
+        },
+        {
+            id: 580,
+            company: "Bókun",
+            companyLogo: null,
+            title: "Back-end Software Engineer",
+            description: "Back-end Software Engineer Bókun 27. Apr 2026 Fullt starf Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are looking for a...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-10-18",
+            applicationUrl: "https://www.tvinna.is/jobs/back-end-software-engineer-2/",
+            startup: true,
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-18"
+        },
+        {
+            id: 581,
+            company: "Bókun",
+            companyLogo: null,
+            title: "Senior Data Analyst",
+            description: "Senior Data Analyst Bókun 3. Nov 2025 Fullt starf About Bokun Bokun is an innovative travel tech company with headquarters in Reykjavik and Oxford. As we continue to experience a period of exciting growth, we are seeking talented individuals to join our cross-functional team. As part of the Tripadvisor family, we are passionate about helping businesses in the travel industry succeed, and we’re...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "executive",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-18",
+            applicationUrl: "https://www.tvinna.is/jobs/senior-data-analyst-2/",
+            startup: true,
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-18"
+        },
+        {
+            id: 582,
+            company: "Bókun",
+            companyLogo: null,
+            title: "Senior Software Engineer",
+            description: "Senior Software Engineer Bókun 14. Apr 2025 Fullt starf Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are looking for a...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "senior",
+            location: "Iceland",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-10-18",
+            applicationUrl: "https://www.tvinna.is/jobs/senior-software-engineer-15/",
+            startup: true,
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-18"
+        },
+        {
+            id: 583,
+            company: "Bókun",
+            companyLogo: null,
+            title: "Technical Manager",
+            description: "Technical Manager Bókun 28. Feb 2025 Fullt starf Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are looking for a...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "lead",
+            location: "Iceland",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-10-18",
+            applicationUrl: "https://www.tvinna.is/jobs/technical-manager/",
+            startup: true,
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-18"
+        },
+        {
+            id: 584,
+            company: "Bókun",
+            companyLogo: null,
+            title: "Hugbúnaðarprófanir",
+            description: "Hugbúnaðarprófanir Bókun 29. Jan 2025 Fullt starf QA Engineer Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are seeking...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-10-18",
+            applicationUrl: "https://www.tvinna.is/jobs/hugbunadarprofanir-2/",
+            startup: true,
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-18"
+        },
+        {
+            id: 585,
+            company: "Bókun",
+            companyLogo: null,
+            title: "Software Engineer",
+            description: "Software Engineer Bókun 21. Jan 2025 Fullt starf Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are looking for a...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-10-18",
+            applicationUrl: "https://www.tvinna.is/jobs/software-engineer-44/",
+            startup: true,
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-18"
+        },
+        {
+            id: 586,
+            company: "Bókun",
+            companyLogo: null,
+            title: "Framendaforritari",
+            description: "Framendaforritari Bókun 4. Nov 2024 Fullt starf Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are looking for a motivated...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "mid",
+            location: "Iceland",
+            remote: "remote",
+            salary: null,
+            postedDate: "2026-10-18",
+            applicationUrl: "https://www.tvinna.is/jobs/framendaforritari-28/",
+            startup: true,
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-18"
+        },
+        {
+            id: 587,
+            company: "Bókun",
+            companyLogo: null,
+            title: "Software Product Designer",
+            description: "Software Product Designer Bókun 16. Apr 2024 Fullt starf Bókun, a rapidly growing subsidiary of TripAdvisor Inc., is a leading reservation system and marketing platform for tours and activities operators worldwide. We empower these operators to streamline their backend operations and connect with an extensive network of online travel websites, facilitating the growth of their businesses. Are you...",
+            category: "engineering",
+            type: "full-time",
+            experienceLevel: "lead",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-18",
+            applicationUrl: "https://www.tvinna.is/jobs/software-product-designer/",
+            startup: true,
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-18"
+        },
+        {
+            id: 588,
+            company: "Bókun",
+            companyLogo: null,
+            title: "Connectivity Solutions Specialist",
+            description: "Connectivity Solutions Specialist Bókun 27. Jul 2023 Fullt starf Bokun, a fast-growing subsidiary of Tripadvisor Inc., is a leading reservation system and marketing platform for tours and activities operators globally that enables them to streamline their back-end operations and connect to an ecosystem of online travel websites to grow their business. As a Connectivity Integration & Support...",
+            category: "other",
+            type: "full-time",
+            experienceLevel: "lead",
+            location: "Iceland",
+            remote: "onsite",
+            salary: null,
+            postedDate: "2026-10-18",
+            applicationUrl: "https://www.tvinna.is/jobs/connectivity-solutions-specialist/",
+            startup: true,
+            featured: false,
+            status: "active",
+            lastVerified: "2026-10-18"
         }
     ]
 };

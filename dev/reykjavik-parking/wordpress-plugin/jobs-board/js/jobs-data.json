@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-17T12:37:00.481Z",
+  "lastUpdated": "2026-10-18T07:23:06.974Z",
   "metadata": {
-    "lastUpdated": "2026-10-17",
+    "lastUpdated": "2026-10-18",
     "version": "1.0.0",
-    "totalJobs": 578
+    "totalJobs": 588
   },
   "categories": {
     "engineering": "Engineering",
@@ -60,7 +60,7 @@
       "startup": true,
       "featured": true,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 2,
@@ -79,7 +79,7 @@
       "startup": true,
       "featured": true,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 3,
@@ -98,7 +98,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 4,
@@ -117,7 +117,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 5,
@@ -136,7 +136,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 6,
@@ -155,7 +155,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 7,
@@ -174,7 +174,7 @@
       "startup": true,
       "featured": true,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 8,
@@ -193,7 +193,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 9,
@@ -212,7 +212,7 @@
       "startup": false,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 10,
@@ -269,7 +269,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 13,
@@ -345,7 +345,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 17,
@@ -725,7 +725,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 37,
@@ -744,7 +744,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 38,
@@ -1181,7 +1181,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 61,
@@ -1295,7 +1295,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 67,
@@ -1314,7 +1314,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 68,
@@ -1371,7 +1371,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 71,
@@ -1390,7 +1390,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 72,
@@ -1447,7 +1447,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 75,
@@ -1466,7 +1466,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 76,
@@ -1485,7 +1485,7 @@
       "startup": false,
       "featured": true,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 77,
@@ -1523,7 +1523,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 79,
@@ -1561,7 +1561,7 @@
       "startup": false,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 81,
@@ -1580,7 +1580,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 82,
@@ -1599,7 +1599,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 83,
@@ -1675,7 +1675,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 87,
@@ -1694,7 +1694,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 88,
@@ -1713,7 +1713,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 89,
@@ -1732,7 +1732,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 90,
@@ -1751,7 +1751,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 91,
@@ -1770,7 +1770,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 92,
@@ -1789,7 +1789,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 93,
@@ -1808,7 +1808,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 94,
@@ -1827,7 +1827,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 95,
@@ -1846,7 +1846,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 96,
@@ -1865,7 +1865,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 97,
@@ -1884,7 +1884,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 98,
@@ -1903,7 +1903,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 99,
@@ -1922,7 +1922,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 100,
@@ -1941,7 +1941,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 101,
@@ -1960,7 +1960,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 102,
@@ -1979,7 +1979,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 103,
@@ -1998,7 +1998,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 104,
@@ -2017,7 +2017,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 105,
@@ -2036,7 +2036,7 @@
       "startup": false,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 106,
@@ -2055,7 +2055,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 107,
@@ -2074,7 +2074,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 108,
@@ -2093,7 +2093,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 109,
@@ -2112,7 +2112,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 110,
@@ -2131,7 +2131,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 111,
@@ -2150,7 +2150,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 112,
@@ -2169,7 +2169,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 113,
@@ -2188,7 +2188,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 114,
@@ -2207,7 +2207,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 115,
@@ -2226,7 +2226,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 116,
@@ -2245,7 +2245,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 117,
@@ -2264,7 +2264,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 118,
@@ -2283,7 +2283,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 119,
@@ -2302,7 +2302,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 120,
@@ -2321,7 +2321,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 121,
@@ -2340,7 +2340,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 122,
@@ -2359,7 +2359,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 123,
@@ -2378,7 +2378,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 124,
@@ -2397,7 +2397,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 125,
@@ -2416,7 +2416,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 126,
@@ -2435,7 +2435,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 127,
@@ -2454,7 +2454,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 128,
@@ -2473,7 +2473,7 @@
       "startup": false,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 129,
@@ -2492,7 +2492,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 130,
@@ -2511,7 +2511,7 @@
       "startup": false,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 131,
@@ -2530,7 +2530,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 132,
@@ -2549,7 +2549,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 133,
@@ -2568,7 +2568,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 134,
@@ -2587,7 +2587,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 135,
@@ -2606,7 +2606,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 136,
@@ -2625,7 +2625,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 137,
@@ -2644,7 +2644,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 138,
@@ -2663,7 +2663,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 139,
@@ -2682,7 +2682,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 140,
@@ -2701,7 +2701,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 141,
@@ -2720,7 +2720,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 142,
@@ -2739,7 +2739,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 143,
@@ -2758,7 +2758,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 144,
@@ -2777,7 +2777,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 145,
@@ -2796,7 +2796,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 146,
@@ -2815,7 +2815,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 147,
@@ -2834,7 +2834,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 148,
@@ -2853,7 +2853,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 149,
@@ -2872,7 +2872,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 150,
@@ -2891,7 +2891,7 @@
       "startup": false,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 151,
@@ -3062,7 +3062,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 160,
@@ -3214,7 +3214,7 @@
       "startup": false,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 168,
@@ -3708,7 +3708,7 @@
       "startup": false,
       "featured": true,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 194,
@@ -5456,7 +5456,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 286,
@@ -5627,7 +5627,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 295,
@@ -5703,7 +5703,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 299,
@@ -6007,7 +6007,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 315,
@@ -6520,7 +6520,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 342,
@@ -6900,7 +6900,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 362,
@@ -7071,7 +7071,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 371,
@@ -8553,7 +8553,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 449,
@@ -10092,7 +10092,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 530,
@@ -10320,7 +10320,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 542,
@@ -10434,7 +10434,7 @@
       "startup": false,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 548,
@@ -10719,7 +10719,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 563,
@@ -10814,7 +10814,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 568,
@@ -10833,7 +10833,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 569,
@@ -10852,7 +10852,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 570,
@@ -10871,7 +10871,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 571,
@@ -10928,7 +10928,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 574,
@@ -10947,7 +10947,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 575,
@@ -10966,7 +10966,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 576,
@@ -10985,7 +10985,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 577,
@@ -11004,7 +11004,7 @@
       "startup": true,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
     },
     {
       "id": 578,
@@ -11023,7 +11023,197 @@
       "startup": false,
       "featured": false,
       "status": "active",
-      "lastVerified": "2026-10-17"
+      "lastVerified": "2026-10-18"
+    },
+    {
+      "id": 579,
+      "company": "Bókun",
+      "companyLogo": null,
+      "title": "Front-end Software Engineer",
+      "description": "Front-end Software Engineer Bókun 7. Aug 2026 Fullt starf Front-end Software Engineer Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate...",
+      "category": "engineering",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "location": "Iceland",
+      "remote": "remote",
+      "salary": null,
+      "postedDate": "2026-10-18",
+      "applicationUrl": "https://www.tvinna.is/jobs/front-end-software-engineer-4/",
+      "startup": true,
+      "featured": false,
+      "status": "active",
+      "lastVerified": "2026-10-18"
+    },
+    {
+      "id": 580,
+      "company": "Bókun",
+      "companyLogo": null,
+      "title": "Back-end Software Engineer",
+      "description": "Back-end Software Engineer Bókun 27. Apr 2026 Fullt starf Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are looking for a...",
+      "category": "engineering",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "location": "Iceland",
+      "remote": "remote",
+      "salary": null,
+      "postedDate": "2026-10-18",
+      "applicationUrl": "https://www.tvinna.is/jobs/back-end-software-engineer-2/",
+      "startup": true,
+      "featured": false,
+      "status": "active",
+      "lastVerified": "2026-10-18"
+    },
+    {
+      "id": 581,
+      "company": "Bókun",
+      "companyLogo": null,
+      "title": "Senior Data Analyst",
+      "description": "Senior Data Analyst Bókun 3. Nov 2025 Fullt starf About Bokun Bokun is an innovative travel tech company with headquarters in Reykjavik and Oxford. As we continue to experience a period of exciting growth, we are seeking talented individuals to join our cross-functional team. As part of the Tripadvisor family, we are passionate about helping businesses in the travel industry succeed, and we’re...",
+      "category": "other",
+      "type": "full-time",
+      "experienceLevel": "executive",
+      "location": "Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-10-18",
+      "applicationUrl": "https://www.tvinna.is/jobs/senior-data-analyst-2/",
+      "startup": true,
+      "featured": false,
+      "status": "active",
+      "lastVerified": "2026-10-18"
+    },
+    {
+      "id": 582,
+      "company": "Bókun",
+      "companyLogo": null,
+      "title": "Senior Software Engineer",
+      "description": "Senior Software Engineer Bókun 14. Apr 2025 Fullt starf Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are looking for a...",
+      "category": "engineering",
+      "type": "full-time",
+      "experienceLevel": "senior",
+      "location": "Iceland",
+      "remote": "remote",
+      "salary": null,
+      "postedDate": "2026-10-18",
+      "applicationUrl": "https://www.tvinna.is/jobs/senior-software-engineer-15/",
+      "startup": true,
+      "featured": false,
+      "status": "active",
+      "lastVerified": "2026-10-18"
+    },
+    {
+      "id": 583,
+      "company": "Bókun",
+      "companyLogo": null,
+      "title": "Technical Manager",
+      "description": "Technical Manager Bókun 28. Feb 2025 Fullt starf Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are looking for a...",
+      "category": "other",
+      "type": "full-time",
+      "experienceLevel": "lead",
+      "location": "Iceland",
+      "remote": "remote",
+      "salary": null,
+      "postedDate": "2026-10-18",
+      "applicationUrl": "https://www.tvinna.is/jobs/technical-manager/",
+      "startup": true,
+      "featured": false,
+      "status": "active",
+      "lastVerified": "2026-10-18"
+    },
+    {
+      "id": 584,
+      "company": "Bókun",
+      "companyLogo": null,
+      "title": "Hugbúnaðarprófanir",
+      "description": "Hugbúnaðarprófanir Bókun 29. Jan 2025 Fullt starf QA Engineer Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are seeking...",
+      "category": "engineering",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "location": "Iceland",
+      "remote": "remote",
+      "salary": null,
+      "postedDate": "2026-10-18",
+      "applicationUrl": "https://www.tvinna.is/jobs/hugbunadarprofanir-2/",
+      "startup": true,
+      "featured": false,
+      "status": "active",
+      "lastVerified": "2026-10-18"
+    },
+    {
+      "id": 585,
+      "company": "Bókun",
+      "companyLogo": null,
+      "title": "Software Engineer",
+      "description": "Software Engineer Bókun 21. Jan 2025 Fullt starf Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are looking for a...",
+      "category": "engineering",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "location": "Iceland",
+      "remote": "remote",
+      "salary": null,
+      "postedDate": "2026-10-18",
+      "applicationUrl": "https://www.tvinna.is/jobs/software-engineer-44/",
+      "startup": true,
+      "featured": false,
+      "status": "active",
+      "lastVerified": "2026-10-18"
+    },
+    {
+      "id": 586,
+      "company": "Bókun",
+      "companyLogo": null,
+      "title": "Framendaforritari",
+      "description": "Framendaforritari Bókun 4. Nov 2024 Fullt starf Join Bókun, a Tripadvisor company, and help transform the tours and activities industry. Our booking management software helps travel operators worldwide increase their bookings and simplify operations. As part of our team, you’ll help develop solutions that improve how businesses in the travel sector operate and grow. We are looking for a motivated...",
+      "category": "engineering",
+      "type": "full-time",
+      "experienceLevel": "mid",
+      "location": "Iceland",
+      "remote": "remote",
+      "salary": null,
+      "postedDate": "2026-10-18",
+      "applicationUrl": "https://www.tvinna.is/jobs/framendaforritari-28/",
+      "startup": true,
+      "featured": false,
+      "status": "active",
+      "lastVerified": "2026-10-18"
+    },
+    {
+      "id": 587,
+      "company": "Bókun",
+      "companyLogo": null,
+      "title": "Software Product Designer",
+      "description": "Software Product Designer Bókun 16. Apr 2024 Fullt starf Bókun, a rapidly growing subsidiary of TripAdvisor Inc., is a leading reservation system and marketing platform for tours and activities operators worldwide. We empower these operators to streamline their backend operations and connect with an extensive network of online travel websites, facilitating the growth of their businesses. Are you...",
+      "category": "engineering",
+      "type": "full-time",
+      "experienceLevel": "lead",
+      "location": "Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-10-18",
+      "applicationUrl": "https://www.tvinna.is/jobs/software-product-designer/",
+      "startup": true,
+      "featured": false,
+      "status": "active",
+      "lastVerified": "2026-10-18"
+    },
+    {
+      "id": 588,
+      "company": "Bókun",
+      "companyLogo": null,
+      "title": "Connectivity Solutions Specialist",
+      "description": "Connectivity Solutions Specialist Bókun 27. Jul 2023 Fullt starf Bokun, a fast-growing subsidiary of Tripadvisor Inc., is a leading reservation system and marketing platform for tours and activities operators globally that enables them to streamline their back-end operations and connect to an ecosystem of online travel websites to grow their business. As a Connectivity Integration & Support...",
+      "category": "other",
+      "type": "full-time",
+      "experienceLevel": "lead",
+      "location": "Iceland",
+      "remote": "onsite",
+      "salary": null,
+      "postedDate": "2026-10-18",
+      "applicationUrl": "https://www.tvinna.is/jobs/connectivity-solutions-specialist/",
+      "startup": true,
+      "featured": false,
+      "status": "active",
+      "lastVerified": "2026-10-18"
     }
   ]
 }
