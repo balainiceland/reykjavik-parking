@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Jobs Board
  * Plugin URI: https://startupiceland.com
  * Description: Searchable jobs board for Icelandic startups with filtering by category, type, level, and remote options.
- * Version: 1.4.0
+ * Version: 1.5.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -40,7 +40,7 @@ class Startup_Iceland_Jobs_Board {
                 'startup-jobs-css',
                 plugin_dir_url(__FILE__) . 'css/jobs-board.css',
                 array(),
-                '1.3.0'
+                '1.5.0'
             );
 
             // Plugin JS — fetches jobs data from jsDelivr CDN at runtime
@@ -48,7 +48,7 @@ class Startup_Iceland_Jobs_Board {
                 'startup-jobs-js',
                 plugin_dir_url(__FILE__) . 'js/jobs-board.js',
                 array(),
-                '1.3.0',
+                '1.5.0',
                 true
             );
         }
@@ -88,71 +88,69 @@ class Startup_Iceland_Jobs_Board {
         ob_start();
         ?>
         <div class="sjb-container" id="sjb-container">
-            <!-- Search -->
-            <div class="sjb-controls">
-                <div class="sjb-search-row">
-                    <div class="sjb-search-wrapper">
-                        <input type="text" id="sjb-search" placeholder="Search jobs by title, company, or keywords..." />
-                    </div>
+            <!-- Hero: counts are filled in by JS from the jobs data -->
+            <header class="sjb-hero">
+                <p class="sjb-hero-eyebrow">Startup Iceland · Jobs</p>
+                <h1 class="sjb-hero-title">Startup jobs in Iceland</h1>
+                <p class="sjb-hero-lead">Open roles at Icelandic startups and growing companies, collected every morning from Alfreð, Tvinna and company career pages.</p>
+                <div class="sjb-hero-stats">
+                    <div class="sjb-hero-stat"><span class="sjb-hero-value" id="sjb-hero-open">–</span><span class="sjb-hero-label">open jobs</span></div>
+                    <div class="sjb-hero-stat"><span class="sjb-hero-value" id="sjb-hero-companies">–</span><span class="sjb-hero-label">companies hiring</span></div>
+                    <div class="sjb-hero-stat"><span class="sjb-hero-value is-accent" id="sjb-hero-startups">–</span><span class="sjb-hero-label">at Icelandic startups</span></div>
                 </div>
+                <a class="sjb-hero-link" href="https://startupiceland.com/changing-world-of-work/">See how AI is changing Iceland’s job market
+                    <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </header>
 
-                <!-- Filters -->
+            <!-- Search and filters -->
+            <section class="sjb-controls" aria-label="Search and filter jobs">
+                <label class="sjb-search-wrapper" for="sjb-search">
+                    <span class="sjb-search-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+                    <span class="screen-reader-text">Search jobs</span>
+                    <input type="search" id="sjb-search" placeholder="Search jobs by title, company or keyword" />
+                </label>
                 <div class="sjb-filter-row">
-                    <div class="sjb-filter-wrapper">
-                        <label for="sjb-category-filter">Category:</label>
+                    <label class="sjb-filter-wrapper" for="sjb-category-filter">Category
                         <select id="sjb-category-filter">
-                            <option value="all">All Categories</option>
+                            <option value="all">All categories</option>
                             <!-- Populated by JS -->
                         </select>
-                    </div>
-                    <div class="sjb-filter-wrapper">
-                        <label for="sjb-employer-filter">Employer:</label>
+                    </label>
+                    <label class="sjb-filter-wrapper" for="sjb-employer-filter">Employer
                         <select id="sjb-employer-filter">
-                            <option value="all">All Employers</option>
-                            <option value="startups">Startups Only</option>
+                            <option value="all">All employers</option>
+                            <option value="startups">Startups only</option>
                         </select>
-                    </div>
-                    <div class="sjb-filter-wrapper">
-                        <label for="sjb-type-filter">Type:</label>
+                    </label>
+                    <label class="sjb-filter-wrapper" for="sjb-type-filter">Type
                         <select id="sjb-type-filter">
-                            <option value="all">All Types</option>
+                            <option value="all">All types</option>
                             <option value="full-time">Full-time</option>
                             <option value="part-time">Part-time</option>
                             <option value="contract">Contract</option>
                             <option value="internship">Internship</option>
                         </select>
-                    </div>
-                    <div class="sjb-filter-wrapper">
-                        <label for="sjb-level-filter">Level:</label>
+                    </label>
+                    <label class="sjb-filter-wrapper" for="sjb-level-filter">Level
                         <select id="sjb-level-filter">
-                            <option value="all">All Levels</option>
+                            <option value="all">All levels</option>
                             <option value="entry">Entry</option>
                             <option value="mid">Mid</option>
                             <option value="senior">Senior</option>
                             <option value="lead">Lead</option>
                             <option value="executive">Executive</option>
                         </select>
-                    </div>
-                    <div class="sjb-filter-wrapper">
-                        <label for="sjb-remote-filter">Remote:</label>
+                    </label>
+                    <label class="sjb-filter-wrapper" for="sjb-remote-filter">Workplace
                         <select id="sjb-remote-filter">
-                            <option value="all">All Options</option>
-                            <option value="onsite">Onsite</option>
+                            <option value="all">All options</option>
+                            <option value="onsite">On-site</option>
                             <option value="hybrid">Hybrid</option>
                             <option value="remote">Remote</option>
                         </select>
-                    </div>
-                    <div class="sjb-filter-wrapper sjb-sort-wrapper">
-                        <label for="sjb-sort">Sort by:</label>
-                        <select id="sjb-sort">
-                            <option value="newest">Newest First</option>
-                            <option value="oldest">Oldest First</option>
-                            <option value="company-az">Company A-Z</option>
-                            <option value="company-za">Company Z-A</option>
-                        </select>
-                    </div>
+                    </label>
                 </div>
-            </div>
+            </section>
 
             <?php if ($show_trends): ?>
             <!-- Hiring trends: drawn by JS from the same jobs data as the list -->
@@ -176,6 +174,7 @@ class Startup_Iceland_Jobs_Board {
                 <div class="sjb-trends-scroll">
                     <div class="sjb-trends-grid" id="sjb-trends-grid" role="group" aria-label="Job postings by category and month"></div>
                 </div>
+                <button type="button" class="sjb-trends-more" id="sjb-trends-more" hidden></button>
                 <p class="sjb-trends-note">By the month a job was first posted. Tracking began in January 2026, so January includes jobs that were already open. Select a category to show its jobs below.</p>
             </details>
             <?php endif; ?>
@@ -184,6 +183,14 @@ class Startup_Iceland_Jobs_Board {
             <!-- Count Bar -->
             <div class="sjb-count-bar">
                 <span>Showing <strong id="sjb-showing-count">0</strong> jobs from <strong id="sjb-company-count">0</strong> companies<span id="sjb-startup-note"></span></span>
+                <label class="sjb-sort-wrapper" for="sjb-sort">Sort
+                    <select id="sjb-sort">
+                        <option value="newest">Newest first</option>
+                        <option value="oldest">Oldest first</option>
+                        <option value="company-az">Company A–Z</option>
+                        <option value="company-za">Company Z–A</option>
+                    </select>
+                </label>
             </div>
             <?php endif; ?>
 
@@ -200,10 +207,9 @@ class Startup_Iceland_Jobs_Board {
             <!-- Call to Action -->
             <div class="sjb-cta-box">
                 <div class="sjb-cta-content">
-                    <h3>Hiring at your startup?</h3>
-                    <p>If you're an Icelandic startup looking to hire great talent, we'd love to feature your open positions. Send us your job posting and we'll add it to the board.</p>
+                    <h3>Hiring at an Icelandic startup?</h3>
+                    <p>Post your job here, free for Icelandic startups. It also feeds our research on how Iceland’s world of work is changing.</p>
                     <a href="mailto:bala@startupiceland.com?subject=Job%20Board%20Submission&body=Hi%20Bala%2C%0A%0AI'd%20like%20to%20post%20a%20job%20on%20the%20Startup%20Iceland%20Jobs%20Board%3A%0A%0ACompany%20Name%3A%20%0AJob%20Title%3A%20%0AJob%20Description%3A%20%0ACategory%3A%20(Engineering%2FDesign%2FMarketing%2FSales%2FOperations%2FProduct%2FFinance%2FOther)%0AType%3A%20(Full-time%2FPart-time%2FContract%2FInternship)%0AExperience%20Level%3A%20(Entry%2FMid%2FSenior%2FLead%2FExecutive)%0ALocation%3A%20%0ARemote%20Option%3A%20(Onsite%2FHybrid%2FRemote)%0ASalary%20(optional)%3A%20%0AApplication%20URL%3A%20%0A%0AThanks!" class="sjb-cta-button">Post a Job</a>
-                    <p class="sjb-cta-note">Job postings are free for Icelandic startups.</p>
                 </div>
             </div>
         </div>

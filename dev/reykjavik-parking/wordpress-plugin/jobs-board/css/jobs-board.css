@@ -1,673 +1,648 @@
-/* Startup Iceland Jobs Board - StartupIceland.com Theme v1.0 */
-
-.sjb-container {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+/* Startup Iceland Jobs Board — v1.5, from the "Jobs board" artboards of the
+   Changing World of Work Redesign canvas. Same system as the work trends page:
+   navy #112D50, plum #6D2D6C, the site's own fonts (Proxima Nova, Tisa).
+   The theme centres page content and sets its serif on p/li/a; the id
+   selectors below outrank it so the board keeps its own layout. */
+#sjb-container {
+    --sjb-navy: #112D50;
+    --sjb-plum: #6D2D6C;
+    --sjb-plum-dark: #3A1239;
+    --sjb-ink: #1E1E1E;
+    --sjb-muted: #4A4F57;
+    --sjb-faint: #6B7280;
+    --sjb-line: #D9DEE5;
+    --sjb-sans: proxima-nova, Montserrat, "Helvetica Neue", Arial, sans-serif;
+    --sjb-serif: ff-tisa-web-pro, "Source Serif 4", Georgia, serif;
     max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
-    color: #333;
-}
-
-/* Controls */
-.sjb-controls {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.sjb-search-row {
-    margin-bottom: 16px;
-}
-
-.sjb-search-wrapper {
-    position: relative;
-}
-
-.sjb-search-wrapper::before {
-    content: "\1F50D";
-    position: absolute;
-    left: 14px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #999;
-    font-size: 16px;
-}
-
-#sjb-search {
-    width: 100%;
-    padding: 14px 16px 14px 44px;
-    border: 1px solid #ddd;
-    font-size: 1rem;
-    font-family: inherit;
-    box-sizing: border-box;
-}
-
-#sjb-search:focus {
-    outline: none;
-    border-color: #32373c;
-}
-
-#sjb-search::placeholder {
-    color: #999;
-}
-
-/* Filter Row */
-.sjb-filter-row {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-}
-
-.sjb-filter-wrapper {
+    padding: 8px 0 48px;
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    min-width: 150px;
-    flex: 1;
+    gap: 22px;
+    color: var(--sjb-ink);
+    font-family: var(--sjb-serif);
+    text-align: left;
 }
 
-.sjb-filter-wrapper label {
-    font-size: 0.75rem;
-    color: #666;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+#sjb-container :is(h1, h2, h3, p, section, header, div, label, span, a, details, summary, article) {
+    text-align: left;
 }
 
-.sjb-filter-wrapper select {
-    width: 100%;
-    padding: 10px 32px 10px 12px;
-    border: 1px solid #ddd;
-    font-size: 0.9rem;
+#sjb-container :is(p, span, div, li, label, strong) {
     font-family: inherit;
-    background: #fff;
-    cursor: pointer;
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 10px center;
 }
 
-.sjb-filter-wrapper select:focus {
-    outline: none;
-    border-color: #32373c;
+#sjb-container :is(h1, h2, h3, summary, label, select, input, button, .sjb-hero-eyebrow, .sjb-hero-value,
+    .sjb-hero-link, .sjb-job-meta, .sjb-tag, .sjb-flag, .sjb-job-action, .sjb-count-bar, .sjb-trends-grid,
+    .sjb-trends-lead, .sjb-trends-note, .sjb-trends-more, .sjb-cta-button, .sjb-startup-badge,
+    .sjb-apply-btn, .sjb-posted-date, .sjb-company) {
+    font-family: var(--sjb-sans);
 }
 
-/* Hiring trends heat map */
-.sjb-trends {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 16px 20px;
-    margin-bottom: 20px;
+/* The theme spaces form fields for its own forms, and sets buttons in spaced capitals. */
+#sjb-container :is(select, input, button) {
+    margin: 0;
 }
 
-.sjb-trends summary {
-    cursor: pointer;
-    font-weight: 600;
-    color: #32373c;
-    font-size: 1rem;
+#sjb-container button {
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.3;
 }
 
-.sjb-trends summary:focus-visible,
-.sjb-seg button:focus-visible,
-.sjb-trends-rowhead:focus-visible {
-    outline: 2px solid #32373c;
+#sjb-container .screen-reader-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+#sjb-container :is(a, button, select, input, summary):focus-visible {
+    outline: 3px solid #E6B8E4;
     outline-offset: 2px;
 }
 
-.sjb-trends-lead {
-    margin: 8px 0 0;
-    font-size: 0.9rem;
-    color: #555;
-}
-
-.sjb-trends-controls {
+/* Hero */
+#sjb-container .sjb-hero {
+    background: var(--sjb-navy);
+    color: #fff;
+    border-radius: 20px;
+    padding: 44px 40px 36px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 12px;
+    flex-direction: column;
+    gap: 16px;
 }
 
-.sjb-seg {
-    display: inline-flex;
-    border: 1px solid #ddd;
+#sjb-container .sjb-hero-eyebrow {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #E6B8E4;
 }
 
-.sjb-seg button {
-    font: inherit;
-    font-size: 0.8rem;
-    background: #fff;
-    color: #666;
-    border: 0;
-    padding: 6px 12px;
-    cursor: pointer;
-}
-
-.sjb-seg button + button {
-    border-left: 1px solid #ddd;
-}
-
-.sjb-seg button[aria-pressed="true"] {
-    background: #32373c;
+#sjb-container .sjb-hero-title {
+    margin: 0;
+    font-size: clamp(32px, 4.2vw, 46px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
     color: #fff;
 }
 
-.sjb-trends-scroll {
+#sjb-container .sjb-hero-lead {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #D6DEE9;
+    max-width: 60ch;
+}
+
+#sjb-container .sjb-hero-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr));
+    gap: 12px;
+    margin-top: 4px;
+}
+
+#sjb-container .sjb-hero-stat {
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 14px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#sjb-container .sjb-hero-value {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1;
+    color: #fff;
+    font-variant-numeric: tabular-nums;
+}
+
+#sjb-container .sjb-hero-value.is-accent {
+    color: #F0C6EE;
+}
+
+#sjb-container .sjb-hero-label {
+    font-size: 15px;
+    color: #D6DEE9;
+}
+
+#sjb-container .sjb-hero-link {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 999px;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#sjb-container .sjb-hero-link:hover {
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff;
+}
+
+/* Search and filters */
+#sjb-container .sjb-controls {
+    background: #fff;
+    border-radius: 18px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#sjb-container .sjb-search-wrapper {
+    position: relative;
+    display: block;
+}
+
+#sjb-container .sjb-search-icon {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--sjb-plum);
+    display: flex;
+}
+
+#sjb-container #sjb-search {
+    width: 100%;
+    box-sizing: border-box;
+    height: 54px;
+    border: 2px solid #E3E7EE;
+    border-radius: 14px;
+    padding: 0 18px 0 50px;
+    font-size: 16px;
+    color: var(--sjb-ink);
+    background: #FAFBFC;
+}
+
+#sjb-container #sjb-search:focus {
+    border-color: var(--sjb-plum);
+    background: #fff;
+    outline: none;
+}
+
+#sjb-container .sjb-filter-row {
+    display: grid;
+    /* Five across in the theme's ~660px content column. */
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 108px), 1fr));
+    gap: 12px;
+}
+
+#sjb-container .sjb-filter-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--sjb-faint);
+}
+
+#sjb-container .sjb-filter-wrapper select,
+#sjb-container .sjb-sort-wrapper select {
+    height: 42px;
+    border: 1px solid var(--sjb-line);
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--sjb-ink);
+    background: #fff;
+    width: 100%;
+}
+
+/* Hiring trends */
+#sjb-container .sjb-trends {
+    background: #fff;
+    border-radius: 18px;
+    padding: 22px 24px;
+}
+
+#sjb-container .sjb-trends summary {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--sjb-navy);
+}
+
+#sjb-container .sjb-trends-lead {
+    margin: 8px 0 0;
+    font-size: 13px;
+    color: var(--sjb-faint);
+}
+
+#sjb-container .sjb-trends-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+#sjb-container .sjb-seg {
+    display: inline-flex;
+    background: #EEF2F6;
+    border-radius: 999px;
+    padding: 3px;
+}
+
+#sjb-container .sjb-seg button {
+    border: 0;
+    border-radius: 999px;
+    padding: 7px 14px;
+    background: transparent;
+    color: #374151;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#sjb-container .sjb-seg button[aria-pressed="true"] {
+    background: var(--sjb-navy);
+    color: #fff;
+    font-weight: 700;
+}
+
+#sjb-container .sjb-trends-scroll {
     overflow-x: auto;
     margin-top: 14px;
 }
 
-.sjb-trends-grid {
+#sjb-container .sjb-trends-grid {
     display: grid;
-    gap: 3px;
+    gap: 4px;
     min-width: 36rem;
-    font-size: 0.75rem;
+    font-size: 12px;
     font-variant-numeric: tabular-nums;
+    align-items: center;
 }
 
-.sjb-trends-colhead {
-    color: #888;
+#sjb-container .sjb-trends-colhead {
+    color: var(--sjb-faint);
     text-align: center;
-    align-self: end;
     padding-bottom: 4px;
+    white-space: nowrap;
 }
 
-.sjb-trends-rowhead {
-    font: inherit;
-    font-size: 0.8rem;
+#sjb-container .sjb-trends-rowhead {
+    font-size: 12px;
+    font-weight: 700;
     text-align: left;
     background: none;
     border: 0;
     padding: 0 10px 0 0;
-    color: #32373c;
+    color: #374151;
     cursor: pointer;
     white-space: nowrap;
 }
 
-.sjb-trends-rowhead:hover,
-.sjb-trends-rowhead.is-selected {
+#sjb-container .sjb-trends-rowhead:hover,
+#sjb-container .sjb-trends-rowhead.is-selected {
+    color: var(--sjb-plum);
     text-decoration: underline;
-    font-weight: 600;
 }
 
-.sjb-trends-cell {
-    min-height: 26px;
+#sjb-container .sjb-trends-cell {
+    min-height: 30px;
+    border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #f0f0f0;
     cursor: pointer;
 }
 
-.sjb-trends-cell:hover {
-    outline: 2px solid #32373c;
+#sjb-container .sjb-trends-cell:hover {
+    outline: 2px solid var(--sjb-navy);
     outline-offset: -2px;
 }
 
-.sjb-trends-cell.is-selected {
-    box-shadow: inset 0 0 0 2px #f5a623;
+#sjb-container .sjb-trends-cell.is-selected {
+    box-shadow: inset 0 0 0 2px var(--sjb-navy);
 }
 
-.sjb-trends-total {
-    color: #666;
-    align-self: center;
+#sjb-container .sjb-trends-total {
     text-align: right;
+    font-weight: 700;
     padding-left: 8px;
 }
 
-.sjb-trends-note {
+#sjb-container .sjb-trends-more {
+    margin-top: 12px;
+    border: 0;
+    background: none;
+    padding: 0;
+    color: var(--sjb-plum);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#sjb-container .sjb-trends-more:hover {
+    text-decoration: underline;
+}
+
+#sjb-container .sjb-trends-note {
     margin: 10px 0 0;
-    font-size: 0.75rem;
-    color: #888;
+    font-size: 12px;
+    color: var(--sjb-faint);
 }
 
-/* Count Bar */
-.sjb-count-bar {
-    padding: 12px 20px;
-    background: #f8f9fa;
-    border: 1px solid #ddd;
-    border-top: none;
-    margin-bottom: 20px;
-    font-size: 0.9rem;
-    color: #666;
+/* Count bar */
+#sjb-container .sjb-count-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 14px;
+    color: var(--sjb-muted);
+    padding: 0 4px;
 }
 
-.sjb-count-bar strong {
-    color: #32373c;
+#sjb-container .sjb-count-bar strong {
+    color: var(--sjb-navy);
 }
 
-/* Jobs List */
-.sjb-jobs-list {
+#sjb-container .sjb-sort-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--sjb-muted);
+}
+
+#sjb-container .sjb-sort-wrapper select {
+    width: auto;
+    height: 36px;
+    border-radius: 999px;
+    padding: 0 12px;
+    font-size: 13px;
+}
+
+/* Job cards */
+#sjb-container .sjb-jobs-list {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 14px;
 }
 
-/* Job Card */
-.sjb-job-card {
+#sjb-container .sjb-job-card {
     background: #fff;
-    border: 1px solid #ddd;
-    padding: 24px;
-    transition: box-shadow 0.2s, transform 0.2s;
-}
-
-.sjb-job-card:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transform: translateY(-1px);
-}
-
-.sjb-job-card.sjb-featured {
-    border-left: 4px solid #f5a623;
-    background: linear-gradient(to right, #fffbf0, #fff);
-}
-
-/* Featured Badge */
-.sjb-featured-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: #f5a623;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 8px;
-}
-
-.sjb-featured-badge::before {
-    content: "\2605";
-    font-size: 12px;
-}
-
-/* Job Header */
-.sjb-job-header {
+    border-radius: 18px;
+    padding: 24px 26px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 16px;
-    margin-bottom: 8px;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.sjb-job-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #000;
-    margin: 0;
-    line-height: 1.4;
+#sjb-container .sjb-job-card.sjb-featured {
+    box-shadow: 0 0 0 2px #E6B8E4;
 }
 
-/* Job Meta */
-.sjb-job-meta {
-    font-size: 1.05rem;
-    color: #555;
-    margin-bottom: 14px;
-    line-height: 1.5;
+#sjb-container .sjb-job-card.sjb-filled {
+    background: #F7F8FA;
+    border: 1px dashed var(--sjb-line);
 }
 
-.sjb-job-meta span {
-    display: inline;
-}
-
-.sjb-job-meta .sjb-separator {
-    margin: 0 8px;
-    color: #ccc;
-}
-
-/* Startup badge: a company in the Startup Iceland directory */
-.sjb-startup-badge {
-    display: inline-block;
-    vertical-align: 2px;
-    margin-left: 6px;
-    padding: 2px 8px;
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
+#sjb-container .sjb-flag {
+    align-self: flex-start;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #32373c;
-    background: #fff4e0;
-    border: 1px solid #f5a623;
-    border-radius: 3px;
+    color: var(--sjb-plum);
+    background: #F7EEF7;
+    border-radius: 999px;
+    padding: 4px 10px;
 }
 
-/* Job Excerpt */
-.sjb-job-title,
-.sjb-job-meta,
-.sjb-job-excerpt {
-    /* A long unbroken run (a URL, a source's no-break spaces) wraps
-       instead of widening the page on phones. */
+#sjb-container .sjb-flag.is-filled {
+    color: var(--sjb-faint);
+    background: #E5E7EB;
+}
+
+#sjb-container .sjb-job-title {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 1.25;
+    color: var(--sjb-navy);
     overflow-wrap: anywhere;
 }
 
-.sjb-job-excerpt {
-    font-size: 0.9rem;
-    color: #666;
-    line-height: 1.5;
-    margin: 0 0 14px 0;
+#sjb-container .sjb-filled .sjb-job-title {
+    color: var(--sjb-faint);
 }
 
-/* Job Tags */
-.sjb-job-tags {
+#sjb-container .sjb-job-meta {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 8px;
-    margin-bottom: 16px;
+    font-size: 14px;
+    color: var(--sjb-muted);
+    overflow-wrap: anywhere;
 }
 
-.sjb-tag {
-    font-size: 0.8rem;
-    font-weight: 600;
-    padding: 6px 12px;
-    border-radius: 9999px;
+#sjb-container .sjb-company {
+    color: var(--sjb-ink);
+    font-weight: 700;
+}
+
+#sjb-container .sjb-filled .sjb-company {
+    color: var(--sjb-faint);
+}
+
+#sjb-container .sjb-startup-badge {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    color: #fff;
+    background: var(--sjb-plum);
+    border-radius: 999px;
+    padding: 3px 9px;
 }
 
-/* Category Tags */
-.sjb-tag-engineering {
-    background: #e3f2fd;
-    color: #1565c0;
+#sjb-container .sjb-separator {
+    color: #C3CAD4;
 }
 
-.sjb-tag-design {
-    background: #f3e5f5;
-    color: #7b1fa2;
+#sjb-container .sjb-remote.is-remote {
+    color: var(--sjb-plum);
+    font-weight: 700;
 }
 
-.sjb-tag-marketing {
-    background: #fff3e0;
-    color: #e65100;
+#sjb-container .sjb-job-excerpt {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--sjb-muted);
+    overflow-wrap: anywhere;
 }
 
-.sjb-tag-sales {
-    background: #e8f5e9;
-    color: #2e7d32;
-}
-
-.sjb-tag-operations {
-    background: #eceff1;
-    color: #546e7a;
-}
-
-.sjb-tag-product {
-    background: #e0f7fa;
-    color: #00838f;
-}
-
-.sjb-tag-finance {
-    background: #e8eaf6;
-    color: #3949ab;
-}
-
-.sjb-tag-it {
-    background: #e1f5fe;
-    color: #0277bd;
-}
-
-.sjb-tag-science {
-    background: #f1f8e9;
-    color: #558b2f;
-}
-
-.sjb-tag-production {
-    background: #efebe9;
-    color: #6d4c41;
-}
-
-.sjb-tag-healthcare {
-    background: #fce4ec;
-    color: #c2185b;
-}
-
-.sjb-tag-education {
-    background: #fffde7;
-    color: #9e7c00;
-}
-
-.sjb-tag-hospitality {
-    background: #fbe9e7;
-    color: #d84315;
-}
-
-.sjb-tag-customer-service {
-    background: #e0f2f1;
-    color: #00695c;
-}
-
-.sjb-tag-consulting {
-    background: #ede7f6;
-    color: #5e35b1;
-}
-
-.sjb-tag-other {
-    background: #f5f5f5;
-    color: #757575;
-}
-
-/* Type Tags */
-.sjb-tag-type {
-    background: #f8f9fa;
-    color: #495057;
-    border: 1px solid #dee2e6;
-}
-
-/* Level Tags */
-.sjb-tag-level {
-    background: #fff;
-    color: #32373c;
-    border: 1px solid #32373c;
-}
-
-/* Job Footer */
-.sjb-job-footer {
+#sjb-container .sjb-job-bottom {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 16px;
-    border-top: 1px solid #eee;
+    gap: 12px;
+    margin-top: 4px;
 }
 
-.sjb-posted-date {
-    font-size: 0.9rem;
-    color: #888;
-}
-
-.sjb-apply-btn {
-    display: inline-flex;
-    align-items: center;
+#sjb-container .sjb-job-tags {
+    display: flex;
+    flex-wrap: wrap;
     gap: 6px;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #fff;
-    background: #32373c;
-    text-decoration: none;
-    padding: 12px 24px;
-    border-radius: 9999px;
-    transition: all 0.2s;
 }
 
-.sjb-apply-btn:hover {
-    background: #000;
-    transform: translateX(2px);
-    color: #fff;
-    text-decoration: none;
+#sjb-container .sjb-tag {
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 5px 11px;
+    background: #F1F2F4;
+    color: var(--sjb-muted);
 }
 
-.sjb-apply-btn::after {
-    content: " \2192";
+#sjb-container .sjb-tag.is-outline {
+    background: none;
+    border: 1px solid var(--sjb-line);
+    padding: 4px 11px;
 }
 
-/* Filled/Closed Jobs */
-.sjb-job-card.sjb-filled {
-    opacity: 0.55;
-    border-left: 4px solid #adb5bd;
-    background: #f8f9fa;
+/* Category tints: light grounds, dark text, all above 4.5:1. */
+#sjb-container .sjb-tag-engineering { background: #E8EEF6; color: #112D50; }
+#sjb-container .sjb-tag-it { background: #E3F0F7; color: #0B4F6C; }
+#sjb-container .sjb-tag-science { background: #E6F2EC; color: #1F5A3D; }
+#sjb-container .sjb-tag-production { background: #EFEAE4; color: #5B4636; }
+#sjb-container .sjb-tag-healthcare { background: #FBE7EF; color: #8A1F4C; }
+#sjb-container .sjb-tag-education { background: #FFF4D6; color: #6E5300; }
+#sjb-container .sjb-tag-hospitality { background: #FCEBE4; color: #8A3A17; }
+#sjb-container .sjb-tag-customer-service { background: #E3F3F1; color: #0F5B52; }
+#sjb-container .sjb-tag-finance { background: #F1ECDF; color: #5C4A1C; }
+#sjb-container .sjb-tag-design { background: #F3E8F7; color: #5E2A73; }
+#sjb-container .sjb-tag-marketing { background: #FDEEDF; color: #8A4B10; }
+#sjb-container .sjb-tag-sales { background: #E7F3E7; color: #245C26; }
+#sjb-container .sjb-tag-consulting { background: #ECE8F7; color: #3E3473; }
+#sjb-container .sjb-tag-operations { background: #EDEFF2; color: #3E4652; }
+#sjb-container .sjb-tag-product { background: #E3F4F7; color: #0E5565; }
+#sjb-container .sjb-tag-other { background: #F1F2F4; color: #4A4F57; }
+
+#sjb-container .sjb-job-action {
+    display: flex;
+    align-items: center;
+    gap: 14px;
 }
 
-.sjb-job-card.sjb-filled:hover {
-    opacity: 0.75;
+#sjb-container .sjb-posted-date {
+    font-size: 13px;
+    color: var(--sjb-faint);
+    white-space: nowrap;
 }
 
-.sjb-filled-badge {
+#sjb-container .sjb-apply-btn {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: #dc3545;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 8px;
+    gap: 8px;
+    background: var(--sjb-navy);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 999px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
-.sjb-filled-badge::before {
-    content: "\2716";
-    font-size: 11px;
+#sjb-container .sjb-apply-btn:hover {
+    background: var(--sjb-plum);
+    color: #fff;
 }
 
-.sjb-apply-btn-disabled {
-    background: #adb5bd !important;
-    cursor: default;
-    pointer-events: none;
+#sjb-container .sjb-no-jobs,
+#sjb-container .sjb-loading,
+#sjb-container .sjb-error {
+    background: #fff;
+    border-radius: 18px;
+    padding: 28px;
+    color: var(--sjb-muted);
+    font-size: 16px;
 }
 
-.sjb-apply-btn-disabled:hover {
-    background: #adb5bd !important;
-    transform: none !important;
+/* Post a job */
+#sjb-container .sjb-cta-box {
+    background: var(--sjb-navy);
+    color: #fff;
+    border-radius: 20px;
+    padding: 32px 36px;
 }
 
-.sjb-apply-btn-disabled::after {
-    content: "" !important;
+#sjb-container .sjb-cta-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px 24px;
 }
 
-/* No Jobs Message */
-.sjb-no-jobs {
-    text-align: center;
-    padding: 60px 20px;
-    color: #666;
-    font-size: 1rem;
-    background: #f8f9fa;
-    border: 1px solid #ddd;
+#sjb-container .sjb-cta-content h3 {
+    margin: 0;
+    flex: 1 1 100%;
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
 }
 
-/* Call to Action Box */
-.sjb-cta-box {
-    margin-top: 40px;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border: 1px solid #ddd;
-    padding: 40px;
-    text-align: center;
+#sjb-container .sjb-cta-content p {
+    margin: 0;
+    flex: 1 1 22rem;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #D6DEE9;
 }
 
-.sjb-cta-content h3 {
-    font-size: 1.5rem;
-    color: #32373c;
-    margin: 0 0 16px 0;
-    font-weight: 600;
+#sjb-container .sjb-cta-button {
+    display: inline-flex;
+    align-items: center;
+    background: #F0C6EE;
+    color: var(--sjb-plum-dark);
+    text-decoration: none;
+    border-radius: 999px;
+    padding: 13px 26px;
+    font-size: 15px;
+    font-weight: 800;
 }
 
-.sjb-cta-content p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
-    margin: 0 0 24px 0;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+#sjb-container .sjb-cta-button:hover {
+    background: #fff;
+    color: var(--sjb-plum-dark);
 }
 
-.sjb-cta-button {
-    display: inline-block;
-    padding: 14px 32px;
-    background: #32373c;
-    color: #fff !important;
-    text-decoration: none !important;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 9999px;
-    transition: background 0.2s, transform 0.1s;
+@media (max-width: 600px) {
+    #sjb-container .sjb-hero { padding: 32px 22px 26px; border-radius: 16px; }
+    #sjb-container .sjb-hero-value { font-size: 32px; }
+    #sjb-container .sjb-controls, #sjb-container .sjb-trends { padding: 18px; }
+    #sjb-container .sjb-job-card { padding: 20px 18px; }
+    #sjb-container .sjb-job-title { font-size: 19px; }
+    #sjb-container .sjb-job-action { width: 100%; justify-content: space-between; }
+    #sjb-container .sjb-cta-box { padding: 26px 22px; }
 }
-
-.sjb-cta-button:hover {
-    background: #000;
-    transform: translateY(-2px);
-    color: #fff !important;
-}
-
-.sjb-cta-note {
-    font-size: 0.8rem !important;
-    color: #888 !important;
-    font-style: italic;
-    margin-top: 20px !important;
-    margin-bottom: 0 !important;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .sjb-container {
-        padding: 12px;
-    }
-
-    .sjb-filter-row {
-        flex-direction: column;
-    }
-
-    .sjb-filter-wrapper {
-        min-width: 100%;
-    }
-
-    .sjb-job-header {
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .sjb-job-title {
-        font-size: 1.25rem;
-    }
-
-    .sjb-job-footer {
-        flex-direction: column;
-        gap: 12px;
-        align-items: stretch;
-    }
-
-    .sjb-apply-btn {
-        justify-content: center;
-    }
-
-    .sjb-cta-box {
-        padding: 30px 20px;
-        margin-top: 30px;
-    }
-
-    .sjb-cta-content h3 {
-        font-size: 1.25rem;
-    }
-
-    .sjb-cta-content p {
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .sjb-controls {
-        padding: 16px;
-    }
-
-    .sjb-job-card {
-        padding: 16px;
-    }
-
-    .sjb-job-tags {
-        gap: 6px;
-    }
-
-    .sjb-tag {
-        font-size: 0.7rem;
-        padding: 4px 10px;
-    }
-}
-
 
 /* Iceland's changing world of work ([iceland_work_trends]) */
 /* Layout from the "Changing World of Work Redesign" canvas. Brand colours:

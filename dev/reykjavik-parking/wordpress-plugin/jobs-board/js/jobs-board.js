@@ -1,6 +1,6 @@
 /**
  * Startup Iceland Jobs Board - Main JavaScript
- * Version: 1.3.0
+ * Version: 1.5.0
  */
 
 (function() {
@@ -26,7 +26,7 @@
             employer: 'all'
         },
         sort: 'newest',
-        trends: { measure: 'postings', status: 'all', employers: 'all' }
+        trends: { measure: 'postings', status: 'all', employers: 'all', showAll: false }
     };
 
     // DOM Elements
@@ -59,6 +59,10 @@
             companyCount: document.getElementById('sjb-company-count'),
             noJobs: document.getElementById('sjb-no-jobs'),
             trendsGrid: document.getElementById('sjb-trends-grid'),
+            trendsMore: document.getElementById('sjb-trends-more'),
+            heroOpen: document.getElementById('sjb-hero-open'),
+            heroCompanies: document.getElementById('sjb-hero-companies'),
+            heroStartups: document.getElementById('sjb-hero-startups'),
             trendsLead: document.getElementById('sjb-trends-lead')
         };
 
@@ -226,8 +230,8 @@
     }
 
     function shade(t) {
-        // From the panel grey (#f8f9fa) to the board's charcoal (#32373c).
-        var a = [248, 249, 250], b = [50, 55, 60];
+        // From a pale plum (#f7f0f7) to the brand's dark plum (#3a1239).
+        var a = [247, 240, 247], b = [58, 18, 57];
         var k = 0.12 + 0.88 * Math.sqrt(t);
         return 'rgb(' + a.map(function(v, i) { return Math.round(v + (b[i] - v) * k); }).join(',') + ')';
     }
@@ -273,6 +277,16 @@
             return trendValue(byCat[b]) - trendValue(byCat[a]);
         });
 
+        // The five largest categories by default (plus a selected one), all on request.
+        var allCount = cats.length;
+        if (!state.trends.showAll && cats.length > 5) {
+            cats = cats.filter(function(c, i) { return i < 5 || c === state.filters.category; });
+        }
+        if (elements.trendsMore) {
+            elements.trendsMore.hidden = allCount <= 5;
+            elements.trendsMore.textContent = state.trends.showAll ? 'Show fewer categories' : 'Show all ' + allCount + ' categories';
+        }
+
         var cells = {}, max = 0;
         cats.forEach(function(c) {
             months.forEach(function(m) {
@@ -312,8 +326,8 @@
                 var cell = cells[c + '|' + m];
                 var div = trendCell('sjb-trends-cell' + (selected ? ' is-selected' : ''), cell.v ? String(cell.v) : '');
                 var t = max ? cell.v / max : 0;
-                div.style.background = cell.v ? shade(t) : '#fff';
-                div.style.color = t > 0.45 ? '#fff' : '#32373c';
+                div.style.background = cell.v ? shade(t) : '#f7f8fa';
+                div.style.color = t > 0.45 ? '#fff' : '#3a1239';
                 var counts = {};
                 cell.list.forEach(function(j) { counts[j.company] = (counts[j.company] || 0) + 1; });
                 var topCos = Object.keys(counts).sort(function(a, b) { return counts[b] - counts[a]; }).slice(0, 4)
@@ -330,6 +344,12 @@
     }
 
     function bindTrendControls() {
+        if (elements.trendsMore) {
+            elements.trendsMore.addEventListener('click', function() {
+                state.trends.showAll = !state.trends.showAll;
+                renderTrends();
+            });
+        }
         var buttons = document.querySelectorAll('.sjb-trends [data-trend]');
         Array.prototype.forEach.call(buttons, function(btn) {
             btn.addEventListener('click', function() {
@@ -425,7 +445,17 @@
     /**
      * Apply all filters and render
      */
+    function updateHero() {
+        var open = state.jobs.filter(function(j) { return j.status !== 'filled'; });
+        var companies = {};
+        open.forEach(function(j) { companies[(j.company || '').toLowerCase()] = true; });
+        if (elements.heroOpen) elements.heroOpen.textContent = open.length;
+        if (elements.heroCompanies) elements.heroCompanies.textContent = Object.keys(companies).length;
+        if (elements.heroStartups) elements.heroStartups.textContent = open.filter(function(j) { return j.startup; }).length;
+    }
+
     function applyFilters() {
+        updateHero();
         renderTrends();
 
         var filtered = state.jobs.filter(function(job) {
@@ -542,67 +572,105 @@
     /**
      * Create a job card element
      */
+    var ARROW = '<svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" ' +
+        'stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+    var LEVEL_LABELS = { entry: 'Entry level', mid: 'Mid level', senior: 'Senior', lead: 'Lead', executive: 'Executive' };
+
+    function escapeRegExp(text) {
+        return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    /**
+     * The description without what some sources repeat at its start: the title,
+     * the company, a date ("7. Aug 2026") and a job type ("Fullt starf").
+     */
+    function cleanDescription(job) {
+        var d = (job.description || '').replace(/[\u00a0\u202f\u2007]/g, ' ').replace(/\s+/g, ' ').trim();
+        function strip(text) {
+            var rx = new RegExp('^' + escapeRegExp(text.trim()) + '[\\s,:\u2013-]*', 'i');
+            var out = d.replace(rx, '');
+            var hit = out !== d;
+            d = out;
+            return hit;
+        }
+        var DATE = /^\d{1,2}\.\s*[A-Za-z\u00C0-\u017F]{3,}\.?\s*\d{4}\s*/;
+        var TYPE = /^(Fullt starf|Hlutastarf|Sumarstarf|Tímabundið starf|Verktaka|Starfsnám|Full[- ]time|Part[- ]time|Contract|Internship)\s*/i;
+        var companies = [job.company, (job.company || '').split('|')[0]].filter(Boolean);
+        // The repeated block is title, company, date, type, sometimes the title
+        // again. The company is only stripped inside that block: a description
+        // may well open with the company as its subject ("Alvotech is looking…").
+        var startsWithTitle = job.title && strip(job.title);
+        var companyBeforeDate = companies.some(function(c) {
+            return new RegExp('^' + escapeRegExp(c.trim()) + '\\s+\\d{1,2}\\.', 'i').test(d);
+        });
+        if (startsWithTitle || companyBeforeDate) {
+            companies.some(strip);
+            d = d.replace(DATE, '').replace(TYPE, '');
+            if (job.title) strip(job.title);
+        }
+        return d;
+    }
+
+    function formatPosted(dateString) {
+        var date = new Date(dateString);
+        if (isNaN(date)) return '';
+        var opts = { day: 'numeric', month: 'short' };
+        if (date.getFullYear() !== new Date().getFullYear()) opts.year = 'numeric';
+        return 'Posted ' + date.toLocaleDateString('en-GB', opts);
+    }
+
+    /**
+     * Create a job card element
+     */
     function createJobCard(job) {
         var isFilled = job.status === 'filled';
-        var card = document.createElement('div');
+        var card = document.createElement('article');
         card.className = 'sjb-job-card'
             + (job.featured && !isFilled ? ' sjb-featured' : '')
             + (isFilled ? ' sjb-filled' : '');
 
         var html = '';
-
-        // Filled badge
         if (isFilled) {
-            html += '<div class="sjb-filled-badge">No Longer Available</div>';
+            html += '<span class="sjb-flag is-filled">No longer available</span>';
+        } else if (job.featured) {
+            html += '<span class="sjb-flag">Featured</span>';
         }
 
-        // Featured badge
-        if (job.featured && !isFilled) {
-            html += '<div class="sjb-featured-badge">Featured</div>';
-        }
-
-        // Job title
         html += '<h3 class="sjb-job-title">' + escapeHtml(job.title) + '</h3>';
 
-        // Meta info (company, location, remote)
+        var location = (job.location || '').replace(/,\s*Iceland$/i, '');
         html += '<div class="sjb-job-meta">';
-        html += '<span class="sjb-company">' + escapeHtml(job.company) + '</span>';
-        if (job.startup) {
-            html += ' <span class="sjb-startup-badge" title="In the Startup Iceland directory">Startup</span>';
+        html += '<strong class="sjb-company">' + escapeHtml(job.company) + '</strong>';
+        if (job.startup && !isFilled) {
+            html += '<span class="sjb-startup-badge" title="In the Startup Iceland directory">Startup</span>';
         }
-        html += '<span class="sjb-separator">&middot;</span>';
-        html += '<span class="sjb-location">' + escapeHtml(job.location) + '</span>';
-        html += '<span class="sjb-separator">&middot;</span>';
-        html += '<span class="sjb-remote">' + getRemoteLabel(job.remote) + '</span>';
-        html += '</div>';
-
-        // Description excerpt
-        if (job.description) {
-            // Some sources join words with no-break spaces (U+00A0, U+202F),
-            // which never wrap: one such run widened the page on phones.
-            var description = job.description.replace(/[\u00a0\u202f\u2007]/g, ' ');
-            var excerpt = description.length > 150
-                ? description.substring(0, 150).replace(/\s+\S*$/, '') + '...'
-                : description;
-            html += '<p class="sjb-job-excerpt">' + escapeHtml(excerpt) + '</p>';
-        }
-
-        // Tags
-        html += '<div class="sjb-job-tags">';
-        html += '<span class="sjb-tag sjb-tag-' + job.category + '">' + getCategoryLabel(job.category) + '</span>';
-        html += '<span class="sjb-tag sjb-tag-type">' + getTypeLabel(job.type) + '</span>';
-        html += '<span class="sjb-tag sjb-tag-level">' + getLevelLabel(job.experienceLevel) + '</span>';
-        html += '</div>';
-
-        // Footer with date and apply button
-        html += '<div class="sjb-job-footer">';
-        html += '<span class="sjb-posted-date">Posted: ' + formatDate(job.postedDate) + '</span>';
-        if (isFilled) {
-            html += '<span class="sjb-apply-btn sjb-apply-btn-disabled">Closed</span>';
-        } else {
-            html += '<a href="' + escapeHtml(job.applicationUrl) + '" target="_blank" rel="noopener noreferrer" class="sjb-apply-btn">Apply</a>';
+        if (location) html += '<span class="sjb-separator" aria-hidden="true">&middot;</span><span class="sjb-location">' + escapeHtml(location) + '</span>';
+        if (!isFilled) {
+            html += '<span class="sjb-separator" aria-hidden="true">&middot;</span><span class="sjb-remote' +
+                (job.remote === 'remote' ? ' is-remote' : '') + '">' + getRemoteLabel(job.remote) + '</span>';
         }
         html += '</div>';
+
+        if (!isFilled) {
+            var description = cleanDescription(job);
+            if (description) {
+                var excerpt = description.length > 170
+                    ? description.substring(0, 170).replace(/\s+\S*$/, '') + '\u2026'
+                    : description;
+                html += '<p class="sjb-job-excerpt">' + escapeHtml(excerpt) + '</p>';
+            }
+
+            html += '<div class="sjb-job-bottom">';
+            html += '<div class="sjb-job-tags">';
+            html += '<span class="sjb-tag sjb-tag-' + escapeHtml(job.category) + '">' + escapeHtml(getCategoryLabel(job.category)) + '</span>';
+            if (job.type) html += '<span class="sjb-tag is-outline">' + escapeHtml(getTypeLabel(job.type)) + '</span>';
+            if (LEVEL_LABELS[job.experienceLevel]) html += '<span class="sjb-tag is-outline">' + LEVEL_LABELS[job.experienceLevel] + '</span>';
+            html += '</div>';
+            html += '<div class="sjb-job-action">';
+            html += '<span class="sjb-posted-date">' + formatPosted(job.postedDate) + '</span>';
+            html += '<a href="' + escapeHtml(job.applicationUrl) + '" target="_blank" rel="noopener noreferrer" class="sjb-apply-btn">Apply ' + ARROW + '</a>';
+            html += '</div></div>';
+        }
 
         card.innerHTML = html;
         return card;
