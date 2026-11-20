@@ -355,7 +355,7 @@ var icelandStartups = [
         id: 163,
         name: "Atlas",
         description: "Icelandic cloud infrastructure provider offering secure, locally-hosted VMs, Kubernetes, and S3-compatible storage with full data sovereignty",
-        website: "https://runatlas.is",
+        website: "https://atlascloud.is",
         sector: "saas",
         status: "active",
         acquiredBy: null,
@@ -1848,6 +1848,186 @@ var icelandStartups = [
         status: "active",
         acquiredBy: null,
         foundedYear: 2021
+    },
+    {
+        id: 177,
+        name: "Affineva",
+        description: "Biotech company developing technology to purify and isolate extracellular vesicles for the diagnosis and treatment of disease. Gulleggið 2026 winner.",
+        website: "https://affineva.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2026
+    },
+    {
+        id: 178,
+        name: "IORDEN",
+        description: "Software and hardware that automate quality control, traceability and audit reporting for small food producers.",
+        website: "https://iorden.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2026
+    },
+    {
+        id: 179,
+        name: "Norrstone",
+        description: "Digital certificates and ownership records for jewellery and watches, linking jewellers, owners and insurers.",
+        website: "https://norrstone.com",
+        sector: "retail",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2025
+    },
+    {
+        id: 180,
+        name: "Comenius",
+        description: "Student information system for Icelandic compulsory schools that connects the tools a school already uses.",
+        website: "https://comenius.is",
+        sector: "edtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2026
+    },
+    {
+        id: 181,
+        name: "ELORA",
+        description: "Software that connects airline engineering systems to give traceable, audit-ready answers on aircraft configuration and compliance.",
+        website: "https://elora.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2026
+    },
+    {
+        id: 182,
+        name: "Freightflow",
+        description: "Freight platform for Icelandic importers and exporters handling quotes, bookings, customs clearance and delivery in one place.",
+        website: "https://freightflow.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2026
+    },
+    {
+        id: 183,
+        name: "MAGNEA",
+        description: "Real-time market data and AI fish-price forecasts for Icelandic fishing companies and seafood exporters.",
+        website: "https://magnea.io",
+        sector: "maritime",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
+    },
+    {
+        id: 184,
+        name: "Ogma",
+        description: "Adaptive language-learning software for children with developmental language disorders and the people who support them.",
+        website: "https://ogma.is",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2026
+    },
+    {
+        id: 185,
+        name: "Sinope",
+        description: "Helps startups prepare for ISO 27001 and other compliance audits by organising their evidence for the auditor.",
+        website: "https://sino.pe",
+        sector: "security",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2026
+    },
+    {
+        id: 186,
+        name: "STRUX",
+        description: "AI that checks building permit drawings against building regulations before submission, so permits are approved first time.",
+        website: "https://strux.is",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2026
+    },
+    {
+        id: 187,
+        name: "Ratatag",
+        description: "Durable QR-code tags for personal belongings that let a finder return a lost item to its owner.",
+        website: "https://ratatag.is",
+        sector: "other",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2026
+    },
+    {
+        id: 188,
+        name: "Catecut",
+        description: "AI that reads fashion and jewellery product images and writes product descriptions and attributes for online retailers.",
+        website: "https://catecut.com",
+        sector: "saas",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
+    },
+    {
+        id: 189,
+        name: "GreenFish",
+        description: "AI fishing forecasts that predict where the catch will be up to eight days ahead, cutting fuel use and search time.",
+        website: "https://greenfish.is",
+        sector: "maritime",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
+    },
+    {
+        id: 190,
+        name: "Total Tempo",
+        description: "Football training technology that develops players' awareness, reaction speed and decision-making.",
+        website: "https://totaltempo.com",
+        sector: "other",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2024
+    },
+    {
+        id: 191,
+        name: "Bella Books",
+        description: "AI bookkeeping assistant that reads invoices and suggests postings for the bookkeeper to approve.",
+        website: "https://bellabooks.ai",
+        sector: "fintech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2025
+    },
+    {
+        id: 192,
+        name: "SAGAREG",
+        description: "AI-assisted software for drafting and managing pharmaceutical marketing authorisation dossiers for generics and biosimilars.",
+        website: "https://sagareg.com",
+        sector: "healthtech",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2025
+    },
+    {
+        id: 193,
+        name: "Coliva",
+        description: "Nicotine-free and caffeine-free oral pouches made with Icelandic collagen and vitamins.",
+        website: "https://coliva.is",
+        sector: "food",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2025
+    },
+    {
+        id: 194,
+        name: "Lava Show",
+        description: "Live show in Vík and Reykjavík where real molten lava is melted and poured in front of an audience.",
+        website: "https://lavashow.com",
+        sector: "travel",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2016
     }
 ];
 
