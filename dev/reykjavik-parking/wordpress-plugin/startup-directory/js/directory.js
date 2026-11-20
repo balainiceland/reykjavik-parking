@@ -152,9 +152,16 @@
         STARTUP_SECTORS.forEach(function(sector) {
             var option = document.createElement('option');
             option.value = sector.id;
-            option.textContent = sector.name;
+            option.textContent = sector.id === 'all' ? 'All sectors' : sector.name;
             select.appendChild(option);
         });
+        if (!STARTUP_SECTORS.some(function(s) { return s.id === 'all'; })) {
+            var allOption = document.createElement('option');
+            allOption.value = 'all';
+            allOption.textContent = 'All sectors';
+            select.insertBefore(allOption, select.firstChild);
+        }
+        select.value = currentSector;
 
         select.addEventListener('change', function() {
             currentSector = this.value;
@@ -163,14 +170,12 @@
     }
 
     function initStatusFilter() {
-        var buttons = document.querySelectorAll('.sid-status-btn');
-        buttons.forEach(function(btn) {
-            btn.addEventListener('click', function() {
-                buttons.forEach(function(b) { b.classList.remove('sid-active'); });
-                this.classList.add('sid-active');
-                currentStatus = this.dataset.status;
-                renderStartups();
-            });
+        var select = document.getElementById('sid-status-filter');
+        if (!select) return;
+
+        select.addEventListener('change', function() {
+            currentStatus = this.value;
+            renderStartups();
         });
     }
 
@@ -260,7 +265,7 @@
         grid.innerHTML = '';
 
         if (sorted.length === 0) {
-            grid.innerHTML = '<div class="sid-no-results">No startups found matching your criteria.</div>';
+            grid.innerHTML = '<div class="sid-no-results"><p>No startups match your search. Try a different word or clear the filters.</p></div>';
             return;
         }
 
@@ -270,38 +275,43 @@
         });
     }
 
+    var ARROW_SVG = '<svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg>';
+
     function createStartupCard(startup) {
-        var card = document.createElement('div');
+        var card = document.createElement('article');
         card.className = 'sid-startup-card';
 
-        var statusClass = 'sid-status-' + startup.status;
-        var statusLabel = startup.status.charAt(0).toUpperCase() + startup.status.slice(1);
+        var status = startup.status || 'active';
+        var statusLabel = status.charAt(0).toUpperCase() + status.slice(1);
 
         var acquiredHtml = '';
-        if (startup.status === 'acquired' && startup.acquiredBy) {
-            acquiredHtml = '<div class="sid-acquired-by">by ' + escapeHtml(startup.acquiredBy) + '</div>';
-        }
-
-        var websiteHtml = '';
-        if (startup.website) {
-            websiteHtml = '<a href="' + escapeHtml(startup.website) + '" target="_blank" rel="noopener" class="sid-website-link">Visit Website</a>';
+        if (status === 'acquired' && startup.acquiredBy) {
+            acquiredHtml = '<p class="sid-acquired-by">Acquired by <strong>' + escapeHtml(startup.acquiredBy) + '</strong></p>';
         }
 
         var yearHtml = '';
         if (startup.foundedYear) {
-            yearHtml = '<span class="sid-founded">Est. ' + startup.foundedYear + '</span>';
+            yearHtml = '<span class="sid-tag is-outline sid-founded">Founded ' + escapeHtml(String(startup.foundedYear)) + '</span>';
+        }
+
+        var websiteHtml = '';
+        if (startup.website && /^https?:\/\//i.test(startup.website)) {
+            websiteHtml = '<a href="' + escapeHtml(startup.website) + '" target="_blank" rel="noopener" class="sid-website-link"' +
+                ' aria-label="Visit the ' + escapeHtml(startup.name) + ' website (opens in a new tab)">Visit website ' + ARROW_SVG + '</a>';
         }
 
         card.innerHTML =
-            '<div class="sid-card-header">' +
+            '<div class="sid-card-top">' +
                 '<h3 class="sid-startup-name">' + escapeHtml(startup.name) + '</h3>' +
-                '<span class="sid-status-badge ' + statusClass + '">' + statusLabel + '</span>' +
+                '<span class="sid-status-badge sid-status-' + escapeHtml(status) + '">' + escapeHtml(statusLabel) + '</span>' +
             '</div>' +
-            '<div class="sid-sector-tag">' + escapeHtml(getSectorName(startup.sector)) + '</div>' +
-            '<p class="sid-description">' + escapeHtml(startup.description || 'No description available') + '</p>' +
             acquiredHtml +
+            '<p class="sid-description">' + escapeHtml(startup.description || 'No description available') + '</p>' +
             '<div class="sid-card-footer">' +
-                yearHtml +
+                '<div class="sid-card-tags">' +
+                    '<span class="sid-tag sid-sector-tag sid-tag-' + escapeHtml(startup.sector || 'other') + '">' + escapeHtml(getSectorName(startup.sector)) + '</span>' +
+                    yearHtml +
+                '</div>' +
                 websiteHtml +
             '</div>';
 

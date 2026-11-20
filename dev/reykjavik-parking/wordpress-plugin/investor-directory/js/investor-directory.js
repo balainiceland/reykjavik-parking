@@ -13,7 +13,8 @@
         search: '',
         type: 'all',
         stage: 'all',
-        sector: 'all'
+        sector: 'all',
+        sort: 'name-asc'
     };
 
     // Data arrays (loaded dynamically)
@@ -143,42 +144,29 @@
         filterAndRender();
     }
 
+    function fillSelect(id, items, allLabel) {
+        var select = document.getElementById(id);
+        if (!select) return;
+        var current = select.value || 'all';
+        select.innerHTML = '';
+        var hasAll = items.some(function(item) { return item.id === 'all'; });
+        if (!hasAll) {
+            items = [{ id: 'all', name: allLabel }].concat(items);
+        }
+        items.forEach(function(item) {
+            var option = document.createElement('option');
+            option.value = item.id;
+            option.textContent = item.id === 'all' ? allLabel : item.name;
+            select.appendChild(option);
+        });
+        select.value = current;
+        if (select.value !== current) select.value = 'all';
+    }
+
     function populateFilters() {
-        // Populate type filter
-        var typeSelect = document.getElementById('iid-type-filter');
-        if (typeSelect) {
-            typeSelect.innerHTML = '';
-            INVESTOR_TYPES.forEach(function(type) {
-                var option = document.createElement('option');
-                option.value = type.id;
-                option.textContent = type.name;
-                typeSelect.appendChild(option);
-            });
-        }
-
-        // Populate stage filter
-        var stageSelect = document.getElementById('iid-stage-filter');
-        if (stageSelect) {
-            stageSelect.innerHTML = '';
-            INVESTMENT_STAGES.forEach(function(stage) {
-                var option = document.createElement('option');
-                option.value = stage.id;
-                option.textContent = stage.name;
-                stageSelect.appendChild(option);
-            });
-        }
-
-        // Populate sector filter
-        var sectorSelect = document.getElementById('iid-sector-filter');
-        if (sectorSelect) {
-            sectorSelect.innerHTML = '';
-            SECTOR_FOCUS.forEach(function(sector) {
-                var option = document.createElement('option');
-                option.value = sector.id;
-                option.textContent = sector.name;
-                sectorSelect.appendChild(option);
-            });
-        }
+        fillSelect('iid-type-filter', INVESTOR_TYPES, 'All types');
+        fillSelect('iid-stage-filter', INVESTMENT_STAGES, 'All stages');
+        fillSelect('iid-sector-filter', SECTOR_FOCUS, 'All sectors');
     }
 
     function initEventListeners() {
@@ -217,18 +205,43 @@
                 filterAndRender();
             });
         }
+
+        // Sort
+        var sortSelect = document.getElementById('iid-sort');
+        if (sortSelect) {
+            sortSelect.addEventListener('change', function(e) {
+                currentFilters.sort = e.target.value;
+                filterAndRender();
+            });
+        }
+    }
+
+    function sortInvestors(list) {
+        var sorted = list.slice();
+        switch (currentFilters.sort) {
+            case 'name-desc':
+                sorted.sort(function(a, b) { return b.name.localeCompare(a.name); });
+                break;
+            case 'year-desc':
+                sorted.sort(function(a, b) { return (b.foundedYear || 0) - (a.foundedYear || 0) || a.name.localeCompare(b.name); });
+                break;
+            case 'year-asc':
+                sorted.sort(function(a, b) { return (a.foundedYear || 9999) - (b.foundedYear || 9999) || a.name.localeCompare(b.name); });
+                break;
+            default:
+                sorted.sort(function(a, b) { return a.name.localeCompare(b.name); });
+        }
+        return sorted;
     }
 
     function filterAndRender() {
-        filteredInvestors = icelandInvestors.slice().sort(function(a, b) {
-            return a.name.localeCompare(b.name);
-        }).filter(function(investor) {
+        filteredInvestors = sortInvestors(icelandInvestors).filter(function(investor) {
             // Search filter
             if (currentFilters.search) {
                 var searchMatch =
                     investor.name.toLowerCase().includes(currentFilters.search) ||
-                    investor.description.toLowerCase().includes(currentFilters.search) ||
-                    investor.portfolio.some(function(p) {
+                    (investor.description || '').toLowerCase().includes(currentFilters.search) ||
+                    (investor.portfolio || []).some(function(p) {
                         return p.toLowerCase().includes(currentFilters.search);
                     });
                 if (!searchMatch) return false;
@@ -241,15 +254,16 @@
 
             // Stage filter
             if (currentFilters.stage !== 'all') {
-                if (!investor.stages.includes(currentFilters.stage)) {
+                if (!(investor.stages || []).includes(currentFilters.stage)) {
                     return false;
                 }
             }
 
             // Sector filter
             if (currentFilters.sector !== 'all') {
-                if (!investor.focus.includes(currentFilters.sector) &&
-                    !investor.focus.includes('sector-agnostic')) {
+                var focus = investor.focus || [];
+                if (!focus.includes(currentFilters.sector) &&
+                    !focus.includes('sector-agnostic')) {
                     return false;
                 }
             }
@@ -266,7 +280,7 @@
         if (!grid) return;
 
         if (filteredInvestors.length === 0) {
-            grid.innerHTML = '<div class="iid-no-results">No investors found matching your criteria.</div>';
+            grid.innerHTML = '<div class="iid-no-results"><p>No investors match your search. Try a different word or clear the filters.</p></div>';
             return;
         }
 
@@ -277,61 +291,77 @@
         grid.innerHTML = html;
     }
 
+    var ARROW_SVG = '<svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg>';
+
+    function escapeHtml(text) {
+        if (text === null || text === undefined) return '';
+        return String(text)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
+    function detailHtml(label, value) {
+        if (value === null || value === undefined || value === '') return '';
+        return '<div class="iid-detail"><dt class="iid-label">' + label + '</dt><dd class="iid-value">' + escapeHtml(value) + '</dd></div>';
+    }
+
     function createInvestorCard(investor) {
-        var typeClass = 'iid-type-' + investor.type;
+        var typeClass = 'iid-type-' + escapeHtml(investor.type);
         var typeName = getTypeName(investor.type);
 
-        // Format stages
-        var stagesHtml = investor.stages.map(function(stage) {
-            return '<span class="iid-stage-tag">' + getStageName(stage) + '</span>';
-        }).join('');
+        // Sectors
+        var focusHtml = '';
+        if (investor.focus && investor.focus.length > 0) {
+            focusHtml = '<p class="iid-focus-areas">' + investor.focus.map(function(f) {
+                var sector = SECTOR_FOCUS.find(function(s) { return s.id === f; });
+                return escapeHtml(sector ? sector.name : f);
+            }).join('<span class="iid-dot" aria-hidden="true"> · </span>') + '</p>';
+        }
 
-        // Format focus areas
-        var focusHtml = investor.focus.slice(0, 3).map(function(f) {
-            var sector = SECTOR_FOCUS.find(function(s) { return s.id === f; });
-            return sector ? sector.name : f;
-        }).join(' · ');
+        // Stages
+        var stagesHtml = '';
+        if (investor.stages && investor.stages.length > 0) {
+            stagesHtml = '<div class="iid-stages" aria-label="Stages">' + investor.stages.map(function(stage) {
+                return '<span class="iid-tag iid-stage-tag">' + escapeHtml(getStageName(stage)) + '</span>';
+            }).join('') + '</div>';
+        }
 
-        // Format portfolio
+        // Portfolio
         var portfolioHtml = '';
         if (investor.portfolio && investor.portfolio.length > 0) {
-            var portfolioItems = investor.portfolio.slice(0, 4).join(', ');
+            var portfolioItems = investor.portfolio.slice(0, 4).map(escapeHtml).join(', ');
             if (investor.portfolio.length > 4) {
                 portfolioItems += ' +' + (investor.portfolio.length - 4) + ' more';
             }
-            portfolioHtml = '<div class="iid-portfolio"><strong>Portfolio:</strong> ' + portfolioItems + '</div>';
+            portfolioHtml = '<p class="iid-portfolio"><strong>Portfolio</strong> ' + portfolioItems + '</p>';
         }
 
         // Website link
         var websiteHtml = '';
-        if (investor.website) {
-            websiteHtml = '<a href="' + investor.website + '" target="_blank" rel="noopener" class="iid-website-link">Visit Website</a>';
+        if (investor.website && /^https?:\/\//i.test(investor.website)) {
+            websiteHtml = '<div class="iid-card-footer"><a href="' + escapeHtml(investor.website) + '" target="_blank" rel="noopener" class="iid-website-link"' +
+                ' aria-label="Visit the ' + escapeHtml(investor.name) + ' website (opens in a new tab)">Visit website ' + ARROW_SVG + '</a></div>';
         }
 
-        return '<div class="iid-investor-card">' +
-            '<div class="iid-card-header">' +
-                '<h3 class="iid-investor-name">' + investor.name + '</h3>' +
-                '<span class="iid-type-badge ' + typeClass + '">' + typeName + '</span>' +
+        return '<article class="iid-investor-card">' +
+            '<div class="iid-card-top">' +
+                '<h3 class="iid-investor-name">' + escapeHtml(investor.name) + '</h3>' +
+                '<span class="iid-type-badge ' + typeClass + '">' + escapeHtml(typeName) + '</span>' +
             '</div>' +
-            '<div class="iid-focus-areas">' + focusHtml + '</div>' +
-            '<p class="iid-description">' + investor.description + '</p>' +
-            '<div class="iid-stages">' + stagesHtml + '</div>' +
-            '<div class="iid-details">' +
-                '<div class="iid-detail-row">' +
-                    '<span class="iid-label">Ticket Size:</span>' +
-                    '<span class="iid-value">' + investor.ticketSize + '</span>' +
-                '</div>' +
-                '<div class="iid-detail-row">' +
-                    '<span class="iid-label">Location:</span>' +
-                    '<span class="iid-value">' + investor.location + '</span>' +
-                '</div>' +
-            '</div>' +
+            focusHtml +
+            '<p class="iid-description">' + escapeHtml(investor.description) + '</p>' +
+            stagesHtml +
+            '<dl class="iid-details">' +
+                detailHtml('Ticket size', investor.ticketSize) +
+                detailHtml('Location', investor.location) +
+                detailHtml('Founded', investor.foundedYear) +
+            '</dl>' +
             portfolioHtml +
-            '<div class="iid-card-footer">' +
-                '<span class="iid-founded">Est. ' + investor.foundedYear + '</span>' +
-                websiteHtml +
-            '</div>' +
-        '</div>';
+            websiteHtml +
+        '</article>';
     }
 
     function getTypeName(typeId) {

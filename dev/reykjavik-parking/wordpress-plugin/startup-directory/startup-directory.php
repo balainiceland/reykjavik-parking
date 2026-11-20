@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Directory
  * Plugin URI: https://startupiceland.com
  * Description: Searchable directory of Icelandic startups with filtering by sector and status.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -39,7 +39,7 @@ class Startup_Iceland_Directory {
                 'startup-directory-css',
                 plugin_dir_url(__FILE__) . 'css/directory.css',
                 array(),
-                '1.1.0'
+                '1.2.0'
             );
 
             // Startup data
@@ -47,7 +47,7 @@ class Startup_Iceland_Directory {
                 'startup-directory-data',
                 plugin_dir_url(__FILE__) . 'js/startups-data.js',
                 array(),
-                '1.1.0',
+                '1.2.0',
                 true
             );
 
@@ -56,7 +56,7 @@ class Startup_Iceland_Directory {
                 'startup-directory-js',
                 plugin_dir_url(__FILE__) . 'js/directory.js',
                 array('startup-directory-data'),
-                '1.1.0',
+                '1.2.0',
                 true
             );
         }
@@ -72,57 +72,59 @@ class Startup_Iceland_Directory {
         ob_start();
         ?>
         <div class="sid-directory-container" id="sid-directory-container">
-            <!-- Search and Filters -->
-            <div class="sid-controls">
-                <div class="sid-search-row">
-                    <div class="sid-search-wrapper">
-                        <input type="text" id="sid-search" placeholder="Search startups..." />
-                    </div>
-                    <div class="sid-filter-wrapper">
+            <!-- Hero: counts are filled in by JS from the startup data -->
+            <header class="sid-hero">
+                <p class="sid-hero-eyebrow">Startup Iceland · Directory</p>
+                <h1 class="sid-hero-title">Iceland’s startup directory</h1>
+                <p class="sid-hero-lead">Iceland has produced a remarkable number of technology companies for a nation of about 400,000, from CCP Games to Meniga. This directory covers them all, from early-stage ventures to established companies and those that have been acquired.</p>
+                <?php if ($show_stats): ?>
+                <div class="sid-hero-stats">
+                    <div class="sid-hero-stat"><span class="sid-hero-value" id="sid-stat-total">–</span><span class="sid-hero-label">startups listed</span></div>
+                    <div class="sid-hero-stat"><span class="sid-hero-value" id="sid-stat-active">–</span><span class="sid-hero-label">active today</span></div>
+                    <div class="sid-hero-stat"><span class="sid-hero-value is-accent" id="sid-stat-acquired">–</span><span class="sid-hero-label">acquired</span></div>
+                </div>
+                <?php endif; ?>
+                <a class="sid-hero-link" href="/jobs/">Find jobs at Icelandic startups
+                    <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </header>
+
+            <!-- Search and filters -->
+            <section class="sid-controls" aria-label="Search and filter startups">
+                <label class="sid-search-wrapper" for="sid-search">
+                    <span class="sid-search-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+                    <span class="screen-reader-text">Search startups</span>
+                    <input type="search" id="sid-search" placeholder="Search by name or keyword" />
+                </label>
+                <div class="sid-filter-row">
+                    <label class="sid-filter-wrapper" for="sid-sector-filter">Sector
                         <select id="sid-sector-filter">
+                            <option value="all">All sectors</option>
                             <!-- Populated by JS -->
                         </select>
-                    </div>
-                </div>
-                <div class="sid-filter-row">
-                    <div class="sid-status-filters">
-                        <button class="sid-status-btn sid-active" data-status="all">All</button>
-                        <button class="sid-status-btn" data-status="active">Active</button>
-                        <button class="sid-status-btn" data-status="acquired">Acquired</button>
-                        <button class="sid-status-btn" data-status="exited">Exited</button>
-                    </div>
-                    <div class="sid-sort-wrapper">
-                        <label for="sid-sort">Sort:</label>
-                        <select id="sid-sort">
-                            <option value="name-asc">A - Z</option>
-                            <option value="name-desc">Z - A</option>
-                            <option value="year-desc">Newest First</option>
-                            <option value="year-asc">Oldest First</option>
+                    </label>
+                    <label class="sid-filter-wrapper" for="sid-status-filter">Status
+                        <select id="sid-status-filter">
+                            <option value="all">All statuses</option>
+                            <option value="active">Active</option>
+                            <option value="acquired">Acquired</option>
+                            <option value="exited">Exited</option>
                         </select>
-                    </div>
+                    </label>
                 </div>
-            </div>
+            </section>
 
-            <?php if ($show_stats): ?>
-            <!-- Stats Bar -->
-            <div class="sid-stats-bar">
-                <div class="sid-stat-item">
-                    <span class="sid-stat-number" id="sid-stat-total">0</span>
-                    <span class="sid-stat-label">Total Startups</span>
-                </div>
-                <div class="sid-stat-item">
-                    <span class="sid-stat-number" id="sid-stat-active">0</span>
-                    <span class="sid-stat-label">Active</span>
-                </div>
-                <div class="sid-stat-item">
-                    <span class="sid-stat-number" id="sid-stat-acquired">0</span>
-                    <span class="sid-stat-label">Acquired</span>
-                </div>
-                <div class="sid-showing-text">
-                    Showing <strong id="sid-showing-count">0</strong> startups
-                </div>
+            <!-- Count bar and sort -->
+            <div class="sid-count-bar">
+                <span>Showing <strong id="sid-showing-count">0</strong> startups</span>
+                <label class="sid-sort-wrapper" for="sid-sort">Sort
+                    <select id="sid-sort">
+                        <option value="name-asc">Name A–Z</option>
+                        <option value="name-desc">Name Z–A</option>
+                        <option value="year-desc">Newest first</option>
+                        <option value="year-asc">Oldest first</option>
+                    </select>
+                </label>
             </div>
-            <?php endif; ?>
 
             <!-- Startup Grid -->
             <div class="sid-startup-grid" id="sid-startup-grid">

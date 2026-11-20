@@ -1,436 +1,508 @@
-/* Startup Iceland Directory - StartupIceland.com Theme v1.0 */
-
-.sid-directory-container {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    max-width: 1200px;
+/* Startup Iceland Directory — v1.2, in the design of the Startup Iceland jobs
+   board (v1.5): navy #112D50, plum #6D2D6C, the site's own fonts (Proxima Nova,
+   Tisa). The theme centres page content, sets its serif on p/li/a and puts
+   buttons in spaced capitals; the id selectors below outrank it so the
+   directory keeps its own layout. */
+#sid-directory-container {
+    --sid-navy: #112D50;
+    --sid-plum: #6D2D6C;
+    --sid-plum-dark: #3A1239;
+    --sid-ink: #1E1E1E;
+    --sid-muted: #4A4F57;
+    --sid-faint: #6B7280;
+    --sid-line: #D9DEE5;
+    --sid-sans: proxima-nova, Montserrat, "Helvetica Neue", Arial, sans-serif;
+    --sid-serif: ff-tisa-web-pro, "Source Serif 4", Georgia, serif;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
-    color: #333;
-}
-
-/* Header / Controls */
-.sid-controls {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.sid-search-row {
+    padding: 8px 0 48px;
     display: flex;
-    gap: 16px;
-    margin-bottom: 16px;
-    flex-wrap: wrap;
-}
-
-.sid-search-wrapper {
-    flex: 2;
-    min-width: 250px;
-    position: relative;
-}
-
-/* Magnifier icon as an inline SVG: the Material Icons font is not loaded on the site, so the
-   ligature "search" used to render as the word itself over the placeholder. */
-.sid-search-wrapper::before {
-    content: "";
-    position: absolute;
-    left: 14px;
-    top: 50%;
-    width: 18px;
-    height: 18px;
-    transform: translateY(-50%);
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23999999' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cline x1='15.5' y1='15.5' x2='21' y2='21'/%3E%3C/svg%3E") no-repeat center / contain;
-    pointer-events: none;
-}
-
-#sid-search {
-    width: 100%;
-    padding: 12px 16px 12px 44px;
-    border: 1px solid #ddd;
-    font-size: 1rem;
-    font-family: inherit;
+    flex-direction: column;
+    gap: 22px;
+    color: var(--sid-ink);
+    font-family: var(--sid-serif);
+    text-align: left;
     box-sizing: border-box;
 }
 
-#sid-search:focus {
-    outline: none;
-    border-color: #32373c;
+#sid-directory-container *,
+#sid-directory-container *::before,
+#sid-directory-container *::after {
+    box-sizing: border-box;
 }
 
-#sid-search::placeholder {
-    color: #999;
+#sid-directory-container :is(h1, h2, h3, p, section, header, div, label, span, a, article, strong) {
+    text-align: left;
 }
 
-.sid-filter-wrapper {
-    min-width: 180px;
-}
-
-.sid-filter-wrapper select {
-    width: 100%;
-    padding: 12px 16px;
-    border: 1px solid #ddd;
-    font-size: 1rem;
-    font-family: inherit;
-    background: #fff;
-    cursor: pointer;
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 12px center;
-    padding-right: 36px;
-}
-
-.sid-filter-wrapper select:focus {
-    outline: none;
-    border-color: #32373c;
-}
-
-/* Status Buttons */
-.sid-filter-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.sid-status-filters {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-}
-
-.sid-status-btn {
-    padding: 8px 20px;
-    border: 1px solid #ddd;
-    background: #fff;
-    font-size: 0.875rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s;
+#sid-directory-container :is(p, span, div, li, label, strong) {
     font-family: inherit;
 }
 
-.sid-status-btn:hover {
-    border-color: #32373c;
+#sid-directory-container :is(h1, h2, h3, label, select, input, button, .sid-hero-eyebrow, .sid-hero-value,
+    .sid-hero-link, .sid-count-bar, .sid-tag, .sid-status-badge, .sid-acquired-by, .sid-website-link,
+    .sid-cta-button) {
+    font-family: var(--sid-sans);
 }
 
-.sid-status-btn.sid-active {
-    background: #32373c;
-    color: #fff;
-    border-color: #32373c;
-}
-
-.sid-sort-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.sid-sort-wrapper label {
-    font-size: 0.875rem;
-    color: #666;
-}
-
-.sid-sort-wrapper select {
-    padding: 8px 32px 8px 12px;
-    border: 1px solid #ddd;
-    font-size: 0.875rem;
-    font-family: inherit;
-    background: #fff;
-    cursor: pointer;
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 8px center;
-}
-
-/* Stats Bar */
-.sid-stats-bar {
-    display: flex;
-    gap: 24px;
-    padding: 16px 20px;
-    background: #f8f9fa;
-    border: 1px solid #ddd;
-    border-top: none;
-    margin-bottom: 24px;
-    flex-wrap: wrap;
-}
-
-.sid-stat-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.sid-stat-number {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #32373c;
-}
-
-.sid-stat-label {
-    font-size: 0.875rem;
-    color: #666;
-}
-
-.sid-showing-text {
-    margin-left: auto;
-    font-size: 0.875rem;
-    color: #666;
-}
-
-.sid-showing-text strong {
-    color: #32373c;
-}
-
-/* Startup Grid */
-.sid-startup-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
-}
-
-/* Startup Card */
-.sid-startup-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    transition: box-shadow 0.2s, transform 0.2s;
-}
-
-.sid-startup-card:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transform: translateY(-2px);
-}
-
-.sid-card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 12px;
-    margin-bottom: 8px;
-}
-
-.sid-startup-name {
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: #000;
+/* The theme spaces form fields for its own forms, and sets buttons in spaced capitals. */
+#sid-directory-container :is(select, input, button) {
     margin: 0;
+}
+
+#sid-directory-container button {
+    text-transform: none;
+    letter-spacing: normal;
     line-height: 1.3;
 }
 
-/* Status Badges */
-.sid-status-badge {
-    font-size: 0.7rem;
-    font-weight: 600;
-    padding: 4px 10px;
-    border-radius: 9999px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    white-space: nowrap;
-    flex-shrink: 0;
-}
-
-.sid-status-active {
-    background: #e8f5e9;
-    color: #2e7d32;
-}
-
-.sid-status-acquired {
-    background: #e3f2fd;
-    color: #1565c0;
-}
-
-.sid-status-exited {
-    background: #fafafa;
-    color: #666;
-}
-
-/* Sector Tag */
-.sid-sector-tag {
-    font-size: 0.75rem;
-    color: #0693e3;
-    font-weight: 500;
-    margin-bottom: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-/* Description */
-.sid-description {
-    font-size: 0.875rem;
-    color: #555;
-    line-height: 1.6;
-    margin: 0 0 12px 0;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+#sid-directory-container .screen-reader-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
     overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
 }
 
-/* Acquired By */
-.sid-acquired-by {
-    font-size: 0.8rem;
-    color: #1565c0;
-    font-style: italic;
-    margin-bottom: 12px;
+#sid-directory-container :is(a, button, select, input):focus-visible {
+    outline: 3px solid #E6B8E4;
+    outline-offset: 2px;
 }
 
-/* Card Footer */
-.sid-card-footer {
+/* Hero */
+#sid-directory-container .sid-hero {
+    background: var(--sid-navy);
+    color: #fff;
+    border-radius: 20px;
+    padding: 44px 40px 36px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 12px;
-    border-top: 1px solid #eee;
-    margin-top: auto;
+    flex-direction: column;
+    gap: 16px;
 }
 
-.sid-founded {
-    font-size: 0.8rem;
-    color: #999;
+#sid-directory-container .sid-hero-eyebrow {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #E6B8E4;
 }
 
-.sid-website-link {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: #32373c;
-    text-decoration: none;
-    padding: 6px 14px;
-    border: 1px solid #32373c;
-    border-radius: 9999px;
-    transition: all 0.2s;
-}
-
-.sid-website-link:hover {
-    background: #32373c;
+#sid-directory-container .sid-hero-title {
+    margin: 0;
+    font-size: clamp(32px, 4.2vw, 46px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    text-transform: none;
     color: #fff;
 }
 
-/* No Results */
-.sid-no-results {
+#sid-directory-container .sid-hero-lead {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #D6DEE9;
+    max-width: 60ch;
+}
+
+#sid-directory-container .sid-hero-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr));
+    gap: 12px;
+    margin-top: 4px;
+}
+
+#sid-directory-container .sid-hero-stat {
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 14px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#sid-directory-container .sid-hero-value {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1;
+    color: #fff;
+    font-variant-numeric: tabular-nums;
+}
+
+#sid-directory-container .sid-hero-value.is-accent {
+    color: #F0C6EE;
+}
+
+#sid-directory-container .sid-hero-label {
+    font-size: 15px;
+    color: #D6DEE9;
+}
+
+#sid-directory-container .sid-hero-link {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 999px;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#sid-directory-container .sid-hero-link:hover {
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff;
+}
+
+/* Search and filters */
+#sid-directory-container .sid-controls {
+    background: #fff;
+    border-radius: 18px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#sid-directory-container .sid-search-wrapper {
+    position: relative;
+    display: block;
+}
+
+#sid-directory-container .sid-search-icon {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--sid-plum);
+    display: flex;
+    pointer-events: none;
+}
+
+#sid-directory-container #sid-search {
+    width: 100%;
+    height: 54px;
+    border: 2px solid #E3E7EE;
+    border-radius: 14px;
+    padding: 0 18px 0 50px;
+    font-size: 16px;
+    color: var(--sid-ink);
+    background: #FAFBFC;
+    box-shadow: none;
+}
+
+#sid-directory-container #sid-search::placeholder {
+    color: var(--sid-faint);
+}
+
+#sid-directory-container #sid-search:focus {
+    border-color: var(--sid-plum);
+    background: #fff;
+    outline: none;
+}
+
+#sid-directory-container .sid-filter-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+    gap: 12px;
+}
+
+#sid-directory-container .sid-filter-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--sid-faint);
+}
+
+#sid-directory-container .sid-filter-wrapper select,
+#sid-directory-container .sid-sort-wrapper select {
+    height: 42px;
+    border: 1px solid var(--sid-line);
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--sid-ink);
+    background: #fff;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Count bar */
+#sid-directory-container .sid-count-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 14px;
+    color: var(--sid-muted);
+    padding: 0 4px;
+}
+
+#sid-directory-container .sid-count-bar strong {
+    color: var(--sid-navy);
+}
+
+#sid-directory-container .sid-sort-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--sid-muted);
+}
+
+#sid-directory-container .sid-sort-wrapper select {
+    width: auto;
+    height: 36px;
+    border-radius: 999px;
+    padding: 0 12px;
+    font-size: 13px;
+}
+
+/* Startup cards */
+#sid-directory-container .sid-startup-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    gap: 14px;
+}
+
+#sid-directory-container .sid-startup-card {
+    background: #fff;
+    border: 1px solid #E6E9EE;
+    border-radius: 18px;
+    padding: 22px 22px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 0;
+    transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+#sid-directory-container .sid-startup-card:hover {
+    border-color: #E6B8E4;
+    box-shadow: 0 6px 18px rgba(17, 45, 80, 0.08);
+}
+
+#sid-directory-container .sid-card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+#sid-directory-container .sid-startup-name {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--sid-navy);
+    overflow-wrap: anywhere;
+}
+
+#sid-directory-container .sid-status-badge {
+    flex: none;
+    margin-top: 2px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    padding: 4px 10px;
+    white-space: nowrap;
+}
+
+#sid-directory-container .sid-status-active { color: #245C26; background: #E7F3E7; }
+#sid-directory-container .sid-status-acquired { color: var(--sid-plum); background: #F7EEF7; }
+#sid-directory-container .sid-status-exited { color: var(--sid-faint); background: #E5E7EB; }
+
+#sid-directory-container .sid-acquired-by {
+    margin: -4px 0 0;
+    font-size: 14px;
+    color: var(--sid-muted);
+    overflow-wrap: anywhere;
+}
+
+#sid-directory-container .sid-acquired-by strong {
+    color: var(--sid-plum);
+    font-weight: 700;
+}
+
+#sid-directory-container .sid-description {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--sid-muted);
+    overflow-wrap: anywhere;
+}
+
+#sid-directory-container .sid-card-footer {
+    margin-top: auto;
+    padding-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+#sid-directory-container .sid-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    min-width: 0;
+}
+
+#sid-directory-container .sid-tag {
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 5px 11px;
+    background: #F1F2F4;
+    color: var(--sid-muted);
+    line-height: 1.3;
+}
+
+#sid-directory-container .sid-tag.is-outline {
+    background: none;
+    border: 1px solid var(--sid-line);
+    padding: 4px 11px;
+}
+
+/* Sector tints: light grounds, dark text, all above 4.5:1. */
+#sid-directory-container .sid-tag-gaming { background: #ECE8F7; color: #3E3473; }
+#sid-directory-container .sid-tag-fintech { background: #F1ECDF; color: #5C4A1C; }
+#sid-directory-container .sid-tag-healthtech { background: #FBE7EF; color: #8A1F4C; }
+#sid-directory-container .sid-tag-travel { background: #FCEBE4; color: #8A3A17; }
+#sid-directory-container .sid-tag-saas { background: #E8EEF6; color: #112D50; }
+#sid-directory-container .sid-tag-cleantech { background: #E6F2EC; color: #1F5A3D; }
+#sid-directory-container .sid-tag-food { background: #FFF4D6; color: #6E5300; }
+#sid-directory-container .sid-tag-media { background: #F3E8F7; color: #5E2A73; }
+#sid-directory-container .sid-tag-maritime { background: #E3F0F7; color: #0B4F6C; }
+#sid-directory-container .sid-tag-retail { background: #FDEEDF; color: #8A4B10; }
+#sid-directory-container .sid-tag-security { background: #EDEFF2; color: #3E4652; }
+#sid-directory-container .sid-tag-data { background: #E3F4F7; color: #0E5565; }
+#sid-directory-container .sid-tag-edtech { background: #E7F3E7; color: #245C26; }
+#sid-directory-container .sid-tag-hrtech { background: #E3F3F1; color: #0F5B52; }
+#sid-directory-container .sid-tag-gigeconomy { background: #EFEAE4; color: #5B4636; }
+#sid-directory-container .sid-tag-other { background: #F1F2F4; color: #4A4F57; }
+
+#sid-directory-container .sid-website-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--sid-navy);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 999px;
+    padding: 9px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+}
+
+#sid-directory-container .sid-website-link:hover {
+    background: var(--sid-plum);
+    color: #fff;
+}
+
+#sid-directory-container .sid-no-results,
+#sid-directory-container .sid-loading,
+#sid-directory-container .sid-error {
     grid-column: 1 / -1;
-    text-align: center;
-    padding: 60px 20px;
-    color: #666;
-    font-size: 1rem;
+    background: #fff;
+    border-radius: 18px;
+    padding: 28px;
+    color: var(--sid-muted);
+    font-size: 16px;
 }
 
-/* Call to Action Box */
-.sid-cta-box {
-    margin-top: 40px;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border: 1px solid #ddd;
-    padding: 40px;
-    text-align: center;
+#sid-directory-container .sid-no-results p {
+    margin: 0;
 }
 
-.sid-cta-content h3 {
-    font-size: 1.5rem;
-    color: #32373c;
-    margin: 0 0 16px 0;
-    font-weight: 600;
+/* Submit a startup */
+#sid-directory-container .sid-cta-box {
+    background: var(--sid-navy);
+    color: #fff;
+    border-radius: 20px;
+    padding: 32px 36px;
 }
 
-.sid-cta-content p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
-    margin: 0 0 24px 0;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+#sid-directory-container .sid-cta-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px 24px;
 }
 
-.sid-cta-button {
-    display: inline-block;
-    padding: 14px 32px;
-    background: #32373c;
-    color: #fff !important;
-    text-decoration: none !important;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 9999px;
-    transition: background 0.2s, transform 0.1s;
+#sid-directory-container .sid-cta-content h3 {
+    margin: 0;
+    flex: 1 1 100%;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #fff;
 }
 
-.sid-cta-button:hover {
-    background: #000;
-    transform: translateY(-2px);
-    color: #fff !important;
+#sid-directory-container .sid-cta-content p {
+    margin: 0;
+    flex: 1 1 22rem;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #D6DEE9;
 }
 
-.sid-cta-note {
-    font-size: 0.8rem !important;
-    color: #888 !important;
-    font-style: italic;
-    margin-top: 20px !important;
-    margin-bottom: 0 !important;
+#sid-directory-container .sid-cta-content .sid-cta-note {
+    flex: 1 1 100%;
+    font-size: 13px;
+    color: #9FB0C7;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .sid-directory-container {
-        padding: 12px;
-    }
-
-    .sid-search-row {
-        flex-direction: column;
-    }
-
-    .sid-search-wrapper,
-    .sid-filter-wrapper {
-        min-width: 100%;
-    }
-
-    .sid-filter-row {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .sid-status-filters {
-        justify-content: center;
-    }
-
-    .sid-sort-wrapper {
-        justify-content: center;
-    }
-
-    .sid-stats-bar {
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .sid-showing-text {
-        margin-left: 0;
-    }
-
-    .sid-startup-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .sid-cta-box {
-        padding: 30px 20px;
-        margin-top: 30px;
-    }
-
-    .sid-cta-content h3 {
-        font-size: 1.25rem;
-    }
-
-    .sid-cta-content p {
-        font-size: 0.9rem;
-    }
+#sid-directory-container .sid-cta-button {
+    display: inline-flex;
+    align-items: center;
+    background: #F0C6EE;
+    color: var(--sid-plum-dark);
+    text-decoration: none;
+    border-radius: 999px;
+    padding: 13px 26px;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: normal;
+    text-transform: none;
 }
 
-@media (max-width: 480px) {
-    .sid-status-btn {
-        padding: 8px 14px;
-        font-size: 0.8rem;
-    }
+#sid-directory-container .sid-cta-button:hover {
+    background: #fff;
+    color: var(--sid-plum-dark);
+}
 
-    .sid-controls {
-        padding: 16px;
-    }
+@media (max-width: 600px) {
+    #sid-directory-container .sid-hero { padding: 32px 22px 26px; border-radius: 16px; }
+    #sid-directory-container .sid-hero-value { font-size: 32px; }
+    #sid-directory-container .sid-hero-lead { font-size: 17px; }
+    #sid-directory-container .sid-controls { padding: 18px; }
+    #sid-directory-container .sid-startup-card { padding: 20px 18px; }
+    #sid-directory-container .sid-startup-name { font-size: 19px; }
+    #sid-directory-container .sid-cta-box { padding: 26px 22px; }
 }
