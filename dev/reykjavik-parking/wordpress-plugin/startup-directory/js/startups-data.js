@@ -1114,16 +1114,6 @@ var icelandStartups = [
 
     // === BIOTECH ADDITIONS ===
     {
-        id: 92,
-        name: "Alvotech",
-        description: "Development and manufacturing of biosimilar medicines for global markets",
-        website: "https://www.alvotech.com",
-        sector: "healthtech",
-        status: "active",
-        acquiredBy: null,
-        foundedYear: 2013
-    },
-    {
         id: 93,
         name: "BioEffect",
         description: "Biotech skincare using plant-based EGF (Epidermal Growth Factor) from barley",

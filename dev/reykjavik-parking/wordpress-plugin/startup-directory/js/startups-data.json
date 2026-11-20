@@ -1,6 +1,6 @@
 {
   "version": "1.6.0",
-  "lastUpdated": "2026-11-20T17:12:45.043Z",
+  "lastUpdated": "2026-11-20T17:23:56.902Z",
   "sectors": [
     {
       "id": "all",
@@ -1139,16 +1139,6 @@
       "status": "active",
       "acquiredBy": null,
       "foundedYear": 2003
-    },
-    {
-      "id": 92,
-      "name": "Alvotech",
-      "description": "Development and manufacturing of biosimilar medicines for global markets",
-      "website": "https://www.alvotech.com",
-      "sector": "healthtech",
-      "status": "active",
-      "acquiredBy": null,
-      "foundedYear": 2013
     },
     {
       "id": 93,
