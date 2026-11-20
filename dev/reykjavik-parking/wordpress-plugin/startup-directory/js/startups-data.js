@@ -1842,7 +1842,7 @@ var icelandStartups = [
     {
         id: 177,
         name: "Affineva",
-        description: "Biotech company developing technology to purify and isolate extracellular vesicles for the diagnosis and treatment of disease. Gulleggið 2026 winner.",
+        description: "Gulleggið 2026 winner developing technology to isolate extracellular vesicles for diagnosing and treating disease.",
         website: "https://affineva.com",
         sector: "healthtech",
         status: "active",

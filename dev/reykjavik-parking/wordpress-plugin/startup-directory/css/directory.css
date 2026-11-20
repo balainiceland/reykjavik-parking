@@ -29,15 +29,18 @@
     position: relative;
 }
 
+/* Magnifier icon as an inline SVG: the Material Icons font is not loaded on the site, so the
+   ligature "search" used to render as the word itself over the placeholder. */
 .sid-search-wrapper::before {
-    content: "search";
-    font-family: "Material Icons", sans-serif;
+    content: "";
     position: absolute;
     left: 14px;
     top: 50%;
+    width: 18px;
+    height: 18px;
     transform: translateY(-50%);
-    color: #999;
-    font-size: 20px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23999999' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cline x1='15.5' y1='15.5' x2='21' y2='21'/%3E%3C/svg%3E") no-repeat center / contain;
+    pointer-events: none;
 }
 
 #sid-search {

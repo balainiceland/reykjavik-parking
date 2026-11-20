@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Directory
  * Plugin URI: https://startupiceland.com
  * Description: Searchable directory of Icelandic startups with filtering by sector and status.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -39,7 +39,7 @@ class Startup_Iceland_Directory {
                 'startup-directory-css',
                 plugin_dir_url(__FILE__) . 'css/directory.css',
                 array(),
-                '1.0.0'
+                '1.1.0'
             );
 
             // Startup data
@@ -47,7 +47,7 @@ class Startup_Iceland_Directory {
                 'startup-directory-data',
                 plugin_dir_url(__FILE__) . 'js/startups-data.js',
                 array(),
-                '1.0.0',
+                '1.1.0',
                 true
             );
 
@@ -56,7 +56,7 @@ class Startup_Iceland_Directory {
                 'startup-directory-js',
                 plugin_dir_url(__FILE__) . 'js/directory.js',
                 array('startup-directory-data'),
-                '1.0.0',
+                '1.1.0',
                 true
             );
         }

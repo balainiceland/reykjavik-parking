@@ -1,6 +1,6 @@
 {
   "version": "1.6.0",
-  "lastUpdated": "2026-11-20T17:23:56.902Z",
+  "lastUpdated": "2026-11-20T17:34:58.491Z",
   "sectors": [
     {
       "id": "all",
@@ -1853,7 +1853,7 @@
     {
       "id": 177,
       "name": "Affineva",
-      "description": "Biotech company developing technology to purify and isolate extracellular vesicles for the diagnosis and treatment of disease. Gulleggið 2026 winner.",
+      "description": "Gulleggið 2026 winner developing technology to isolate extracellular vesicles for diagnosing and treating disease.",
       "website": "https://affineva.com",
       "sector": "healthtech",
       "status": "active",
