@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Open Data
  * Plugin URI: https://startupiceland.com
  * Description: Makes the startup, investor and jobs data easy for people and AI tools to find and reuse: /llms.txt, open data endpoints (JSON and CSV), an "ecosystem in numbers" page, a page for every startup and investor, and a sitemap of them.
- * Version: 1.1.3
+ * Version: 1.2.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -23,7 +23,7 @@ if (!defined('ABSPATH')) {
  */
 class Startup_Iceland_Open_Data {
 
-    const VERSION = '1.1.3';
+    const VERSION = '1.2.0';
     const NS = 'startupiceland/v1';
     const LICENSE = 'CC BY 4.0';
     const LICENSE_URL = 'https://creativecommons.org/licenses/by/4.0/';
@@ -46,6 +46,7 @@ class Startup_Iceland_Open_Data {
         add_filter('query_vars', array($this, 'query_vars'));
         add_action('template_redirect', array($this, 'serve_profile'), 0);
         add_filter('robots_txt', array($this, 'robots_txt'), 20);
+        add_filter('wp_robots', array($this, 'robots_meta'), 20);
         add_action('rest_api_init', array($this, 'register_routes'));
         add_shortcode('si_ecosystem_numbers', array($this, 'render_numbers'));
         add_action('wp_enqueue_scripts', array($this, 'enqueue_styles'));
@@ -566,6 +567,18 @@ class Startup_Iceland_Open_Data {
 
     public function robots_txt($output) {
         return rtrim($output) . "\nSitemap: " . home_url('/si-sitemap.xml') . "\n";
+    }
+
+    // Tag pages (1,800 tags, most used once), month and year archives, and the paused news page
+    // are thin duplicates of the posts themselves; keep them out of search, but let crawlers
+    // follow their links to the posts.
+    public function robots_meta($robots) {
+        if (is_tag() || is_date() || is_page('news')) {
+            unset($robots['max-image-preview']);
+            $robots['noindex'] = true;
+            $robots['follow'] = true;
+        }
+        return $robots;
     }
 
     // ---------------------------------------------------------------- ecosystem in numbers
