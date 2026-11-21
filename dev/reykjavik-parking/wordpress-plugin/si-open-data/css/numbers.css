@@ -180,7 +180,10 @@
 
 #sio-numbers .sio-data ul { margin: 8px 0 12px; padding-left: 20px; }
 
-/* Profile pages: /startup/{id}-{name}/ and /investor/{id}-{name}/ */
+/* Profile pages: /startup/{id}-{name}/ and /investor/{id}-{name}/. They are printed
+   outside the theme's page wrapper, so they bring their own side gutter. */
+#sio-numbers.sio-profile { padding: 8px 16px 48px; }
+
 #sio-numbers .sio-crumbs {
     font-family: var(--sio-sans);
     font-size: 14px;

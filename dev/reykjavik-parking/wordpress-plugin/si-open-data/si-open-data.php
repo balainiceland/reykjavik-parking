@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Open Data
  * Plugin URI: https://startupiceland.com
  * Description: Makes the startup, investor and jobs data easy for people and AI tools to find and reuse: /llms.txt, open data endpoints (JSON and CSV), an "ecosystem in numbers" page, a page for every startup and investor, and a sitemap of them.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -23,7 +23,7 @@ if (!defined('ABSPATH')) {
  */
 class Startup_Iceland_Open_Data {
 
-    const VERSION = '1.1.0';
+    const VERSION = '1.1.1';
     const NS = 'startupiceland/v1';
     const LICENSE = 'CC BY 4.0';
     const LICENSE_URL = 'https://creativecommons.org/licenses/by/4.0/';
