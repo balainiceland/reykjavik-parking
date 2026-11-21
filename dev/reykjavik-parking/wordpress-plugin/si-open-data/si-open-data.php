@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Open Data
  * Plugin URI: https://startupiceland.com
  * Description: Makes the startup, investor and jobs data easy for people and AI tools to find and reuse: /llms.txt, open data endpoints (JSON and CSV), an "ecosystem in numbers" page, a page for every startup and investor, and a sitemap of them.
- * Version: 1.2.0
+ * Version: 1.3.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -23,7 +23,7 @@ if (!defined('ABSPATH')) {
  */
 class Startup_Iceland_Open_Data {
 
-    const VERSION = '1.2.0';
+    const VERSION = '1.3.0';
     const NS = 'startupiceland/v1';
     const LICENSE = 'CC BY 4.0';
     const LICENSE_URL = 'https://creativecommons.org/licenses/by/4.0/';
@@ -50,6 +50,9 @@ class Startup_Iceland_Open_Data {
         add_action('rest_api_init', array($this, 'register_routes'));
         add_shortcode('si_ecosystem_numbers', array($this, 'render_numbers'));
         add_action('wp_enqueue_scripts', array($this, 'enqueue_styles'));
+        add_filter('the_content', array($this, 'series_note'), 20);
+        add_action('wp_head', array($this, 'series_note_style'));
+        add_action('save_post_page', array($this, 'forget_topics'));
     }
 
     // ---------------------------------------------------------------- data
@@ -285,13 +288,92 @@ class Startup_Iceland_Open_Data {
             '- [Jobs research figures](https://github.com/balainiceland/iceland-jobs-data): daily aggregate figures on Iceland\'s job market.',
             sprintf('- [Sitemap of every startup and investor page](%s)', $site . 'si-sitemap.xml'),
             '',
+        );
+        $topics = $this->topics();
+        if ($topics) {
+            $lines[] = '## Writing by topic';
+            $lines[] = '';
+            foreach ($topics as $t) {
+                $lines[] = sprintf('- [%s](%s): %s', $t['title'], $t['url'], $t['excerpt']);
+            }
+            $lines[] = '';
+        }
+        array_push($lines,
             '## Optional',
             '',
-            sprintf('- [Blog](%s): essays on entrepreneurship and the Icelandic ecosystem.', $site . 'blog/'),
+            sprintf('- [Blog](%s): essays on entrepreneurship and the Icelandic ecosystem since 2004; the topic pages above gather the main series.', $site . 'blog/'),
             '- Corrections and additions: bala@startupiceland.com',
-            '',
+            ''
         );
         return implode("\n", $lines);
+    }
+
+    // ---------------------------------------------------------------- topic pages (/topics/...)
+
+    /**
+     * The published child pages of /topics/, each with the posts it links to. The topic pages are
+     * the source of truth: edit one and llms.txt and the "part of a series" notes follow.
+     */
+    public function topics() {
+        $cached = get_transient('si_topics_v1');
+        if (is_array($cached)) {
+            return $cached;
+        }
+        $topics = array();
+        $parent = get_page_by_path('topics');
+        if ($parent && 'publish' === $parent->post_status) {
+            $pages = get_pages(array('parent' => $parent->ID, 'post_status' => 'publish', 'sort_column' => 'menu_order,ID'));
+            foreach ($pages as $page) {
+                preg_match_all('#href="(https?://[^"]+/\d{4}/\d{2}/\d{2}/[^"/]+/?)"#', $page->post_content, $m);
+                $posts = array();
+                foreach (array_unique($m[1]) as $url) {
+                    $id = url_to_postid($url);
+                    if ($id) {
+                        $posts[] = $id;
+                    }
+                }
+                $topics[] = array(
+                    'title'   => $page->post_title,
+                    'url'     => get_permalink($page),
+                    'excerpt' => wp_strip_all_tags($page->post_excerpt),
+                    'posts'   => $posts,
+                );
+            }
+        }
+        set_transient('si_topics_v1', $topics, 12 * HOUR_IN_SECONDS);
+        return $topics;
+    }
+
+    public function forget_topics() {
+        delete_transient('si_topics_v1');
+    }
+
+    private function series_for($post_id) {
+        return array_values(array_filter($this->topics(), function ($t) use ($post_id) {
+            return in_array((int) $post_id, $t['posts'], true);
+        }));
+    }
+
+    public function series_note($content) {
+        if (!is_singular('post') || !in_the_loop() || !is_main_query()) {
+            return $content;
+        }
+        $series = $this->series_for(get_the_ID());
+        if (!$series) {
+            return $content;
+        }
+        $links = array_map(function ($t) {
+            return '<a href="' . esc_url($t['url']) . '">' . esc_html($t['title']) . '</a>';
+        }, $series);
+        $label = count($series) > 1 ? 'Part of these series' : 'Part of a series';
+        return $content . '<aside class="sio-series-note"><p><strong>' . $label . ':</strong> '
+            . implode(' · ', $links) . '. Read every post in order on the topic page.</p></aside>';
+    }
+
+    public function series_note_style() {
+        if (is_singular('post') && $this->series_for(get_queried_object_id())) {
+            echo '<style>.sio-series-note{margin:2em 0 0;padding:14px 18px;border-left:4px solid #6D2D6C;background:#F6F1F6}.sio-series-note p{margin:0}</style>' . "\n";
+        }
     }
 
     // ---------------------------------------------------------------- a page for every startup and investor
