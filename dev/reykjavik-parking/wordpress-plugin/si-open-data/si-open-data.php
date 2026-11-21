@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Open Data
  * Plugin URI: https://startupiceland.com
  * Description: Makes the startup, investor and jobs data easy for people and AI tools to find and reuse: /llms.txt, open data endpoints (JSON and CSV), an "ecosystem in numbers" page, a page for every startup and investor, and a sitemap of them.
- * Version: 1.1.1
+ * Version: 1.1.3
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -23,7 +23,7 @@ if (!defined('ABSPATH')) {
  */
 class Startup_Iceland_Open_Data {
 
-    const VERSION = '1.1.1';
+    const VERSION = '1.1.3';
     const NS = 'startupiceland/v1';
     const LICENSE = 'CC BY 4.0';
     const LICENSE_URL = 'https://creativecommons.org/licenses/by/4.0/';
@@ -365,7 +365,17 @@ class Startup_Iceland_Open_Data {
         add_filter('wp_title', function () use ($title) { return $title; }, 99);
         add_filter('body_class', function ($c) { $c[] = 'sio-profile-page'; return $c; });
         remove_action('wp_head', 'rel_canonical');
+        // Jetpack would describe these pages as the blog index (og:url /blog/, the site description, a
+        // "Home > Blog" breadcrumb), since they are not WordPress posts; the tags below replace them.
+        add_filter('jetpack_enable_open_graph', '__return_false', 99);
+        add_filter('jetpack_seo_meta_tags', function ($meta) { unset($meta['description']); return $meta; }, 99);
+        remove_action('wp_head', array('Automattic\Jetpack\SEO\Schema_Builder', 'emit'), 5);
         add_action('wp_head', function () use ($row, $summary, $title) {
+            $image = get_site_icon_url(512);
+            if ($image) {
+                echo '<meta property="og:image" content="' . esc_url($image) . '" />' . "\n";
+            }
+            echo '<meta property="og:site_name" content="Startup Iceland" />' . "\n";
             echo '<link rel="canonical" href="' . esc_url($row['url']) . '" />' . "\n";
             echo '<meta name="description" content="' . esc_attr(wp_trim_words($summary, 40, '…')) . '" />' . "\n";
             echo '<meta property="og:type" content="profile" />' . "\n";
