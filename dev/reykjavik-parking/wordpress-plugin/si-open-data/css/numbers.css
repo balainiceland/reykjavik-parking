@@ -180,6 +180,52 @@
 
 #sio-numbers .sio-data ul { margin: 8px 0 12px; padding-left: 20px; }
 
+/* Profile pages: /startup/{id}-{name}/ and /investor/{id}-{name}/ */
+#sio-numbers .sio-crumbs {
+    font-family: var(--sio-sans);
+    font-size: 14px;
+    color: var(--sio-faint);
+}
+
+#sio-numbers .sio-crumbs a { color: var(--sio-plum); }
+
+#sio-numbers .sio-facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    gap: 18px 28px;
+    margin: 0;
+}
+
+#sio-numbers .sio-fact dt {
+    font-family: var(--sio-sans);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--sio-faint);
+    margin: 0 0 4px;
+}
+
+#sio-numbers .sio-fact dd {
+    margin: 0;
+    font-family: var(--sio-sans);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--sio-ink);
+}
+
+#sio-numbers .sio-section ul { margin: 8px 0 0; padding-left: 20px; }
+
+#sio-numbers .sio-portfolio { columns: 2 220px; }
+
+#sio-numbers .sio-source {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--sio-faint);
+}
+
+
 @media (max-width: 600px) {
     #sio-numbers .sio-hero { padding: 32px 22px 26px; }
     #sio-numbers .sio-section { padding: 24px 20px; }

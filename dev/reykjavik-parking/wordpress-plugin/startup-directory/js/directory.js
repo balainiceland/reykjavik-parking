@@ -23,9 +23,16 @@
         loadData();
     });
 
+    // Profile page addresses as printed by the server (data-id -> href), so links match exactly
+    var profileHrefs = {};
+
     function loadData() {
         var container = document.getElementById('sid-directory-container');
         if (!container) return;
+
+        Array.prototype.forEach.call(container.querySelectorAll('.sid-startup-name a[data-id]'), function(a) {
+            profileHrefs[a.getAttribute('data-id')] = a.getAttribute('href');
+        });
 
         // Show loading state
         var grid = document.getElementById('sid-startup-grid');
@@ -303,7 +310,7 @@
 
         card.innerHTML =
             '<div class="sid-card-top">' +
-                '<h3 class="sid-startup-name">' + escapeHtml(startup.name) + '</h3>' +
+                '<h3 class="sid-startup-name">' + nameHtml(startup) + '</h3>' +
                 '<span class="sid-status-badge sid-status-' + escapeHtml(status) + '">' + escapeHtml(statusLabel) + '</span>' +
             '</div>' +
             acquiredHtml +
@@ -317,6 +324,12 @@
             '</div>';
 
         return card;
+    }
+
+    function nameHtml(startup) {
+        var href = profileHrefs[String(startup.id)];
+        return href ? '<a href="' + escapeHtml(href) + '" data-id="' + escapeHtml(String(startup.id)) + '">' + escapeHtml(startup.name) + '</a>'
+                    : escapeHtml(startup.name);
     }
 
     function getSectorName(sectorId) {

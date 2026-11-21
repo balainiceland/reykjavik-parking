@@ -1,6 +1,6 @@
 {
   "version": "1.6.0",
-  "lastUpdated": "2026-11-20T17:34:58.491Z",
+  "lastUpdated": "2026-11-21T12:20:54.310Z",
   "sectors": [
     {
       "id": "all",
@@ -1831,7 +1831,7 @@
       "foundedYear": 2026
     },
     {
-      "id": 162,
+      "id": 195,
       "name": "VAST Data",
       "description": "Data infrastructure company providing flash storage and data management solutions with offices in Reykjavik",
       "website": "https://www.vastdata.com",
@@ -1841,7 +1841,7 @@
       "foundedYear": 2016
     },
     {
-      "id": 163,
+      "id": 196,
       "name": "Hoobla",
       "description": "Marketplace platform where businesses meet vetted freelance specialists, managers and consultants. Thinking local, working global.",
       "website": "https://hoobla.com",

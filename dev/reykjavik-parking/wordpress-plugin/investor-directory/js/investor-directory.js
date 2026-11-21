@@ -27,9 +27,16 @@
         loadData();
     });
 
+    // Profile page addresses as printed by the server (data-id -> href), so links match exactly
+    var profileHrefs = {};
+
     function loadData() {
         var container = document.getElementById('iid-directory-container');
         if (!container) return;
+
+        Array.prototype.forEach.call(container.querySelectorAll('.iid-investor-name a[data-id]'), function(a) {
+            profileHrefs[a.getAttribute('data-id')] = a.getAttribute('href');
+        });
 
         // Show loading state
         var grid = document.getElementById('iid-investor-grid');
@@ -304,6 +311,12 @@
             .replace(/'/g, '&#39;');
     }
 
+    function nameHtml(investor) {
+        var href = profileHrefs[String(investor.id)];
+        return href ? '<a href="' + escapeHtml(href) + '" data-id="' + escapeHtml(String(investor.id)) + '">' + escapeHtml(investor.name) + '</a>'
+                    : escapeHtml(investor.name);
+    }
+
     function detailHtml(label, value) {
         if (value === null || value === undefined || value === '') return '';
         return '<div class="iid-detail"><dt class="iid-label">' + label + '</dt><dd class="iid-value">' + escapeHtml(value) + '</dd></div>';
@@ -349,7 +362,7 @@
 
         return '<article class="iid-investor-card">' +
             '<div class="iid-card-top">' +
-                '<h3 class="iid-investor-name">' + escapeHtml(investor.name) + '</h3>' +
+                '<h3 class="iid-investor-name">' + nameHtml(investor) + '</h3>' +
                 '<span class="iid-type-badge ' + typeClass + '">' + escapeHtml(typeName) + '</span>' +
             '</div>' +
             focusHtml +

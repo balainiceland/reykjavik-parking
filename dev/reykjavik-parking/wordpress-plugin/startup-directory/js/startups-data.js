@@ -1820,7 +1820,7 @@ var icelandStartups = [
         foundedYear: 2026
     },
     {
-        id: 162,
+        id: 195,
         name: "VAST Data",
         description: "Data infrastructure company providing flash storage and data management solutions with offices in Reykjavik",
         website: "https://www.vastdata.com",
@@ -1830,7 +1830,7 @@ var icelandStartups = [
         foundedYear: 2016
     },
     {
-        id: 163,
+        id: 196,
         name: "Hoobla",
         description: "Marketplace platform where businesses meet vetted freelance specialists, managers and consultants. Thinking local, working global.",
         website: "https://hoobla.com",

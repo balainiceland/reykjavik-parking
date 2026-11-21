@@ -3,7 +3,7 @@
  * Plugin Name: Iceland Investor Directory
  * Plugin URI: https://startupiceland.com
  * Description: Searchable directory of Icelandic investors, VCs, angels, and funding sources
- * Version: 1.3.0
+ * Version: 1.4.0
  * Author: Startup Iceland
  * Author URI: https://startupiceland.com
  * License: GPL v2 or later
@@ -41,14 +41,14 @@ class Iceland_Investor_Directory {
                 'iid-styles',
                 plugin_dir_url(__FILE__) . 'css/investor-directory.css',
                 array(),
-                '1.3.0'
+                '1.4.0'
             );
 
             wp_enqueue_script(
                 'iid-data',
                 plugin_dir_url(__FILE__) . 'js/investors-data.js',
                 array(),
-                '1.3.0',
+                '1.4.0',
                 true
             );
 
@@ -56,7 +56,7 @@ class Iceland_Investor_Directory {
                 'iid-main',
                 plugin_dir_url(__FILE__) . 'js/investor-directory.js',
                 array('iid-data'),
-                '1.3.0',
+                '1.4.0',
                 true
             );
         }
@@ -92,6 +92,12 @@ class Iceland_Investor_Directory {
         return $names;
     }
 
+    // The investor's own page, served by the Startup Iceland Open Data plugin
+    private function profile_url($inv) {
+        $slug = sanitize_title($inv['name']);
+        return home_url('/investor/' . (int) ($inv['id'] ?? 0) . ($slug ? '-' . $slug : '') . '/');
+    }
+
     private function is_web_url($url) {
         return is_string($url) && preg_match('#^https?://#i', $url);
     }
@@ -107,7 +113,7 @@ class Iceland_Investor_Directory {
     private function card_html($inv, $types, $stages, $sectors) {
         $type = $inv['type'] ?? '';
         $html  = '<article class="iid-investor-card"><div class="iid-card-top">';
-        $html .= '<h3 class="iid-investor-name">' . esc_html($inv['name']) . '</h3>';
+        $html .= '<h3 class="iid-investor-name"><a href="' . esc_url($this->profile_url($inv)) . '" data-id="' . (int) ($inv['id'] ?? 0) . '">' . esc_html($inv['name']) . '</a></h3>';
         $html .= '<span class="iid-type-badge iid-type-' . esc_attr($type) . '">' . esc_html($types[$type] ?? $type) . '</span></div>';
         if (!empty($inv['focus'])) {
             $focus = array_map(function ($f) use ($sectors) {

@@ -510,6 +510,17 @@
     text-decoration: underline;
 }
 
+/* Card name links to the startup's or investor's own page */
+#sid-directory-container .sid-startup-name a {
+    color: inherit;
+    text-decoration: none;
+}
+#sid-directory-container .sid-startup-name a:hover {
+    color: var(--sid-plum);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 @media (max-width: 600px) {
     #sid-directory-container .sid-hero { padding: 32px 22px 26px; border-radius: 16px; }
     #sid-directory-container .sid-hero-value { font-size: 32px; }

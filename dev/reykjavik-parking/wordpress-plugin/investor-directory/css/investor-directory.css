@@ -546,6 +546,17 @@
     text-decoration: underline;
 }
 
+/* Card name links to the startup's or investor's own page */
+#iid-directory-container .iid-investor-name a {
+    color: inherit;
+    text-decoration: none;
+}
+#iid-directory-container .iid-investor-name a:hover {
+    color: var(--iid-plum);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 @media (max-width: 600px) {
     #iid-directory-container .iid-hero { padding: 32px 22px 26px; border-radius: 16px; }
     #iid-directory-container .iid-hero-value { font-size: 32px; }

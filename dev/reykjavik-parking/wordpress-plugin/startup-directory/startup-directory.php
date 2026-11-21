@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Directory
  * Plugin URI: https://startupiceland.com
  * Description: Searchable directory of Icelandic startups with filtering by sector and status.
- * Version: 1.3.0
+ * Version: 1.4.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -39,7 +39,7 @@ class Startup_Iceland_Directory {
                 'startup-directory-css',
                 plugin_dir_url(__FILE__) . 'css/directory.css',
                 array(),
-                '1.3.0'
+                '1.4.0'
             );
 
             // Startup data
@@ -47,7 +47,7 @@ class Startup_Iceland_Directory {
                 'startup-directory-data',
                 plugin_dir_url(__FILE__) . 'js/startups-data.js',
                 array(),
-                '1.3.0',
+                '1.4.0',
                 true
             );
 
@@ -56,7 +56,7 @@ class Startup_Iceland_Directory {
                 'startup-directory-js',
                 plugin_dir_url(__FILE__) . 'js/directory.js',
                 array('startup-directory-data'),
-                '1.3.0',
+                '1.4.0',
                 true
             );
         }
@@ -102,6 +102,12 @@ class Startup_Iceland_Directory {
         return $startups;
     }
 
+    // The startup's own page, served by the Startup Iceland Open Data plugin
+    private function profile_url($startup) {
+        $slug = sanitize_title($startup['name']);
+        return home_url('/startup/' . (int) ($startup['id'] ?? 0) . ($slug ? '-' . $slug : '') . '/');
+    }
+
     private function is_web_url($url) {
         return is_string($url) && preg_match('#^https?://#i', $url);
     }
@@ -112,7 +118,7 @@ class Startup_Iceland_Directory {
         $sector = !empty($startup['sector']) ? $startup['sector'] : 'other';
         $sector_name = $sector_names[$sector] ?? $sector;
         $html  = '<article class="sid-startup-card">';
-        $html .= '<div class="sid-card-top"><h3 class="sid-startup-name">' . esc_html($startup['name']) . '</h3>';
+        $html .= '<div class="sid-card-top"><h3 class="sid-startup-name"><a href="' . esc_url($this->profile_url($startup)) . '" data-id="' . (int) ($startup['id'] ?? 0) . '">' . esc_html($startup['name']) . '</a></h3>';
         $html .= '<span class="sid-status-badge sid-status-' . esc_attr($status) . '">' . esc_html(ucfirst($status)) . '</span></div>';
         if ('acquired' === $status && !empty($startup['acquiredBy'])) {
             $html .= '<p class="sid-acquired-by">Acquired by <strong>' . esc_html($startup['acquiredBy']) . '</strong></p>';

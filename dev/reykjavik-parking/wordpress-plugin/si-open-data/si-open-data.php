@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Startup Iceland Open Data
  * Plugin URI: https://startupiceland.com
- * Description: Makes the startup, investor and jobs data easy for people and AI tools to find and reuse: /llms.txt, open data endpoints (JSON and CSV, CC BY 4.0) and an "ecosystem in numbers" page.
- * Version: 1.0.0
+ * Description: Makes the startup, investor and jobs data easy for people and AI tools to find and reuse: /llms.txt, open data endpoints (JSON and CSV), an "ecosystem in numbers" page, a page for every startup and investor, and a sitemap of them.
+ * Version: 1.1.0
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -23,7 +23,7 @@ if (!defined('ABSPATH')) {
  */
 class Startup_Iceland_Open_Data {
 
-    const VERSION = '1.0.0';
+    const VERSION = '1.1.0';
     const NS = 'startupiceland/v1';
     const LICENSE = 'CC BY 4.0';
     const LICENSE_URL = 'https://creativecommons.org/licenses/by/4.0/';
@@ -41,6 +41,11 @@ class Startup_Iceland_Open_Data {
 
     private function __construct() {
         add_action('parse_request', array($this, 'serve_llms_txt'), 0);
+        add_action('parse_request', array($this, 'serve_sitemap'), 0);
+        add_action('init', array($this, 'add_rewrites'));
+        add_filter('query_vars', array($this, 'query_vars'));
+        add_action('template_redirect', array($this, 'serve_profile'), 0);
+        add_filter('robots_txt', array($this, 'robots_txt'), 20);
         add_action('rest_api_init', array($this, 'register_routes'));
         add_shortcode('si_ecosystem_numbers', array($this, 'render_numbers'));
         add_action('wp_enqueue_scripts', array($this, 'enqueue_styles'));
@@ -92,7 +97,9 @@ class Startup_Iceland_Open_Data {
                 continue;
             }
             $rows[] = array(
+                'id'          => (int) ($s['id'] ?? 0),
                 'name'        => $s['name'],
+                'url'         => $this->profile_url('startup', (int) ($s['id'] ?? 0), $s['name']),
                 'description' => $s['description'] ?? '',
                 'website'     => $s['website'] ?? '',
                 'sector'      => $sectors[$s['sector'] ?? ''] ?? ($s['sector'] ?? ''),
@@ -120,7 +127,9 @@ class Startup_Iceland_Open_Data {
                 continue;
             }
             $rows[] = array(
+                'id'          => (int) ($i['id'] ?? 0),
                 'name'        => $i['name'],
+                'url'         => $this->profile_url('investor', (int) ($i['id'] ?? 0), $i['name']),
                 'type'        => $types[$i['type'] ?? ''] ?? ($i['type'] ?? ''),
                 'description' => $i['description'] ?? '',
                 'website'     => $i['website'] ?? '',
@@ -172,6 +181,9 @@ class Startup_Iceland_Open_Data {
             'investors' => 'Venture capital firms, angel investors, government funds and accelerators investing in Icelandic startups.',
             'jobs'      => 'Open jobs on the Startup Iceland jobs board (startups and other Icelandic employers).',
         );
+        // The directories are Startup Iceland's own work. Job postings belong to the employers
+        // and job sites they come from (the jobs research data excludes them from its licence too).
+        $licensed = array('startups' => true, 'investors' => true, 'jobs' => false);
         foreach ($lists as $name => $description) {
             register_rest_route(self::NS, '/' . $name, array(
                 'methods'             => 'GET',
@@ -182,18 +194,21 @@ class Startup_Iceland_Open_Data {
                     if ('csv' === $request->get_param('format')) {
                         $this->send_csv($name, $list['rows']);
                     }
-                    return new WP_REST_Response(array(
+                    $terms = $licensed[$name]
+                        ? array('license' => self::LICENSE, 'license_url' => self::LICENSE_URL, 'attribution' => 'Please credit ' . self::ATTRIBUTION)
+                        : array('license' => null, 'license_url' => null,
+                                'attribution' => 'Job postings belong to their employers and the job sites they were collected from; '
+                                    . 'this list is provided for reference and is not covered by Startup Iceland\'s CC BY 4.0 licence.');
+                    return new WP_REST_Response(array_merge(array(
                         'name'        => $name,
                         'description' => $description,
                         'source'      => home_url('/'),
-                        'license'     => self::LICENSE,
-                        'license_url' => self::LICENSE_URL,
-                        'attribution' => 'Please credit ' . self::ATTRIBUTION,
+                    ), $terms, array(
                         'updated'     => $list['updated'],
                         'count'       => count($list['rows']),
                         'csv'         => rest_url(self::NS . '/' . $name) . '?format=csv',
                         'items'       => $list['rows'],
-                    ));
+                    )));
                 },
             ));
         }
@@ -247,13 +262,14 @@ class Startup_Iceland_Open_Data {
             '> Startup Iceland is a resource for founders, investors and job seekers in Iceland\'s startup ecosystem, running since 2009. '
                 . 'It keeps a curated directory of Icelandic startups, a directory of the investors who fund them, and a jobs board updated daily.',
             '',
-            'All lists below are free to reuse under ' . self::LICENSE . ' (' . self::LICENSE_URL . '): please credit ' . self::ATTRIBUTION . '.',
+            'The startup and investor directories are free to reuse under ' . self::LICENSE . ' (' . self::LICENSE_URL . '): please credit ' . self::ATTRIBUTION . '. '
+                . 'Job postings belong to their employers and are listed for reference only.',
             '',
             '## Directories and jobs',
             '',
-            sprintf('- [Iceland startup directory](%s): %d startups (%d active, %d acquired), each with sector, year founded and website. Updated %s.',
+            sprintf('- [Iceland startup directory](%s): %d startups (%d active, %d acquired), each with sector, year founded and website, and its own page at /startup/{id}-{name}/. Updated %s.',
                 $site . 'iceland-startup-directory/', count($s['rows']), $active, $acquired, $s['updated'] ?: 'regularly'),
-            sprintf('- [Investors in Icelandic startups](%s): %d venture capital firms, angels, government funds and accelerators, with stages, ticket sizes and portfolios. Updated %s.',
+            sprintf('- [Investors in Icelandic startups](%s): %d venture capital firms, angels, government funds and accelerators, with stages, ticket sizes and portfolios, each with its own page at /investor/{id}-{name}/. Updated %s.',
                 $site . 'investors/', count($i['rows']), $i['updated'] ?: 'regularly'),
             sprintf('- [Startup jobs in Iceland](%s): %d open jobs at startups and other Icelandic employers, collected daily from Alfreð, Starfatorg, Tvinna and company career pages. Data as of %s.',
                 $site . 'jobs/', count($j['rows']), $j['updated'] ?: 'the last collection'),
@@ -266,6 +282,7 @@ class Startup_Iceland_Open_Data {
             sprintf('- [Investors](%s/investors)', $api),
             sprintf('- [Open jobs](%s/jobs)', $api),
             '- [Jobs research figures](https://github.com/balainiceland/iceland-jobs-data): daily aggregate figures on Iceland\'s job market.',
+            sprintf('- [Sitemap of every startup and investor page](%s)', $site . 'si-sitemap.xml'),
             '',
             '## Optional',
             '',
@@ -274,6 +291,271 @@ class Startup_Iceland_Open_Data {
             '',
         );
         return implode("\n", $lines);
+    }
+
+    // ---------------------------------------------------------------- a page for every startup and investor
+
+    /**
+     * /startup/{id}-{name}/ and /investor/{id}-{name}/. The id finds the entry; the name is only
+     * for people, so an old or mistyped name redirects (301) to the current address. Addresses
+     * are built here and in the directories' JS from the same id, so they never go stale when
+     * a name is corrected.
+     */
+    public function profile_url($kind, $id, $name) {
+        $slug = sanitize_title($name);
+        return home_url('/' . $kind . '/' . (int) $id . ($slug ? '-' . $slug : '') . '/');
+    }
+
+    public function add_rewrites() {
+        add_rewrite_rule('^(startup|investor)/([0-9]+)(?:-[^/]*)?/?$', 'index.php?si_entity=$matches[1]&si_id=$matches[2]', 'top');
+        // New rules only take effect after a flush; do it once per plugin version, not on every request.
+        if (get_option('si_open_data_rewrites') !== self::VERSION) {
+            flush_rewrite_rules(false);
+            update_option('si_open_data_rewrites', self::VERSION);
+        }
+    }
+
+    public function query_vars($vars) {
+        $vars[] = 'si_entity';
+        $vars[] = 'si_id';
+        return $vars;
+    }
+
+    private function norm($name) {
+        $name = strtolower(remove_accents(html_entity_decode((string) $name)));
+        $name = preg_replace('/\s+(ehf|hf|ohf|slhf|ses)\.?$/', '', trim($name));
+        $name = trim(preg_replace('/[^a-z0-9]+/', ' ', $name));
+        // "Treble Technologies" in the directory is "Treble" in a portfolio
+        $short = preg_replace('/ (technologies|technology|tech|software|labs|group|inc|ltd)$/', '', $name);
+        return '' !== $short ? $short : $name;
+    }
+
+    private function find($rows, $id) {
+        foreach ($rows as $row) {
+            if ((int) $row['id'] === (int) $id) {
+                return $row;
+            }
+        }
+        return null;
+    }
+
+    public function serve_profile() {
+        $kind = get_query_var('si_entity');
+        if (!in_array($kind, array('startup', 'investor'), true)) {
+            return;
+        }
+        $row = $this->find('startup' === $kind ? $this->startups()['rows'] : $this->investors()['rows'], get_query_var('si_id'));
+        if (!$row) {
+            global $wp_query;
+            $wp_query->set_404();
+            status_header(404);
+            nocache_headers();
+            return;  // the theme's 404 page
+        }
+        $path = (string) wp_parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH);
+        if (untrailingslashit($path) !== untrailingslashit((string) wp_parse_url($row['url'], PHP_URL_PATH))) {
+            wp_safe_redirect($row['url'], 301);
+            exit;
+        }
+
+        $html = 'startup' === $kind ? $this->startup_page($row) : $this->investor_page($row);
+        $summary = wp_strip_all_tags($row['description']);
+        $title = $row['name'] . ('startup' === $kind ? ' – Icelandic startup' : ' – investor in Icelandic startups') . ' | Startup Iceland';
+        add_filter('pre_get_document_title', function () use ($title) { return $title; }, 99);
+        add_filter('wp_title', function () use ($title) { return $title; }, 99);
+        add_filter('body_class', function ($c) { $c[] = 'sio-profile-page'; return $c; });
+        remove_action('wp_head', 'rel_canonical');
+        add_action('wp_head', function () use ($row, $summary, $title) {
+            echo '<link rel="canonical" href="' . esc_url($row['url']) . '" />' . "\n";
+            echo '<meta name="description" content="' . esc_attr(wp_trim_words($summary, 40, '…')) . '" />' . "\n";
+            echo '<meta property="og:type" content="profile" />' . "\n";
+            echo '<meta property="og:title" content="' . esc_attr($title) . '" />' . "\n";
+            echo '<meta property="og:description" content="' . esc_attr(wp_trim_words($summary, 40, '…')) . '" />' . "\n";
+            echo '<meta property="og:url" content="' . esc_url($row['url']) . '" />' . "\n";
+        }, 1);
+        wp_enqueue_style('si-open-data-css', plugin_dir_url(__FILE__) . 'css/numbers.css', array(), self::VERSION);
+        status_header(200);
+        get_header();
+        echo $html;
+        get_footer();
+        exit;
+    }
+
+    private function fact($label, $value_html) {
+        return $value_html ? '<div class="sio-fact"><dt>' . esc_html($label) . '</dt><dd>' . $value_html . '</dd></div>' : '';
+    }
+
+    private function breadcrumb_ld($list_name, $list_url, $row) {
+        return array('@type' => 'BreadcrumbList', 'itemListElement' => array(
+            array('@type' => 'ListItem', 'position' => 1, 'name' => 'Startup Iceland', 'item' => home_url('/')),
+            array('@type' => 'ListItem', 'position' => 2, 'name' => $list_name, 'item' => $list_url),
+            array('@type' => 'ListItem', 'position' => 3, 'name' => $row['name'], 'item' => $row['url']),
+        ));
+    }
+
+    private function json_ld_script($graph) {
+        return '<script type="application/ld+json">'
+            . wp_json_encode(array('@context' => 'https://schema.org', '@graph' => $graph),
+                             JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP)
+            . '</script>';
+    }
+
+    private function external_link($url, $label) {
+        if (!is_string($url) || !preg_match('#^https?://#i', $url)) {
+            return '';
+        }
+        return '<a href="' . esc_url($url) . '" target="_blank" rel="noopener">' . esc_html($label) . '</a>';
+    }
+
+    private function startup_page($s) {
+        $list_url = home_url('/iceland-startup-directory/');
+        $key = $this->norm($s['name']);
+        $backers = array_values(array_filter($this->investors()['rows'], function ($i) use ($key) {
+            foreach ((array) $i['portfolio'] as $p) {
+                if ($this->norm($p) === $key) {
+                    return true;
+                }
+            }
+            return false;
+        }));
+        $jobs = array_values(array_filter($this->jobs()['rows'], function ($j) use ($key) {
+            return $this->norm(explode('|', $j['company'])[0]) === $key;
+        }));
+        $status = ucfirst($s['status'] ?: 'active');
+        $host = $s['website'] ? preg_replace('#^www\.#', '', (string) wp_parse_url($s['website'], PHP_URL_HOST)) : '';
+
+        $h  = '<div class="sio-numbers sio-profile" id="sio-numbers">';
+        $h .= '<nav class="sio-crumbs" aria-label="Breadcrumb"><a href="' . esc_url($list_url) . '">Iceland startup directory</a> <span aria-hidden="true">/</span> ' . esc_html($s['name']) . '</nav>';
+        $h .= '<header class="sio-hero"><p class="sio-eyebrow">Icelandic startup · ' . esc_html($s['sector']) . '</p>';
+        $h .= '<h1 class="sio-title">' . esc_html($s['name']) . '</h1>';
+        if ($s['description']) {
+            $h .= '<p class="sio-lead">' . esc_html($s['description']) . '</p>';
+        }
+        $h .= '</header><section class="sio-section"><h2>Facts</h2><dl class="sio-facts">';
+        $h .= $this->fact('Status', esc_html($status) . ('acquired' === $s['status'] && $s['acquired_by'] ? ' by ' . esc_html($s['acquired_by']) : ''));
+        $h .= $this->fact('Sector', esc_html($s['sector']));
+        $h .= $this->fact('Founded', $s['founded'] ? esc_html($s['founded']) : '');
+        $h .= $this->fact('Website', $this->external_link($s['website'], $host ?: $s['website']));
+        $h .= '</dl></section>';
+        if ($backers) {
+            $h .= '<section class="sio-section"><h2>Investors</h2><p>Investors in the Startup Iceland directory that list ' . esc_html($s['name']) . ' in their portfolio:</p><ul>';
+            foreach ($backers as $b) {
+                $h .= '<li><a href="' . esc_url($b['url']) . '">' . esc_html($b['name']) . '</a> (' . esc_html($b['type']) . ')</li>';
+            }
+            $h .= '</ul></section>';
+        }
+        if ($jobs) {
+            $h .= '<section class="sio-section"><h2>Open jobs</h2><ul>';
+            foreach ($jobs as $j) {
+                $h .= '<li>' . ($this->external_link($j['application_url'], $j['title']) ?: esc_html($j['title']))
+                    . ' · ' . esc_html($j['type']) . ($j['posted'] ? ' · posted ' . esc_html($j['posted']) : '') . '</li>';
+            }
+            $h .= '</ul><p><a href="' . esc_url(home_url('/jobs/')) . '">All startup jobs in Iceland</a></p></section>';
+        }
+        $h .= '<p class="sio-source">From the <a href="' . esc_url($list_url) . '">Iceland startup directory</a> by Startup Iceland, free to reuse under CC BY 4.0. '
+            . 'Something wrong or out of date? Write to <a href="mailto:bala@startupiceland.com">bala@startupiceland.com</a>.</p>';
+
+        $org = array('@type' => 'Organization', '@id' => $s['url'] . '#org', 'name' => $s['name'], 'url' => $s['website'] ?: $s['url'],
+                     'description' => $s['description'], 'mainEntityOfPage' => $s['url']);
+        if ($s['founded']) {
+            $org['foundingDate'] = (string) $s['founded'];
+        }
+        if ($s['sector']) {
+            $org['keywords'] = $s['sector'];
+        }
+        if ('acquired' === $s['status'] && $s['acquired_by']) {
+            $org['parentOrganization'] = array('@type' => 'Organization', 'name' => $s['acquired_by']);
+        }
+        if ($backers) {
+            $org['funder'] = array_map(function ($b) {
+                return array('@type' => 'Organization', 'name' => $b['name'], 'url' => $b['url']);
+            }, $backers);
+        }
+        $h .= $this->json_ld_script(array($org, $this->breadcrumb_ld('Iceland startup directory', $list_url, $s)));
+        return $h . '</div>';
+    }
+
+    private function investor_page($i) {
+        $list_url = home_url('/investors/');
+        $startups = array();
+        foreach ($this->startups()['rows'] as $s) {
+            $startups[$this->norm($s['name'])] = $s;
+        }
+        $host = $i['website'] ? preg_replace('#^www\.#', '', (string) wp_parse_url($i['website'], PHP_URL_HOST)) : '';
+
+        $h  = '<div class="sio-numbers sio-profile" id="sio-numbers">';
+        $h .= '<nav class="sio-crumbs" aria-label="Breadcrumb"><a href="' . esc_url($list_url) . '">Investors in Icelandic startups</a> <span aria-hidden="true">/</span> ' . esc_html($i['name']) . '</nav>';
+        $h .= '<header class="sio-hero"><p class="sio-eyebrow">Investor · ' . esc_html($i['type']) . '</p>';
+        $h .= '<h1 class="sio-title">' . esc_html($i['name']) . '</h1>';
+        if ($i['description']) {
+            $h .= '<p class="sio-lead">' . esc_html($i['description']) . '</p>';
+        }
+        $h .= '</header><section class="sio-section"><h2>Facts</h2><dl class="sio-facts">';
+        $h .= $this->fact('Type', esc_html($i['type']));
+        $h .= $this->fact('Stages', esc_html(implode(', ', $i['stages'])));
+        $h .= $this->fact('Sectors', esc_html(implode(', ', $i['sectors'])));
+        $h .= $this->fact('Ticket size', $i['ticket_size'] ? esc_html($i['ticket_size']) : '');
+        $h .= $this->fact('Location', $i['location'] ? esc_html($i['location']) : '');
+        $h .= $this->fact('Founded', $i['founded'] ? esc_html($i['founded']) : '');
+        $h .= $this->fact('Website', $this->external_link($i['website'], $host ?: $i['website']));
+        $h .= '</dl></section>';
+        if ($i['portfolio']) {
+            $h .= '<section class="sio-section"><h2>Portfolio</h2><ul class="sio-portfolio">';
+            foreach ($i['portfolio'] as $p) {
+                $match = $startups[$this->norm($p)] ?? null;
+                $h .= '<li>' . ($match ? '<a href="' . esc_url($match['url']) . '">' . esc_html($p) . '</a>' : esc_html($p)) . '</li>';
+            }
+            $h .= '</ul></section>';
+        }
+        $h .= '<p class="sio-source">From <a href="' . esc_url($list_url) . '">Investors in Icelandic startups</a> by Startup Iceland, free to reuse under CC BY 4.0. '
+            . 'Something wrong or out of date? Write to <a href="mailto:bala@startupiceland.com">bala@startupiceland.com</a>.</p>';
+
+        $org = array('@type' => 'Organization', '@id' => $i['url'] . '#org', 'name' => $i['name'], 'url' => $i['website'] ?: $i['url'],
+                     'description' => $i['description'], 'mainEntityOfPage' => $i['url']);
+        if ($i['founded']) {
+            $org['foundingDate'] = (string) $i['founded'];
+        }
+        if ($i['location']) {
+            $org['location'] = $i['location'];
+        }
+        $keywords = array_merge(array($i['type']), $i['sectors']);
+        $org['keywords'] = implode(', ', array_filter($keywords));
+        $h .= $this->json_ld_script(array($org, $this->breadcrumb_ld('Investors in Icelandic startups', $list_url, $i)));
+        return $h . '</div>';
+    }
+
+    // ---------------------------------------------------------------- sitemap of the profile pages
+
+    public function serve_sitemap($wp) {
+        $path = trim((string) wp_parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH), '/');
+        if ('si-sitemap.xml' !== $path) {
+            return;
+        }
+        $s = $this->startups();
+        $i = $this->investors();
+        $urls = array(
+            array(home_url('/iceland-startup-directory/'), $s['updated']),
+            array(home_url('/investors/'), $i['updated']),
+            array(home_url(self::NUMBERS_PATH), max((string) $s['updated'], (string) $i['updated'])),
+        );
+        foreach ($s['rows'] as $r) {
+            $urls[] = array($r['url'], $s['updated']);
+        }
+        foreach ($i['rows'] as $r) {
+            $urls[] = array($r['url'], $i['updated']);
+        }
+        header('Content-Type: application/xml; charset=utf-8');
+        header('Cache-Control: public, max-age=3600');
+        echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n" . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+        foreach ($urls as $u) {
+            echo '<url><loc>' . esc_url($u[0]) . '</loc>' . ($u[1] ? '<lastmod>' . esc_html($u[1]) . '</lastmod>' : '') . "</url>\n";
+        }
+        echo "</urlset>\n";
+        exit;
+    }
+
+    public function robots_txt($output) {
+        return rtrim($output) . "\nSitemap: " . home_url('/si-sitemap.xml') . "\n";
     }
 
     // ---------------------------------------------------------------- ecosystem in numbers
@@ -360,7 +642,7 @@ class Startup_Iceland_Open_Data {
                 <table class="sio-table sio-wide"><caption>Icelandic startups that have been acquired</caption>
                     <thead><tr><th scope="col">Company</th><th scope="col">Acquired by</th><th scope="col" class="is-num">Founded</th></tr></thead><tbody>
                     <?php foreach ($acquisitions as $a): ?>
-                    <tr><th scope="row"><?php echo esc_html($a['name']); ?></th><td><?php echo esc_html($a['acquired_by'] ?: '–'); ?></td><td class="is-num"><?php echo esc_html($a['founded'] ?: '–'); ?></td></tr>
+                    <tr><th scope="row"><a href="<?php echo esc_url($a['url']); ?>"><?php echo esc_html($a['name']); ?></a></th><td><?php echo esc_html($a['acquired_by'] ?: '–'); ?></td><td class="is-num"><?php echo esc_html($a['founded'] ?: '–'); ?></td></tr>
                     <?php endforeach; ?>
                 </tbody></table>
                 <?php endif; ?>
@@ -388,7 +670,7 @@ class Startup_Iceland_Open_Data {
 
             <section class="sio-section sio-data">
                 <h2>Use the data</h2>
-                <p>The lists are free to reuse under <a href="<?php echo esc_url(self::LICENSE_URL); ?>">Creative Commons Attribution 4.0 (CC BY 4.0)</a>: please credit <?php echo esc_html(self::ATTRIBUTION); ?>.</p>
+                <p>The startup and investor lists are free to reuse under <a href="<?php echo esc_url(self::LICENSE_URL); ?>">Creative Commons Attribution 4.0 (CC BY 4.0)</a>: please credit <?php echo esc_html(self::ATTRIBUTION); ?>. Job postings belong to their employers and are listed for reference only.</p>
                 <ul>
                     <li>Startups: <a href="<?php echo esc_url($api . '/startups'); ?>">JSON</a> · <a href="<?php echo esc_url($api . '/startups?format=csv'); ?>">CSV</a> (updated <?php echo esc_html($s['updated'] ?: '–'); ?>)</li>
                     <li>Investors: <a href="<?php echo esc_url($api . '/investors'); ?>">JSON</a> · <a href="<?php echo esc_url($api . '/investors?format=csv'); ?>">CSV</a> (updated <?php echo esc_html($i['updated'] ?: '–'); ?>)</li>
@@ -422,7 +704,7 @@ class Startup_Iceland_Open_Data {
             array_merge($base, array('@type' => 'Dataset', 'name' => 'Investors in Icelandic startups',
                 'description' => 'Venture capital firms, angel investors, government funds and accelerators investing in Icelandic startups, with type, stages, sectors, ticket size and portfolio.',
                 'url' => home_url('/investors/'), 'dateModified' => $i['updated'], 'distribution' => $dist('investors'))),
-            array_merge($base, array('@type' => 'Dataset', 'name' => 'Open jobs on the Startup Iceland jobs board',
+            array_merge(array_diff_key($base, array('license' => 1)), array('@type' => 'Dataset', 'name' => 'Open jobs on the Startup Iceland jobs board',
                 'description' => 'Open jobs at Icelandic startups and other employers, collected daily, with employer, category, type, workplace, location, posting date and application link.',
                 'url' => home_url('/jobs/'), 'dateModified' => $j['updated'], 'distribution' => $dist('jobs'))),
         );
