@@ -1,0 +1,186 @@
+/* Startup Iceland Open Data — "ecosystem in numbers", in the design of the directories and
+   the jobs board: navy #112D50, plum #6D2D6C, the site's own fonts (Proxima Nova, Tisa).
+   The theme centres page content and sets its serif on p/li/a; the id selectors below
+   outrank it so the page keeps its own layout. */
+#sio-numbers {
+    --sio-navy: #112D50;
+    --sio-plum: #6D2D6C;
+    --sio-ink: #1E1E1E;
+    --sio-muted: #4A4F57;
+    --sio-faint: #6B7280;
+    --sio-line: #D9DEE5;
+    --sio-sans: proxima-nova, Montserrat, "Helvetica Neue", Arial, sans-serif;
+    --sio-serif: ff-tisa-web-pro, "Source Serif 4", Georgia, serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 8px 0 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    color: var(--sio-ink);
+    font-family: var(--sio-serif);
+    text-align: left;
+    box-sizing: border-box;
+}
+
+#sio-numbers *, #sio-numbers *::before, #sio-numbers *::after { box-sizing: border-box; }
+
+#sio-numbers :is(h1, h2, h3, p, li, section, header, div, span, a, table, caption, th, td) { text-align: left; }
+
+#sio-numbers :is(p, li, span, div, td) { font-family: inherit; }
+
+#sio-numbers :is(h1, h2, h3, caption, th, .sio-eyebrow, .sio-value) { font-family: var(--sio-sans); }
+
+#sio-numbers a { color: var(--sio-plum); text-decoration: underline; }
+
+#sio-numbers a:focus-visible { outline: 3px solid #E6B8E4; outline-offset: 2px; }
+
+/* Hero */
+#sio-numbers .sio-hero {
+    background: var(--sio-navy);
+    color: #fff;
+    border-radius: 20px;
+    padding: 44px 40px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#sio-numbers .sio-eyebrow {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #E6B8E4;
+}
+
+#sio-numbers .sio-title {
+    margin: 0;
+    font-size: clamp(32px, 4.2vw, 46px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    text-transform: none;
+    color: #fff;
+}
+
+#sio-numbers .sio-lead {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #D6DEE9;
+    max-width: 60ch;
+}
+
+#sio-numbers .sio-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr));
+    gap: 12px;
+    margin-top: 4px;
+}
+
+#sio-numbers .sio-stat {
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 14px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#sio-numbers .sio-value {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1;
+    color: #fff;
+}
+
+#sio-numbers .sio-label {
+    font-size: 15px;
+    line-height: 1.3;
+    color: #D6DEE9;
+}
+
+/* Sections and tables */
+#sio-numbers .sio-section {
+    background: #fff;
+    border: 1px solid var(--sio-line);
+    border-radius: 20px;
+    padding: 30px 32px;
+}
+
+#sio-numbers .sio-section h2 {
+    margin: 0 0 16px;
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--sio-navy);
+}
+
+#sio-numbers .sio-section h3 {
+    margin: 26px 0 10px;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--sio-navy);
+}
+
+#sio-numbers .sio-section p, #sio-numbers .sio-section li {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--sio-muted);
+}
+
+#sio-numbers .sio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: 22px 28px;
+    align-items: start;
+}
+
+#sio-numbers .sio-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    font-size: 15px;
+}
+
+#sio-numbers .sio-table caption {
+    caption-side: top;
+    padding: 0 0 8px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--sio-faint);
+}
+
+#sio-numbers .sio-table :is(th, td) {
+    padding: 8px 10px 8px 0;
+    border: 0;
+    border-bottom: 1px solid var(--sio-line);
+    vertical-align: top;
+    background: none;
+}
+
+#sio-numbers .sio-table thead th {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--sio-faint);
+}
+
+#sio-numbers .sio-table tbody th { font-weight: 600; color: var(--sio-ink); }
+
+#sio-numbers .sio-table td { color: var(--sio-muted); font-family: var(--sio-sans); }
+
+#sio-numbers .sio-table .is-num { text-align: right; padding-right: 0; padding-left: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+#sio-numbers .sio-data ul { margin: 8px 0 12px; padding-left: 20px; }
+
+@media (max-width: 600px) {
+    #sio-numbers .sio-hero { padding: 32px 22px 26px; }
+    #sio-numbers .sio-section { padding: 24px 20px; }
+}
