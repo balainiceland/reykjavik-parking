@@ -29,7 +29,8 @@
 
         // Show loading state
         var grid = document.getElementById('sid-startup-grid');
-        if (grid) {
+        // Cards printed by the server stay in place until the data is ready
+        if (grid && !grid.querySelector('.sid-startup-card')) {
             grid.innerHTML = '<div class="sid-loading">Loading startups...</div>';
         }
 
@@ -93,7 +94,7 @@
                     }
                 } else {
                     var grid = document.getElementById('sid-startup-grid');
-                    if (grid) {
+                    if (grid && !grid.querySelector('.sid-startup-card')) {
                         grid.innerHTML = '<div class="sid-error">Unable to load startup data. Please refresh the page.</div>';
                     }
                 }

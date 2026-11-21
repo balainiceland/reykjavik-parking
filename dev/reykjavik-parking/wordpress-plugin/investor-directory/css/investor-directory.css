@@ -533,6 +533,19 @@
     color: var(--iid-plum-dark);
 }
 
+/* Data provenance line under the grid (printed by PHP) */
+#iid-directory-container .iid-data-note {
+    margin: 8px 0 32px;
+    color: var(--iid-faint);
+    font-family: var(--iid-sans);
+    font-size: 14px;
+    line-height: 1.5;
+}
+#iid-directory-container .iid-data-note a {
+    color: var(--iid-plum);
+    text-decoration: underline;
+}
+
 @media (max-width: 600px) {
     #iid-directory-container .iid-hero { padding: 32px 22px 26px; border-radius: 16px; }
     #iid-directory-container .iid-hero-value { font-size: 32px; }

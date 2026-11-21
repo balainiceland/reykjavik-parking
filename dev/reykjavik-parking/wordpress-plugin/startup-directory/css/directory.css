@@ -497,6 +497,19 @@
     color: var(--sid-plum-dark);
 }
 
+/* Data provenance line under the grid (printed by PHP) */
+#sid-directory-container .sid-data-note {
+    margin: 8px 0 32px;
+    color: var(--sid-faint);
+    font-family: var(--sid-sans);
+    font-size: 14px;
+    line-height: 1.5;
+}
+#sid-directory-container .sid-data-note a {
+    color: var(--sid-plum);
+    text-decoration: underline;
+}
+
 @media (max-width: 600px) {
     #sid-directory-container .sid-hero { padding: 32px 22px 26px; border-radius: 16px; }
     #sid-directory-container .sid-hero-value { font-size: 32px; }

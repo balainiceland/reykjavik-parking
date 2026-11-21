@@ -33,7 +33,8 @@
 
         // Show loading state
         var grid = document.getElementById('iid-investor-grid');
-        if (grid) {
+        // Cards printed by the server stay in place until the data is ready
+        if (grid && !grid.querySelector('.iid-investor-card')) {
             grid.innerHTML = '<div class="iid-loading">Loading investors...</div>';
         }
 
@@ -96,7 +97,7 @@
                     }
                 } else {
                     var grid = document.getElementById('iid-investor-grid');
-                    if (grid) {
+                    if (grid && !grid.querySelector('.iid-investor-card')) {
                         grid.innerHTML = '<div class="iid-error">Unable to load investor data. Please refresh the page.</div>';
                     }
                 }
