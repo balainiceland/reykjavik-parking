@@ -1,6 +1,6 @@
 {
   "version": "1.6.0",
-  "lastUpdated": "2026-11-21T12:20:54.310Z",
+  "lastUpdated": "2026-11-23T11:28:29.020Z",
   "sectors": [
     {
       "id": "all",
@@ -2029,6 +2029,16 @@
       "status": "active",
       "acquiredBy": null,
       "foundedYear": 2016
+    },
+    {
+      "id": 197,
+      "name": "Humble",
+      "description": "App where bakeries, restaurants and shops sell surplus food at a discount to cut food waste; Kuðungurinn environmental award 2026.",
+      "website": "https://www.humble.is",
+      "sector": "food",
+      "status": "active",
+      "acquiredBy": null,
+      "foundedYear": 2023
     }
   ]
 }

@@ -2018,6 +2018,16 @@ var icelandStartups = [
         status: "active",
         acquiredBy: null,
         foundedYear: 2016
+    },
+    {
+        id: 197,
+        name: "Humble",
+        description: "App where bakeries, restaurants and shops sell surplus food at a discount to cut food waste; Kuðungurinn environmental award 2026.",
+        website: "https://www.humble.is",
+        sector: "food",
+        status: "active",
+        acquiredBy: null,
+        foundedYear: 2023
     }
 ];
 
