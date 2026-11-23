@@ -150,7 +150,7 @@ var icelandInvestors = [
         focus: ["tech", "saas"],
         stages: ["pre-seed", "seed"],
         ticketSize: "€50K - €200K",
-        portfolio: ["Bara Tala", "LearnCove", "Spesia", "Indo", "Humble"],
+        portfolio: ["Bara Tala", "LearnCove", "Spesia", "Indo", "Humble", "Marea", "Sundra", "Aldin Biodome"],
         foundedYear: 2020,
         location: "Reykjavik"
     },

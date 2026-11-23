@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-11-23T11:33:11.546Z",
+  "lastUpdated": "2026-11-23T12:48:34.659Z",
   "types": [
     {
       "id": "all",
@@ -324,7 +324,10 @@
         "LearnCove",
         "Spesia",
         "Indo",
-        "Humble"
+        "Humble",
+        "Marea",
+        "Sundra",
+        "Aldin Biodome"
       ],
       "foundedYear": 2020,
       "location": "Reykjavik"
