@@ -536,16 +536,6 @@ var icelandStartups = [
         foundedYear: 2016
     },
     {
-        id: 40,
-        name: "FlowVR",
-        description: "Virtual reality content production",
-        website: null,
-        sector: "media",
-        status: "active",
-        acquiredBy: null,
-        foundedYear: 2016
-    },
-    {
         id: 41,
         name: "Tagplay",
         description: "Interactive social content platform for events and media",
@@ -882,12 +872,12 @@ var icelandStartups = [
     {
         id: 69,
         name: "Flow Meditation",
-        description: "VR meditation app featuring immersive Icelandic nature environments",
+        description: "VR meditation app featuring immersive Icelandic nature environments; started in 2016 as FlowVR, producing virtual reality content",
         website: "https://www.flow.is",
         sector: "healthtech",
         status: "active",
         acquiredBy: null,
-        foundedYear: 2020
+        foundedYear: 2016
     },
     {
         id: 70,

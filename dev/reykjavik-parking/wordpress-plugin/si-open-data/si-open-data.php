@@ -3,7 +3,7 @@
  * Plugin Name: Startup Iceland Open Data
  * Plugin URI: https://startupiceland.com
  * Description: Makes the startup, investor and jobs data easy for people and AI tools to find and reuse: /llms.txt, open data endpoints (JSON and CSV), an "ecosystem in numbers" page, a page for every startup and investor, and a sitemap of them.
- * Version: 1.3.0
+ * Version: 1.3.1
  * Author: Startup Iceland
  * License: GPL v2 or later
  */
@@ -23,7 +23,9 @@ if (!defined('ABSPATH')) {
  */
 class Startup_Iceland_Open_Data {
 
-    const VERSION = '1.3.0';
+    const VERSION = '1.3.1';
+    // Directory entries merged into another: old id => surviving id (the old page redirects).
+    const MERGED = array('startup' => array(40 => 69));
     const NS = 'startupiceland/v1';
     const LICENSE = 'CC BY 4.0';
     const LICENSE_URL = 'https://creativecommons.org/licenses/by/4.0/';
@@ -428,6 +430,10 @@ class Startup_Iceland_Open_Data {
             return;
         }
         $row = $this->find('startup' === $kind ? $this->startups()['rows'] : $this->investors()['rows'], get_query_var('si_id'));
+        $merged = self::MERGED[$kind][(int) get_query_var('si_id')] ?? null;
+        if (!$row && $merged) {
+            $row = $this->find('startup' === $kind ? $this->startups()['rows'] : $this->investors()['rows'], $merged);
+        }
         if (!$row) {
             global $wp_query;
             $wp_query->set_404();
