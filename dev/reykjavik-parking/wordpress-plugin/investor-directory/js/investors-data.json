@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-11-23T12:50:50.651Z",
+  "lastUpdated": "2026-11-23T12:57:22.626Z",
   "types": [
     {
       "id": "all",
@@ -308,7 +308,7 @@
       "id": 9,
       "name": "Iceland Venture Studio",
       "type": "vc",
-      "description": "Venture studio and early-stage VC building and funding startups from idea to scale. Combines hands-on company building with seed investment, through IVS Fund I and Founders Ventures (Fund II).",
+      "description": "Venture studio and early-stage VC building and funding startups from idea to scale. Its first fund, IVS Fund I (first capital 2018), has finished investing; its second fund is Founders Ventures (IVS Fund II).",
       "website": "https://icelandventurestudio.com",
       "focus": [
         "tech",
@@ -318,25 +318,23 @@
         "pre-seed",
         "seed"
       ],
-      "ticketSize": "€50K - €200K",
+      "ticketSize": "ISK 5M - 20M",
       "portfolio": [
-        "Bara Tala",
-        "LearnCove",
-        "Spesia",
-        "Indo",
-        "Humble",
-        "Marea",
-        "Sundra",
-        "Aldin Biodome"
+        "Indó",
+        "Flow Meditation",
+        "Scale100x.ai",
+        "6degrees",
+        "Atlas Primer",
+        "Snjallgögn"
       ],
-      "foundedYear": 2020,
+      "foundedYear": 2018,
       "location": "Reykjavik"
     },
     {
       "id": 42,
       "name": "Founders Ventures",
       "type": "vc",
-      "description": "Iceland Venture Studio's second fund (Fund II, 2023), investing in Icelandic startups at pre-seed and seed across fintech, food, cleantech and software. Managed by Iceland Venture Studio in Reykjavik.",
+      "description": "Iceland Venture Studio's second fund (IVS Fund II, first capital 2022), investing at pre-seed and seed in startups in Iceland and abroad. Close to fully deployed; now writing follow-on cheques. Managed from Reykjavik.",
       "website": "https://icelandventurestudio.com",
       "focus": [
         "tech",
@@ -349,15 +347,24 @@
         "pre-seed",
         "seed"
       ],
-      "ticketSize": null,
+      "ticketSize": "ISK 5M - 20M",
       "portfolio": [
-        "Spesia",
-        "Humble",
+        "Indó",
+        "Scale100x.ai",
+        "Atlas Primer",
+        "Snjallgögn",
+        "LearnCove",
         "Marea",
         "Sundra",
-        "Aldin Biodome"
+        "Bara Tala",
+        "Aldin Biodome",
+        "Visa2Fly",
+        "Humble",
+        "Events.com",
+        "Novooi",
+        "Spesia"
       ],
-      "foundedYear": 2023,
+      "foundedYear": 2022,
       "location": "Reykjavik"
     },
     {
