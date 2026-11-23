@@ -1,6 +1,6 @@
 {
   "version": "1.6.0",
-  "lastUpdated": "2026-11-23T15:22:54.448Z",
+  "lastUpdated": "2026-11-23T15:26:59.062Z",
   "sectors": [
     {
       "id": "all",
@@ -902,7 +902,7 @@
     },
     {
       "id": 69,
-      "name": "Flow Meditation",
+      "name": "Flow",
       "description": "VR meditation app featuring immersive Icelandic nature environments; started in 2016 as FlowVR, producing virtual reality content",
       "website": "https://www.flow.is",
       "sector": "healthtech",

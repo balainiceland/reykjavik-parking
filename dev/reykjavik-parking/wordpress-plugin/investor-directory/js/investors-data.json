@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-11-23T12:57:22.626Z",
+  "lastUpdated": "2026-11-23T15:26:59.129Z",
   "types": [
     {
       "id": "all",
@@ -321,7 +321,7 @@
       "ticketSize": "ISK 5M - 20M",
       "portfolio": [
         "Indó",
-        "Flow Meditation",
+        "Flow",
         "Scale100x.ai",
         "6degrees",
         "Atlas Primer",

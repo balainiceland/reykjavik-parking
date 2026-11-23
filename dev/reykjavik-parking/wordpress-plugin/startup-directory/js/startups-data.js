@@ -871,7 +871,7 @@ var icelandStartups = [
     },
     {
         id: 69,
-        name: "Flow Meditation",
+        name: "Flow",
         description: "VR meditation app featuring immersive Icelandic nature environments; started in 2016 as FlowVR, producing virtual reality content",
         website: "https://www.flow.is",
         sector: "healthtech",

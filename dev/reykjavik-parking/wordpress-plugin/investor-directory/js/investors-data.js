@@ -150,7 +150,7 @@ var icelandInvestors = [
         focus: ["tech", "saas"],
         stages: ["pre-seed", "seed"],
         ticketSize: "ISK 5M - 20M",
-        portfolio: ["Indó", "Flow Meditation", "Scale100x.ai", "6degrees", "Atlas Primer", "Snjallgögn"],
+        portfolio: ["Indó", "Flow", "Scale100x.ai", "6degrees", "Atlas Primer", "Snjallgögn"],
         foundedYear: 2018,
         location: "Reykjavik"
     },
