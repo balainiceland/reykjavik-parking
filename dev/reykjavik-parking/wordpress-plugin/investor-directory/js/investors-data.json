@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-11-21T11:58:33.831Z",
+  "lastUpdated": "2026-11-23T11:33:11.546Z",
   "types": [
     {
       "id": "all",
@@ -308,7 +308,7 @@
       "id": 9,
       "name": "Iceland Venture Studio",
       "type": "vc",
-      "description": "Venture studio and early-stage VC building and funding startups from idea to scale. Combines hands-on company building with seed investment.",
+      "description": "Venture studio and early-stage VC building and funding startups from idea to scale. Combines hands-on company building with seed investment, through IVS Fund I and Founders Ventures (Fund II).",
       "website": "https://icelandventurestudio.com",
       "focus": [
         "tech",
@@ -323,7 +323,8 @@
         "Bara Tala",
         "LearnCove",
         "Spesia",
-        "Indo"
+        "Indo",
+        "Humble"
       ],
       "foundedYear": 2020,
       "location": "Reykjavik"
