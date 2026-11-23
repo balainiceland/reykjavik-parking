@@ -154,6 +154,19 @@ var icelandInvestors = [
         foundedYear: 2020,
         location: "Reykjavik"
     },
+    {
+        id: 42,
+        name: "Founders Ventures",
+        type: "vc",
+        description: "Iceland Venture Studio's second fund (Fund II, 2023), investing in Icelandic startups at pre-seed and seed across fintech, food, cleantech and software. Managed by Iceland Venture Studio in Reykjavik.",
+        website: "https://icelandventurestudio.com",
+        focus: ["tech", "fintech", "cleantech", "food", "saas"],
+        stages: ["pre-seed", "seed"],
+        ticketSize: null,
+        portfolio: ["Spesia", "Humble", "Marea", "Sundra", "Aldin Biodome"],
+        foundedYear: 2023,
+        location: "Reykjavik"
+    },
 
     // === GOVERNMENT FUNDS ===
     {

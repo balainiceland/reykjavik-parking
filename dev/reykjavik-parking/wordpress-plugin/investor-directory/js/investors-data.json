@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-11-23T12:48:34.659Z",
+  "lastUpdated": "2026-11-23T12:50:50.651Z",
   "types": [
     {
       "id": "all",
@@ -330,6 +330,34 @@
         "Aldin Biodome"
       ],
       "foundedYear": 2020,
+      "location": "Reykjavik"
+    },
+    {
+      "id": 42,
+      "name": "Founders Ventures",
+      "type": "vc",
+      "description": "Iceland Venture Studio's second fund (Fund II, 2023), investing in Icelandic startups at pre-seed and seed across fintech, food, cleantech and software. Managed by Iceland Venture Studio in Reykjavik.",
+      "website": "https://icelandventurestudio.com",
+      "focus": [
+        "tech",
+        "fintech",
+        "cleantech",
+        "food",
+        "saas"
+      ],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "ticketSize": null,
+      "portfolio": [
+        "Spesia",
+        "Humble",
+        "Marea",
+        "Sundra",
+        "Aldin Biodome"
+      ],
+      "foundedYear": 2023,
       "location": "Reykjavik"
     },
     {
